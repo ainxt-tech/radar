@@ -12,7 +12,7 @@ const URGENT_MAX_AGE_H = 6;      // «عاجل»: منشور خلال آخر 6 �
 const CAT = { ai:'الذكاء الاصطناعي', ph:'الهواتف والأجهزة', sec:'الأمن السيبراني', sw:'البرمجيات والتطبيقات', su:'الشركات الناشئة', gm:'الألعاب', sp:'الفضاء والعلوم', ev:'السيارات الكهربائية' };
 const REGIONS = new Set(['gulf', 'asia', 'europe', 'america', 'africa', 'official', 'dev']);
 const NAME_KINDS = new Set(['repo', 'tool', 'model', 'release']);   // عناوينها أسماء لا تُترجم
-const CAPS = { newsPerCat: 20, news: 200, repo: 24, tool: 24, model: 16, release: 30, paper: 24 };
+const CAPS = { newsPerCat: 20, news: 200, repo: 24, tool: 60, model: 16, release: 30, paper: 24 };
 
 /* ---------- قواعد التصنيف والشركات (محلية، بلا ذكاء اصطناعي) ---------- */
 const RULES = [
@@ -127,7 +127,7 @@ export const HANDLERS = {
     const out = []; let last = '';
     for (const q of s.queries || []) {
       try {
-        const j = await getJson('https://api.github.com/search/repositories?sort=stars&order=desc&per_page=20&q=' + encodeURIComponent(q.replace('{d7}', daysAgo(7)).replace('{d30}', daysAgo(30))), ghHeaders());
+        const j = await getJson('https://api.github.com/search/repositories?sort=stars&order=desc&per_page=20&q=' + encodeURIComponent(q.replace('{d7}', daysAgo(7)).replace('{d30}', daysAgo(30)).replace('{d90}', daysAgo(90))), ghHeaders());
         for (const r of j.items || []) out.push({ kind: s.kind || 'repo', sub: s.sub || '', t: r.full_name, u: r.html_url, ts: r.pushed_at, s: r.description || '', st: r.stargazers_count, fk: r.forks_count, lg: r.language || '' });
       } catch (e) { last = e.message; console.warn('GitHub', e.message); }
       await sleep(1500);

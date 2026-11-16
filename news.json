@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-16T20:32:28.667Z",
+ "updated": "2026-11-16T20:57:12.592Z",
  "seed": false,
  "sources": [
   {
@@ -152,7 +152,7 @@
    "id": "omandatapark",
    "name": "Oman Data Park",
    "ok": false,
-   "err": "fetch failed"
+   "err": "لا عناصر"
   },
   {
    "id": "spa",
@@ -164,13 +164,13 @@
    "id": "mcit-sa",
    "name": "وزارة الاتصالات وتقنية المعلومات (السعودية)",
    "ok": false,
-   "err": "HTTP 404"
+   "err": "fetch failed"
   },
   {
    "id": "cst-sa",
    "name": "هيئة الاتصالات والفضاء والتقنية",
    "ok": false,
-   "err": "fetch failed"
+   "err": "HTTP 404"
   },
   {
    "id": "monshaat",
@@ -413,7 +413,8 @@
   {
    "id": "e27",
    "name": "e27",
-   "ok": true
+   "ok": false,
+   "err": "The operation was aborted due to timeout"
   },
   {
    "id": "itnews-au",
@@ -455,8 +456,7 @@
   {
    "id": "koreatechdesk",
    "name": "KoreaTechDesk",
-   "ok": false,
-   "err": "The operation was aborted due to timeout"
+   "ok": true
   },
   {
    "id": "digitimes",
@@ -981,8 +981,7 @@
   {
    "id": "iproup",
    "name": "iProUP",
-   "ok": false,
-   "err": "HTTP 404"
+   "ok": true
   },
   {
    "id": "startupslatam",
@@ -1322,12 +1321,12 @@
  ],
  "report": {
   "title": "ملخص اليوم 2026-11-16",
-  "text": "رصد الرادار 252 خبراً خلال آخر 24 ساعة، منها 4 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: Uber says hackers stole information on close to 150,000 driver’s licenses during data breach (TechCrunch).",
+  "text": "رصد الرادار 256 خبراً خلال آخر 24 ساعة، منها 4 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: Uber says hackers stole information on close to 150,000 driver’s licenses during data breach (TechCrunch).",
   "top": [
    "0cce225a03",
    "21a9472741",
    "bce399344c",
-   "d5cc9c8aa2",
+   "0f5d2f21b8",
    "349b787992"
   ],
   "watch": [
@@ -1337,6 +1336,394 @@
   ]
  },
  "items": [
+  {
+   "id": "fe62faf4b4",
+   "title": "نظام إدارة شكاوى وطلبات المنتفعين في قطاعات الاتصالات والبريد.",
+   "summary": "وصف المشروع نظام إلكتروني معني بإدارة جميع شكاوى المنتفعين، بدءًا من التسجيل التلقائي وحتى البت في الشكوى، مع خاصية إشعار المنتفعين برسالة نصية عند كل مرحلة. أهداف المشروع تحويل الشكاوى إلى المرخص لهم عن طريق النظام خلال 5 دقائق، عوضا عن قيام الموظف سابقا بكتابة بريد الكتروني أو خطاب رسمي خلال 30- 60 دقيقة إشعار المنتفع بالقرار النهائي عن طريق الرسائل النصية القصيرة، عوضا عن الحاجة إلى إصدار خطاب رسمي. الأثر قلل النظ",
+   "url": "http://www.tra.gov.om/files/uploads/althwl_alrqmy_2ae0a62134.mp4",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:57:18.736Z",
+   "fs": "2026-11-16T20:57:12.592Z",
+   "off": true
+  },
+  {
+   "id": "a5936e40bd",
+   "title": "تعديل بعض احكام الترخيص من الفئة الأولى لشركة أواصر عمان و شركاؤهم ( ش. م. ع. م ) لانشاء و تشغيل نظام خدمات اتصالات عامة ثابتة",
+   "summary": "License | Telecommunications | Updated | 2021-06-30 | 2021/82",
+   "url": "http://www.tra.gov.om/files/uploads/2021_0082_927acc9776.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:57:18.735Z",
+   "fs": "2026-11-16T20:57:12.592Z",
+   "off": true
+  },
+  {
+   "id": "febbaa3164",
+   "title": "تعديل بعض احكام الترخيص من الفئة الأولى لشركة المداخل للاستثمار ( ش. م. م )لانشاء و تشغيل نظام لتقديم خدمات الاتصالات العامة البحرية",
+   "summary": "License | Telecommunications | Updated | 2021-06-30 | 2021/81",
+   "url": "http://www.tra.gov.om/files/uploads/2021_0081_9b120199be.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:57:18.735Z",
+   "fs": "2026-11-16T20:57:12.592Z",
+   "off": true
+  },
+  {
+   "id": "3b0ce3627b",
+   "title": "تعديل بعض احكام القرار 116 / 2012 باعفاء بعض خدمات الاتصالات من احكام التراخيص المنصوص عليها في قانون تنظيم الاتصالات",
+   "summary": "Decisions_and_Regulations | Telecommunications | Updated | 2022-01-17 | 2022/33",
+   "url": "http://www.tra.gov.om/files/uploads/33_2022_e4a423e82d.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:57:18.735Z",
+   "fs": "2026-11-16T20:57:12.592Z",
+   "off": true
+  },
+  {
+   "id": "fae9718e31",
+   "title": "تعديل بعض احكام القرار 81/2007 بتحديد رسوم ارقام الاتصالات",
+   "summary": "Decisions_and_Regulations | Telecommunications | Updated | 2011-12-28 | 2011/143",
+   "url": "http://www.tra.gov.om/files/uploads/2011_0143_a6c79b768d.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:57:18.735Z",
+   "fs": "2026-11-16T20:57:12.592Z",
+   "off": true
+  },
+  {
+   "id": "588e5fa001",
+   "title": "Илон Маск заявил, что следующая версия Starship V4 станет ещё больше и мощнее",
+   "summary": "Глава SpaceX Илон Маск (Elon Musk) сообщил в социальной сети X о планах по увеличению размеров и мощности космического корабля Starship следующего поколения, который может дебютировать под названием Starship V4. Источник изображения: CNBC",
+   "url": "https://3dnews.ru/1151379",
+   "source": "3DNews",
+   "country": "RU",
+   "region": "europe",
+   "cat": "الفضاء والعلوم",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:56:00.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "0f5d2f21b8",
+   "title": "Hyperscale data centers use 2% of US electricity",
+   "summary": "Study attempts to tally hyperscalers’ energy use and emissions.",
+   "url": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/",
+   "source": "Ars Technica",
+   "country": "US",
+   "region": "america",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 3,
+   "n": 3,
+   "also": [
+    {
+     "source": "GeekWire",
+     "url": "https://www.geekwire.com/2026/study-403-u-s-hyperscale-data-centers-rival-denmarks-emissions-oregon-ranked-no-2-in-power-use/"
+    },
+    {
+     "source": "Wired",
+     "url": "https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/"
+    }
+   ],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:52:10.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "72efb9acb1",
+   "title": "These Early Black Friday Hisense TV Deals Slash Prices on Top 2026 Models",
+   "summary": "Save hundreds on Hisense’s latest mini-LED TVs, laser projector and home theater gear before Black Friday kicks off.",
+   "url": "https://www.cnet.com/tech/home-entertainment/early-black-friday-hisense-tv-deals/",
+   "source": "CNET",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:50:22.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "6e7366c150",
+   "title": "Маск решил заполнить Европу роботакси: Tesla вложит €3 млрд в немецкий завод, чтобы выпускать миллион машин в год",
+   "summary": "Tesla готовит масштабное расширение завода Gigafactory в Германии, чтобы наладить массовый выпуск беспилотных автомобилей Cybercab, в том числе для европейского рынка. На строительство нового корпуса на предприятии под Берлином компания выделит 3 млрд евро, а его производственные мощности позволят собирать до миллиона машин ежегодно. Источник изображения: Tesla",
+   "url": "https://3dnews.ru/1151377",
+   "source": "3DNews",
+   "country": "RU",
+   "region": "europe",
+   "cat": "السيارات الكهربائية",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Tesla",
+   "ts": "2026-11-16T20:48:00.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "c1bc49d19e",
+   "title": "Widespread US bank system glitches plague customers",
+   "summary": "Customers reported problems gaining access to online accounts and services for Chase, Bank of America, US Bank, Wells Fargo, JP Morgan, Zelle and Capitol One on Monday. It was the latest in a series of technical problems that have plagued large US companies and government agencies in recent days. Chase indicated that the problems are the result of an internal glitch and not a hack or cyber security-related event, AP ",
+   "url": "https://www.thenationalnews.com/future/2026/11/16/bank-outages-today-shutdown/",
+   "source": "The National",
+   "country": "AE",
+   "region": "gulf",
+   "cat": "الأمن السيبراني",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:47:28.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "4df7d7a37c",
+   "title": "China’s tech bosses and Elon Musk head to Shenzhen for APEC CEO summit",
+   "summary": "The bosses of some of China’s biggest technology companies are on the agenda of the Asia-Pacific Economic Cooperation (APEC) CEO Summit in Shenzhen, which starts on Tuesday. The organiser released the agenda on Monday, Bloomberg and Reuters reported. Robin Zeng, founder and chairman of battery maker CATL, and Baidu chairman and CEO Robin Li are [&hellip;] This story continues at The Next Web",
+   "url": "https://thenextweb.com/news/apec-ceo-summit-shenzhen-catl-baidu-unitree-musk",
+   "source": "The Next Web",
+   "country": "NL",
+   "region": "europe",
+   "cat": "الشركات الناشئة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Baidu",
+   "ts": "2026-11-16T20:46:52.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "8f6dab1322",
+   "title": "Three insights you might have missed from theCUBE’s coverage of GraphSummit 2026",
+   "summary": "AI agents need more than enterprise data to be effective; they also need the business context that data lives in. Knowledge graphs could consolidate the enterprise context currently fed to different AI agents into a single knowledge layer. Developers are already providing AI agents with business context through prompts. But without a central source of […] The post Three insights you might have missed from theCUBE’s c",
+   "url": "https://siliconangle.com/2026/11/16/three-insights-you-might-have-missed-from-thecubes-coverage-of-graphsummit-2026-neo4jgraphsummit/",
+   "source": "SiliconANGLE",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:46:00.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "f6041eed54",
+   "title": "Actualité : Bon plan – Le smartphone Honor 600 à 449,90 €",
+   "summary": "Le smartphone Honor 600 passe sous les 450 € chez Honor.",
+   "url": "https://www.lesnumeriques.com/telephone-portable/bon-plan-le-smartphone-honor-600-a-449-90-n267684.html",
+   "source": "Les Numériques",
+   "country": "FR",
+   "region": "europe",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:45:08.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "2c993a854b",
+   "title": "В 5,9 раза быстрее Nvidia, но не во всём: Intel раскрыла возможности ускорителя D270",
+   "summary": "Intel опубликовала новые данные о производительности своего специализированного графического ускорителя D270, ранее известного под кодовым названием Crescent Island. По заявлению компании, этот ускоритель в форме карты расширения PCIe с энергопотреблением 350 Вт обеспечивает в определённых финансовых вычислительных задачах пропускную способность, в 5,9 раза превышающую показатели Nvidia RTX Pro 6000 Blackwell Server ",
+   "url": "https://3dnews.ru/1151375",
+   "source": "3DNews",
+   "country": "RU",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "NVIDIA",
+   "ts": "2026-11-16T20:43:00.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "61765a1f96",
+   "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+   "summary": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\" […]",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+   "source": "The Verge",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "OpenAI",
+   "ts": "2026-11-16T20:41:28.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "22fd075a7e",
+   "title": "In My Cart: The best early Black Friday deals we’re buying today",
+   "summary": "The early Amazon Black Friday sale was just updated with a host of new discounts including the lowest prices ever across the Apple Watch Series 12 lineup, now even lower prices on AirPods Pro 3 , and the return of the Apple TV 4K discount . You’ll find some deep on smart home upgrades for the holidays and some great ideas for stocking stuffers, intelligent helpers for around the house, and some great Apple gear gifts",
+   "url": "https://9to5mac.com/2026/11/16/gear-we-buying-amazon-early-black-friday-sale/",
+   "source": "9to5Mac",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-16T20:38:12.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "ff860b29c7",
+   "title": "AMD поглотила разработчика ИИ-песочниц для роботов World Labs",
+   "summary": "Компания AMD объявила о завершении покупки стартапа World Labs, специализирующегося на разработке моделей искусственного интеллекта для работы с физическим пространством. Покупка стоила AMD собственных акций на сумму $8,2 млрд, зато теперь у неё есть &laquo;карманная&raquo; модель, чтобы заточить под неё процессоры и видеокарты. Источник изображения: ИИ-генерация ChatGPT/3DNews",
+   "url": "https://3dnews.ru/1151374",
+   "source": "3DNews",
+   "country": "RU",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "OpenAI",
+   "ts": "2026-11-16T20:38:00.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "3e66654d32",
+   "title": "Shareholders sue Intel, its CEO and CFO after stock drops 28.6 percent in one day",
+   "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+   "url": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+   "source": "Ars Technica",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:37:47.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "515fcce4ef",
+   "title": "Календарь релизов — 16–22 ноября: GTA VI и Goat Simulator 3 — Ticket to Dizzyworld",
+   "summary": "На этой неделе в календаре &mdash; Grand Theft Auto VI, Goat Simulator 3 с дополнением Ticket to Dizzyworld и несколько необычных инди-новинок. Среди них &mdash; Trees Hate You, Burning Sword: Death Sun, Spirit Crossing и Moomin: Midsummer Madness. Также знакомимся с новыми приключениями Volvy&rsquo;s Adventure: Reslimed и Littlelands. Посмотреть свежий выпуск в YouTube, VK, Rutube или Telegram. А ещё рекомендуем пос",
+   "url": "https://3dnews.ru/1151376",
+   "source": "3DNews",
+   "country": "RU",
+   "region": "europe",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:37:00.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "39d77b6a9b",
+   "title": "Talkdesk’s life sciences play shows why industry depth beats AI cost-cutting",
+   "summary": "The customer experience arena, specifically the contact center, has been the low-hanging fruit for artificial intelligence deployments, with much of the focus on cost-cutting. The goals include fewer agents, shorter calls, higher containment and lower cost per interaction. Those are legitimate goals, but they lead every vendor to the same pitch. When everyone sells the […] The post Talkdesk’s life sciences play shows",
+   "url": "https://siliconangle.com/2026/11/16/talkdesks-life-sciences-play-shows-why-industry-depth-beats-ai-cost-cutting/",
+   "source": "SiliconANGLE",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:36:44.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "64fafb036b",
+   "title": "Some of our favorite PlayStation games are steeply discounted for Black Friday",
+   "summary": "Black Friday is approaching, and some companies are already rolling out the discounts ahead of the big day. If you’re hunting for PlayStation 5 accessories, we’ve already rounded up some of our favorite controllers and headsets from Sony’s ongoing promotion. However, if you’re looking to expand your library, some of the PS5’s biggest titles are […]",
+   "url": "https://www.theverge.com/gadgets/1034339/sony-black-friday-game-sale-2026-deals",
+   "source": "The Verge",
+   "country": "US",
+   "region": "america",
+   "cat": "الألعاب",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:36:14.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "b5c32024c3",
+   "title": "Entre Orange en octobre et SFR en novembre, la 2G disparaît de France en quelques semaines",
+   "summary": "SFR éteint son réseau 2G du 15 au 30 novembre 2026 dans les grandes agglomérations, puis du 1er au 15 décembre dans le reste de la métropole. L'opérateur prévoit aussi de couper sa 3G fin 2028, alors que ses trois concurrents pourraient l'avoir racheté d'ici là.",
+   "url": "https://www.numerama.com/tech/2375261-entre-orange-en-octobre-et-sfr-en-novembre-la-2g-disparait-de-france-en-quelques-semaines.html",
+   "source": "Numerama",
+   "country": "FR",
+   "region": "europe",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:32:52.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
   {
    "id": "16475e2389",
    "title": "في شأن التأخير في إصدار الفواتير المتعلقة بخدمات الاتصالات المرخصة",
@@ -1518,6 +1905,23 @@
    "off": true
   },
   {
+   "id": "2306870ba9",
+   "title": "Best MoE engine?",
+   "summary": "I had been using Strata for about a month, and it was such a huge improvement over llama.cpp for getting it running smoothly and quickly for hardware. Overtime though, I found that the model would often mistake its own context after a compaction and really overthink things. I just started using Basalt yesterday after being hesitant to switch and set up all my providers and harnesses. Turns out Basalt runs even faster",
+   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xy0d5o/best_moe_engine/",
+   "source": "Reddit r/LocalLLaMA",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:31:36.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
    "id": "6d1fcb4e22",
    "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
    "summary": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've […]",
@@ -1533,6 +1937,23 @@
    "company": "",
    "ts": "2026-11-16T20:29:37.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
+  },
+  {
+   "id": "d32bc202d4",
+   "title": "Pakistanis Spend A Fortune on Premium Dry Fruits",
+   "summary": "Pakistani households that buy premium dry fruits spend more than twice as much as those purchasing cheaper varieties, reflecting the … Read More The post Pakistanis Spend A Fortune on Premium Dry Fruits appeared first on ProPakistani .",
+   "url": "https://propakistani.pk/2026/11/17/pakistanis-spend-a-fortune-on-premium-dry-fruits/",
+   "source": "ProPakistani",
+   "country": "PK",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:29:32.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
   },
   {
    "id": "349b787992",
@@ -1575,7 +1996,7 @@
   },
   {
    "id": "a3d079cbf4",
-   "title": "Comcast falsely advertises cable Internet as \"fiber-powered,\" AT&T lawsuit says",
+   "title": "Comcast's \"fiber-powered Wi-Fi\" is just cable, AT&T says in false advertising case",
    "summary": "AT&T demands Comcast give AT&T profits it made from advertising cable as fiber.",
    "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
    "source": "Ars Technica",
@@ -1589,6 +2010,23 @@
    "company": "",
    "ts": "2026-11-16T20:27:58.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
+  },
+  {
+   "id": "8aa5b8aea6",
+   "title": "Delete GTA 6 For A Chance To Win Another Game",
+   "summary": "Rockstar's Grand Theft Auto 6 finally releases this week. The game looms so large that other companies are using it to market their own games, including Devolver Digital. The publisher has announced that people can enter for a chance to win their upcoming game, Volvy's Adventure: Reslimed, by reposting the message below with a video of themselves deleting their GTA 6 pre-load. Of course, anyone who deletes their pre-",
+   "url": "https://www.gamespot.com/articles/delete-gta-6-for-a-chance-to-win-another-game/",
+   "source": "GameSpot",
+   "country": "US",
+   "region": "america",
+   "cat": "الألعاب",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:27:02.000Z",
+   "fs": "2026-11-16T20:57:12.592Z"
   },
   {
    "id": "f42d2f1f02",
@@ -1606,6 +2044,24 @@
    "company": "",
    "ts": "2026-11-16T20:26:22.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
+  },
+  {
+   "id": "3f04f4ac87",
+   "title": "GitHub Copilot models deprecated on November 16, 2026",
+   "summary": "As of today, November 16, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GitHub Copilot models deprecated on November 16, 2026 appeared first on The GitHub Blog .",
+   "url": "https://github.blog/changelog/2026-11-16-github-copilot-models-deprecated-on-november-16-2026",
+   "source": "GitHub Changelog",
+   "country": "US",
+   "region": "official",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Microsoft",
+   "ts": "2026-11-16T20:25:20.000Z",
+   "fs": "2026-11-16T20:57:12.592Z",
+   "off": true
   },
   {
    "id": "9cc7c6f601",
@@ -3135,23 +3591,6 @@
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
-   "id": "e3f3530e41",
-   "title": "Поставил ИИ проверять ИИ, и тот научился списывать",
-   "summary": "Красивый отчёт не значит верный. А верный не значит полезный. Можно ли вообще построить систему исследований с ИИ, если модели становятся умнее и врут всё убедительнее? Пытаешься поймать их на ошибках — и постепенно обкладываешь систему правилами так, что профита от генеративности всё меньше. В статье — почему строгость и польза могут тянуть в разные стороны, как ловить новые обманки и как я собираю систему, которая ",
-   "url": "https://habr.com/ru/articles/1108596/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108596",
-   "source": "Habr (أخبار)",
-   "country": "RU",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T19:03:50.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "6b501691f1",
    "title": "Actualité : iOS 27.3 : Apple dévoile un avant-goût des nouveautés qui pourraient arriver sur votre iPhone",
    "summary": "Apple vient de mettre à la disposition des développeurs une nouvelle version bêta d’iOS 27.3. Derrière cette mise à jour se cachent plusieurs nouveautés qui pourraient bien changer votre façon d’utiliser votre iPhone au quotidien.",
@@ -3166,40 +3605,6 @@
    "kind": "news",
    "company": "Apple",
    "ts": "2026-11-16T19:02:00.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "ee3d09b6a4",
-   "title": "Microsoft Outlook, Teams : on connait enfin la cause de la panne géante de vendredi",
-   "summary": "La panne qui a touché les services Microsoft 365 a été causée par un bug caché qui a été déployé à partir de juillet et qui ne s’est manifesté que lorsque certaines conditions de charges de l’infrastructure de Microsoft étaient réunies.",
-   "url": "https://www.journaldugeek.com/2026/11/16/microsoft-outlook-teams-on-connait-enfin-la-cause-de-la-panne-geante-de-vendredi/",
-   "source": "Journal du Geek",
-   "country": "FR",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Microsoft",
-   "ts": "2026-11-16T19:02:00.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "2e9245acd6",
-   "title": "المغرب يستعد لتحولات الذكاء الاصطناعي في الوظائف والإدارة العمومية",
-   "summary": "قال أحمد رحو، وزير الذكاء الاصطناعي والتحول الرقمي وإصلاح الإدارة في حكومة المنصوري، إن “التوجيهات الملكية السامية الواردة في خطاب صاحب الجلالة الملك محمد السادس بمناسبة افتتاح السنة التشريعية الحالية، والتي دعا فيها جلالته إلى إطلاق جيل جديد من الاستراتيجيات الكبرى، لا سيما في مجالي الاقتصاد الرقمي والذكاء الاصطناعي، تشكل مرجعا أساسيا لعملنا خلال المرحلة […] The post المغرب يستعد لتحولات الذكاء الاصطناعي في الوظائف ",
-   "url": "https://www.hespress.com/%d8%a7%d9%84%d9%85%d8%ba%d8%b1%d8%a8-%d9%8a%d8%b3%d8%aa%d8%b9%d8%af-%d9%84%d8%aa%d8%ad%d9%88%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d8%b0%d9%83%d8%a7%d8%a1-%d8%a7%d9%84%d8%a7%d8%b5%d8%b7%d9%86%d8%a7%d8%b9-1840833.html",
-   "source": "Hespress",
-   "country": "MA",
-   "region": "africa",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T19:00:19.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
@@ -3228,23 +3633,6 @@
    "country": "GB",
    "region": "europe",
    "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T19:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "8181dbc143",
-   "title": "Top500: Chinas LineShine verteidigt Platz 1 der schnellsten Supercomputer",
-   "summary": "Die 68. Top500-Liste der schnellsten Supercomputer zeigt auf den Spitzenplätzen keine Änderungen: KI-Rechenzentren stehlen anderen Großinstallationen die Show.",
-   "url": "https://www.heise.de/news/Top500-Chinas-LineShine-verteidigt-Platz-1-der-schnellsten-Supercomputer-11526327.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "source": "heise online",
-   "country": "DE",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
    "level": 1,
    "n": 1,
    "also": [],
@@ -3407,24 +3795,6 @@
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
-   "id": "e8f22730f8",
-   "title": "Decision Models in Hugging Face",
-   "summary": "Politico : California AG Rob Bonta sues OpenAI over the Hugging Face incident, alleging OpenAI endangered the public by testing its models without adequate safeguards &mdash; California Attorney General Rob Bonta is suing OpenAI over the cyberattack its rogue AI agents launched this summer against the tech platform Hugging Face.",
-   "url": "https://huggingface.co/blog/decision",
-   "source": "Hugging Face Blog",
-   "country": "US",
-   "region": "official",
-   "cat": "الذكاء الاصطناعي",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Hugging Face",
-   "ts": "2026-11-16T18:55:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z",
-   "off": true
-  },
-  {
    "id": "8a2831f240",
    "title": "Island is a new screen-time app that turns staying off your phone into a game",
    "summary": "YC-backed Island turns screen time goals into a farming game, rewarding users with new crops, animals, and more when they stick to their limits.",
@@ -3459,23 +3829,6 @@
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
-   "id": "22424ac849",
-   "title": "Dreamteam Bags $53 Mn To Disrupt The CRM Space With AI",
-   "summary": "AI-native customer relationship management (CRM) platform Dreamteam, cofounded by former Freshworks executives, has emerged out of stealth mode. The startup…",
-   "url": "https://inc42.com/buzz/dreamteam-bags-53-mn-to-disrupt-the-crm-space-with-ai/",
-   "source": "Inc42",
-   "country": "IN",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:50:27.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "055f4a5be0",
    "title": "Frullatore KitchenAid da 159€ a 93€, per smoothie e zuppe nella stessa caraffa",
    "summary": "Il frullatore KitchenAid Pure Power costa 93€ su Amazon, con uno sconto del 38% sul listino di 159€. La caraffa adatta a preparazioni calde e fredde permette di alternare smoothie, salse e zuppe senza...",
@@ -3491,102 +3844,6 @@
    "company": "Amazon",
    "ts": "2026-11-16T18:48:00.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "ba190547f3",
-   "title": "Google’s AdMob lets AI agents like Claude Code set up app ads",
-   "summary": "Google has released AdMob agent skills that let AI coding agents, including Claude Code, Codex and Cursor, add and check ad code in mobile apps. A Gemini-built assistant, Ask AdMob, and an MCP server that lets agents manage AdMob accounts are still in testing, with more agent tools planned for 2027. Google is adding AI [&hellip;] This story continues at The Next Web",
-   "url": "https://thenextweb.com/news/google-admob-ai-agents-claude-code-codex-ask-admob",
-   "source": "The Next Web",
-   "country": "NL",
-   "region": "europe",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Anthropic",
-   "ts": "2026-11-16T18:47:54.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "b0b62fa5d0",
-   "title": "Bitcoin Falls Below $65,000 Ahead of Nvidia Earnings",
-   "summary": "Bitcoin struggled to maintain its position above $65,000 on Monday as weakness in US technology stocks triggered further selling across cryptocurrency and equity markets. BTC briefly touched $65,600 before falling to $64,010 on Bitstamp, marking a decline of nearly 1.5% during the session. Investor sentiment remained cautious ahead of Nvidia’s third-quarter earnings report, scheduled for […] The post Bitcoin Falls Be",
-   "url": "https://www.techjuice.pk/bitcoin-falls-below-65000-ahead-of-nvidia-earnings/",
-   "source": "TechJuice",
-   "country": "PK",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-16T18:45:22.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "d5cc9c8aa2",
-   "title": "Regional voices are rolling out in the Gemini app.",
-   "summary": "Gemini now offers 66 regional voices on Android and iOS. Choose a natural, local dialect for your app interactions. Pick your favorite voice today.",
-   "url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
-   "source": "Google Blog",
-   "country": "US",
-   "region": "official",
-   "cat": "الذكاء الاصطناعي",
-   "level": 3,
-   "n": 2,
-   "also": [
-    {
-     "source": "9to5Google",
-     "url": "https://9to5google.com/2026/11/16/gemini-rolling-out-66-new-regional-voices-on-android-and-ios-including-10-uk-dialects/"
-    }
-   ],
-   "kind": "news",
-   "company": "Google",
-   "ts": "2026-11-16T18:45:00.000Z",
-   "fs": "2026-11-16T20:32:28.667Z",
-   "off": true
-  },
-  {
-   "id": "26837dc0bd",
-   "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
-   "summary": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, along with current and former Nvidia employees, […]",
-   "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
-   "source": "The Verge",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-16T18:43:35.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "03540ddb74",
-   "title": "The open-source movement wants Jensen Huang back",
-   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
-   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-   "source": "MIT Technology Review",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 2,
-   "n": 2,
-   "also": [
-    {
-     "source": "Interconnects",
-     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"
-    }
-   ],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-16T18:38:47.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
   },
   {
    "id": "4f05ed10e1",
@@ -3611,60 +3868,9 @@
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
-   "id": "a0971a66dd",
-   "title": "John Mulaney’s SNL Sister Eldercare Ad Is an Instant, Painful Classic",
-   "summary": "How long did it take you to text it to your sibling group chat?",
-   "url": "https://www.cnet.com/culture/internet/john-mulaney-snl-sister-eldercare-ad-painful-classic/",
-   "source": "CNET",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:35:21.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "c597e37acd",
-   "title": "‘123456’ has been the world’s most popular password for 7 out of the last 8 years",
-   "summary": "People never learn",
-   "url": "https://www.theregister.com/security/2026/11/16/123456-has-been-the-worlds-most-popular-password-for-7-out-of-the-last-8-years/5310189",
-   "source": "The Register",
-   "country": "GB",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:33:03.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "8283904498",
-   "title": "StackSocial Is Offering CNET Readers an Exclusive 10% Discount Sitewide Ahead of Black Friday",
-   "summary": "Beat the Black Friday rush and take advantage of extra savings on software, subscriptions and memberships today.",
-   "url": "https://www.cnet.com/tech/stacksocial-black-friday-deals/",
-   "source": "CNET",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:31:55.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
    "id": "e8f1354f11",
    "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
-   "summary": "نقاش على Hacker News: 385 نقطة و272 تعليق",
+   "summary": "نقاش على Hacker News: 459 نقطة و339 تعليق",
    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
    "source": "Hacker News",
    "country": "US",
@@ -3677,57 +3883,6 @@
    "company": "",
    "ts": "2026-11-16T18:31:30Z",
    "fs": "2026-11-16T20:06:25.340Z"
-  },
-  {
-   "id": "9b7dc2eb9b",
-   "title": "軽量なマイクロVMでネイティブよりアプリを高速起動できる「Hyperlight-Unikraft」登場",
-   "summary": "Cloud Native Computing Foundationは、Linuxアプリケーションを再コンパイルや再ビルドすることなくそのまま、Unikernelのような軽量かつセキュアな実行環境で仮想マシンによる堅牢な隔離環境で実行できるM...",
-   "url": "https://www.publickey1.jp/blog/26/vmhyperlight-unikraft.html",
-   "source": "Publickey",
-   "country": "JP",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:30:31.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "9b2323fc88",
-   "title": "15 hotel guests were injured by chlorine poisoning due to Microsoft’s global email outage",
-   "summary": "Microsoft's worldwide 365 and Outlook outage had real-world consequences after it cut off email alerts for a German hotel's pool safety system. The German outlet Westdeutscher Rundfunk (WDR) said several people were injured at a Phantasialand hotel on Friday after its email system failed to deliver a safety alert about elevated chlorine levels in the […]",
-   "url": "https://www.theverge.com/tech/1034538/microsoft-365-outlook-outage-hotel-chlorine-poisoning",
-   "source": "The Verge",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Microsoft",
-   "ts": "2026-11-16T18:29:55.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "d2d9561668",
-   "title": "Pump Owners Ask Govt to End Daily Fuel Price Revisions",
-   "summary": "The All Pakistan Petrol Pump Owners Association (APPPOA) has asked Prime Minister Shehbaz Sharif to revise petroleum prices once a … Read More The post Pump Owners Ask Govt to End Daily Fuel Price Revisions appeared first on ProPakistani .",
-   "url": "https://propakistani.pk/2026/11/16/pump-owners-urge-pm-monthly-fuel-prices-daily/",
-   "source": "ProPakistani",
-   "country": "PK",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:28:41.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
   },
   {
    "id": "5ddb74e9bd",
@@ -3744,57 +3899,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T18:28:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "bd0f1b731e",
-   "title": "The iPhone Duo Is Getting a Limited Version of Face ID",
-   "summary": "Originally launching only with Touch ID, Apple’s folding phone now borrows a feature from the new HomeView and can recognize your mug, but it’s likely not as secure as Face ID.",
-   "url": "https://www.wired.com/story/iphone-duo-is-getting-a-limited-version-of-face-id/",
-   "source": "Wired",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Apple",
-   "ts": "2026-11-16T18:26:26.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "2960265bcd",
-   "title": "Гибридная постквантовая криптография в мессенджере: что именно гибридное и как это проверить самому",
-   "summary": "Разбираем, где в мессенджере Umbera стоит постквантовая криптография: конверты сообщений, файлы, группы MLS, звонки, журнал ключей, код безопасности и адреса ящиков. Для каждого механизма — формула, файл в открытом репозитории и тест, который можно запустить одной командой. В конце — честный список того, что проверить пока нельзя. Читать далее",
-   "url": "https://habr.com/ru/articles/1108588/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108588",
-   "source": "Habr (أخبار)",
-   "country": "RU",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:21:55.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "8f3d3b42d0",
-   "title": "Как я встроил шесть игр на память и логику в Obsidian",
-   "summary": "На Human Benchmark я дошёл до 13-го уровня в Sequence Memory и заметил, что начал запоминать картину группами. Захотелось натренировать это на других заданиях, но ради пяти минут каждый раз открывать отдельный сайт надоело. Так появился Brumalt — бесплатный офлайн-плагин для Obsidian с шестью играми на память и логику. Расскажу, как он устроен: от генератора задач, который перебором проверяет единственность ответа, д",
-   "url": "https://habr.com/ru/articles/1108282/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108282",
-   "source": "Habr (أخبار)",
-   "country": "RU",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:21:34.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -3817,7 +3921,7 @@
   {
    "id": "77f2f0bcc0",
    "title": "Software is breaking down at a systemic level",
-   "summary": "نقاش على Hacker News: 215 نقطة و119 تعليق",
+   "summary": "نقاش على Hacker News: 247 نقطة و135 تعليق",
    "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
    "source": "Hacker News",
    "country": "US",
@@ -3880,23 +3984,6 @@
    "kind": "news",
    "company": "Meta",
    "ts": "2026-11-16T18:05:00.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "c56aabbc7c",
-   "title": "Study: 403 U.S. hyperscale data centers rival Denmark’s emissions; Oregon ranked No. 2 in power use",
-   "summary": "A Harvard-led study estimates that 403 U.S. hyperscale data centers have a combined carbon footprint roughly comparable to Denmark’s. Oregon ranked second in electricity use among the facilities studied, adding context to the region’s growing debate over data center development. Read More",
-   "url": "https://www.geekwire.com/2026/study-403-u-s-hyperscale-data-centers-rival-denmarks-emissions-oregon-ranked-no-2-in-power-use/",
-   "source": "GeekWire",
-   "country": "US",
-   "region": "america",
-   "cat": "الشركات الناشئة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:01:13.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
@@ -4311,7 +4398,7 @@
   {
    "id": "d63c6c3325",
    "title": "Jiff 1.0: A datetime library for Rust",
-   "summary": "نقاش على Hacker News: 205 نقطة و46 تعليق",
+   "summary": "نقاش على Hacker News: 218 نقطة و47 تعليق",
    "url": "https://burntsushi.net/jiff/",
    "source": "Hacker News",
    "country": "US",
@@ -4511,6 +4598,23 @@
    "company": "",
    "ts": "2026-11-16T16:25:14.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
+  },
+  {
+   "id": "b6d604c670",
+   "title": "Frame – 31.5\" color ePaper display",
+   "summary": "نقاش على Hacker News: 166 نقطة و93 تعليق",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "source": "Hacker News",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T16:23:22Z",
+   "fs": "2026-11-16T20:57:12.592Z"
   },
   {
    "id": "99323d2b04",
@@ -4890,7 +4994,7 @@
   {
    "id": "a2b3566d40",
    "title": "Nvidia was in trouble before the Jensen Huang mess",
-   "summary": "نقاش على Hacker News: 181 نقطة و173 تعليق",
+   "summary": "نقاش على Hacker News: 189 نقطة و188 تعليق",
    "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
    "source": "Hacker News",
    "country": "US",
@@ -5422,7 +5526,7 @@
   {
    "id": "4d9c4ad6c1",
    "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
-   "summary": "نقاش على Hacker News: 688 نقطة و425 تعليق",
+   "summary": "نقاش على Hacker News: 707 نقطة و439 تعليق",
    "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
    "source": "Hacker News",
    "country": "US",
@@ -5578,23 +5682,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "8b2bac2411",
-   "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-   "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
-   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-   "source": "BleepingComputer",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Microsoft",
-   "ts": "2026-11-16T12:53:18.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
    "id": "bfc9bed914",
    "title": "1997년보다 강한 엘니뇨 오나…NASA가 포착한 이상 징후",
    "summary": "[지디넷코리아]올해 발생한 엘니뇨가 역대 가장 강력한 수준이었던 1997~1998년보다 더 강해질 수 있다는 전망이 나왔다. 미국 항공우주국(NASA)이 위성 관측자료를 분석한 결과, 태평양의 해수면 변화가 당시와 매우 유사한 양상을 보이는 것으로 나타났다. 강력한 엘니뇨가 발생하면 세계 곳곳에서 폭우와 가뭄 등 이상기후가 나타날 수 있어 과학자들이 추이를 주시하고 있다.최근 과학 전문매체 사이언스데일리에 따르면 NASA는 약 35년간 축적한 위성 관측자료를 활용해 올해 엘니뇨와 과거 강력했던 엘니뇨의 특징을 비교했다. 그 결과 2026년 엘니뇨가 1997~1998년 발생한 초강력 엘니뇨와 비슷한 형태로 발달하고 있으며, 향후 강도가 이를 넘어설 가능성도 있는 것으로 분석됐다.엘니뇨는 적도 부근 중·동태평양의 해수면 온도가 평년보다 높아지는 ",
@@ -5609,23 +5696,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T12:49:41.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "148506c31b",
-   "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-   "summary": "Kaspersky suspects exploitation of Telegram’s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims. The post Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch appeared first on SecurityWeek .",
-   "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
-   "source": "SecurityWeek",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T12:48:03.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
@@ -6453,16 +6523,17 @@
    "also": [],
    "kind": "repo",
    "company": "DeepSeek",
-   "ts": "2026-11-16T19:38:44Z",
+   "ts": "2026-11-16T20:54:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Dart",
-   "st": 24728,
+   "st": 24731,
    "fk": 1179,
-   "gr": 13,
+   "gr": 16,
    "sp": [
     24715,
     24721,
-    24728
+    24728,
+    24731
    ]
   },
   {
@@ -6482,13 +6553,14 @@
    "ts": "2026-11-16T18:12:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 8847,
+   "st": 8848,
    "fk": 2011,
-   "gr": 3,
+   "gr": 4,
    "sp": [
     8844,
     8845,
-    8847
+    8847,
+    8848
    ]
   },
   {
@@ -6508,13 +6580,14 @@
    "ts": "2026-11-16T16:16:28Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 4279,
+   "st": 4280,
    "fk": 97,
-   "gr": 9,
+   "gr": 10,
    "sp": [
     4270,
     4273,
-    4279
+    4279,
+    4280
    ]
   },
   {
@@ -6534,13 +6607,14 @@
    "ts": "2026-11-13T14:33:08Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 4008,
-   "fk": 848,
-   "gr": 6,
+   "st": 4012,
+   "fk": 850,
+   "gr": 10,
    "sp": [
     4002,
     4005,
-    4008
+    4008,
+    4012
    ]
   },
   {
@@ -6560,13 +6634,14 @@
    "ts": "2026-11-15T09:11:50Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C++",
-   "st": 2444,
+   "st": 2448,
    "fk": 53,
-   "gr": 7,
+   "gr": 11,
    "sp": [
     2437,
     2441,
-    2444
+    2444,
+    2448
    ]
   },
   {
@@ -6592,6 +6667,7 @@
    "sp": [
     2194,
     2193,
+    2194,
     2194
    ]
   },
@@ -6618,6 +6694,7 @@
    "sp": [
     2133,
     2134,
+    2134,
     2134
    ]
   },
@@ -6637,13 +6714,14 @@
    "company": "OpenAI",
    "ts": "2026-11-12T14:33:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2123,
+   "st": 2124,
    "fk": 53,
-   "gr": 2,
+   "gr": 3,
    "sp": [
     2121,
     2122,
-    2123
+    2123,
+    2124
    ]
   },
   {
@@ -6663,13 +6741,14 @@
    "ts": "2026-11-16T14:53:52Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "HTML",
-   "st": 2078,
+   "st": 2079,
    "fk": 231,
-   "gr": 3,
+   "gr": 4,
    "sp": [
     2075,
     2076,
-    2078
+    2078,
+    2079
    ]
   },
   {
@@ -6689,13 +6768,14 @@
    "ts": "2026-11-16T20:29:17Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 1835,
+   "st": 1842,
    "fk": 110,
-   "gr": 8,
+   "gr": 15,
    "sp": [
     1827,
     1829,
-    1835
+    1835,
+    1842
    ]
   },
   {
@@ -6721,6 +6801,7 @@
    "sp": [
     1652,
     1653,
+    1655,
     1655
    ]
   },
@@ -6741,13 +6822,14 @@
    "ts": "2026-11-14T17:41:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "JavaScript",
-   "st": 1620,
-   "fk": 247,
-   "gr": 16,
+   "st": 1626,
+   "fk": 250,
+   "gr": 22,
    "sp": [
     1604,
     1612,
-    1620
+    1620,
+    1626
    ]
   },
   {
@@ -6764,16 +6846,17 @@
    "also": [],
    "kind": "repo",
    "company": "OpenAI",
-   "ts": "2026-11-16T20:24:23Z",
+   "ts": "2026-11-16T20:57:37Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 1615,
+   "st": 1616,
    "fk": 287,
-   "gr": 2,
+   "gr": 3,
    "sp": [
     1613,
     1614,
-    1615
+    1615,
+    1616
    ]
   },
   {
@@ -6799,6 +6882,7 @@
    "sp": [
     1586,
     1586,
+    1586,
     1586
    ]
   },
@@ -6819,13 +6903,14 @@
    "ts": "2026-11-15T02:55:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 1421,
+   "st": 1422,
    "fk": 562,
-   "gr": 4,
+   "gr": 5,
    "sp": [
     1417,
     1418,
-    1421
+    1421,
+    1422
    ]
   },
   {
@@ -6845,13 +6930,14 @@
    "ts": "2026-11-16T05:54:50Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 1290,
+   "st": 1291,
    "fk": 110,
-   "gr": 1,
+   "gr": 2,
    "sp": [
     1289,
     1290,
-    1290
+    1290,
+    1291
    ]
   },
   {
@@ -6871,13 +6957,14 @@
    "ts": "2026-11-16T17:40:41Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C++",
-   "st": 1202,
-   "fk": 103,
-   "gr": 3,
+   "st": 1203,
+   "fk": 104,
+   "gr": 4,
    "sp": [
     1199,
     1201,
-    1202
+    1202,
+    1203
    ]
   },
   {
@@ -6903,6 +6990,7 @@
    "sp": [
     1110,
     1110,
+    1110,
     1110
    ]
   },
@@ -6923,13 +7011,14 @@
    "ts": "2026-11-16T12:33:51Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "JavaScript",
-   "st": 1049,
+   "st": 1050,
    "fk": 159,
-   "gr": 1,
+   "gr": 2,
    "sp": [
     1048,
     1048,
-    1049
+    1049,
+    1050
    ]
   },
   {
@@ -6953,6 +7042,7 @@
    "fk": 113,
    "gr": 0,
    "sp": [
+    986,
     986,
     986,
     986
@@ -6981,6 +7071,7 @@
    "sp": [
     978,
     978,
+    978,
     978
    ]
   },
@@ -7001,13 +7092,14 @@
    "ts": "2026-11-10T09:25:38Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 912,
+   "st": 913,
    "fk": 141,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     912,
     912,
-    912
+    912,
+    913
    ]
   },
   {
@@ -7027,13 +7119,14 @@
    "ts": "2026-11-13T15:57:45Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C",
-   "st": 851,
-   "fk": 33,
-   "gr": 7,
+   "st": 855,
+   "fk": 35,
+   "gr": 11,
    "sp": [
     844,
     849,
-    851
+    851,
+    855
    ]
   },
   {
@@ -7059,6 +7152,7 @@
    "sp": [
     823,
     823,
+    823,
     823
    ]
   },
@@ -7079,7 +7173,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "40563e9352",
@@ -7098,7 +7197,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "1e9985f304",
@@ -7117,7 +7221,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "94634d1661",
@@ -7136,7 +7245,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "e7595162bb",
@@ -7155,7 +7269,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "f1c947f9e6",
@@ -7174,7 +7293,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "c1ad758eb9",
@@ -7193,7 +7317,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "ca157e8308",
@@ -7212,7 +7341,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "6abd6257a5",
@@ -7231,7 +7365,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "90d37c51f0",
@@ -7250,7 +7389,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "bf515bca26",
@@ -7269,7 +7413,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "7dd83d4615",
@@ -7288,7 +7437,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "b99fe00af7",
@@ -7307,7 +7461,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "9fa5e8076c",
@@ -7326,7 +7485,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "02d92b6691",
@@ -7345,7 +7509,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "2ff34b17e2",
@@ -7364,7 +7533,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "287a5c0f0c",
@@ -7383,7 +7557,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "e7d8bb8011",
@@ -7402,7 +7581,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "68d67b7be8",
@@ -7421,7 +7605,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195950
+   "st": 195962,
+   "gr": 12,
+   "sp": [
+    195950,
+    195962
+   ]
   },
   {
    "id": "95f93ab122",
@@ -7441,12 +7630,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 20300,
-   "fk": 1502,
-   "gr": 3,
+   "st": 20306,
+   "fk": 1503,
+   "gr": 9,
    "sp": [
     20297,
-    20300
+    20300,
+    20306
    ]
   },
   {
@@ -7467,12 +7657,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 17222,
-   "fk": 2154,
-   "gr": 9,
+   "st": 17227,
+   "fk": 2155,
+   "gr": 14,
    "sp": [
     17213,
-    17222
+    17222,
+    17227
    ]
   },
   {
@@ -7493,12 +7684,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Shell",
-   "st": 10205,
+   "st": 10210,
    "fk": 400,
-   "gr": 4,
+   "gr": 9,
    "sp": [
     10201,
-    10205
+    10205,
+    10210
    ]
   },
   {
@@ -7519,12 +7711,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 9636,
-   "fk": 1418,
-   "gr": 8,
+   "st": 9639,
+   "fk": 1419,
+   "gr": 11,
    "sp": [
     9628,
-    9636
+    9636,
+    9639
    ]
   },
   {
@@ -7545,12 +7738,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 9560,
-   "fk": 1725,
-   "gr": 4,
+   "st": 9566,
+   "fk": 1728,
+   "gr": 10,
    "sp": [
     9556,
-    9560
+    9560,
+    9566
    ]
   },
   {
@@ -7571,12 +7765,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 8154,
-   "fk": 1954,
-   "gr": 7,
+   "st": 8158,
+   "fk": 1955,
+   "gr": 11,
    "sp": [
     8147,
-    8154
+    8154,
+    8158
    ]
   },
   {
@@ -7602,6 +7797,7 @@
    "gr": 1,
    "sp": [
     7742,
+    7743,
     7743
    ]
   },
@@ -7628,6 +7824,7 @@
    "gr": 2,
    "sp": [
     7127,
+    7129,
     7129
    ]
   },
@@ -7654,6 +7851,7 @@
    "gr": 1,
    "sp": [
     7068,
+    7069,
     7069
    ]
   },
@@ -7675,12 +7873,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 7042,
+   "st": 7045,
    "fk": 697,
-   "gr": 0,
+   "gr": 3,
    "sp": [
     7042,
-    7042
+    7042,
+    7045
    ]
   },
   {
@@ -7701,12 +7900,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 6540,
-   "fk": 592,
-   "gr": 10,
+   "st": 6546,
+   "fk": 595,
+   "gr": 16,
    "sp": [
     6530,
-    6540
+    6540,
+    6546
    ]
   },
   {
@@ -7732,6 +7932,7 @@
    "gr": 0,
    "sp": [
     6365,
+    6365,
     6365
    ]
   },
@@ -7753,13 +7954,14 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 5911,
+   "st": 5915,
    "fk": 731,
-   "gr": 7,
+   "gr": 11,
    "sp": [
     5904,
     5907,
-    5911
+    5911,
+    5915
    ]
   },
   {
@@ -7786,6 +7988,7 @@
    "sp": [
     5685,
     5685,
+    5685,
     5685
    ]
   },
@@ -7803,17 +8006,18 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-16T20:17:24Z",
+   "ts": "2026-11-16T20:56:50Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 5257,
+   "st": 5263,
    "fk": 171,
-   "gr": 7,
+   "gr": 13,
    "sp": [
     5250,
     5252,
-    5257
+    5257,
+    5263
    ]
   },
   {
@@ -7835,9 +8039,10 @@
    "sub": "skill",
    "lg": "JavaScript",
    "st": 5139,
-   "fk": 718,
+   "fk": 719,
    "gr": 0,
    "sp": [
+    5139,
     5139,
     5139
    ]
@@ -7860,13 +8065,14 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Rust",
-   "st": 4460,
+   "st": 4462,
    "fk": 116,
-   "gr": 7,
+   "gr": 9,
    "sp": [
     4453,
     4458,
-    4460
+    4460,
+    4462
    ]
   },
   {
@@ -7887,12 +8093,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 3880,
+   "st": 3882,
    "fk": 494,
-   "gr": 4,
+   "gr": 6,
    "sp": [
     3876,
-    3880
+    3880,
+    3882
    ]
   },
   {
@@ -7917,6 +8124,7 @@
    "fk": 237,
    "gr": 0,
    "sp": [
+    3840,
     3840,
     3840
    ]
@@ -7944,6 +8152,7 @@
    "gr": 1,
    "sp": [
     3640,
+    3641,
     3641
    ]
   },
@@ -7970,6 +8179,7 @@
    "gr": 0,
    "sp": [
     3527,
+    3527,
     3527
    ]
   },
@@ -7991,12 +8201,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 3451,
+   "st": 3452,
    "fk": 198,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     3451,
-    3451
+    3451,
+    3452
    ]
   },
   {
@@ -8021,6 +8232,7 @@
    "fk": 426,
    "gr": 0,
    "sp": [
+    3354,
     3354,
     3354
    ]
@@ -8048,6 +8260,7 @@
    "gr": 0,
    "sp": [
     3311,
+    3311,
     3311
    ]
   },
@@ -8065,16 +8278,17 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-16T17:27:54Z",
+   "ts": "2026-11-16T20:55:29Z",
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 2998,
+   "st": 2999,
    "fk": 502,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     2998,
-    2998
+    2998,
+    2999
    ]
   },
   {
@@ -8100,6 +8314,7 @@
    "gr": 0,
    "sp": [
     2774,
+    2774,
     2774
    ]
   },
@@ -8121,13 +8336,14 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "TypeScript",
-   "st": 2634,
+   "st": 2635,
    "fk": 192,
-   "gr": 7,
+   "gr": 8,
    "sp": [
     2627,
     2629,
-    2634
+    2634,
+    2635
    ]
   },
   {
@@ -8153,6 +8369,7 @@
    "gr": 1,
    "sp": [
     2560,
+    2561,
     2561
    ]
   },
@@ -8178,6 +8395,7 @@
    "fk": 136,
    "gr": 0,
    "sp": [
+    2543,
     2543,
     2543
    ]
@@ -8205,6 +8423,7 @@
    "gr": 0,
    "sp": [
     2434,
+    2434,
     2434
    ]
   },
@@ -8231,6 +8450,7 @@
    "gr": 0,
    "sp": [
     2414,
+    2414,
     2414
    ]
   },
@@ -8252,13 +8472,14 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "Go",
-   "st": 2286,
+   "st": 2287,
    "fk": 245,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     2286,
     2286,
-    2286
+    2286,
+    2287
    ]
   },
   {
@@ -8279,10 +8500,11 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "st": 2230,
-   "fk": 210,
+   "fk": 211,
    "gr": 1,
    "sp": [
     2229,
+    2230,
     2230
    ]
   },
@@ -8308,6 +8530,7 @@
    "fk": 649,
    "gr": 0,
    "sp": [
+    2182,
     2182,
     2182
    ]
@@ -8335,6 +8558,7 @@
    "sp": [
     2133,
     2134,
+    2134,
     2134
    ]
   },
@@ -8355,12 +8579,13 @@
    "ts": "2026-11-12T14:33:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
-   "st": 2123,
+   "st": 2124,
    "fk": 53,
    "sp": [
     2121,
     2122,
-    2123
+    2123,
+    2124
    ]
   },
   {
@@ -8385,6 +8610,7 @@
    "fk": 254,
    "gr": 0,
    "sp": [
+    2120,
     2120,
     2120
    ]
@@ -8413,6 +8639,7 @@
    "sp": [
     2067,
     2067,
+    2068,
     2068
    ]
   },
@@ -8434,13 +8661,14 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Swift",
-   "st": 1865,
+   "st": 1866,
    "fk": 228,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     1865,
     1865,
-    1865
+    1865,
+    1866
    ]
   },
   {
@@ -8461,12 +8689,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 1863,
+   "st": 1864,
    "fk": 393,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     1863,
-    1863
+    1863,
+    1864
    ]
   },
   {
@@ -8487,12 +8716,13 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 1857,
+   "st": 1860,
    "fk": 94,
-   "gr": 1,
+   "gr": 4,
    "sp": [
     1856,
-    1857
+    1857,
+    1860
    ]
   },
   {
@@ -8511,7 +8741,7 @@
    "company": "Alibaba",
    "ts": "2026-08-05T08:22:59.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 20237,
+   "st": 20244,
    "dl": 6763402
   },
   {
@@ -8530,7 +8760,7 @@
    "company": "",
    "ts": "2026-07-23T07:55:24.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 12194,
+   "st": 12199,
    "dl": 2789021
   },
   {
@@ -8549,7 +8779,7 @@
    "company": "DeepSeek",
    "ts": "2026-10-30T10:21:29.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 8342,
+   "st": 8379,
    "dl": 29567
   },
   {
@@ -8568,7 +8798,7 @@
    "company": "",
    "ts": "2025-11-07T05:17:48.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 6753,
+   "st": 6755,
    "dl": 1973300
   },
   {
@@ -8587,7 +8817,7 @@
    "company": "Alibaba",
    "ts": "2026-08-13T08:28:40.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 6062,
+   "st": 6064,
    "dl": 6666734
   },
   {
@@ -8606,7 +8836,7 @@
    "company": "DeepSeek",
    "ts": "2026-10-17T02:40:38.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 5784,
+   "st": 5785,
    "dl": 467224
   },
   {
@@ -8625,7 +8855,7 @@
    "company": "",
    "ts": "2026-10-14T12:00:13.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 3317,
+   "st": 3318,
    "dl": 1115161
   },
   {
@@ -8644,7 +8874,7 @@
    "company": "Alibaba",
    "ts": "2026-09-01T07:01:09.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 3215,
+   "st": 3217,
    "dl": 1746935
   },
   {
@@ -8663,7 +8893,7 @@
    "company": "",
    "ts": "2026-10-28T15:55:17.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2407,
+   "st": 2409,
    "dl": 34752
   },
   {
@@ -8682,7 +8912,7 @@
    "company": "",
    "ts": "2026-11-02T04:13:51.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2141,
+   "st": 2143,
    "dl": 49428
   },
   {
@@ -8701,7 +8931,7 @@
    "company": "",
    "ts": "2026-11-03T06:34:36.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 1292,
+   "st": 1296,
    "dl": 609130
   },
   {
@@ -8720,7 +8950,7 @@
    "company": "",
    "ts": "2026-11-06T19:31:28.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 641,
+   "st": 642,
    "dl": 9187
   },
   {
@@ -8739,7 +8969,7 @@
    "company": "",
    "ts": "2026-11-08T20:37:23.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 467,
+   "st": 470,
    "dl": 2294065
   },
   {
@@ -8758,7 +8988,7 @@
    "company": "",
    "ts": "2026-11-09T05:03:57.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 448,
+   "st": 452,
    "dl": 69946
   },
   {
@@ -8777,7 +9007,7 @@
    "company": "",
    "ts": "2026-10-22T19:06:17.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 442,
+   "st": 445,
    "dl": 218765
   },
   {
@@ -8796,7 +9026,7 @@
    "company": "",
    "ts": "2026-11-12T11:05:59.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 406,
+   "st": 407,
    "dl": 3372
   },
   {
@@ -8838,10 +9068,10 @@
    "ver": "v2.9.0"
   },
   {
-   "id": "ad2d4b1744",
+   "id": "231e455545",
    "title": "llama.cpp",
-   "summary": "This tries to use the 256x128 shape (coopmat2-only) with split_k when it appears profitable. It reuses the mul_mat split_k reduce shader.",
-   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12445",
+   "summary": "llama : deprecate old batch API ( #32306 )",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12447",
    "source": "إصدارات ggml-org/llama.cpp",
    "country": "",
    "region": "dev",
@@ -8851,10 +9081,10 @@
    "also": [],
    "kind": "release",
    "company": "",
-   "ts": "2026-11-16T13:25:12.000Z",
-   "fs": "2026-11-16T20:06:25.340Z",
-   "prev": "b12444",
-   "ver": "b12445: vulkan: Support split_k for conv3d. (#29929)"
+   "ts": "2026-11-16T14:16:13.000Z",
+   "fs": "2026-11-16T20:57:12.592Z",
+   "prev": "b12445",
+   "ver": "b12447"
   },
   {
    "id": "d919360458",

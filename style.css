@@ -258,3 +258,5 @@ body{background-color:#0A0A10;background-image:radial-gradient(ellipse 52% 28% a
  .brand-copy small{font-size:.68rem;max-width:190px}
  .tools{width:100%;justify-content:flex-start}
 }
+.brand-hero{grid-template-columns:1fr;min-height:0}
+.brand-hero-copy{max-width:none}

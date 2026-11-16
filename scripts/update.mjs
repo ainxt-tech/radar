@@ -232,13 +232,24 @@ const AI_SYSTEM = [
   'Output ONLY a JSON array: [{"id":"i1","title_ar":"...","summary_ar":"..."}], one object per item, same ids. Keep product, company and code names in Latin script.'].join('\n');
 const san = (v, n) => String(v || '').replace(/[<>]/g, ' ').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
 const AR = /[\u0600-\u06FF]/;
-async function claudeBatch(batch, key, model) {
+async function aiBatch(batch, cfg) {
   const user = 'Translate and summarize the items below.\n<items>\n' + batch.map((x, i) => `<item id="i${i}"><title>${san(x.title, 200)}</title><text>${san(x.summary, 500)}</text></item>`).join('\n') + '\n</items>';
-  const res = await fetch('https://api.anthropic.com/v1/messages', { method: 'POST', signal: AbortSignal.timeout(60000),
-    headers: { 'content-type': 'application/json', 'x-api-key': key, 'anthropic-version': '2023-06-01' },
-    body: JSON.stringify({ model, max_tokens: 2500, system: AI_SYSTEM, messages: [{ role: 'user', content: user }] }) });
-  if (!res.ok) throw new Error('Claude HTTP ' + res.status);
-  const j = await res.json(), text = (j.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  let text = '';
+  if (cfg.provider === 'gemini') {   // Google Gemini API: المفتاح في الترويسة لا في الرابط
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(cfg.model)}:generateContent`, { method: 'POST', signal: AbortSignal.timeout(60000),
+      headers: { 'content-type': 'application/json', 'x-goog-api-key': cfg.key },
+      body: JSON.stringify({ systemInstruction: { parts: [{ text: AI_SYSTEM }] }, contents: [{ role: 'user', parts: [{ text: user }] }],
+        generationConfig: { temperature: 0.2, maxOutputTokens: 6000, responseMimeType: 'application/json' } }) });
+    if (!res.ok) throw new Error('Gemini HTTP ' + res.status);
+    const j = await res.json();
+    text = (((j.candidates || [])[0] || {}).content || {}).parts ? j.candidates[0].content.parts.map(p => p.text || '').join('') : '';
+  } else {
+    const res = await fetch('https://api.anthropic.com/v1/messages', { method: 'POST', signal: AbortSignal.timeout(60000),
+      headers: { 'content-type': 'application/json', 'x-api-key': cfg.key, 'anthropic-version': '2023-06-01' },
+      body: JSON.stringify({ model: cfg.model, max_tokens: 2500, system: AI_SYSTEM, messages: [{ role: 'user', content: user }] }) });
+    if (!res.ok) throw new Error('Claude HTTP ' + res.status);
+    const j = await res.json(); text = (j.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
+  }
   const arr = JSON.parse((text.match(/\[[\s\S]*\]/) || ['[]'])[0]), out = new Map();
   for (const o of Array.isArray(arr) ? arr : []) {
     const id = String(o && o.id), t = san(o && o.title_ar, 120), s = san(o && o.summary_ar, 260);
@@ -251,9 +262,16 @@ async function claudeBatch(batch, key, model) {
 }
 const useTitle = x => !NAME_KINDS.has(x.kind);
 function applyAi(x, ai) { if (!ai) return; if (useTitle(x) && ai.t) { if (!x.orig) x.orig = x.title; x.title = ai.t; } if (ai.s) x.summary = ai.s; }
+function aiConfig() {   // AI_PROVIDER=claude|gemini يحدد المزوّد صراحةً؛ وإلا يُفضَّل Gemini إن وُجد مفتاحه
+  const g = process.env.GEMINI_API_KEY, a = process.env.ANTHROPIC_API_KEY, want = String(process.env.AI_PROVIDER || '').toLowerCase();
+  const claude = () => ({ provider: 'claude', key: a, model: process.env.ANTHROPIC_MODEL || 'claude-haiku-4-5-20251001' });
+  if (want === 'claude' && a) return claude();
+  if (g) return { provider: 'gemini', key: g, model: process.env.GEMINI_MODEL || 'gemini-2.5-flash-lite' };
+  return a ? claude() : null;
+}
 async function aiPass(items, seen, now) {
-  const key = process.env.ANTHROPIC_API_KEY; if (!key) return 'معطّل (لا ANTHROPIC_API_KEY)';
-  const model = process.env.ANTHROPIC_MODEL || 'claude-haiku-4-5-20251001', max = +process.env.AI_MAX || 24;
+  const cfg = aiConfig(); if (!cfg) return 'معطّل (لا GEMINI_API_KEY ولا ANTHROPIC_API_KEY)';
+  const max = +process.env.AI_MAX || 24;
   const todo = items.filter(x => {
     const k = ukey(x.url); if (seen[k] && seen[k].ai) return false;
     const titleNeeds = useTitle(x) && !AR.test(x.title);
@@ -261,15 +279,19 @@ async function aiPass(items, seen, now) {
     return titleNeeds || summaryNeeds;
   })
     .sort((a, b) => b.level - a.level || Date.parse(b.ts) - Date.parse(a.ts)).slice(0, max);
-  let done = 0;
+  let done = 0, stopped = '';
   for (let i = 0; i < todo.length; i += 6) {
     const batch = todo.slice(i, i + 6);
     try {
-      const res = await claudeBatch(batch, key, model);
+      const res = await aiBatch(batch, cfg);
       res.forEach((ai, idx) => { const x = batch[idx]; seen[ukey(x.url)].ai = { ...ai, o: x.title }; applyAi(x, ai); done++; });
-    } catch (e) { console.warn('Claude', e.message); }   // لا نطبع المفتاح ولا نوقف السكربت
+    } catch (e) {   // لا نطبع المفتاح ولا نوقف السكربت
+      console.warn('AI', cfg.provider, e.message);
+      if (/HTTP 429/.test(e.message)) { stopped = ' (توقف: تجاوز حد الطلبات؛ يكمل في التشغيل التالي)'; break; }
+    }
+    if (cfg.provider === 'gemini' && i + 6 < todo.length) await sleep(4000);   // احتراماً لحد الطلبات في الباقة المجانية
   }
-  return `فُعِّل (${model}): ${done} من ${todo.length}`;
+  return `فُعِّل (${cfg.provider}/${cfg.model}): ${done} من ${todo.length}${stopped}`;
 }
 
 /* ---------- التقرير اليومي (محلي) ---------- */

@@ -1250,6 +1250,22 @@
           "lang": "en",
           "check": true,
           "official": false
+        },
+        {
+          "id": "gh-skills",
+          "name": "GitHub: مهارات",
+          "type": "github-repos",
+          "kind": "tool",
+          "sub": "skill",
+          "queries": [
+            "topic:claude-skills created:>{d90} stars:>20",
+            "topic:agent-skills created:>{d90} stars:>20",
+            "topic:claude-code-skills created:>{d90} stars:>10"
+          ],
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
         }
       ]
     }

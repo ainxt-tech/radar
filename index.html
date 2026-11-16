@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="رادار التقنية من ai.nxt: أخبار تقنية ومشاريع GitHub ونماذج وإصدارات في مكان واحد">
+<meta name="theme-color" content="#0A0A10">
+<meta property="og:title" content="TECH RADAR | ai.nxt">
+<meta property="og:description" content="مساعدك الذكي للمستقبل — رادار التقنية والذكاء الاصطناعي من ai.nxt">
+<title>رادار التقنية من ai.nxt</title>
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#view">تخطَّ إلى المحتوى</a>
+
+<div class="wrap">
+  <header class="hd">
+    <a class="brand" href="#/home" aria-label="رادار التقنية، الصفحة الرئيسية">
+      <img class="brand-mascot" src="assets/ai-nxt-header-mascot.webp" alt="شخصية ai.nxt الروبوتية" width="88" height="88">
+      <span class="brand-copy"><b class="lg" dir="ltr">ai<span class="brand-dot">.</span>nxt</b><small>مساعدك الذكي للمستقبل · رادار التقنية</small></span>
+    </a>
+    <div class="tools">
+      <span class="stamp" id="stamp" aria-live="polite"></span>
+      <a class="btn" href="https://www.instagram.com/ai.nxt" target="_blank" rel="noopener noreferrer" aria-label="حسابنا على إنستجرام (يفتح في تبويب جديد)">إنستجرام</a>
+      <button class="btn" id="theme" type="button" aria-label="تبديل الوضع الداكن والفاتح">الوضع</button>
+      <button class="btn primary" id="refresh" type="button"><span>تحديث</span></button>
+    </div>
+  </header>
+
+  <!-- تنقل الحاسوب: روابط أفقية تحت الهيدر -->
+  <nav class="nav" id="nav" aria-label="الصفحات">
+    <a href="#/home" data-r="home">الرئيسية</a>
+    <a href="#/news" data-r="news">الأخبار</a>
+    <a href="#/ai" data-r="ai">الذكاء الاصطناعي</a>
+    <a href="#/github" data-r="github">GitHub</a>
+    <a href="#/releases" data-r="releases">الإصدارات</a>
+    <a href="#/companies" data-r="companies">الشركات</a>
+    <a href="#/report" data-r="report">التقرير اليومي</a>
+    <a href="#/saved" data-r="saved">المحفوظات</a>
+    <a href="#/settings" data-r="settings">الإعدادات</a>
+  </nav>
+
+  <div class="search" id="searchRow" role="search">
+    <input id="q" type="search" aria-label="بحث" placeholder="ابحث في هذا القسم: شركة، منتج، مشروع…" autocomplete="off">
+    <button class="btn primary" id="go" type="button">بحث</button>
+  </div>
+
+  <div id="filters" class="filters"></div>
+  <div id="banner"></div>
+  <main id="view" tabindex="-1" aria-live="polite"></main>
+  <footer class="ft"><b dir="ltr">ai<span class="brand-dot">.</span>nxt</b> · مسعود العبدلي · تقنية اليوم تصنع مستقبل الغد</footer>
+</div>
+
+<!-- تنقل الجوال: شريط سفلي ثابت بخمس أيقونات، و«المزيد» يفتح بقية الصفحات -->
+<div class="sheet" id="more" role="dialog" aria-label="المزيد من الصفحات" hidden>
+  <a href="#/github" data-r="github">GitHub</a>
+  <a href="#/releases" data-r="releases">الإصدارات</a>
+  <a href="#/companies" data-r="companies">الشركات</a>
+  <a href="#/report" data-r="report">التقرير اليومي</a>
+  <a href="#/settings" data-r="settings">الإعدادات</a>
+</div>
+<nav class="bar" id="bar" aria-label="التنقل السفلي">
+  <a href="#/home" data-r="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v10H3z"/></svg>الرئيسية</a>
+  <a href="#/news" data-r="news"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4zM8 9h8M8 13h8"/></svg>الأخبار</a>
+  <a href="#/ai" data-r="ai"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5z"/></svg>AI</a>
+  <a href="#/saved" data-r="saved"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>المحفوظات</a>
+  <button type="button" id="moreBtn" aria-expanded="false" aria-controls="more"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h.01M12 12h.01M19 12h.01"/></svg>المزيد</button>
+</nav>
+
+<div class="toast" id="toast" role="status" hidden></div>
+<noscript><p style="padding:24px">يحتاج رادار التقنية إلى تفعيل JavaScript.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>

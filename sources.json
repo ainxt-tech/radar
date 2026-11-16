@@ -1,0 +1,1257 @@
+{
+  "_readme": "groups: كل مجموعة لها region (gulf|asia|europe|america|africa|official|dev). cat: ai ph sec sw su gm sp ev. check:true = لم أتأكد من الخلاصة ولم تُختبر. tech:true = خلاصة عامة تُرشَّح بالكلمات التقنية. enabled:false يوقف مصدراً. يوتيوب: أضف {\"id\":\"..\",\"name\":\"..\",\"type\":\"youtube\",\"channel_id\":\"UC...\",\"country\":\"..\",\"cat\":\"ai\"} بمعرّف تتحقق منه بنفسك من صفحة القناة ولا تخمّنه. روسيا ضمن europe وأستراليا ضمن asia لأن app.js لا يعرّف غيرهما.",
+  "groups": [
+    {
+      "region": "gulf",
+      "sources": [
+        {
+          "id": "aitnews",
+          "name": "البوابة التقنية",
+          "type": "rss",
+          "url": "https://aitnews.com/feed/",
+          "country": "",
+          "cat": "ai",
+          "lang": "ar",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "tech-wd",
+          "name": "عالم التقنية",
+          "type": "rss",
+          "url": "https://www.tech-wd.com/wd/feed/",
+          "country": "",
+          "cat": "sw",
+          "lang": "ar",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "wamda",
+          "name": "Wamda",
+          "type": "rss",
+          "url": "https://www.wamda.com/feed",
+          "country": "AE",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "gulfbusiness",
+          "name": "Gulf Business",
+          "type": "rss",
+          "url": "https://gulfbusiness.com/feed/",
+          "country": "AE",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "tahawul",
+          "name": "Tahawul Tech",
+          "type": "rss",
+          "url": "https://tahawultech.com/feed/",
+          "country": "AE",
+          "cat": "sw",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "khaleejtimes",
+          "name": "Khaleej Times",
+          "type": "rss",
+          "url": "https://www.khaleejtimes.com/rss",
+          "country": "AE",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "thenational",
+          "name": "The National",
+          "type": "rss",
+          "url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml",
+          "country": "AE",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "arabnews",
+          "name": "Arab News",
+          "type": "rss",
+          "url": "https://www.arabnews.com/rss.xml",
+          "country": "SA",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "timesofoman",
+          "name": "Times of Oman",
+          "type": "rss",
+          "url": "https://timesofoman.com/rss",
+          "country": "OM",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "muscatdaily",
+          "name": "Muscat Daily",
+          "type": "rss",
+          "url": "https://www.muscatdaily.com/feed/",
+          "country": "OM",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "aljazeera-en",
+          "name": "Al Jazeera English",
+          "type": "rss",
+          "url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "country": "QA",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        }
+      ]
+    },
+    {
+      "region": "asia",
+      "sources": [
+        {
+          "id": "technode",
+          "name": "TechNode",
+          "type": "rss",
+          "url": "https://technode.com/feed/",
+          "country": "CN",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "pandaily",
+          "name": "Pandaily",
+          "type": "rss",
+          "url": "https://pandaily.com/feed/",
+          "country": "CN",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "syncedreview",
+          "name": "Synced",
+          "type": "rss",
+          "url": "https://syncedreview.com/feed/",
+          "country": "CN",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "36kr",
+          "name": "36Kr",
+          "type": "rss",
+          "url": "https://36kr.com/feed",
+          "country": "CN",
+          "cat": "su",
+          "lang": "zh",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "type": "rss",
+          "url": "https://www.ithome.com/rss/",
+          "country": "CN",
+          "cat": "sw",
+          "lang": "zh",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "scmp-tech",
+          "name": "SCMP Tech",
+          "type": "rss",
+          "url": "https://www.scmp.com/rss/36/feed",
+          "country": "HK",
+          "cat": "sw",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "nikkei-asia",
+          "name": "Nikkei Asia",
+          "type": "rss",
+          "url": "https://asia.nikkei.com/rss/feed/nar",
+          "country": "JP",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "itmedia",
+          "name": "ITmedia",
+          "type": "rss",
+          "url": "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml",
+          "country": "JP",
+          "cat": "sw",
+          "lang": "ja",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "gigazine",
+          "name": "GIGAZINE",
+          "type": "rss",
+          "url": "https://gigazine.net/news/rss_2.0/",
+          "country": "JP",
+          "cat": "sw",
+          "lang": "ja",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "publickey",
+          "name": "Publickey",
+          "type": "rss",
+          "url": "https://www.publickey1.jp/atom.xml",
+          "country": "JP",
+          "cat": "sw",
+          "lang": "ja",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "bloter",
+          "name": "Bloter",
+          "type": "rss",
+          "url": "https://www.bloter.net/feed",
+          "country": "KR",
+          "cat": "sw",
+          "lang": "ko",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "yonhap",
+          "name": "Yonhap News",
+          "type": "rss",
+          "url": "https://en.yna.co.kr/RSS/news.xml",
+          "country": "KR",
+          "cat": "sw",
+          "lang": "en",
+          "tech": true,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "analyticsindia",
+          "name": "Analytics India Magazine",
+          "type": "rss",
+          "url": "https://analyticsindiamag.com/feed/",
+          "country": "IN",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "inc42",
+          "name": "Inc42",
+          "type": "rss",
+          "url": "https://inc42.com/feed/",
+          "country": "IN",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "gadgets360",
+          "name": "Gadgets 360",
+          "type": "rss",
+          "url": "https://www.gadgets360.com/rss/news",
+          "country": "IN",
+          "cat": "ph",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "techinasia",
+          "name": "Tech in Asia",
+          "type": "rss",
+          "url": "https://www.techinasia.com/feed",
+          "country": "SG",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "e27",
+          "name": "e27",
+          "type": "rss",
+          "url": "https://e27.co/feed/",
+          "country": "SG",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "itnews-au",
+          "name": "iTnews Australia",
+          "type": "rss",
+          "url": "https://www.itnews.com.au/RSS/rss.ashx",
+          "country": "AU",
+          "cat": "sw",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "startupdaily",
+          "name": "Startup Daily",
+          "type": "rss",
+          "url": "https://www.startupdaily.net/feed/",
+          "country": "AU",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        }
+      ]
+    },
+    {
+      "region": "europe",
+      "sources": [
+        {
+          "id": "theregister",
+          "name": "The Register",
+          "type": "rss",
+          "url": "https://www.theregister.com/headlines.atom",
+          "country": "GB",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "bbc-tech",
+          "name": "BBC Technology",
+          "type": "rss",
+          "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+          "country": "GB",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "bbc-arabic",
+          "name": "BBC عربي: علوم وتكنولوجيا",
+          "type": "rss",
+          "url": "https://feeds.bbci.co.uk/arabic/science-and-tech/rss.xml",
+          "country": "GB",
+          "cat": "sw",
+          "lang": "ar",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "guardian-tech",
+          "name": "The Guardian Technology",
+          "type": "rss",
+          "url": "https://www.theguardian.com/technology/rss",
+          "country": "GB",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "heise",
+          "name": "heise online",
+          "type": "rss",
+          "url": "https://www.heise.de/rss/heise-atom.xml",
+          "country": "DE",
+          "cat": "sw",
+          "lang": "de",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "golem",
+          "name": "Golem.de",
+          "type": "rss",
+          "url": "https://rss.golem.de/rss.php?feed=RSS2.0",
+          "country": "DE",
+          "cat": "sw",
+          "lang": "de",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "tnw",
+          "name": "The Next Web",
+          "type": "rss",
+          "url": "https://thenextweb.com/feed",
+          "country": "NL",
+          "cat": "su",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "techeu",
+          "name": "Tech.eu",
+          "type": "rss",
+          "url": "https://tech.eu/feed/",
+          "country": "",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "sifted",
+          "name": "Sifted",
+          "type": "rss",
+          "url": "https://sifted.eu/feed",
+          "country": "GB",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "numerama",
+          "name": "Numerama",
+          "type": "rss",
+          "url": "https://www.numerama.com/feed/",
+          "country": "FR",
+          "cat": "sw",
+          "lang": "fr",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "habr",
+          "name": "Habr (أخبار)",
+          "type": "rss",
+          "url": "https://habr.com/ru/rss/news/",
+          "country": "RU",
+          "cat": "sw",
+          "lang": "ru",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "3dnews",
+          "name": "3DNews",
+          "type": "rss",
+          "url": "https://3dnews.ru/news/rss/",
+          "country": "RU",
+          "cat": "ph",
+          "lang": "ru",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "ixbt",
+          "name": "iXBT",
+          "type": "rss",
+          "url": "https://www.ixbt.com/export/news.rss",
+          "country": "RU",
+          "cat": "ph",
+          "lang": "ru",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "vcru",
+          "name": "vc.ru",
+          "type": "rss",
+          "url": "https://vc.ru/rss",
+          "country": "RU",
+          "cat": "su",
+          "lang": "ru",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "cnews",
+          "name": "CNews",
+          "type": "rss",
+          "url": "https://www.cnews.ru/inc/rss/news.xml",
+          "country": "RU",
+          "cat": "sw",
+          "lang": "ru",
+          "check": true,
+          "official": false
+        }
+      ]
+    },
+    {
+      "region": "africa",
+      "sources": [
+        {
+          "id": "techcabal",
+          "name": "TechCabal",
+          "type": "rss",
+          "url": "https://techcabal.com/feed/",
+          "country": "NG",
+          "cat": "su",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "techpoint",
+          "name": "Techpoint Africa",
+          "type": "rss",
+          "url": "https://techpoint.africa/feed/",
+          "country": "NG",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "disruptafrica",
+          "name": "Disrupt Africa",
+          "type": "rss",
+          "url": "https://disrupt-africa.com/feed/",
+          "country": "ZA",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "mybroadband",
+          "name": "MyBroadband",
+          "type": "rss",
+          "url": "https://mybroadband.co.za/news/feed",
+          "country": "ZA",
+          "cat": "sw",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "techmoran",
+          "name": "TechMoran",
+          "type": "rss",
+          "url": "https://techmoran.com/feed/",
+          "country": "KE",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "venturesafrica",
+          "name": "Ventures Africa",
+          "type": "rss",
+          "url": "https://venturesafrica.com/feed/",
+          "country": "NG",
+          "cat": "su",
+          "lang": "en",
+          "check": true,
+          "official": false
+        }
+      ]
+    },
+    {
+      "region": "america",
+      "sources": [
+        {
+          "id": "theverge",
+          "name": "The Verge",
+          "type": "rss",
+          "url": "https://www.theverge.com/rss/index.xml",
+          "country": "US",
+          "cat": "ph",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "techcrunch",
+          "name": "TechCrunch",
+          "type": "rss",
+          "url": "https://techcrunch.com/feed/",
+          "country": "US",
+          "cat": "su",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "wired",
+          "name": "Wired",
+          "type": "rss",
+          "url": "https://www.wired.com/feed/rss",
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "arstechnica",
+          "name": "Ars Technica",
+          "type": "rss",
+          "url": "https://feeds.arstechnica.com/arstechnica/index",
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "engadget",
+          "name": "Engadget",
+          "type": "rss",
+          "url": "https://www.engadget.com/rss.xml",
+          "country": "US",
+          "cat": "ph",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "bleepingcomputer",
+          "name": "BleepingComputer",
+          "type": "rss",
+          "url": "https://www.bleepingcomputer.com/feed/",
+          "country": "US",
+          "cat": "sec",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "thehackernews",
+          "name": "The Hacker News",
+          "type": "rss",
+          "url": "https://feeds.feedburner.com/TheHackersNews",
+          "country": "",
+          "cat": "sec",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "krebs",
+          "name": "Krebs on Security",
+          "type": "rss",
+          "url": "https://krebsonsecurity.com/feed/",
+          "country": "US",
+          "cat": "sec",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "spacecom",
+          "name": "Space.com",
+          "type": "rss",
+          "url": "https://www.space.com/feeds/all",
+          "country": "US",
+          "cat": "sp",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "nasaspaceflight",
+          "name": "NASASpaceFlight",
+          "type": "rss",
+          "url": "https://www.nasaspaceflight.com/feed/",
+          "country": "US",
+          "cat": "sp",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "electrek",
+          "name": "Electrek",
+          "type": "rss",
+          "url": "https://electrek.co/feed/",
+          "country": "US",
+          "cat": "ev",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "gamespot",
+          "name": "GameSpot",
+          "type": "rss",
+          "url": "https://www.gamespot.com/feeds/news/",
+          "country": "US",
+          "cat": "gm",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "mit-tr",
+          "name": "MIT Technology Review",
+          "type": "rss",
+          "url": "https://www.technologyreview.com/feed/",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "ieee-spectrum",
+          "name": "IEEE Spectrum",
+          "type": "rss",
+          "url": "https://spectrum.ieee.org/feeds/feed.rss",
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "venturebeat",
+          "name": "VentureBeat",
+          "type": "rss",
+          "url": "https://venturebeat.com/feed/",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "techmeme",
+          "name": "Techmeme",
+          "type": "rss",
+          "url": "https://www.techmeme.com/feed.xml",
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "importai",
+          "name": "Import AI",
+          "type": "rss",
+          "url": "https://importai.substack.com/feed",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "lastweekinai",
+          "name": "Last Week in AI",
+          "type": "rss",
+          "url": "https://lastweekin.ai/feed",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "latentspace",
+          "name": "Latent Space",
+          "type": "rss",
+          "url": "https://www.latent.space/feed",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "interconnects",
+          "name": "Interconnects",
+          "type": "rss",
+          "url": "https://www.interconnects.ai/feed",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "simonw",
+          "name": "Simon Willison",
+          "type": "rss",
+          "url": "https://simonwillison.net/atom/everything/",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "hn",
+          "name": "Hacker News",
+          "type": "hn",
+          "min": 100,
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "reddit-localllama",
+          "name": "Reddit r/LocalLLaMA",
+          "type": "reddit",
+          "sub": "LocalLLaMA",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "max": 6,
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "reddit-ml",
+          "name": "Reddit r/MachineLearning",
+          "type": "reddit",
+          "sub": "MachineLearning",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "max": 6,
+          "check": true,
+          "official": false
+        }
+      ]
+    },
+    {
+      "region": "official",
+      "off": true,
+      "sources": [
+        {
+          "id": "openai",
+          "name": "OpenAI",
+          "type": "rss",
+          "url": "https://openai.com/news/rss.xml",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": true
+        },
+        {
+          "id": "deepmind",
+          "name": "Google DeepMind",
+          "type": "rss",
+          "url": "https://deepmind.google/blog/rss.xml",
+          "country": "GB",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": true
+        },
+        {
+          "id": "google-ai",
+          "name": "Google AI",
+          "type": "rss",
+          "url": "https://blog.google/technology/ai/rss/",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "official": true,
+          "check": true
+        },
+        {
+          "id": "nvidia",
+          "name": "NVIDIA",
+          "type": "rss",
+          "url": "https://blogs.nvidia.com/feed/",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "official": true,
+          "check": true
+        },
+        {
+          "id": "ms-research",
+          "name": "Microsoft Research",
+          "type": "rss",
+          "url": "https://www.microsoft.com/en-us/research/feed/",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "official": true,
+          "check": true
+        },
+        {
+          "id": "aws-ml",
+          "name": "AWS Machine Learning",
+          "type": "rss",
+          "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "official": true,
+          "check": true
+        },
+        {
+          "id": "apple-ml",
+          "name": "Apple Machine Learning",
+          "type": "rss",
+          "url": "https://machinelearning.apple.com/rss.xml",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": true
+        },
+        {
+          "id": "hf-blog",
+          "name": "Hugging Face Blog",
+          "type": "rss",
+          "url": "https://huggingface.co/blog/feed.xml",
+          "country": "US",
+          "cat": "ai",
+          "lang": "en",
+          "official": true,
+          "check": true
+        },
+        {
+          "id": "github-blog",
+          "name": "GitHub Blog",
+          "type": "rss",
+          "url": "https://github.blog/feed/",
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "official": true,
+          "check": true
+        },
+        {
+          "id": "github-changelog",
+          "name": "GitHub Changelog",
+          "type": "rss",
+          "url": "https://github.blog/changelog/feed/",
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "official": true,
+          "check": true
+        },
+        {
+          "id": "cloudflare",
+          "name": "Cloudflare Blog",
+          "type": "rss",
+          "url": "https://blog.cloudflare.com/rss/",
+          "country": "US",
+          "cat": "sec",
+          "lang": "en",
+          "check": true,
+          "official": true
+        },
+        {
+          "id": "qwen-blog",
+          "name": "Qwen Blog",
+          "type": "rss",
+          "url": "https://qwenlm.github.io/blog/index.xml",
+          "country": "CN",
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": true
+        },
+        {
+          "id": "meta-eng",
+          "name": "Meta Engineering",
+          "type": "rss",
+          "url": "https://engineering.fb.com/feed/",
+          "country": "US",
+          "cat": "sw",
+          "lang": "en",
+          "check": true,
+          "official": true
+        }
+      ]
+    },
+    {
+      "region": "dev",
+      "sources": [
+        {
+          "id": "rel-claude-code",
+          "name": "إصدارات anthropics/claude-code",
+          "type": "github-releases",
+          "repo": "anthropics/claude-code",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-anthropic-sdk-python",
+          "name": "إصدارات anthropics/anthropic-sdk-python",
+          "type": "github-releases",
+          "repo": "anthropics/anthropic-sdk-python",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-openai-agents-python",
+          "name": "إصدارات openai/openai-agents-python",
+          "type": "github-releases",
+          "repo": "openai/openai-agents-python",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-langgraph",
+          "name": "إصدارات langchain-ai/langgraph",
+          "type": "github-releases",
+          "repo": "langchain-ai/langgraph",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-langchain",
+          "name": "إصدارات langchain-ai/langchain",
+          "type": "github-releases",
+          "repo": "langchain-ai/langchain",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-crewai",
+          "name": "إصدارات crewAIInc/crewAI",
+          "type": "github-releases",
+          "repo": "crewAIInc/crewAI",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-autogen",
+          "name": "إصدارات microsoft/autogen",
+          "type": "github-releases",
+          "repo": "microsoft/autogen",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-n8n",
+          "name": "إصدارات n8n-io/n8n",
+          "type": "github-releases",
+          "repo": "n8n-io/n8n",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-dify",
+          "name": "إصدارات langgenius/dify",
+          "type": "github-releases",
+          "repo": "langgenius/dify",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-ollama",
+          "name": "إصدارات ollama/ollama",
+          "type": "github-releases",
+          "repo": "ollama/ollama",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-transformers",
+          "name": "إصدارات huggingface/transformers",
+          "type": "github-releases",
+          "repo": "huggingface/transformers",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-flowise",
+          "name": "إصدارات FlowiseAI/Flowise",
+          "type": "github-releases",
+          "repo": "FlowiseAI/Flowise",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-vllm",
+          "name": "إصدارات vllm-project/vllm",
+          "type": "github-releases",
+          "repo": "vllm-project/vllm",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-llama.cpp",
+          "name": "إصدارات ggml-org/llama.cpp",
+          "type": "github-releases",
+          "repo": "ggml-org/llama.cpp",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "rel-pytorch",
+          "name": "إصدارات pytorch/pytorch",
+          "type": "github-releases",
+          "repo": "pytorch/pytorch",
+          "country": "",
+          "cat": "sw",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "hf-models",
+          "name": "Hugging Face Models",
+          "type": "hf-models",
+          "limit": 20,
+          "cat": "ai",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "hf-papers",
+          "name": "Hugging Face Papers",
+          "type": "hf-papers",
+          "limit": 20,
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv (AI/CL/LG)",
+          "type": "arxiv",
+          "query": "cat:cs.AI OR cat:cs.CL OR cat:cs.LG",
+          "max": 15,
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        },
+        {
+          "id": "gh-new",
+          "name": "GitHub: مستودعات ناشئة",
+          "type": "github-repos",
+          "kind": "repo",
+          "queries": [
+            "created:>{d7} stars:>60",
+            "topic:llm created:>{d30} stars:>100"
+          ],
+          "cat": "ai",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "gh-agents",
+          "name": "GitHub: وكلاء",
+          "type": "github-repos",
+          "kind": "tool",
+          "sub": "agent",
+          "queries": [
+            "topic:ai-agents created:>{d30} stars:>100"
+          ],
+          "cat": "ai",
+          "lang": "en",
+          "official": false,
+          "check": true
+        },
+        {
+          "id": "gh-tools",
+          "name": "GitHub: أدوات",
+          "type": "github-repos",
+          "kind": "tool",
+          "sub": "library",
+          "queries": [
+            "topic:mcp created:>{d30} stars:>50"
+          ],
+          "cat": "ai",
+          "lang": "en",
+          "check": true,
+          "official": false
+        }
+      ]
+    }
+  ]
+}

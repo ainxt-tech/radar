@@ -12,7 +12,7 @@ const URGENT_MAX_AGE_H = 6;      // «عاجل»: منشور خلال آخر 6 �
 const CAT = { ai:'الذكاء الاصطناعي', ph:'الهواتف والأجهزة', sec:'الأمن السيبراني', sw:'البرمجيات والتطبيقات', su:'الشركات الناشئة', gm:'الألعاب', sp:'الفضاء والعلوم', ev:'السيارات الكهربائية' };
 const REGIONS = new Set(['gulf', 'asia', 'europe', 'america', 'africa', 'official', 'dev']);
 const NAME_KINDS = new Set(['repo', 'tool', 'model', 'release']);   // عناوينها أسماء لا تُترجم
-const CAPS = { newsPerCat: 20, news: 200, repo: 24, tool: 60, model: 16, release: 30, paper: 24 };
+const CAPS = { newsPerCat: 40, news: 400, repo: 24, tool: 60, model: 16, release: 30, paper: 24 };
 
 /* ---------- قواعد التصنيف والشركات (محلية، بلا ذكاء اصطناعي) ---------- */
 const RULES = [
@@ -79,6 +79,18 @@ async function pool(list, n, fn) { const out = []; let i = 0; await Promise.all(
 
 /* ---------- معالجات أنواع المصادر: كل معالج يعيد عناصر خاماً أو يرمي خطأً ---------- */
 const ghHeaders = () => { const h = { accept: 'application/vnd.github+json' }; if (process.env.GITHUB_TOKEN) h.authorization = 'Bearer ' + process.env.GITHUB_TOKEN; return h; };
+let FEEDS = {};   // id المصدر ← رابط الخلاصة المكتشف (يُحفظ في seen.json تحت _feeds)
+async function discoverFeeds(home) {
+  const html = await getText(home);   // يرمي عند 403/404: لا فائدة من تجربة مسارات أخرى
+  const found = [];
+  for (const m of html.matchAll(/<link\b[^>]*>/gi)) {
+    const t = m[0]; if (!/rel=["']?alternate/i.test(t) || !/application\/(?:rss|atom)\+xml/i.test(t)) continue;
+    const h = t.match(/href=["']([^"']+)["']/i); if (!h) continue;
+    try { const u = new URL(decode(h[1]), home).href; if (/^https?:/.test(u) && !/comment/i.test(u)) found.push(u); } catch {}
+  }
+  for (const p of ['/feed/', '/rss', '/rss.xml', '/feed.xml']) { try { found.push(new URL(p, home).href); } catch {} }
+  return [...new Set(found)].slice(0, 5);
+}
 export const HANDLERS = {
   rss: async s => parseFeed(await getText(s.url)),
   youtube: async s => parseFeed(await getText(`https://www.youtube.com/feeds/videos.xml?channel_id=${encodeURIComponent(s.channel_id)}`)),
@@ -123,6 +135,36 @@ export const HANDLERS = {
     }).filter(x => x.u && x.ts);
   },
   arxiv: async s => parseFeed(await getText(`https://export.arxiv.org/api/query?search_query=${encodeURIComponent(s.query)}&sortBy=submittedDate&sortOrder=descending&max_results=${s.max || 15}`)).map(x => ({ ...x, kind: 'paper' })),
+  site: async s => {   // يكتشف خلاصة RSS/Atom من رابط الموقع الرئيسي ويحفظ الرابط المكتشف في seen.json
+    const tryFeed = async u => { const items = parseFeed(await getText(u)); if (!items.length) throw new Error('لا عناصر'); return items; };
+    if (FEEDS[s.id]) { try { return await tryFeed(FEEDS[s.id]); } catch { delete FEEDS[s.id]; } }
+    let last = 'لا خلاصة';
+    for (const u of await discoverFeeds(s.url)) { try { const items = await tryFeed(u); FEEDS[s.id] = u; return items; } catch (e) { last = e.message; } }
+    throw new Error(last);
+  },
+  'github-skills': async s => {
+    const out = []; let last = '';
+    for (const repo of s.repos || []) {
+      try {
+        const meta = await getJson(`https://api.github.com/repos/${repo}`, ghHeaders());
+        const br = meta.default_branch || 'main', base = s.path || 'skills';
+        const list = await getJson(`https://api.github.com/repos/${repo}/contents/${base}?ref=${encodeURIComponent(br)}`, ghHeaders());
+        const dirs = (Array.isArray(list) ? list : []).filter(d => d.type === 'dir' && !d.name.startsWith('.')).slice(0, s.limit || 40);
+        const rows = await pool(dirs, 4, async d => {
+          let desc = '';
+          try {
+            const md = await getText(`https://raw.githubusercontent.com/${repo}/${br}/${base}/${d.name}/SKILL.md`);
+            const fm = md.match(/^---\s*\n([\s\S]*?)\n---/), m = fm && fm[1].match(/^description:\s*(.+(?:\n[ \t]+\S.*)*)/m);
+            desc = m ? m[1].replace(/\s*\n\s*/g, ' ').replace(/^["']|["']$/g, '').trim().slice(0, 300) : '';
+          } catch {}
+          return { kind: 'tool', sub: 'skill', t: d.name, u: d.html_url, ts: meta.pushed_at || new Date().toISOString(), s: desc || 'مهارة من ' + repo, st: meta.stargazers_count || 0 };
+        });
+        out.push(...rows.filter(Boolean));
+      } catch (e) { last = e.message; console.warn('Skills', repo, e.message); }
+      await sleep(500);
+    }
+    if (!out.length) throw new Error(last || 'لا مهارات'); return out;
+  },
   'github-repos': async s => {
     const out = []; let last = '';
     for (const q of s.queries || []) {
@@ -261,6 +303,7 @@ async function main() {
   if (!sources.length) { console.error('sources.json فارغ أو غير صالح'); process.exitCode = 1; return; }
   const prev = await readJson('news.json'), old = prev && !prev.seed ? (prev.items || []) : [];
   const seen = await readJson('seen.json') || await readJson('data/seen.json') || {};
+  FEEDS = seen._feeds && typeof seen._feeds === 'object' ? seen._feeds : {};
 
   const results = await pool(sources, 8, async s => {
     const st = { id: s.id, name: s.name, ok: false };
@@ -277,7 +320,7 @@ async function main() {
   const fresh = [];
   results.forEach((r, i) => {
     const s = sources[i]; let raw = r.raw;
-    if (['rss', 'youtube', 'reddit', 'arxiv', 'hn', 'hf-papers'].includes(s.type)) raw = raw.filter(x => Date.parse(x.ts) >= cutoff).sort((a, b) => Date.parse(b.ts) - Date.parse(a.ts)).slice(0, s.max || 10);
+    if (['rss', 'site', 'youtube', 'reddit', 'arxiv', 'hn', 'hf-papers'].includes(s.type)) raw = raw.filter(x => Date.parse(x.ts) >= cutoff).sort((a, b) => Date.parse(b.ts) - Date.parse(a.ts)).slice(0, s.max || 10);
     for (const x of raw) { const it = make(s, x); if (s.tech && it.kind === 'news' && !isTech(it.title + ' ' + it.summary)) continue; fresh.push(it); }
   });
 
@@ -319,6 +362,7 @@ async function main() {
   for (const k of Object.keys(seen)) if (now - Date.parse(seen[k].f) > 60 * 864e5) delete seen[k];
 
   const doc = { v: VERSION, updated: nowIso, seed: false, sources: results.map(r => r.st), report: buildReport(items, now), items: items.map(out) };
+  seen._feeds = FEEDS;
   await writeFile('seen.json.tmp', JSON.stringify(seen) + '\n'); await rename('seen.json.tmp', 'seen.json');
   await writeFile('news.json.tmp', JSON.stringify(doc, null, 1) + '\n'); await rename('news.json.tmp', 'news.json');
   console.log('تم: ' + items.length + ' عنصراً');

@@ -1,0 +1,43 @@
+name: تحديث الرادار التقني
+
+on:
+  schedule:
+    - cron: '15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: جلب المستودع
+        uses: actions/checkout@v4
+      - name: إعداد Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: فحص الملفات والمصادر
+        run: |
+          node --check scripts/update.mjs
+          node --check app.js
+          node scripts/validate.mjs
+      - name: تحديث الرادار
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          AI_MAX: 24
+        run: node scripts/update.mjs
+      - name: حفظ البيانات المحدثة
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add news.json seen.json
+          git diff --staged --quiet || (git commit -m "تحديث الرادار التقني" && git push)

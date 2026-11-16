@@ -168,7 +168,7 @@ P.home = function (v) {
   var heroVisual = el('div', 'brand-hero-visual');
   var heroLogo = document.createElement('img'); heroLogo.src = 'assets/ai-nxt-logo.webp'; heroLogo.alt = 'شعار ai.nxt ومسارات الشبكة العصبية'; heroLogo.className = 'hero-emblem'; heroVisual.appendChild(heroLogo);
   var mascot = document.createElement('img'); mascot.src = 'assets/ai-nxt-mascot.webp'; mascot.alt = 'شخصية ai.nxt الروبوتية'; mascot.className = 'hero-mascot'; mascot.loading = 'eager'; heroVisual.appendChild(mascot);
-  hero.appendChild(heroCopy); hero.appendChild(heroVisual); w.appendChild(hero);
+ hero.appendChild(heroCopy); w.appendChild(hero);
   var hot = ofKind('news').filter(function (i) { return i.level === 4; }).sort(function (a, b) { return tm(b) - tm(a); }).slice(0, 8);
   if (hot.length) w.appendChild(ticker(hot));
   var disc = items.filter(isNew).sort(function (a, b) { return b.level - a.level || tm(b) - tm(a); });

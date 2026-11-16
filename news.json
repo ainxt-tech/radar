@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-16T19:38:10.482Z",
+ "updated": "2026-11-16T20:06:25.340Z",
  "seed": false,
  "sources": [
   {
@@ -390,13 +390,13 @@
   {
    "id": "reddit-localllama",
    "name": "Reddit r/LocalLLaMA",
-   "ok": true
+   "ok": false,
+   "err": "HTTP 429"
   },
   {
    "id": "reddit-ml",
    "name": "Reddit r/MachineLearning",
-   "ok": false,
-   "err": "HTTP 429"
+   "ok": true
   },
   {
    "id": "openai",
@@ -567,22 +567,24 @@
    "id": "gh-tools",
    "name": "GitHub: أدوات",
    "ok": true
+  },
+  {
+   "id": "gh-skills",
+   "name": "GitHub: مهارات",
+   "ok": true
   }
  ],
  "report": {
   "title": "ملخص اليوم 2026-11-16",
-  "text": "رصد الرادار 138 خبراً خلال آخر 24 ساعة، منها 2 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: Meet the new James Bond: Robert Pattinson (Ars Technica).",
+  "text": "رصد الرادار 141 خبراً خلال آخر 24 ساعة، منها 0 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: California sues OpenAI after that Hugging Face rogue hacking incident (Engadget).",
   "top": [
+   "7c23916969",
    "a29218e587",
-   "35a4a589da",
    "65e3921b01",
    "26837dc0bd",
-   "03540ddb74"
+   "060fe5d302"
   ],
-  "watch": [
-   "متابعة: Meet the new James Bond: Robert Pattinson",
-   "متابعة: Instagram now lets creators add Amazon affiliate links in reels and feed posts"
-  ]
+  "watch": []
  },
  "items": [
   {
@@ -599,8 +601,251 @@
    "also": [],
    "kind": "news",
    "company": "NVIDIA",
-   "ts": "2026-11-16T19:38:13.639Z",
+   "ts": "2026-11-16T20:06:28.902Z",
    "fs": "2026-11-16T19:38:10.482Z"
+  },
+  {
+   "id": "5044657281",
+   "title": "Best Early Black Friday Espresso Machine Deals (2026)",
+   "summary": "Impress your Thanksgiving guests with a cappuccino. These early deals on WIRED-tested favorites leave you time to practice.",
+   "url": "https://www.wired.com/story/early-black-friday-coffee-espresso-deals-11-16-2026/",
+   "source": "Wired",
+   "country": "US",
+   "region": "america",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:00:00.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "d3d27c87ad",
+   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+   "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+   "source": "BleepingComputer",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:57:13.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "1e7e35cb0e",
+   "title": "LangChain raises $300m at a $3bn valuation to help companies run AI agents",
+   "summary": "LangChain, which makes tools for building and running AI agents, has raised $300m at a $3bn valuation, the company announced on Friday. The Series C brings its total funding to $460m. CapitalG, Alphabet’s independent growth fund and an existing investor, led the round. New investors GIC and DFJ Growth and existing investors IVP and Sapphire [&hellip;] This story continues at The Next Web",
+   "url": "https://thenextweb.com/news/langchain-300m-series-c-3bn-valuation-capitalg-langsmith",
+   "source": "The Next Web",
+   "country": "NL",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:54:38.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "7630331d5a",
+   "title": "Supreme Court keeps injunction against DEI grant defunding in place",
+   "summary": "Appeals court ruling rejected grant cancellations on First Amendment grounds.",
+   "url": "https://arstechnica.com/science/2026/11/supreme-court-keeps-injunction-against-dei-grant-defunding-in-place/",
+   "source": "Ars Technica",
+   "country": "US",
+   "region": "america",
+   "cat": "الشركات الناشئة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:54:21.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "0cce225a03",
+   "title": "Uber says hackers stole information on close to 150,000 driver’s licenses during data breach",
+   "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
+   "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+   "source": "TechCrunch",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:53:00.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "7c23916969",
+   "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
+   "summary": "State AG Rob Bonta has accused the company of making AI agents \"without the safeguards and monitoring necessary to adequately protect\" users.",
+   "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
+   "source": "Engadget",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 2,
+   "n": 2,
+   "also": [
+    {
+     "source": "Techmeme",
+     "url": "https://www.techmeme.com/261116/p40#a261116p40"
+    }
+   ],
+   "kind": "news",
+   "company": "OpenAI",
+   "ts": "2026-11-16T19:52:24.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "b477ad7b4e",
+   "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
+   "summary": "Critical orgs around the globe under seige",
+   "url": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223",
+   "source": "The Register",
+   "country": "GB",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Amazon",
+   "ts": "2026-11-16T19:52:00.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "73406528aa",
+   "title": "The Apple Watch Series 12 is cheaper than ever ahead of Black Friday",
+   "summary": "If you’re still sporting an Apple Watch that launched five or so years ago, now is a good time to upgrade. Apple’s latest smartwatch, the 42mm Apple Watch Series 12 with Wi-Fi and GPS connectivity, has dropped to a new all-time low of $329 at Amazon, Best Buy, and Walmart, beating the October Prime Day […]",
+   "url": "https://www.theverge.com/gadgets/1034512/apple-watch-series-12-black-friday-deal-sale",
+   "source": "The Verge",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-16T19:50:47.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "fe6fddc2e7",
+   "title": "Mercedes-Benz takes on Tesla FSD with new point-to-point city driving assist",
+   "summary": "Mercedes-Benz is tossing its hat into the partial autonomy ring with the launch of two new features next year: hands-free highway driving and a point-to-point city navigation system. The new features will put the German automaker in competition with Tesla, which is currently leading the auto industry in the development of hands-free systems. Mercedes' point-to-point […]",
+   "url": "https://www.theverge.com/transportation/1034321/mercedes-benz-mb-drive-assist-pro-hands-free-highway-assist-2027",
+   "source": "The Verge",
+   "country": "US",
+   "region": "america",
+   "cat": "السيارات الكهربائية",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Tesla",
+   "ts": "2026-11-16T19:49:12.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "baf6ab2da9",
+   "title": "When will humans actually fly on Starship?",
+   "summary": "All estimates of human spaceflight on Starship should be taken with a gigantic grain of salt.",
+   "url": "https://arstechnica.com/space/2026/11/when-will-humans-actually-fly-on-starship/",
+   "source": "Ars Technica",
+   "country": "US",
+   "region": "america",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:46:08.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "7c79f559cc",
+   "title": "Cognition and McKinsey team up to sell Devin, its AI coder, to big firms",
+   "summary": "Cognition, the maker of the AI coding agent Devin, has formed an alliance with McKinsey & Company, the two firms announced on Monday. They will sell AI software engineering to large companies in the US and Europe. McKinsey will help clients pick the engineering projects that matter most and set a baseline for cost, speed [&hellip;] This story continues at The Next Web",
+   "url": "https://thenextweb.com/news/cognition-mckinsey-alliance-devin-ai-software-engineering",
+   "source": "The Next Web",
+   "country": "NL",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:43:41.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "026e631605",
+   "title": "[Перевод] 63 тысячи спам-аккаунтов: как я за ночь защитил домашнюю инфраструктуру",
+   "summary": "Всё началось с обычного переноса Docker-стеков, а закончилось ночным аудитом безопасности домашней инфраструктуры. По ходу дела выяснилось, что WAF не видит реальные IP-адреса атакующих, на Git-сервере накопилось 63 тысячи спам-аккаунтов, а некоторые сервисы доступны извне в обход настроенной защиты. Рассказываю, как обнаружились эти проблемы, что пришлось исправить и как в итоге удалось закрыть прямой доступ к домаш",
+   "url": "https://habr.com/ru/companies/otus/articles/1103574/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1103574",
+   "source": "Habr (أخبار)",
+   "country": "RU",
+   "region": "europe",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:42:40.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "353c3b7b24",
+   "title": "А вы знали что машины Яндекс Драйв нельзя оставлять на улицах Санкт-Петербурга?",
+   "summary": "А вот и я не знал, хотя это кажется абсурдным. Но обо всем по порядку. Вообще-то меня можно (было) назвать амбассадором бренда Яндекс: Яндекс Музыка, Яндекс 360, Яндекс Облако, колонка Алиса, кофеварка Tuvio и вот это вот всё - сложно сказать почему, но все что делал Яндекс у меня вызывало доверие. Может быть потому что я программист? А они всегда мне казались на светлой стороне на нашей “технической стороне”. Вот и ",
+   "url": "https://habr.com/ru/articles/1108606/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108606",
+   "source": "Habr (أخبار)",
+   "country": "RU",
+   "region": "europe",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:41:52.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "d6789c4f33",
+   "title": "Ethiopia’s Dodai Raises Series A Funding to $16 Million as Japanese Investors Bet on Electric Motorcycles",
+   "summary": "Ethiopian electric mobility startup Dodai has raised an additional $3 million from investors including Japanese energy giant Tokyo Gas and Singapore-based Kaneto Capital Management, bringing its Series A financing to $16 million as it accelerates the rollout of electric motorcycles and battery-swapping infrastructure in Africa’s second-most populous nation. The latest investment follows a $13 million […] The post Eth",
+   "url": "https://techmoran.com/2026/11/16/ethiopias-dodai-raises-series-a-funding-to-16-million-as-japanese-investors-bet-on-electric-motorcycles/",
+   "source": "TechMoran",
+   "country": "KE",
+   "region": "africa",
+   "cat": "الشركات الناشئة",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:38:42.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
   },
   {
    "id": "a29218e587",
@@ -611,22 +856,52 @@
    "country": "US",
    "region": "america",
    "cat": "البرمجيات والتطبيقات",
-   "level": 3,
-   "n": 3,
+   "level": 2,
+   "n": 2,
    "also": [
     {
      "source": "Numerama",
      "url": "https://www.numerama.com/pop-culture/2375739-james-bond-pourquoi-robert-pattinson-est-le-meilleur-choix-possible-pour-007.html"
-    },
-    {
-     "source": "The Verge",
-     "url": "https://www.theverge.com/tech/1034192/robert-pattinson-james-bond"
     }
    ],
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T19:36:25.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
+  },
+  {
+   "id": "87561c9365",
+   "title": "KI-Regeln: Staaten und Firmen fordern Sicherheit und Transparenz",
+   "summary": "Achtzehn Länder und zehn KI-Firmen formulieren Rahmenbedingungen für KIs+. Neben den üblichen Floskeln gibt es interessante Details. Deutschland fehlte anfangs.",
+   "url": "https://www.heise.de/news/KI-Regeln-Staaten-und-Firmen-fordern-Sicherheit-und-Transparenz-11526847.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+   "source": "heise online",
+   "country": "DE",
+   "region": "europe",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:36:00.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "bbff4f4fe8",
+   "title": "The Head Of GTA 6’s Parent Company Helped Make One Of The Best Christmas Movies Of All Time",
+   "summary": "One of the most memorable and beloved Christmas movies is 1990's Home Alone, but it almost didn't happen, and the head of GTA 6 's parent company played a role in bringing the movie to market. Strauss Zelnick, the current CEO of Rockstar Games owner Take-Two, was the president and COO of 20th Century Fox at the time--he was among the youngest-ever Hollywood CEOs at the age of 32. Warner Bros. was originally backing H",
+   "url": "https://www.gamespot.com/articles/the-head-of-gta-6s-parent-company-helped-make-one-of-the-best-christmas-movies-of-all-time/",
+   "source": "GameSpot",
+   "country": "US",
+   "region": "america",
+   "cat": "الألعاب",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:35:04.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
   },
   {
    "id": "b50873fec4",
@@ -819,6 +1094,74 @@
    "company": "Apple",
    "ts": "2026-11-16T19:21:00.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
+  },
+  {
+   "id": "aa9fcf8f80",
+   "title": "苹果 watchOS 27.3 开发者预览版 Beta 2 发布",
+   "summary": "【 点此直达升级教程 】 IT之家 11 月 17 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.3 开发者预览版 Beta 2 更新（内部版本号：24S5296d），本次更新距离上次发布 Beta/RC 间隔 13 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版 ：需注册&nbsp; Apple Beta 版软件计划 ，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版 ：需登录注册 苹果开发者计划 ，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《 苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全 》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 watchOS 27 发布历史： 2026-11-10：watchOS 27.",
+   "url": "https://www.ithome.com/1/028/016.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-16T19:19:22.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "82b9528aeb",
+   "title": "苹果 visionOS 27.3 开发者预览版 Beta 2 发布",
+   "summary": "IT之家 11 月 17 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27.3 开发者预览版 Beta 2 更新（内部版本号：24N5298d），本次更新距离上次发布 Beta/RC 间隔 13 天。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 visionOS 27 发布历史： 2026-11-10：visionOS 27.2.1 (24N124) 2026-10-27：visionOS 27.2 (24N120) 2026-10-20：visionOS 27.2 RC (24N118) 2026-10-14：visionOS 27.2 Beta 4 (24N5114a) 2026-10-06：visionOS 27.2 Beta 3 (24N5103f) 2026",
+   "url": "https://www.ithome.com/1/028/015.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T19:19:21.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "e090c56dd3",
+   "title": "苹果 macOS 27.3 开发者预览版 Beta 2 发布",
+   "summary": "IT之家 11 月 17 日消息，苹果今日向 Mac 电脑用户推送了 macOS 27.3 开发者预览版 Beta 2 更新（内部版本号：26C5047e），本次更新距离上次发布 Beta/RC 间隔 13 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版 ：需注册&nbsp; Apple Beta 版软件计划 ，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版 ：需登录注册 苹果开发者计划 ，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《 苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全 》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 macOS 27 发布历史： 2026-10-27：macOS 27.2 (26B123) 2026-10-20：mac",
+   "url": "https://www.ithome.com/1/028/014.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-16T19:19:21.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
+   "id": "69507655b4",
+   "title": "苹果 iOS/iPadOS 27.3 开发者预览版 Beta 2 发布",
+   "summary": "【 点此直达升级教程 】 IT之家 11 月 17 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.3 开发者预览版 Beta 2 更新（内部版本号：24C5049d），本次更新距离上次发布 Beta/RC 间隔 13 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？ • 公开测试版 ：需注册&nbsp; Apple Beta 版软件计划 ，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级； • 开发预览版 ：需登录注册 苹果开发者计划 ，之后通过【设置】【通用】【软件更新】来升级。 附苹果 iOS 历史固件下载大全： 《 苹果 iOS / iPadOS / macOS 固件下载 / 更新日志大全 》 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。 附 iOS/iPadOS 27 发布历史： 2026-11-10：iOS",
+   "url": "https://www.ithome.com/1/028/013.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-16T19:19:20.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
   },
   {
    "id": "56f3231eb0",
@@ -1184,45 +1527,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "03540ddb74",
-   "title": "The open-source movement wants Jensen Huang back",
-   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
-   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-   "source": "MIT Technology Review",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 2,
-   "n": 2,
-   "also": [
-    {
-     "source": "Interconnects",
-     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"
-    }
-   ],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-16T18:38:47.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "5d456c6180",
-   "title": "Open weight models account for 30% usage at enterprises to save money",
-   "summary": "Growing from nearly zero to 30% since July. Models used mostly to reduce costs on high volume workloads (large batch workloads, coding, etc). https://x.com/pwendell/status/2122377964784611636 &#32; submitted by &#32; /u/Terminator857 [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
-   "source": "Reddit r/LocalLLaMA",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:38:24.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "c597e37acd",
    "title": "‘123456’ has been the world’s most popular password for 7 out of the last 8 years",
    "summary": "People never learn",
@@ -1238,6 +1542,23 @@
    "company": "",
    "ts": "2026-11-16T18:33:03.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
+  },
+  {
+   "id": "e8f1354f11",
+   "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
+   "summary": "نقاش على Hacker News: 291 نقطة و188 تعليق",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "source": "Hacker News",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T18:31:30Z",
+   "fs": "2026-11-16T20:06:25.340Z"
   },
   {
    "id": "9b7dc2eb9b",
@@ -1308,23 +1629,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "a1e2cf53a7",
-   "title": "OpenAI lets Apollo embed six AI safety testers during training",
-   "summary": "Apollo Research will place six evaluators inside OpenAI for four months to check whether its models try to undermine alignment and control measures during training, testing and internal use. OpenAI controls staff access and can redact some evidence, but cannot hide Apollo’s verdicts or withhold material just because it is unfavourable. AI safety group Apollo [&hellip;] This story continues at The Next Web",
-   "url": "https://thenextweb.com/news/apollo-research-openai-embedded-evaluations-pilot",
-   "source": "The Next Web",
-   "country": "NL",
-   "region": "europe",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "OpenAI",
-   "ts": "2026-11-16T18:24:18.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "73001ef34f",
    "title": "Умные очки Google от Gentle Monster смели до старта продаж",
    "summary": "Умные очки Intelligent Eyewear от Gentle Monster, созданные в рамках сотрудничества с Google, полностью распродали всего через несколько дней после запуска предзаказов. Бренд больше не принимает заказы ни на одну модель своей коллекции, и произошло это ещё до начала официальных продаж устройств на платформе Android XR. Источник изображений: gentlemonster.com",
@@ -1391,6 +1695,23 @@
    "company": "Tesla",
    "ts": "2026-11-16T18:21:14.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
+  },
+  {
+   "id": "77f2f0bcc0",
+   "title": "Software is breaking down at a systemic level",
+   "summary": "نقاش على Hacker News: 137 نقطة و96 تعليق",
+   "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+   "source": "Hacker News",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T18:17:17Z",
+   "fs": "2026-11-16T20:06:25.340Z"
   },
   {
    "id": "f50c600f36",
@@ -1478,23 +1799,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "6a953957e2",
-   "title": "Цифровые двойники (Digital Twin) в инженерных системах — Часть 1. Управление документацией",
-   "summary": "В последние годы технология Digital Twin превратилась в один из главных трендов промышленной автоматизации. Крупные вендоры - Siemens, Schneider, Aveva, и десятки других предлагают платформы, в которых «двойник» обещает предсказывать отказы, оптимизировать режимы, экономить миллионы. Аналитики Gartner и MarketsandMarkets оценивают рынок в десятки миллиардов долларов к концу десятилетия. На практике картина скромнее. ",
-   "url": "https://habr.com/ru/articles/1108160/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108160",
-   "source": "Habr (أخبار)",
-   "country": "RU",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:09:11.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "9fb25e9801",
    "title": "'Maybe the scariest thing I've heard in my life': Artemis II astronaut Victor Glover reveals his toughest challenge before flying to the moon",
    "summary": "For Artemis II astronaut Victor Glover, one of the hardest parts of traveling to the moon happened before he even left Earth.",
@@ -1529,23 +1833,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "34312d916b",
-   "title": "العاهل السعودي يعفي قائد التحالف العسكري الداعم للحكومة اليمنية من منصبه، بعد الانسحاب من باب المندب",
-   "summary": "تقول القوات المدعومة من السعودية إنها تعيد نشر قواتها من مضيق باب المندب للدفاع عن العاصمة المؤقتة عدن.",
-   "url": "https://www.bbc.com/arabic/articles/cm0rknqx2yyko?at_medium=RSS&at_campaign=rss",
-   "source": "BBC عربي: علوم وتكنولوجيا",
-   "country": "GB",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T17:55:09.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "9334616dee",
    "title": "GTA 6 hacker pleads guilty to stealing and leaking gameplay footage",
    "summary": "Arion Kurtaj was deemed fit to stand trial earlier this year after breaching Rockstar's systems in 2022",
@@ -1560,23 +1847,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T17:50:38.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "452788cd9b",
-   "title": "Anzeige: T.I.S.P. - In fünf Tagen auf die IT-Sicherheitsprüfung vorbereiten",
-   "summary": "Die T.I.S.P.-Zertifizierung weist Fachwissen zur Informationssicherheit nach. Ein fünftägiger Onlinekurs bereitet auf die Prüfung vor und vermittelt zentrale Sicherheitskonzepte. ( Golem Karrierewelt , Server-Applikationen )",
-   "url": "https://www.golem.de/news/anzeige-t-i-s-p-in-fuenf-tagen-auf-die-it-sicherheitspruefung-vorbereiten-2611-215256.html",
-   "source": "Golem.de",
-   "country": "DE",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T17:45:02.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -1611,23 +1881,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T17:45:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "018edeb0ff",
-   "title": "新任 007 演员官宣：“蝙蝠侠”罗伯特 · 帕丁森接棒，网友玩梗戏称新片为《007：黑暗骑士崛起》",
-   "summary": "IT之家 11 月 17 日消息，Prime Video 昨晚官宣， 新任 007 将由 40 岁的罗伯特 · 帕丁森饰演 。 目前，新片首曝预告片已播出。值得一提的是， 罗伯特 · 帕丁森还是史上首位同时出演蝙蝠侠和 007 詹姆斯 · 邦德的演员 。 有网友顺势玩梗，称新片可以命名为《007：黑暗骑士崛起》或《布鲁斯 · 韦恩在英国》 （梗解读：原著中，蝙蝠侠真实名字为布鲁斯 · 韦恩，该角色也被称为“黑暗骑士”。2012 年，由诺兰执导的剧情动作电影《蝙蝠侠：黑暗骑士崛起》上映） 。 IT之家查询获悉，《007》是英国系列谍战电影，改编自伊恩 · 弗莱明 1952 年创作的同名谍战小说。该系列以英国特工詹姆斯 · 邦德为主角，其代号“007”成为全球知名的文化符号，影片中“我叫邦德，詹姆斯 · 邦德”的经典台词贯穿全系列。 007 演员人选此前曝出参加的有杰克 · 劳登、卡勒姆 · 特纳、乔什 · 奥康纳、罗伯特 · 帕丁",
-   "url": "https://www.ithome.com/1/028/010.htm",
-   "source": "IT之家",
-   "country": "CN",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T17:43:18.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -1682,23 +1935,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "332538ce19",
-   "title": "heise+ | GovTech Deutschland – die dunkle Macht im Digitalisierungs-Universum?",
-   "summary": "Kritiker warnen: Der Verein GovTech Deutschland untergrabe den Deutschland-Stack und die offiziellen IT-Gremien. Was ist dran an den Vorwürfen?",
-   "url": "https://www.heise.de/hintergrund/GovTech-Deutschland-die-dunkle-Macht-im-Digitalisierungs-Universum-11496950.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-   "source": "heise online",
-   "country": "DE",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T17:30:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "1eec451602",
    "title": "Instagram creators can now tag 30 Amazon products in a single Reel",
    "summary": "Instagram now lets US creators in Amazon’s influencer program add Amazon affiliate links directly to Reels and feed posts, with up to 30 products per Reel. Meta takes no cut. The feature was first promised in March and arrives just before Black Friday. Instagram creators in the US can now add Amazon affiliate links straight [&hellip;] This story continues at The Next Web",
@@ -1716,38 +1952,21 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "350fba39df",
-   "title": "إعادة محاكمة ليندسي كلانسي في قضية قتل أطفالها الثلاثة العام المقبل",
-   "summary": "سقطت محاكمة لينسي كلانسي الاولى بعد فشل هيئة المحلفين في التوصل إلى حكم",
-   "url": "https://www.bbc.com/arabic/articles/cm3eg3z9gdeqo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC عربي: علوم وتكنولوجيا",
-   "country": "GB",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
+   "id": "032c6b0fce",
+   "title": "Grazing sheep in fields with solar arrays",
+   "summary": "نقاش على Hacker News: 120 نقطة و103 تعليق",
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "source": "Hacker News",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 2,
    "n": 1,
    "also": [],
    "kind": "news",
    "company": "",
-   "ts": "2026-11-16T17:29:02.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "b0fe26a4c6",
-   "title": "Microsoft fixes Windows activation as admins pick through Exchange outage wreckage",
-   "summary": "Another unscheduled patch for IT teams already having quite enough fun with Redmond",
-   "url": "https://www.theregister.com/software/2026/11/16/microsoft-fixes-windows-activation-as-admins-pick-through-exchange-outage-wreckage/5310102",
-   "source": "The Register",
-   "country": "GB",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Microsoft",
-   "ts": "2026-11-16T17:27:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
+   "ts": "2026-11-16T17:27:46Z",
+   "fs": "2026-11-16T20:06:25.340Z"
   },
   {
    "id": "53f93e0dde",
@@ -1764,23 +1983,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T17:23:51.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "80a69de6a9",
-   "title": "Вышел проект Android Time Machine — пять онлайн‑смартфонов Nexus с классическими версиями Android 2.1 — 7.1",
-   "summary": "Разработчик под ником szabolevi98 представил открытый проект Android Time Machine ( веб‑версия , репозиторий на GitHub). Это решение представляет собой «машину времени» для Android, где для изучения онлайн доступны пять смартфонов Nexus с классическими версиями Android 2.1 — 7.1. Читать далее",
-   "url": "https://habr.com/ru/articles/1108566/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108566",
-   "source": "Habr (أخبار)",
-   "country": "RU",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T17:22:28.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -1903,32 +2105,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "35a4a589da",
-   "title": "Instagram now lets creators add Amazon affiliate links in reels and feed posts",
-   "summary": "While creators have long shared Amazon affiliate links through stories, DMs, and their bios, the new integration brings them to new parts of the app.",
-   "url": "https://techcrunch.com/2026/11/16/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts/",
-   "source": "TechCrunch",
-   "country": "US",
-   "region": "america",
-   "cat": "الشركات الناشئة",
-   "level": 3,
-   "n": 3,
-   "also": [
-    {
-     "source": "Wired",
-     "url": "https://www.wired.com/story/instagram-is-bringing-amazon-affiliate-links-directly-to-reels-and-posts/"
-    },
-    {
-     "source": "Engadget",
-     "url": "https://www.engadget.com/2316714/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/"
-    }
-   ],
-   "kind": "news",
-   "company": "Amazon",
-   "ts": "2026-11-16T17:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "bb55885199",
    "title": "The Leonid meteor shower peaks Nov. 17-18! Here's what you need to know",
    "summary": "The Leonid meteor shower peaks overnight on Nov. 17-18, sending shooting stars racing across the night sky from the direction of the constellation Leo.",
@@ -1966,7 +2142,7 @@
   {
    "id": "d63c6c3325",
    "title": "Jiff 1.0: A datetime library for Rust",
-   "summary": "نقاش على Hacker News: 164 نقطة و39 تعليق",
+   "summary": "نقاش على Hacker News: 188 نقطة و45 تعليق",
    "url": "https://burntsushi.net/jiff/",
    "source": "Hacker News",
    "country": "US",
@@ -2185,23 +2361,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "a45c00b087",
-   "title": "The Verge’s guide to the best gifts under $100",
-   "summary": "Even in an era of inflation like the one we're living through now, $100 can still buy a lot… if you know where to look. In fact, it's enough to get something useful and well-made, but not so pricey that it's likely to leave you with lingering guilt or lead to insurmountable debt. As reviewers, […]",
-   "url": "https://www.theverge.com/gadgets/1028004/best-gifts-under-100-2026",
-   "source": "The Verge",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T16:00:14.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "c518349030",
    "title": "Has AI’s ‘Black October’ changed the way you secure your code?",
    "summary": "PARTNER CONTENT: AI agents are making security vulnerabilities easier to find and exploit in your code. Software engineering and application security teams need new ways to find and fix them",
@@ -2210,23 +2369,6 @@
    "country": "GB",
    "region": "europe",
    "cat": "الأمن السيبراني",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T16:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "9f290e0c94",
-   "title": "Why NJ’s governor thinks Republicans are trapped in an X bubble",
-   "summary": "Today I’m talking with Mikie Sherrill, who’s been New Jersey governor for just a little under a year, and you’ll hear her say her election was a preview of the huge Democratic victories in these recent midterms because she ran on the dual themes of affordability and accountability. So I wanted to ask the governor […]",
-   "url": "https://www.theverge.com/podcast/1034141/nj-midterm-sherill-democrats-musk-x-ai",
-   "source": "The Verge",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
    "level": 1,
    "n": 1,
    "also": [],
@@ -2305,6 +2447,23 @@
    "off": true
   },
   {
+   "id": "d2fbfec598",
+   "title": "Marimba: A System One Model for Speech. [R]",
+   "summary": "Paper: https://arxiv.org/abs/2611.18330 Follow-up to last week&#39;s post, now with the paper. You ask a typed question about an audio window (yes/no, a choice, or a score) and get a calibrated probability back. One frozen Qwen3-ASR-0.6B encoder pass per 8 s window serves all questions. How each question type is answered: - Term (&quot;was &#39;satellite&#39; said?&quot;): zero-shot, scored from the decoder&#39;s gre",
+   "url": "https://www.reddit.com/r/MachineLearning/comments/1xxsqro/marimba_a_system_one_model_for_speech_r/",
+   "source": "Reddit r/MachineLearning",
+   "country": "US",
+   "region": "america",
+   "cat": "الفضاء والعلوم",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Alibaba",
+   "ts": "2026-11-16T15:47:18.000Z",
+   "fs": "2026-11-16T20:06:25.340Z"
+  },
+  {
    "id": "71d859e0e3",
    "title": "Fandango says hackers stole payment card details from checkout pages",
    "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
@@ -2347,7 +2506,7 @@
    "country": "US",
    "region": "america",
    "cat": "الأمن السيبراني",
-   "level": 2,
+   "level": 1,
    "n": 1,
    "also": [],
    "kind": "news",
@@ -2543,40 +2702,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "2e1b3b9f48",
-   "title": "Google warns that fully-automated AI attacks are coming soon",
-   "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
-   "url": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-   "source": "BleepingComputer",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Google",
-   "ts": "2026-11-16T14:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "155b0b37c4",
-   "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-   "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity. In tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
-   "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-   "source": "The Hacker News",
-   "country": "",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Google",
-   "ts": "2026-11-16T14:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "5f3b4bc715",
    "title": "Dream Chaser space plane gets landing approval for debut mission in 2027",
    "summary": "Sierra Space's Dream Chaser is aiming for its first spaceflight after more than 20 years of development, and the space plane now has FAA approval to come home.",
@@ -2591,23 +2716,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T14:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "2264153424",
-   "title": "What is w2rt6byl5nf1opmc-a.com?",
-   "summary": "نقاش على Hacker News: 293 نقطة و135 تعليق",
-   "url": "https://jack.cab/blog/siterate",
-   "source": "Hacker News",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T13:51:38Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -2662,40 +2770,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "4d9c4ad6c1",
-   "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
-   "summary": "نقاش على Hacker News: 633 نقطة و388 تعليق",
-   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-   "source": "Hacker News",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Amazon",
-   "ts": "2026-11-16T13:39:07Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "4e93484b28",
-   "title": "GTA 6 hacker pleads guilty after release from secure hospital",
-   "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
-   "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Technology",
-   "country": "GB",
-   "region": "europe",
-   "cat": "الأمن السيبراني",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T13:34:22.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "041122419c",
    "title": "‘Avengers Endgame: Encore’ is now streaming on Disney+, with 4 minutes of bonus footage and a special ‘Doomsday’ preview",
    "summary": "Armed with bonus scenes and extras, Marvel Studios' updated version of its 2019 blockbuster just landed on Disney+",
@@ -2710,23 +2784,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T13:30:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "1465097da0",
-   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-   "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
-   "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-   "source": "The Hacker News",
-   "country": "",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T13:27:20.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -2897,23 +2954,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T10:14:33.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "e320c0d96b",
-   "title": "Raj Shamani Becomes World’s Most-Subscribed YouTube Podcaster",
-   "summary": "Indian entrepreneur and podcaster Raj Shamani has overtaken global podcasting heavyweights Joe Rogan and Steven Bartlett to become the world’s…",
-   "url": "https://inc42.com/buzz/raj-shamani-becomes-worlds-most-subscribed-youtube-podcaster/",
-   "source": "Inc42",
-   "country": "IN",
-   "region": "asia",
-   "cat": "الشركات الناشئة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T10:09:45.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -3169,23 +3209,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-09T22:37:05.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "359c576724",
-   "title": "NASA’s Moon Base plan gains a PROMISE",
-   "summary": "As part of a wide-ranging update, NASA has booked PROMISE a ride to the lunar… The post NASA’s Moon Base plan gains a PROMISE appeared first on NASASpaceFlight.com .",
-   "url": "https://www.nasaspaceflight.com/2026/11/nasas-moon-base-promise/",
-   "source": "NASASpaceFlight",
-   "country": "US",
-   "region": "america",
-   "cat": "الفضاء والعلوم",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-08T04:43:57.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -3619,11 +3642,16 @@
    "also": [],
    "kind": "repo",
    "company": "DeepSeek",
-   "ts": "2026-11-16T19:05:32Z",
+   "ts": "2026-11-16T19:38:44Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Dart",
-   "st": 24715,
-   "fk": 1179
+   "st": 24721,
+   "fk": 1179,
+   "gr": 6,
+   "sp": [
+    24715,
+    24721
+   ]
   },
   {
    "id": "dd9cf7bc8a",
@@ -3642,8 +3670,13 @@
    "ts": "2026-11-16T18:12:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 8844,
-   "fk": 2010
+   "st": 8845,
+   "fk": 2010,
+   "gr": 1,
+   "sp": [
+    8844,
+    8845
+   ]
   },
   {
    "id": "6895af81e2",
@@ -3662,8 +3695,13 @@
    "ts": "2026-11-16T16:16:28Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 4270,
-   "fk": 95
+   "st": 4273,
+   "fk": 95,
+   "gr": 3,
+   "sp": [
+    4270,
+    4273
+   ]
   },
   {
    "id": "908945ca85",
@@ -3682,8 +3720,13 @@
    "ts": "2026-11-13T14:33:08Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 4002,
-   "fk": 845
+   "st": 4005,
+   "fk": 846,
+   "gr": 3,
+   "sp": [
+    4002,
+    4005
+   ]
   },
   {
    "id": "590907521a",
@@ -3702,8 +3745,13 @@
    "ts": "2026-11-15T09:11:50Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C++",
-   "st": 2437,
-   "fk": 53
+   "st": 2441,
+   "fk": 53,
+   "gr": 4,
+   "sp": [
+    2437,
+    2441
+   ]
   },
   {
    "id": "408aeb76a8",
@@ -3722,8 +3770,13 @@
    "ts": "2026-11-16T08:20:18Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Swift",
-   "st": 2194,
-   "fk": 436
+   "st": 2193,
+   "fk": 436,
+   "gr": -1,
+   "sp": [
+    2194,
+    2193
+   ]
   },
   {
    "id": "fbe9f21118",
@@ -3742,8 +3795,13 @@
    "ts": "2026-11-11T12:18:45Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 2133,
-   "fk": 1083
+   "st": 2134,
+   "fk": 1083,
+   "gr": 1,
+   "sp": [
+    2133,
+    2134
+   ]
   },
   {
    "id": "4fbcbffe4a",
@@ -3761,8 +3819,13 @@
    "company": "OpenAI",
    "ts": "2026-11-12T14:33:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2121,
-   "fk": 53
+   "st": 2122,
+   "fk": 53,
+   "gr": 1,
+   "sp": [
+    2121,
+    2122
+   ]
   },
   {
    "id": "316b4d466c",
@@ -3781,8 +3844,13 @@
    "ts": "2026-11-16T14:53:52Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "HTML",
-   "st": 2075,
-   "fk": 231
+   "st": 2076,
+   "fk": 231,
+   "gr": 1,
+   "sp": [
+    2075,
+    2076
+   ]
   },
   {
    "id": "fb19c1e9ab",
@@ -3798,11 +3866,16 @@
    "also": [],
    "kind": "repo",
    "company": "",
-   "ts": "2026-11-16T19:33:48Z",
+   "ts": "2026-11-16T20:03:30Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 1827,
-   "fk": 110
+   "st": 1829,
+   "fk": 110,
+   "gr": 2,
+   "sp": [
+    1827,
+    1829
+   ]
   },
   {
    "id": "34693a6dcb",
@@ -3821,8 +3894,13 @@
    "ts": "2026-11-16T11:42:06Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 1652,
-   "fk": 116
+   "st": 1653,
+   "fk": 116,
+   "gr": 1,
+   "sp": [
+    1652,
+    1653
+   ]
   },
   {
    "id": "99d3f30496",
@@ -3838,11 +3916,16 @@
    "also": [],
    "kind": "repo",
    "company": "OpenAI",
-   "ts": "2026-11-16T19:28:55Z",
+   "ts": "2026-11-16T20:06:19Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 1613,
-   "fk": 287
+   "st": 1614,
+   "fk": 287,
+   "gr": 1,
+   "sp": [
+    1613,
+    1614
+   ]
   },
   {
    "id": "9ba981755c",
@@ -3861,8 +3944,13 @@
    "ts": "2026-11-14T17:41:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "JavaScript",
-   "st": 1604,
-   "fk": 245
+   "st": 1612,
+   "fk": 246,
+   "gr": 8,
+   "sp": [
+    1604,
+    1612
+   ]
   },
   {
    "id": "f7b9b824bc",
@@ -3882,7 +3970,12 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
    "st": 1586,
-   "fk": 19
+   "fk": 19,
+   "gr": 0,
+   "sp": [
+    1586,
+    1586
+   ]
   },
   {
    "id": "4c466ab08f",
@@ -3901,8 +3994,13 @@
    "ts": "2026-11-15T02:55:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 1417,
-   "fk": 560
+   "st": 1418,
+   "fk": 561,
+   "gr": 1,
+   "sp": [
+    1417,
+    1418
+   ]
   },
   {
    "id": "8fe2493b5d",
@@ -3921,8 +4019,13 @@
    "ts": "2026-11-16T05:54:50Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 1289,
-   "fk": 110
+   "st": 1290,
+   "fk": 110,
+   "gr": 1,
+   "sp": [
+    1289,
+    1290
+   ]
   },
   {
    "id": "d72b141007",
@@ -3941,8 +4044,13 @@
    "ts": "2026-11-16T17:40:41Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C++",
-   "st": 1199,
-   "fk": 103
+   "st": 1201,
+   "fk": 103,
+   "gr": 2,
+   "sp": [
+    1199,
+    1201
+   ]
   },
   {
    "id": "6274611ca4",
@@ -3962,7 +4070,12 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
    "st": 1110,
-   "fk": 190
+   "fk": 190,
+   "gr": 0,
+   "sp": [
+    1110,
+    1110
+   ]
   },
   {
    "id": "eefa59ab77",
@@ -3982,7 +4095,12 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "JavaScript",
    "st": 1048,
-   "fk": 159
+   "fk": 159,
+   "gr": 0,
+   "sp": [
+    1048,
+    1048
+   ]
   },
   {
    "id": "a70a0ef621",
@@ -4002,7 +4120,12 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
    "st": 986,
-   "fk": 113
+   "fk": 113,
+   "gr": 0,
+   "sp": [
+    986,
+    986
+   ]
   },
   {
    "id": "873fff5a5b",
@@ -4022,7 +4145,12 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Rust",
    "st": 978,
-   "fk": 82
+   "fk": 82,
+   "gr": 0,
+   "sp": [
+    978,
+    978
+   ]
   },
   {
    "id": "56ed143849",
@@ -4042,7 +4170,12 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
    "st": 912,
-   "fk": 141
+   "fk": 141,
+   "gr": 0,
+   "sp": [
+    912,
+    912
+   ]
   },
   {
    "id": "418b4a5db5",
@@ -4061,8 +4194,13 @@
    "ts": "2026-11-13T15:57:45Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C",
-   "st": 844,
-   "fk": 33
+   "st": 849,
+   "fk": 33,
+   "gr": 5,
+   "sp": [
+    844,
+    849
+   ]
   },
   {
    "id": "ca803e21b2",
@@ -4082,7 +4220,264 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
    "st": 823,
-   "fk": 110
+   "fk": 110,
+   "gr": 0,
+   "sp": [
+    823,
+    823
+   ]
+  },
+  {
+   "id": "95f93ab122",
+   "title": "google/elephant-goldfish-model",
+   "summary": "Open-source plugin for designing and reviewing software with agents",
+   "url": "https://github.com/google/elephant-goldfish-model",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Google",
+   "ts": "2026-11-16T20:05:21Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 20297,
+   "fk": 1502
+  },
+  {
+   "id": "8527458d73",
+   "title": "lemomo-ai/lemo-opuscar",
+   "summary": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
+   "url": "https://github.com/lemomo-ai/lemo-opuscar",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-12T11:29:03Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "JavaScript",
+   "st": 17213,
+   "fk": 2153
+  },
+  {
+   "id": "c78b611868",
+   "title": "Ryze-AI-Adgent/open-seo-mcp-skills",
+   "summary": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+   "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-10-27T08:57:55Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Shell",
+   "st": 10201,
+   "fk": 400
+  },
+  {
+   "id": "8faaed0b56",
+   "title": "JuneYaooo/rea-video",
+   "summary": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+   "url": "https://github.com/JuneYaooo/rea-video",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-16T16:31:31Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 9628,
+   "fk": 1418
+  },
+  {
+   "id": "9939130d09",
+   "title": "Jakeschincariol/replica-skill",
+   "summary": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+   "url": "https://github.com/Jakeschincariol/replica-skill",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-10-03T12:07:53Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 9556,
+   "fk": 1723
+  },
+  {
+   "id": "99013187fc",
+   "title": "Jakeschincariol/day-trader-skill",
+   "summary": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+   "url": "https://github.com/Jakeschincariol/day-trader-skill",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-10-20T14:18:00Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 8147,
+   "fk": 1954
+  },
+  {
+   "id": "1ca266f977",
+   "title": "patch-gg/pixelfx",
+   "summary": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Google",
+   "ts": "2026-11-13T08:43:39Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "JavaScript",
+   "st": 7742,
+   "fk": 1016
+  },
+  {
+   "id": "fbdc0676e7",
+   "title": "Oldcircle/geo-sleuth",
+   "summary": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+   "url": "https://github.com/Oldcircle/geo-sleuth",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T07:05:14Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 7127,
+   "fk": 887
+  },
+  {
+   "id": "86f879a583",
+   "title": "kaankiziltug/logo-design-skill",
+   "summary": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+   "url": "https://github.com/kaankiziltug/logo-design-skill",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-13T16:32:36Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "HTML",
+   "st": 7068,
+   "fk": 568
+  },
+  {
+   "id": "2f6aef90ef",
+   "title": "alchaincyf/huashu-art-motion",
+   "summary": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+   "url": "https://github.com/alchaincyf/huashu-art-motion",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-15T08:20:05Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "JavaScript",
+   "st": 7042,
+   "fk": 697
+  },
+  {
+   "id": "64b93f68ea",
+   "title": "kajisho5/ffmpeg-skill",
+   "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+   "url": "https://github.com/kajisho5/ffmpeg-skill",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T01:08:43Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 6530,
+   "fk": 588
+  },
+  {
+   "id": "91af800dba",
+   "title": "QingYunA/answer-me-with-html",
+   "summary": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-16T05:37:19Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "JavaScript",
+   "st": 6365,
+   "fk": 429
   },
   {
    "id": "729e3feec7",
@@ -4102,8 +4497,13 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 5904,
-   "fk": 730
+   "st": 5907,
+   "fk": 730,
+   "gr": 3,
+   "sp": [
+    5904,
+    5907
+   ]
   },
   {
    "id": "0036ed2571",
@@ -4124,7 +4524,12 @@
    "sub": "agent",
    "lg": "TypeScript",
    "st": 5685,
-   "fk": 1050
+   "fk": 1050,
+   "gr": 0,
+   "sp": [
+    5685,
+    5685
+   ]
   },
   {
    "id": "3904623f06",
@@ -4140,12 +4545,38 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-16T19:34:30Z",
+   "ts": "2026-11-16T19:57:15Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 5250,
-   "fk": 171
+   "st": 5252,
+   "fk": 171,
+   "gr": 2,
+   "sp": [
+    5250,
+    5252
+   ]
+  },
+  {
+   "id": "5e245b9a78",
+   "title": "nateherkai/scroll-craft",
+   "summary": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
+   "url": "https://github.com/nateherkai/scroll-craft",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-09-30T13:31:42Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "JavaScript",
+   "st": 5139,
+   "fk": 718
   },
   {
    "id": "39998ccfd4",
@@ -4161,12 +4592,206 @@
    "also": [],
    "kind": "tool",
    "company": "Apple",
-   "ts": "2026-11-16T19:27:57Z",
+   "ts": "2026-11-16T19:58:24Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Rust",
-   "st": 4453,
-   "fk": 116
+   "st": 4458,
+   "fk": 116,
+   "gr": 5,
+   "sp": [
+    4453,
+    4458
+   ]
+  },
+  {
+   "id": "9a18300b43",
+   "title": "Jakeschincariol/founder-skill",
+   "summary": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+   "url": "https://github.com/Jakeschincariol/founder-skill",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-10-07T01:07:17Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 3876,
+   "fk": 493
+  },
+  {
+   "id": "d1c1bfa3b6",
+   "title": "Nanako0129/sepia",
+   "summary": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+   "url": "https://github.com/Nanako0129/sepia",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-03T05:53:57Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 3840,
+   "fk": 237
+  },
+  {
+   "id": "0beae85250",
+   "title": "Jakeschincariol/linkedin-agent-skill",
+   "summary": "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint and scores the draft before it goes out.",
+   "url": "https://github.com/Jakeschincariol/linkedin-agent-skill",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-09-17T11:27:52Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 3640,
+   "fk": 576
+  },
+  {
+   "id": "622502efcf",
+   "title": "nano-muse/nanoMuse",
+   "summary": "nanoMuse: an open-source personal agent for every device you own. One agent with a name and a look of its own that does things, keeps working while the app is closed, remembers you, and asks before anything you cannot undo. On Android, iPhone and iPad, Windows / macOS / Linux and in the browser; your phone's screen and your computer as its hands.",
+   "url": "https://github.com/nano-muse/nanoMuse",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الهواتف والأجهزة",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Apple",
+   "ts": "2026-11-13T06:49:04Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Swift",
+   "st": 3527,
+   "fk": 419
+  },
+  {
+   "id": "02c879d9ab",
+   "title": "oil-oil/oil-ui",
+   "summary": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
+   "url": "https://github.com/oil-oil/oil-ui",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T14:44:11Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 3451,
+   "fk": 198
+  },
+  {
+   "id": "353d9d5b89",
+   "title": "Vincentwei1021/anything2explainer",
+   "summary": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+   "url": "https://github.com/Vincentwei1021/anything2explainer",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-15T13:34:33Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "TypeScript",
+   "st": 3354,
+   "fk": 426
+  },
+  {
+   "id": "1d97faedb2",
+   "title": "nanaism/yomiyasu",
+   "summary": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
+   "url": "https://github.com/nanaism/yomiyasu",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-12T00:28:35Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 3311,
+   "fk": 89
+  },
+  {
+   "id": "de0c77d150",
+   "title": "reacher-z/Awesome-REA",
+   "summary": "Curated tools, case studies and papers for reverse engineering websites, games, apps, binaries, firmware and protocols. Source-reviewed, English and Chinese.",
+   "url": "https://github.com/reacher-z/Awesome-REA",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-16T17:27:54Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 2998,
+   "fk": 502
+  },
+  {
+   "id": "ff44f535f7",
+   "title": "alchaincyf/huashu-motion",
+   "summary": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+   "url": "https://github.com/alchaincyf/huashu-motion",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-16T06:20:58Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "JavaScript",
+   "st": 2774,
+   "fk": 279
   },
   {
    "id": "411410a165",
@@ -4182,12 +4807,101 @@
    "also": [],
    "kind": "tool",
    "company": "Apple",
-   "ts": "2026-11-16T18:20:27Z",
+   "ts": "2026-11-16T19:50:12Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "TypeScript",
-   "st": 2627,
-   "fk": 192
+   "st": 2629,
+   "fk": 192,
+   "gr": 2,
+   "sp": [
+    2627,
+    2629
+   ]
+  },
+  {
+   "id": "f1b35d03f4",
+   "title": "DenisSergeevitch/ex-ussr-kinship-research",
+   "summary": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+   "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-15T21:43:12Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 2560,
+   "fk": 256
+  },
+  {
+   "id": "7eb8cf18f1",
+   "title": "caru-ini/stack-diagram",
+   "summary": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+   "url": "https://github.com/caru-ini/stack-diagram",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-16T15:42:25Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "TypeScript",
+   "st": 2543,
+   "fk": 136
+  },
+  {
+   "id": "1f1539f5af",
+   "title": "UnderleveledBuilder/awesome-short-drama-skills",
+   "summary": "AI 短剧 · 漫剧 Skill（技能包）精选：剧本、改编、分镜、Seedance / 可灵 / MiniMax 视频提示词，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for AI short drama, micro drama / microdrama, vertical drama and manju (AI comic drama): screenwriting, storyboards, Seedance / Kling / MiniMax video prompts",
+   "url": "https://github.com/UnderleveledBuilder/awesome-short-drama-skills",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T17:31:41Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "HTML",
+   "st": 2434,
+   "fk": 293
+  },
+  {
+   "id": "80d6bc2021",
+   "title": "coldteadotai/pr-lens",
+   "summary": "The fastest way to understand code",
+   "url": "https://github.com/coldteadotai/pr-lens",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-16T11:59:28Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "TypeScript",
+   "st": 2414,
+   "fk": 103
   },
   {
    "id": "d0aa04a78d",
@@ -4208,7 +4922,53 @@
    "sub": "library",
    "lg": "Go",
    "st": 2286,
-   "fk": 245
+   "fk": 245,
+   "gr": 0,
+   "sp": [
+    2286,
+    2286
+   ]
+  },
+  {
+   "id": "850d936254",
+   "title": "zhuyansen/awesome-claude-video-skills",
+   "summary": "Open-source skills and toolkits that let Claude Code, Codex and other coding agents make video. 180 repos by type, each security-graded. English / 中文.",
+   "url": "https://github.com/zhuyansen/awesome-claude-video-skills",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T17:17:03Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "st": 2229,
+   "fk": 210
+  },
+  {
+   "id": "6ca0a6fd40",
+   "title": "zhuyansen/new-term-radar",
+   "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+   "url": "https://github.com/zhuyansen/new-term-radar",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Hugging Face",
+   "ts": "2026-11-16T18:06:58Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 2182,
+   "fk": 649
   },
   {
    "id": "403d94f1b1",
@@ -4228,8 +4988,12 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Python",
-   "st": 2133,
-   "fk": 1083
+   "st": 2134,
+   "fk": 1083,
+   "sp": [
+    2133,
+    2134
+   ]
   },
   {
    "id": "74ffb44745",
@@ -4248,8 +5012,33 @@
    "ts": "2026-11-12T14:33:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
-   "st": 2121,
-   "fk": 53
+   "st": 2122,
+   "fk": 53,
+   "sp": [
+    2121,
+    2122
+   ]
+  },
+  {
+   "id": "943796ad29",
+   "title": "DUNHKpcc/Claude-Guardian",
+   "summary": "Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, network environment, and payment options, then provides personalized guidance for local, VPS, or virtual machine setups. ",
+   "url": "https://github.com/DUNHKpcc/Claude-Guardian",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T01:59:24Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 2120,
+   "fk": 254
   },
   {
    "id": "7744a5346f",
@@ -4270,7 +5059,12 @@
    "sub": "library",
    "lg": "HTML",
    "st": 2067,
-   "fk": 190
+   "fk": 190,
+   "gr": 0,
+   "sp": [
+    2067,
+    2067
+   ]
   },
   {
    "id": "59a535673c",
@@ -4291,7 +5085,54 @@
    "sub": "agent",
    "lg": "Swift",
    "st": 1865,
-   "fk": 228
+   "fk": 228,
+   "gr": 0,
+   "sp": [
+    1865,
+    1865
+   ]
+  },
+  {
+   "id": "280a692b33",
+   "title": "Jakeschincariol/trader-skill",
+   "summary": "11 Claude skills that copy the investors you trust, watch the news and Congress, size every trade to your budget, and never place an order without your yes.",
+   "url": "https://github.com/Jakeschincariol/trader-skill",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-10-14T21:13:22Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 1863,
+   "fk": 393
+  },
+  {
+   "id": "ba910e3984",
+   "title": "morganlinton/BeautifulRust",
+   "summary": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+   "url": "https://github.com/morganlinton/BeautifulRust",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-08T17:21:11Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Python",
+   "st": 1856,
+   "fk": 94
   },
   {
    "id": "6932be494d",
@@ -4307,12 +5148,16 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-16T19:33:48Z",
+   "ts": "2026-11-16T20:03:30Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 1827,
-   "fk": 110
+   "st": 1829,
+   "fk": 110,
+   "sp": [
+    1827,
+    1829
+   ]
   },
   {
    "id": "0cdd21bf5a",
@@ -4332,8 +5177,34 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Rust",
-   "st": 1815,
-   "fk": 120
+   "st": 1816,
+   "fk": 120,
+   "gr": 1,
+   "sp": [
+    1815,
+    1816
+   ]
+  },
+  {
+   "id": "919b020ff1",
+   "title": "alexgreensh/anidoodle",
+   "summary": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
+   "url": "https://github.com/alexgreensh/anidoodle",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-05T20:35:49Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "TypeScript",
+   "st": 1756,
+   "fk": 161
   },
   {
    "id": "5940af4c5b",
@@ -4349,12 +5220,16 @@
    "also": [],
    "kind": "tool",
    "company": "OpenAI",
-   "ts": "2026-11-16T19:28:55Z",
+   "ts": "2026-11-16T20:06:19Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "TypeScript",
-   "st": 1613,
-   "fk": 287
+   "st": 1614,
+   "fk": 287,
+   "sp": [
+    1613,
+    1614
+   ]
   },
   {
    "id": "e676845cc6",
@@ -4374,8 +5249,13 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Rust",
-   "st": 1600,
-   "fk": 132
+   "st": 1601,
+   "fk": 132,
+   "gr": 1,
+   "sp": [
+    1600,
+    1601
+   ]
   },
   {
    "id": "e24395f4f5",
@@ -4395,8 +5275,13 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Swift",
-   "st": 1492,
-   "fk": 234
+   "st": 1494,
+   "fk": 235,
+   "gr": 2,
+   "sp": [
+    1492,
+    1494
+   ]
   },
   {
    "id": "c42856010f",
@@ -4416,8 +5301,34 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Python",
-   "st": 1314,
-   "fk": 119
+   "st": 1315,
+   "fk": 119,
+   "gr": 1,
+   "sp": [
+    1314,
+    1315
+   ]
+  },
+  {
+   "id": "997118154c",
+   "title": "kharmanskyi/open-steps",
+   "summary": "Plain-language agent skills for Claude Code, Codex, Cursor and Gemini CLI: honest session reports, straight verdicts, steps you can follow. MIT.",
+   "url": "https://github.com/kharmanskyi/open-steps",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-15T17:23:12Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Shell",
+   "st": 1284,
+   "fk": 112
   },
   {
    "id": "2a628fb3c9",
@@ -4437,8 +5348,13 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Rust",
-   "st": 1215,
-   "fk": 98
+   "st": 1216,
+   "fk": 98,
+   "gr": 1,
+   "sp": [
+    1215,
+    1216
+   ]
   },
   {
    "id": "7a74138ada",
@@ -4459,7 +5375,12 @@
    "sub": "library",
    "lg": "TypeScript",
    "st": 1106,
-   "fk": 0
+   "fk": 0,
+   "gr": 0,
+   "sp": [
+    1106,
+    1106
+   ]
   },
   {
    "id": "1efc46d1da",
@@ -4480,7 +5401,32 @@
    "sub": "agent",
    "lg": "JavaScript",
    "st": 1048,
-   "fk": 159
+   "fk": 159,
+   "sp": [
+    1048,
+    1048
+   ]
+  },
+  {
+   "id": "b5b3c4073c",
+   "title": "sno-ai/sno-station",
+   "summary": "When Claude Code hits its usage limit, Codex picks the task up from the same memory. Sno Station puts Codex, Claude Code, Cursor, Hermes Agent and OpenClaw on one squad: they hand work to each other and review each other's code. Open source, runs on your computer.",
+   "url": "https://github.com/sno-ai/sno-station",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T15:03:41Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "TypeScript",
+   "st": 1021,
+   "fk": 365
   },
   {
    "id": "fd7226e510",
@@ -4501,7 +5447,12 @@
    "sub": "library",
    "lg": "JavaScript",
    "st": 982,
-   "fk": 22
+   "fk": 22,
+   "gr": 0,
+   "sp": [
+    982,
+    982
+   ]
   },
   {
    "id": "05b2127516",
@@ -4522,7 +5473,11 @@
    "sub": "agent",
    "lg": "Rust",
    "st": 978,
-   "fk": 82
+   "fk": 82,
+   "sp": [
+    978,
+    978
+   ]
   },
   {
    "id": "c53184a79c",
@@ -4543,7 +5498,12 @@
    "sub": "agent",
    "lg": "HTML",
    "st": 960,
-   "fk": 109
+   "fk": 109,
+   "gr": 0,
+   "sp": [
+    960,
+    960
+   ]
   },
   {
    "id": "4b930995a4",
@@ -4563,8 +5523,13 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "TypeScript",
-   "st": 920,
-   "fk": 93
+   "st": 921,
+   "fk": 94,
+   "gr": 1,
+   "sp": [
+    920,
+    921
+   ]
   },
   {
    "id": "030e072f85",
@@ -4585,7 +5550,54 @@
    "sub": "agent",
    "lg": "JavaScript",
    "st": 895,
-   "fk": 40
+   "fk": 40,
+   "gr": 0,
+   "sp": [
+    895,
+    895
+   ]
+  },
+  {
+   "id": "eaa1936687",
+   "title": "sno-ai/sno-station-skills",
+   "summary": "Sno Station Skills: 39 tested skills that turn Claude Code and Codex into one working team. Review by a different agent, automatic handoff when an agent hits its usage limit, a one-page morning brief, work orders with proof, and a nightly loop that learns from your own sessions. Open source, installed with one sno setup.",
+   "url": "https://github.com/sno-ai/sno-station-skills",
+   "source": "GitHub: مهارات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "Anthropic",
+   "ts": "2026-11-16T05:22:38Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "skill",
+   "lg": "Shell",
+   "st": 865,
+   "fk": 613
+  },
+  {
+   "id": "a8e1399685",
+   "title": "simpsoka/zigzag",
+   "summary": "Free, open-source embroidery software for Mac and Windows. Turn SVG artwork into machine embroidery, edit stitches visually, and create designs with AI agents via MCP.",
+   "url": "https://github.com/simpsoka/zigzag",
+   "source": "GitHub: أدوات",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "tool",
+   "company": "",
+   "ts": "2026-11-15T04:46:10Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "sub": "library",
+   "lg": "Rust",
+   "st": 860,
+   "fk": 47
   },
   {
    "id": "c69d4441d1",
@@ -4603,7 +5615,7 @@
    "company": "Alibaba",
    "ts": "2026-08-05T08:22:59.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 20234,
+   "st": 20236,
    "dl": 6763402
   },
   {
@@ -4622,7 +5634,7 @@
    "company": "",
    "ts": "2026-07-23T07:55:24.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 12188,
+   "st": 12191,
    "dl": 2789021
   },
   {
@@ -4641,7 +5653,7 @@
    "company": "DeepSeek",
    "ts": "2026-10-30T10:21:29.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 8264,
+   "st": 8296,
    "dl": 29567
   },
   {
@@ -4660,7 +5672,7 @@
    "company": "",
    "ts": "2025-11-07T05:17:48.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 6747,
+   "st": 6751,
    "dl": 1973300
   },
   {
@@ -4679,7 +5691,7 @@
    "company": "Alibaba",
    "ts": "2026-08-13T08:28:40.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 6055,
+   "st": 6059,
    "dl": 6666734
   },
   {
@@ -4698,7 +5710,7 @@
    "company": "DeepSeek",
    "ts": "2026-10-17T02:40:38.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 5779,
+   "st": 5782,
    "dl": 467224
   },
   {
@@ -4717,7 +5729,7 @@
    "company": "",
    "ts": "2026-10-14T12:00:13.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 3311,
+   "st": 3314,
    "dl": 1115161
   },
   {
@@ -4736,7 +5748,7 @@
    "company": "Alibaba",
    "ts": "2026-09-01T07:01:09.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 3212,
+   "st": 3214,
    "dl": 1746935
   },
   {
@@ -4755,7 +5767,7 @@
    "company": "",
    "ts": "2026-10-28T15:55:17.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2404,
+   "st": 2407,
    "dl": 34752
   },
   {
@@ -4774,7 +5786,7 @@
    "company": "",
    "ts": "2026-11-02T04:13:51.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2135,
+   "st": 2137,
    "dl": 49428
   },
   {
@@ -4793,7 +5805,7 @@
    "company": "",
    "ts": "2026-11-03T06:34:36.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 1286,
+   "st": 1291,
    "dl": 609130
   },
   {
@@ -4812,7 +5824,7 @@
    "company": "",
    "ts": "2026-11-06T19:31:28.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 637,
+   "st": 638,
    "dl": 9187
   },
   {
@@ -4831,7 +5843,7 @@
    "company": "",
    "ts": "2026-11-08T20:37:23.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 461,
+   "st": 464,
    "dl": 2294065
   },
   {
@@ -4850,7 +5862,7 @@
    "company": "",
    "ts": "2026-11-09T05:03:57.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 445,
+   "st": 448,
    "dl": 69946
   },
   {
@@ -4869,7 +5881,7 @@
    "company": "",
    "ts": "2026-10-22T19:06:17.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 439,
+   "st": 441,
    "dl": 218765
   },
   {
@@ -4888,27 +5900,8 @@
    "company": "",
    "ts": "2026-11-12T11:05:59.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 399,
+   "st": 401,
    "dl": 3372
-  },
-  {
-   "id": "b68c8b59fd",
-   "title": "llama.cpp",
-   "summary": "HIP/CUDA: enable GDN mma kernel on CDNA ( #31327 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/68276309 macOS/iOS: macOS Apple Silicon (arm64) macOS App",
-   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12444",
-   "source": "إصدارات ggml-org/llama.cpp",
-   "country": "",
-   "region": "dev",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "release",
-   "company": "Apple",
-   "ts": "2026-11-16T19:10:26.000Z",
-   "fs": "2026-11-16T19:38:10.482Z",
-   "prev": "b12443",
-   "ver": "b12444"
   },
   {
    "id": "45afffbd97",
@@ -4947,6 +5940,25 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "prev": "v2.8.0",
    "ver": "v2.9.0"
+  },
+  {
+   "id": "ad2d4b1744",
+   "title": "llama.cpp",
+   "summary": "This tries to use the 256x128 shape (coopmat2-only) with split_k when it appears profitable. It reuses the mul_mat split_k reduce shader.",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12445",
+   "source": "إصدارات ggml-org/llama.cpp",
+   "country": "",
+   "region": "dev",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "release",
+   "company": "",
+   "ts": "2026-11-16T13:25:12.000Z",
+   "fs": "2026-11-16T20:06:25.340Z",
+   "prev": "b12444",
+   "ver": "b12445: vulkan: Support split_k for conv3d. (#29929)"
   },
   {
    "id": "d919360458",

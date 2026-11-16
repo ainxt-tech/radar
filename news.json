@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-16T20:57:12.592Z",
+ "updated": "2026-11-16T21:10:17.974Z",
  "seed": false,
  "sources": [
   {
@@ -18,7 +18,7 @@
    "id": "wamda",
    "name": "Wamda",
    "ok": false,
-   "err": "لا عناصر"
+   "err": "The operation was aborted due to timeout"
   },
   {
    "id": "gulfbusiness",
@@ -164,7 +164,7 @@
    "id": "mcit-sa",
    "name": "وزارة الاتصالات وتقنية المعلومات (السعودية)",
    "ok": false,
-   "err": "fetch failed"
+   "err": "HTTP 404"
   },
   {
    "id": "cst-sa",
@@ -302,7 +302,7 @@
    "id": "gdn",
    "name": "Gulf Daily News",
    "ok": false,
-   "err": "HTTP 404"
+   "err": "The operation was aborted due to timeout"
   },
   {
    "id": "newsofbahrain",
@@ -413,8 +413,7 @@
   {
    "id": "e27",
    "name": "e27",
-   "ok": false,
-   "err": "The operation was aborted due to timeout"
+   "ok": true
   },
   {
    "id": "itnews-au",
@@ -880,13 +879,13 @@
   {
    "id": "reddit-localllama",
    "name": "Reddit r/LocalLLaMA",
-   "ok": true
+   "ok": false,
+   "err": "HTTP 429"
   },
   {
    "id": "reddit-ml",
    "name": "Reddit r/MachineLearning",
-   "ok": false,
-   "err": "HTTP 429"
+   "ok": true
   },
   {
    "id": "cnet",
@@ -1321,13 +1320,13 @@
  ],
  "report": {
   "title": "ملخص اليوم 2026-11-16",
-  "text": "رصد الرادار 256 خبراً خلال آخر 24 ساعة، منها 4 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: Uber says hackers stole information on close to 150,000 driver’s licenses during data breach (TechCrunch).",
+  "text": "رصد الرادار 259 خبراً خلال آخر 24 ساعة، منها 4 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: Uber says hackers stole information on close to 150,000 driver’s licenses during data breach (TechCrunch).",
   "top": [
    "0cce225a03",
    "21a9472741",
    "bce399344c",
    "0f5d2f21b8",
-   "349b787992"
+   "97cc85575b"
   ],
   "watch": [
    "متابعة: Uber says hackers stole information on close to 150,000 driver’s licenses during data breach",
@@ -1336,6 +1335,338 @@
   ]
  },
  "items": [
+  {
+   "id": "e1bfa5c61e",
+   "title": "Here are PlayStation’s Black Friday 2026 deals",
+   "summary": "PlayStation has kicked off its Black Friday 2026 deals. In addition to various digital PlayStation Store discounts, the company has rolled out a bunch of offers at retailers like Amazon, Best Buy and EB Games. Here are some of the highlights: Astro Bot — $49.99 (regularly $79.99) DualSense controller (white/black) — $64.99 (regularly $84.99) DualSense […]",
+   "url": "https://mobilesyrup.com/2026/11/16/playstation-black-friday-2026-deals/",
+   "source": "MobileSyrup",
+   "country": "CA",
+   "region": "america",
+   "cat": "الألعاب",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Amazon",
+   "ts": "2026-11-16T21:10:53.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "068f01348a",
+   "title": "بتعديل بعض أحكام لائحة تنظيم تسجيل واستخدام الترددات والأجهزة الراديوية وتحديد أسعارها",
+   "summary": "Decisions_and_Regulations | Spectrum | Updated | 2019-01-30 | 2019/9",
+   "url": "http://www.tra.gov.om/files/uploads/8_a1b4282998.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "الهواتف والأجهزة",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:10:25.518Z",
+   "fs": "2026-11-16T21:10:17.974Z",
+   "off": true
+  },
+  {
+   "id": "c328999501",
+   "title": "بتعديل بعض احكام القرار رقم 17 \\ 2007 إصدار القواعد والشروط الخاصة بالترخيص من الفئة الثانية لتقديم خدمات الاتصالات العامة الإضافية",
+   "summary": "Decisions_and_Regulations | Telecommunications | Updated | 2014-11-09 | 2014/66",
+   "url": "http://www.tra.gov.om/files/uploads/2014_66_17e6bf47ea.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:10:25.518Z",
+   "fs": "2026-11-16T21:10:17.974Z",
+   "off": true
+  },
+  {
+   "id": "5b9f3a6d1d",
+   "title": "بتعديل بعض احكام القرار رقم 46 \\ 2003 في شان رسوم تسجيل واستخدام الترددات الراديوية ورسوم بعض التراخيص الراديوية",
+   "summary": "Decisions_and_Regulations | Telecommunications | Updated | 2006-01-01 | 2006/1",
+   "url": "http://www.tra.gov.om/files/uploads/rswm_tsjyl_wastkhdam_altrddat_alradywyt_wrswm_bed_altrakhys_alradywyt_bed_altedyl_fy_eam_2006_69f50dcfd8.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:10:25.518Z",
+   "fs": "2026-11-16T21:10:17.974Z",
+   "off": true
+  },
+  {
+   "id": "7d6240d22c",
+   "title": "بتعديل بعض احكام المرسوم السلطاني رقم 30/2002 و قانون تنظيم الاتصالات المرافق له",
+   "summary": "Laws | Telecommunications | Updated | 2007-07-03 | 2007/64",
+   "url": "http://www.tra.gov.om/files/uploads/2007_064_1_49a0ab6dde.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:10:25.518Z",
+   "fs": "2026-11-16T21:10:17.974Z",
+   "off": true
+  },
+  {
+   "id": "f35797b810",
+   "title": "Apple’s leadership overhaul continues with new Apple Pay and Wallet chief",
+   "summary": "Bloomberg reports that Apple lifer Corey Fugman will replace Jennifer Bailey as the head of the Apple Pay and Wallet division. Here are the details. more…",
+   "url": "https://9to5mac.com/2026/11/16/apples-leadership-overhaul-continues-with-new-apple-pay-and-wallet-chief/",
+   "source": "9to5Mac",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-16T21:10:12.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "8f4be9a211",
+   "title": "Brad Gerstner says Altimeter is aiming to invest $5B in Anthropic's IPO, 5x his largest IPO investment, calling it \"a cornerstone compounder for a long time\" (Kif Leswing/CNBC)",
+   "summary": "Kif Leswing / CNBC : Brad Gerstner says Altimeter is aiming to invest $5B in Anthropic's IPO, 5x his largest IPO investment, calling it &ldquo;a cornerstone compounder for a long time&rdquo; &mdash; VIDEO 31:57 &mdash; Watch CNBC's full interview with Altimeter Capital's Brad Gerstner",
+   "url": "https://www.techmeme.com/261116/p43#a261116p43",
+   "source": "Techmeme",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Anthropic",
+   "ts": "2026-11-16T21:05:01.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "9e9cd279c6",
+   "title": "Magna AI powers sovereign AI adoption from experimentation to deployment",
+   "summary": "Andrew Chen, VP – Head of Platform & Products at Magna AI, discusses the shift towards production-ready AI, the importance … The post Magna AI powers sovereign AI adoption from experimentation to deployment appeared first on TahawulTech.com .",
+   "url": "https://www.tahawultech.com/home-slide/magna-ai-powers-sovereign-ai-adoption-from-experimentation-to-deployment/",
+   "source": "Tahawul Tech",
+   "country": "AE",
+   "region": "gulf",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:04:03.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "30c2b77fb4",
+   "title": "OpenAI ответит в суде за своих сорвавшихся с поводка ИИ-агентов — прокуроров заинтересовал взлом Hugging Face",
+   "summary": "Генеральный прокурор Калифорнии Роб Бонта (Rob Bonta) подал иск против OpenAI, обвинив компанию в недостаточном контроле над экспериментальными моделями искусственного интеллекта и созданными на их основе автономными ИИ-агентами. Дело спровоцировано летней атакой беглого ИИ на сервисы Hugging Face и другими подобными случаями. Источник изображения: ИИ-генерация ChatGPT/3DNews",
+   "url": "https://3dnews.ru/1151380",
+   "source": "3DNews",
+   "country": "RU",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "OpenAI",
+   "ts": "2026-11-16T21:02:00.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "e67034d0a3",
+   "title": "Telus pulls out of two government-backed AI data centres in Vancouver",
+   "summary": "Projects were among first to advance under federal government’s sovereign AI data centre initiative. The post Telus pulls out of two government-backed AI data centres in Vancouver first appeared on BetaKit .",
+   "url": "https://betakit.com/telus-pulls-out-of-two-government-backed-ai-data-centres-in-vancouver/",
+   "source": "BetaKit",
+   "country": "CA",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:01:59.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "0d9fb5a2eb",
+   "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+   "summary": "Following an October announcement, Apple has detailed new permission controls, warnings, and transparency features coming to macOS 27.3 to address risks posed by AI agents and other apps.",
+   "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/",
+   "source": "TechCrunch",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-16T21:01:02.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "76dffd1b94",
+   "title": "Albanese signs onto Trump’s AI supply chain pact ahead of leaders meeting at Quad summit",
+   "summary": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China efforts to dominate Get our daily political email , free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the two leaders meet on Tuesday, as Australia signed onto to US-led pact to secure the technologies ​and critical ",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
+   "source": "The Guardian Technology",
+   "country": "GB",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:00:21.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "d14cf436a6",
+   "title": "Actualité : Bon plan – La machine à café à grain Delonghi Magnifica Evo Next à 499,00 € (-10%)",
+   "summary": "La machine à café à grain Delonghi Magnifica Evo Next passe sous les 500 € chez Electro Depot et Cdiscount Marketplace soit une baisse d'environ 10% sur le prix habituellement constaté.",
+   "url": "https://www.lesnumeriques.com/machine-a-cafe-automatique/bon-plan-la-machine-a-cafe-a-grain-delonghi-magnifica-evo-next-a-499-00-10-n267685.html",
+   "source": "Les Numériques",
+   "country": "FR",
+   "region": "europe",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:00:00.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "5677687177",
+   "title": "Every Xbox console generation sorted by release date",
+   "summary": "Microsoft debuted the Xbox in 2001, and there's quite a lot to look back on from the quarter-century since the company got into gaming.",
+   "url": "https://www.engadget.com/2314891/every-xbox-console-generation-sorted-release-date/",
+   "source": "Engadget",
+   "country": "US",
+   "region": "america",
+   "cat": "الألعاب",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Microsoft",
+   "ts": "2026-11-16T21:00:00.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "fd80045636",
+   "title": "Ausom Black Friday sale has the right scooter for the right job, at the right price",
+   "summary": "Not all commutes are created equal, and tackling a hard commute takes a lot more than a motor and a set of wheels. Ausom knows this better than most, with six highly capable, long-range electric scooters designed to handle your toughest trips. And this Black Friday, you can get the right tool for the job at the lowest prices of the year. more…",
+   "url": "https://electrek.co/2026/11/16/ausom-black-friday-sale-right-scooter-right-job-at-right-price/",
+   "source": "Electrek",
+   "country": "US",
+   "region": "america",
+   "cat": "السيارات الكهربائية",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:00:00.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "13f8dbc5f8",
+   "title": "AMD grabs over 40% of new TOP500 list for supercomputers, up 14% since last year",
+   "summary": "AMD's Lux supercomputer debuted at position 14 on the new TOP500 list published during SC26. It's one of two machines AMD is developing as part of a $1 billion deal with the U.S. Department of Energy.",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-department-of-energy-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus",
+   "source": "Tom's Hardware",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T21:00:00.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "97cc85575b",
+   "title": "California sues OpenAI over the rogue AI agents that hacked Hugging Face",
+   "summary": "California has sued OpenAI over the rogue AI agents that hacked Hugging Face in July. Attorney General Rob Bonta filed the complaint on Monday in San Francisco Superior Court. The state says OpenAI endangered the public. It tested advanced AI models without the safeguards and monitoring needed to contain them, the complaint alleges. California accuses [&hellip;] This story continues at The Next Web",
+   "url": "https://thenextweb.com/news/california-sues-openai-hugging-face-attack-rogue-agents",
+   "source": "The Next Web",
+   "country": "NL",
+   "region": "europe",
+   "cat": "الأمن السيبراني",
+   "level": 2,
+   "n": 2,
+   "also": [
+    {
+     "source": "Engadget",
+     "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/"
+    }
+   ],
+   "kind": "news",
+   "company": "OpenAI",
+   "ts": "2026-11-16T20:59:58.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "36b88d0593",
+   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+   "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+   "source": "BleepingComputer",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "OpenAI",
+   "ts": "2026-11-16T20:59:44.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
+   "id": "13391146cc",
+   "title": "Monday’s Android app deals and freebies: Final Fantasy games, Dragon Quest, Ash of Gods, more",
+   "summary": "Amazon has now updated its massive early Black Friday sale to deliver loads of new deals like today’s $350 price drops on Galaxy Z Fold 8 and Galaxy S26 Ultra at $450 off , but we also have a. Fresh batch of discounts courtesy of Google Play. Some highlights included Final Fantasy VII (and plenty others), Dragon Quest IV, Ash of Gods: Redemption, Paign 2, PARANORMASIGHT, The Longing, and more. Just be sure to scope o",
+   "url": "https://9to5toys.com/2026/11/16/today-highlight-google-play-deals-final-fantasy/",
+   "source": "9to5Google",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Google",
+   "ts": "2026-11-16T20:58:04.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
   {
    "id": "fe62faf4b4",
    "title": "نظام إدارة شكاوى وطلبات المنتفعين في قطاعات الاتصالات والبريد.",
@@ -1487,6 +1818,23 @@
    "fs": "2026-11-16T20:57:12.592Z"
   },
   {
+   "id": "545173fccd",
+   "title": "Customers at major banks report difficulty accessing accounts online",
+   "summary": "Representatives from the companies say this is a technical problem and not a cyberattack.",
+   "url": "https://www.engadget.com/2318431/customers-at-major-banks-report-difficulty-accessing-accounts-online/",
+   "source": "Engadget",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:49:32.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
+  },
+  {
    "id": "6e7366c150",
    "title": "Маск решил заполнить Европу роботакси: Tesla вложит €3 млрд в немецкий завод, чтобы выпускать миллион машин в год",
    "summary": "Tesla готовит масштабное расширение завода Gigafactory в Германии, чтобы наладить массовый выпуск беспилотных автомобилей Cybercab, в том числе для европейского рынка. На строительство нового корпуса на предприятии под Берлином компания выделит 3 млрд евро, а его производственные мощности позволят собирать до миллиона машин ежегодно. Источник изображения: Tesla",
@@ -1536,6 +1884,28 @@
    "company": "Baidu",
    "ts": "2026-11-16T20:46:52.000Z",
    "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "f850292ab8",
+   "title": "California sues OpenAI over rogue AI hacking incidents",
+   "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the […]",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+   "source": "The Verge",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 2,
+   "n": 2,
+   "also": [
+    {
+     "source": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/"
+    }
+   ],
+   "kind": "news",
+   "company": "OpenAI",
+   "ts": "2026-11-16T20:46:01.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
   },
   {
    "id": "8f6dab1322",
@@ -1779,24 +2149,6 @@
    "off": true
   },
   {
-   "id": "d0003d4c00",
-   "title": "في شان رسوم تسجيل واستخدام الترددات الراديوية ورسوم بعض التراخيص الراديوية",
-   "summary": "Decisions_and_Regulations | Spectrum | Active | 2003-09-22 | 2003/46",
-   "url": "http://www.tra.gov.om/files/uploads/2003_0046_b4b33924e4.pdf",
-   "source": "هيئة تنظيم الاتصالات (عُمان)",
-   "country": "OM",
-   "region": "gulf",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T20:32:37.726Z",
-   "fs": "2026-11-16T20:32:28.667Z",
-   "off": true
-  },
-  {
    "id": "2fe9e63cda",
    "title": "قرار رقم 1152/2022/3/2/4 بإصدار لائحة تنظيم تخصيص أرقام الاتصالات",
    "summary": "Decisions_and_Regulations | Telecommunications | Active | 2022-11-23 | 4--2022/3/2/1152",
@@ -1920,6 +2272,23 @@
    "company": "",
    "ts": "2026-11-16T20:31:36.000Z",
    "fs": "2026-11-16T20:57:12.592Z"
+  },
+  {
+   "id": "d2e6d3189e",
+   "title": "[ITmedia ビジネスオンライン] なぜ、トライアルは店内サイネージを大量設置するのか 「品川駅をベンチマークにした」リテールメディア戦略",
+   "summary": "トライアルは購買データを活用したリテールメディアを推進している。PB商品で来店客1000人当たり何個売れたかを示すPI値が1.5倍になった事例もあるという。メーカーとともに購買を生み出す仕組みや、今後の展開を聞いた。",
+   "url": "https://www.itmedia.co.jp/business/articles/2611/17/news019.html",
+   "source": "ITmedia",
+   "country": "JP",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:30:00.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
   },
   {
    "id": "6d1fcb4e22",
@@ -2079,6 +2448,23 @@
    "company": "",
    "ts": "2026-11-16T20:24:27.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
+  },
+  {
+   "id": "d127cffaf8",
+   "title": "Bombay Shaving Company’s Parent Forays Into Wellness With rE, Eyes Gym Launches",
+   "summary": "Visage Lines Personal Care Pvt Ltd, the parent entity of D2C grooming startup Bombay Shaving Company, has forayed into the…",
+   "url": "https://inc42.com/buzz/bombay-shaving-companys-parent-forays-into-wellness-with-re-eyes-gym-launches/",
+   "source": "Inc42",
+   "country": "IN",
+   "region": "asia",
+   "cat": "الشركات الناشئة",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-16T20:24:08.000Z",
+   "fs": "2026-11-16T21:10:17.974Z"
   },
   {
    "id": "9d7eb18ee5",
@@ -2265,23 +2651,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T20:08:20.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "4562d1a297",
-   "title": "California state AG sues OpenAI over rogue agent incidents",
-   "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
-   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-   "source": "TechCrunch",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "OpenAI",
-   "ts": "2026-11-16T20:07:13.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
@@ -2540,28 +2909,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T19:53:00.000Z",
-   "fs": "2026-11-16T20:06:25.340Z"
-  },
-  {
-   "id": "7c23916969",
-   "title": "California sues OpenAI after that Hugging Face rogue hacking incident",
-   "summary": "State AG Rob Bonta has accused the company of making AI agents \"without the safeguards and monitoring necessary to adequately protect\" users.",
-   "url": "https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/",
-   "source": "Engadget",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 2,
-   "n": 2,
-   "also": [
-    {
-     "source": "Techmeme",
-     "url": "https://www.techmeme.com/261116/p40#a261116p40"
-    }
-   ],
-   "kind": "news",
-   "company": "OpenAI",
-   "ts": "2026-11-16T19:52:24.000Z",
    "fs": "2026-11-16T20:06:25.340Z"
   },
   {
@@ -3353,23 +3700,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "fddf4267b5",
-   "title": "Кровавый трейлер психологического хоррор-шутера Flesh & Wire от создателей Postal напомнил фанатам о The Darkness и F.E.A.R.",
-   "summary": "Разрабатываемый американской студией Running With Scissors психологический хоррор-шутер Flesh & Wire получил новый геймплейный трейлер &mdash; это вернувшееся из небытия ответвление нашумевшей серии Postal. Источник изображений: Running With Scissors",
-   "url": "https://3dnews.ru/1151370",
-   "source": "3DNews",
-   "country": "RU",
-   "region": "europe",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T19:17:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "042d0b5e7f",
    "title": "Google Maps' chatbot can find appointments and call to book them for you",
    "summary": "The Ask Maps chatbot is also expanding to more than 30 additional countries across Europe.",
@@ -3383,6 +3713,23 @@
    "also": [],
    "kind": "news",
    "company": "Google",
+   "ts": "2026-11-16T19:17:00.000Z",
+   "fs": "2026-11-16T19:38:10.482Z"
+  },
+  {
+   "id": "fddf4267b5",
+   "title": "Кровавый трейлер психологического хоррор-шутера Flesh & Wire от создателей Postal напомнил фанатам о The Darkness и F.E.A.R.",
+   "summary": "Разрабатываемый американской студией Running With Scissors психологический хоррор-шутер Flesh & Wire получил новый геймплейный трейлер &mdash; это вернувшееся из небытия ответвление нашумевшей серии Postal. Источник изображений: Running With Scissors",
+   "url": "https://3dnews.ru/1151370",
+   "source": "3DNews",
+   "country": "RU",
+   "region": "europe",
+   "cat": "الهواتف والأجهزة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
    "ts": "2026-11-16T19:17:00.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
@@ -3436,23 +3783,6 @@
    "company": "Apple",
    "ts": "2026-11-16T19:16:41.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "d121a7a256",
-   "title": "Q&A with Satya Nadella on code verification becoming more important as code generation gets cheap, Microsoft's voluntary exit offers, decision models, and more (Gergely Orosz/The Pragmatic Engineer)",
-   "summary": "Gergely Orosz / The Pragmatic Engineer : Q&A with Satya Nadella on code verification becoming more important as code generation gets cheap, Microsoft's voluntary exit offers, decision models, and more &mdash; Listen and watch now on YouTube, Apple, and Spotify. See the episode transcript at the top of this page, and timestamps for the episode at the bottom.",
-   "url": "https://www.techmeme.com/261116/p41#a261116p41",
-   "source": "Techmeme",
-   "country": "US",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Microsoft",
-   "ts": "2026-11-16T19:15:09.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
   },
   {
    "id": "ac72b0d01f",
@@ -3523,74 +3853,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "a5eb194171",
-   "title": "US won’t restrict foreign tech companies in allied countries, State Dept. official says",
-   "summary": "The top State Department official discussed the Nvidia controversy and US efforts to secure AI supply chains during an appearance at Semafor’s Silicon Valley & The World.",
-   "url": "https://www.semafor.com/article/11/16/2026/us-wont-restrict-foreign-tech-companies-in-allied-countries-helberg-says",
-   "source": "Semafor",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-16T19:09:59.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "5437fee666",
-   "title": "Pax Silica: Estados Unidos suma aliados clave frente a retos de fragmentación",
-   "summary": "Más allá de la frenética carrera por construir modelos de Inteligencia Artificial (IA) cada vez más grandes y eficientes, las mayores potencias económicas tienen su objetivo centrado en convertir a sus propios ecosistemas en las herramientas preferidas por empresas y usuarios. Pax Silica, fue la iniciativa de Estados Unidos con la que busca fortalecer las […]",
-   "url": "https://dplnews.com/pax-silica-estados-unidos-suma-aliados-clave-frente-a-retos-de-fragmentacion/",
-   "source": "DPL News",
-   "country": "",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T19:09:21.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "2e2e888668",
-   "title": "Online trading platform Deriv brings free gold trading masterclass to Dubai",
-   "summary": "Interactive sessions on 21 and 22 November will explore gold market dynamics, trading instruments, and practical approaches to risk management … The post Online trading platform Deriv brings free gold trading masterclass to Dubai appeared first on TahawulTech.com .",
-   "url": "https://www.tahawultech.com/business/finance/online-trading-platform-deriv-brings-free-gold-trading-masterclass-to-dubai/",
-   "source": "Tahawul Tech",
-   "country": "AE",
-   "region": "gulf",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T19:07:07.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "6335677a37",
-   "title": "Nvidia announces Rubin HPC GPU with 'record number of CUDA cores' at Supercomputing 2026",
-   "summary": "Nvidia took the wraps off its Rubin HPC GPU at Supercomputing 2026. This new GPU will give scientists, engineers, and analysts over 50,000 CUDA cores to speed up agentic HPC workloads when it arrives in 2028.",
-   "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
-   "source": "Tom's Hardware",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-16T19:05:24.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
    "id": "6b501691f1",
    "title": "Actualité : iOS 27.3 : Apple dévoile un avant-goût des nouveautés qui pourraient arriver sur votre iPhone",
    "summary": "Apple vient de mettre à la disposition des développeurs une nouvelle version bêta d’iOS 27.3. Derrière cette mise à jour se cachent plusieurs nouveautés qui pourraient bien changer votre façon d’utiliser votre iPhone au quotidien.",
@@ -3625,23 +3887,6 @@
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
-   "id": "e0b54a9abd",
-   "title": "China’s grip on Top500 remains uncontested as US chases AI-HPC fusion",
-   "summary": "In the age of AI, the top spot on the bi-annual ranking is whoever willing to run HPL instead of LLMs",
-   "url": "https://www.theregister.com/systems/2026/11/16/chinas-grip-on-top500-remains-uncontested-as-us-chases-ai-hpc-fusion/5310205",
-   "source": "The Register",
-   "country": "GB",
-   "region": "europe",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T19:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
    "id": "6f2ada8b51",
    "title": "Touchscreen inattivo su Windows 11: i controlli sul portatile",
    "summary": "Se il touchscreen del portatile non funziona più con Windows 11, controlla prima il riconoscimento del dispositivo, la sua abilitazione e i driver: il display non va considerato subito guasto. Salva i...",
@@ -3657,23 +3902,6 @@
    "company": "",
    "ts": "2026-11-16T19:00:00.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "4bee76e432",
-   "title": "Improve your Amazon Kindle experience by doing these simple things",
-   "summary": "If you love the convenience of a Kindle but miss the feel of having a physical book in your hands, we have some tips for you.",
-   "url": "https://www.engadget.com/2314792/improve-amazon-kindle-experience-doing-simple-things/",
-   "source": "Engadget",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Amazon",
-   "ts": "2026-11-16T19:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
   },
   {
    "id": "1264f066c4",
@@ -3710,23 +3938,6 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "ae035bce1e",
-   "title": "This Free Program Helps You Learn Crucial AI Skills for Free",
-   "summary": "Even if you’ve never used an AI tool, Verizon AI Skills for America makes it easy to learn skills you can put to use right away at your current job or in your hunt for a new one.",
-   "url": "https://www.cnet.com/paid-content/this-free-program-helps-you-learn-crucial-ai-skills-for-free/",
-   "source": "CNET",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:59:36.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
    "id": "3219c60a6f",
    "title": "WoW: Forever’s Dungeons Have Gotten Yet Another Big Change",
    "summary": "World of Warcraft: Forever's dungeons have changed once again, with developer Blizzard's most recent adjustment requiring an emergency hotfix to address players' outcry. Dungeons, specifically how much experience points players earn from them, have been one of Forever's most debated topics going back to the game's beta. Make them too lucrative, and players will just stay inside dungeons instead of questing out in the",
@@ -3742,57 +3953,6 @@
    "company": "",
    "ts": "2026-11-16T18:56:57.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "64693565c1",
-   "title": "Small Gemma 4 tokenizers were recently updated by Google - fix for an issue that caused nonsense output when encountering certain tokens",
-   "summary": "Gemma 4 E4B as an example, but the same fix was applied to E2B and 12B too. Not sure if this will trickle down to GGUFs &#32; submitted by &#32; /u/TuskNaPrezydenta2020 [link] &#32; [comments]",
-   "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
-   "source": "Reddit r/LocalLLaMA",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Google",
-   "ts": "2026-11-16T18:55:18.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "eebee44c25",
-   "title": "Actualité : Black Friday 2026 – Le téléviseur TCL 75C89K à 1 150,00 €",
-   "summary": "Le téléviseur TCL 75C89K passe sous les 1200 € chez Amazon.",
-   "url": "https://www.lesnumeriques.com/tv-televiseur/black-friday-2026-le-televiseur-tcl-75c89k-a-1-150-00-n267681.html",
-   "source": "Les Numériques",
-   "country": "FR",
-   "region": "europe",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Amazon",
-   "ts": "2026-11-16T18:55:00.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "1543e79510",
-   "title": "Actualité : Black Friday 2026 – Le téléviseur LG 83C6 \"5 étoiles\" à 2 699,00 € (-28%)",
-   "summary": "Le téléviseur LG 83C6 passe sous les 2700 € chez Boulanger.com soit une baisse d'environ 28% sur le prix habituellement constaté.",
-   "url": "https://www.lesnumeriques.com/tv-televiseur/black-friday-2026-le-televiseur-lg-83c6-5-etoiles-a-2-699-00-28-n267680.html",
-   "source": "Les Numériques",
-   "country": "FR",
-   "region": "europe",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T18:55:00.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
   },
   {
    "id": "8a2831f240",
@@ -3812,65 +3972,9 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "a0501136fd",
-   "title": "iOS 27.3 gives Apple’s Calendar app new design updates",
-   "summary": "iOS 27.3 beta 2 arrived today, most notably giving the iPhone Duo a face unlock feature . The update also includes some design updates for Apple’s Calendar app. more…",
-   "url": "https://9to5mac.com/2026/11/16/ios-27-3-gives-apples-calendar-app-new-design-updates/",
-   "source": "9to5Mac",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Apple",
-   "ts": "2026-11-16T18:52:18.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "055f4a5be0",
-   "title": "Frullatore KitchenAid da 159€ a 93€, per smoothie e zuppe nella stessa caraffa",
-   "summary": "Il frullatore KitchenAid Pure Power costa 93€ su Amazon, con uno sconto del 38% sul listino di 159€. La caraffa adatta a preparazioni calde e fredde permette di alternare smoothie, salse e zuppe senza...",
-   "url": "https://www.tomshw.it/altro/frullatore-kitchenaid-da-159eur-a-93eur-per-smoothie-e-zuppe-nella-stessa-caraffa",
-   "source": "Tom's Hardware Italia",
-   "country": "IT",
-   "region": "europe",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Amazon",
-   "ts": "2026-11-16T18:48:00.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "4f05ed10e1",
-   "title": "iPhone Duo gets face unlock, but don’t call it Face ID",
-   "summary": "Apple is testing new iPhone Duo features that will make it easier to unlock and lock the foldable, addressing some of the concerns raised by early adopters. iOS 27.3 Beta 2 will allow iPhone Duo users to opt in to a face unlock feature that’ll let the Duo cover display camera scan your face and […]",
-   "url": "https://mobilesyrup.com/2026/11/16/iphone-duo-face-unlock/",
-   "source": "MobileSyrup",
-   "country": "CA",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 2,
-   "n": 2,
-   "also": [
-    {
-     "source": "CNET",
-     "url": "https://www.cnet.com/tech/mobile/iphone-duo-gets-facial-unlock-feature/"
-    }
-   ],
-   "kind": "news",
-   "company": "Apple",
-   "ts": "2026-11-16T18:37:03.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
    "id": "e8f1354f11",
    "title": "Outages reported at Bank of America, Chase, U.S. Bank, Wells Fargo and Zelle",
-   "summary": "نقاش على Hacker News: 459 نقطة و339 تعليق",
+   "summary": "نقاش على Hacker News: 486 نقطة و369 تعليق",
    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
    "source": "Hacker News",
    "country": "US",
@@ -3921,7 +4025,7 @@
   {
    "id": "77f2f0bcc0",
    "title": "Software is breaking down at a systemic level",
-   "summary": "نقاش على Hacker News: 247 نقطة و135 تعليق",
+   "summary": "نقاش على Hacker News: 252 نقطة و145 تعليق",
    "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
    "source": "Hacker News",
    "country": "US",
@@ -4398,7 +4502,7 @@
   {
    "id": "d63c6c3325",
    "title": "Jiff 1.0: A datetime library for Rust",
-   "summary": "نقاش على Hacker News: 218 نقطة و47 تعليق",
+   "summary": "نقاش على Hacker News: 225 نقطة و49 تعليق",
    "url": "https://burntsushi.net/jiff/",
    "source": "Hacker News",
    "country": "US",
@@ -4602,7 +4706,7 @@
   {
    "id": "b6d604c670",
    "title": "Frame – 31.5\" color ePaper display",
-   "summary": "نقاش على Hacker News: 166 نقطة و93 تعليق",
+   "summary": "نقاش على Hacker News: 175 نقطة و103 تعليق",
    "url": "https://trmnl.com/blog/introducing-frame",
    "source": "Hacker News",
    "country": "US",
@@ -4994,7 +5098,7 @@
   {
    "id": "a2b3566d40",
    "title": "Nvidia was in trouble before the Jensen Huang mess",
-   "summary": "نقاش على Hacker News: 189 نقطة و188 تعليق",
+   "summary": "نقاش على Hacker News: 192 نقطة و195 تعليق",
    "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
    "source": "Hacker News",
    "country": "US",
@@ -5526,7 +5630,7 @@
   {
    "id": "4d9c4ad6c1",
    "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
-   "summary": "نقاش على Hacker News: 707 نقطة و439 تعليق",
+   "summary": "نقاش على Hacker News: 713 نقطة و444 تعليق",
    "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
    "source": "Hacker News",
    "country": "US",
@@ -5538,23 +5642,6 @@
    "kind": "news",
    "company": "Amazon",
    "ts": "2026-11-16T13:39:07Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "4e93484b28",
-   "title": "GTA 6 hacker pleads guilty after release from secure hospital",
-   "summary": "21-year-old Arion Kurtaj pleaded guilty to the Rockstar Games hack and others he carried out when he was a teenager.",
-   "url": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Technology",
-   "country": "GB",
-   "region": "europe",
-   "cat": "الأمن السيبراني",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T13:34:22.000Z",
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
@@ -5623,45 +5710,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-16T13:29:16.000Z",
-   "fs": "2026-11-16T20:32:28.667Z"
-  },
-  {
-   "id": "1465097da0",
-   "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-   "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
-   "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-   "source": "The Hacker News",
-   "country": "",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T13:27:20.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "b4a1f9e450",
-   "title": "Xpressbees raises Rs 100 Cr in debt from BlackSoil",
-   "summary": "Xpressbees has raised Rs 100 crore through secured, unlisted NCDs, at a 13.5% coupon over 36 months, to fund its working capital needs.",
-   "url": "https://yourstory.com/2026/11/xpressbees-raises-rs-100-cr-in-debt-from-blacksoil",
-   "source": "YourStory",
-   "country": "IN",
-   "region": "asia",
-   "cat": "الشركات الناشئة",
-   "level": 2,
-   "n": 2,
-   "also": [
-    {
-     "source": "Entrackr",
-     "url": "https://entrackr.com/exclusive/exclusive-xpressbees-raises-rs-100-cr-debt-from-blacksoil-12813197"
-    }
-   ],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T13:22:37.000Z",
    "fs": "2026-11-16T20:32:28.667Z"
   },
   {
@@ -6523,7 +6571,7 @@
    "also": [],
    "kind": "repo",
    "company": "DeepSeek",
-   "ts": "2026-11-16T20:54:16Z",
+   "ts": "2026-11-16T21:07:26Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Dart",
    "st": 24731,
@@ -6533,6 +6581,7 @@
     24715,
     24721,
     24728,
+    24731,
     24731
    ]
   },
@@ -6553,14 +6602,15 @@
    "ts": "2026-11-16T18:12:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 8848,
+   "st": 8850,
    "fk": 2011,
-   "gr": 4,
+   "gr": 6,
    "sp": [
     8844,
     8845,
     8847,
-    8848
+    8848,
+    8850
    ]
   },
   {
@@ -6580,14 +6630,15 @@
    "ts": "2026-11-16T16:16:28Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 4280,
-   "fk": 97,
-   "gr": 10,
+   "st": 4287,
+   "fk": 98,
+   "gr": 17,
    "sp": [
     4270,
     4273,
     4279,
-    4280
+    4280,
+    4287
    ]
   },
   {
@@ -6607,14 +6658,15 @@
    "ts": "2026-11-13T14:33:08Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 4012,
+   "st": 4017,
    "fk": 850,
-   "gr": 10,
+   "gr": 15,
    "sp": [
     4002,
     4005,
     4008,
-    4012
+    4012,
+    4017
    ]
   },
   {
@@ -6641,6 +6693,7 @@
     2437,
     2441,
     2444,
+    2448,
     2448
    ]
   },
@@ -6667,6 +6720,7 @@
    "sp": [
     2194,
     2193,
+    2194,
     2194,
     2194
    ]
@@ -6695,6 +6749,7 @@
     2133,
     2134,
     2134,
+    2134,
     2134
    ]
   },
@@ -6714,14 +6769,15 @@
    "company": "OpenAI",
    "ts": "2026-11-12T14:33:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2124,
+   "st": 2130,
    "fk": 53,
-   "gr": 3,
+   "gr": 9,
    "sp": [
     2121,
     2122,
     2123,
-    2124
+    2124,
+    2130
    ]
   },
   {
@@ -6741,14 +6797,15 @@
    "ts": "2026-11-16T14:53:52Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "HTML",
-   "st": 2079,
+   "st": 2080,
    "fk": 231,
-   "gr": 4,
+   "gr": 5,
    "sp": [
     2075,
     2076,
     2078,
-    2079
+    2079,
+    2080
    ]
   },
   {
@@ -6765,17 +6822,18 @@
    "also": [],
    "kind": "repo",
    "company": "",
-   "ts": "2026-11-16T20:29:17Z",
+   "ts": "2026-11-16T20:59:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 1842,
+   "st": 1847,
    "fk": 110,
-   "gr": 15,
+   "gr": 20,
    "sp": [
     1827,
     1829,
     1835,
-    1842
+    1842,
+    1847
    ]
   },
   {
@@ -6795,14 +6853,15 @@
    "ts": "2026-11-16T11:42:06Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 1655,
+   "st": 1656,
    "fk": 116,
-   "gr": 3,
+   "gr": 4,
    "sp": [
     1652,
     1653,
     1655,
-    1655
+    1655,
+    1656
    ]
   },
   {
@@ -6822,14 +6881,15 @@
    "ts": "2026-11-14T17:41:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "JavaScript",
-   "st": 1626,
-   "fk": 250,
-   "gr": 22,
+   "st": 1631,
+   "fk": 251,
+   "gr": 27,
    "sp": [
     1604,
     1612,
     1620,
-    1626
+    1626,
+    1631
    ]
   },
   {
@@ -6846,7 +6906,7 @@
    "also": [],
    "kind": "repo",
    "company": "OpenAI",
-   "ts": "2026-11-16T20:57:37Z",
+   "ts": "2026-11-16T20:59:23Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
    "st": 1616,
@@ -6856,6 +6916,7 @@
     1613,
     1614,
     1615,
+    1616,
     1616
    ]
   },
@@ -6880,6 +6941,7 @@
    "fk": 19,
    "gr": 0,
    "sp": [
+    1586,
     1586,
     1586,
     1586,
@@ -6910,6 +6972,7 @@
     1417,
     1418,
     1421,
+    1422,
     1422
    ]
   },
@@ -6930,14 +6993,15 @@
    "ts": "2026-11-16T05:54:50Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 1291,
+   "st": 1293,
    "fk": 110,
-   "gr": 2,
+   "gr": 4,
    "sp": [
     1289,
     1290,
     1290,
-    1291
+    1291,
+    1293
    ]
   },
   {
@@ -6964,6 +7028,7 @@
     1199,
     1201,
     1202,
+    1203,
     1203
    ]
   },
@@ -6984,14 +7049,15 @@
    "ts": "2026-11-16T17:48:08Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 1110,
+   "st": 1112,
    "fk": 190,
-   "gr": 0,
+   "gr": 2,
    "sp": [
     1110,
     1110,
     1110,
-    1110
+    1110,
+    1112
    ]
   },
   {
@@ -7011,14 +7077,15 @@
    "ts": "2026-11-16T12:33:51Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "JavaScript",
-   "st": 1050,
+   "st": 1051,
    "fk": 159,
-   "gr": 2,
+   "gr": 3,
    "sp": [
     1048,
     1048,
     1049,
-    1050
+    1050,
+    1051
    ]
   },
   {
@@ -7042,6 +7109,7 @@
    "fk": 113,
    "gr": 0,
    "sp": [
+    986,
     986,
     986,
     986,
@@ -7072,6 +7140,7 @@
     978,
     978,
     978,
+    978,
     978
    ]
   },
@@ -7092,14 +7161,15 @@
    "ts": "2026-11-10T09:25:38Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 913,
+   "st": 914,
    "fk": 141,
-   "gr": 1,
+   "gr": 2,
    "sp": [
     912,
     912,
     912,
-    913
+    913,
+    914
    ]
   },
   {
@@ -7119,14 +7189,15 @@
    "ts": "2026-11-13T15:57:45Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C",
-   "st": 855,
+   "st": 858,
    "fk": 35,
-   "gr": 11,
+   "gr": 14,
    "sp": [
     844,
     849,
     851,
-    855
+    855,
+    858
    ]
   },
   {
@@ -7153,6 +7224,7 @@
     823,
     823,
     823,
+    823,
     823
    ]
   },
@@ -7173,11 +7245,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7197,11 +7270,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7221,11 +7295,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7245,11 +7320,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7269,11 +7345,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7293,11 +7370,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7317,11 +7395,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7341,11 +7420,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7365,11 +7445,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7389,11 +7470,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7413,11 +7495,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7437,11 +7520,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7461,11 +7545,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7485,11 +7570,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7509,11 +7595,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7533,11 +7620,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7557,11 +7645,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7581,11 +7670,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7605,11 +7695,12 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 195962,
-   "gr": 12,
+   "st": 195968,
+   "gr": 18,
    "sp": [
     195950,
-    195962
+    195962,
+    195968
    ]
   },
   {
@@ -7630,13 +7721,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 20306,
+   "st": 20308,
    "fk": 1503,
-   "gr": 9,
+   "gr": 11,
    "sp": [
     20297,
     20300,
-    20306
+    20306,
+    20308
    ]
   },
   {
@@ -7657,13 +7749,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 17227,
-   "fk": 2155,
-   "gr": 14,
+   "st": 17232,
+   "fk": 2156,
+   "gr": 19,
    "sp": [
     17213,
     17222,
-    17227
+    17227,
+    17232
    ]
   },
   {
@@ -7684,13 +7777,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Shell",
-   "st": 10210,
+   "st": 10215,
    "fk": 400,
-   "gr": 9,
+   "gr": 14,
    "sp": [
     10201,
     10205,
-    10210
+    10210,
+    10215
    ]
   },
   {
@@ -7711,13 +7805,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 9639,
+   "st": 9640,
    "fk": 1419,
-   "gr": 11,
+   "gr": 12,
    "sp": [
     9628,
     9636,
-    9639
+    9639,
+    9640
    ]
   },
   {
@@ -7738,13 +7833,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 9566,
+   "st": 9568,
    "fk": 1728,
-   "gr": 10,
+   "gr": 12,
    "sp": [
     9556,
     9560,
-    9566
+    9566,
+    9568
    ]
   },
   {
@@ -7771,6 +7867,7 @@
    "sp": [
     8147,
     8154,
+    8158,
     8158
    ]
   },
@@ -7792,13 +7889,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 7743,
+   "st": 7747,
    "fk": 1016,
-   "gr": 1,
+   "gr": 5,
    "sp": [
     7742,
     7743,
-    7743
+    7743,
+    7747
    ]
   },
   {
@@ -7819,13 +7917,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 7129,
+   "st": 7130,
    "fk": 887,
-   "gr": 2,
+   "gr": 3,
    "sp": [
     7127,
     7129,
-    7129
+    7129,
+    7130
    ]
   },
   {
@@ -7851,6 +7950,7 @@
    "gr": 1,
    "sp": [
     7068,
+    7069,
     7069,
     7069
    ]
@@ -7879,6 +7979,7 @@
    "sp": [
     7042,
     7042,
+    7045,
     7045
    ]
   },
@@ -7900,13 +8001,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 6546,
-   "fk": 595,
-   "gr": 16,
+   "st": 6560,
+   "fk": 597,
+   "gr": 30,
    "sp": [
     6530,
     6540,
-    6546
+    6546,
+    6560
    ]
   },
   {
@@ -7931,6 +8033,7 @@
    "fk": 429,
    "gr": 0,
    "sp": [
+    6365,
     6365,
     6365,
     6365
@@ -7961,6 +8064,7 @@
     5904,
     5907,
     5911,
+    5915,
     5915
    ]
   },
@@ -7989,6 +8093,7 @@
     5685,
     5685,
     5685,
+    5685,
     5685
    ]
   },
@@ -8006,18 +8111,19 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-16T20:56:50Z",
+   "ts": "2026-11-16T21:09:11Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 5263,
+   "st": 5265,
    "fk": 171,
-   "gr": 13,
+   "gr": 15,
    "sp": [
     5250,
     5252,
     5257,
-    5263
+    5263,
+    5265
    ]
   },
   {
@@ -8044,6 +8150,7 @@
    "sp": [
     5139,
     5139,
+    5139,
     5139
    ]
   },
@@ -8065,14 +8172,15 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Rust",
-   "st": 4462,
+   "st": 4465,
    "fk": 116,
-   "gr": 9,
+   "gr": 12,
    "sp": [
     4453,
     4458,
     4460,
-    4462
+    4462,
+    4465
    ]
   },
   {
@@ -8093,13 +8201,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 3882,
+   "st": 3883,
    "fk": 494,
-   "gr": 6,
+   "gr": 7,
    "sp": [
     3876,
     3880,
-    3882
+    3882,
+    3883
    ]
   },
   {
@@ -8124,6 +8233,7 @@
    "fk": 237,
    "gr": 0,
    "sp": [
+    3840,
     3840,
     3840,
     3840
@@ -8153,6 +8263,7 @@
    "sp": [
     3640,
     3641,
+    3641,
     3641
    ]
   },
@@ -8178,6 +8289,7 @@
    "fk": 419,
    "gr": 0,
    "sp": [
+    3527,
     3527,
     3527,
     3527
@@ -8207,6 +8319,7 @@
    "sp": [
     3451,
     3451,
+    3452,
     3452
    ]
   },
@@ -8228,13 +8341,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "TypeScript",
-   "st": 3354,
+   "st": 3355,
    "fk": 426,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     3354,
     3354,
-    3354
+    3354,
+    3355
    ]
   },
   {
@@ -8261,6 +8375,7 @@
    "sp": [
     3311,
     3311,
+    3311,
     3311
    ]
   },
@@ -8278,17 +8393,18 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-16T20:55:29Z",
+   "ts": "2026-11-16T21:06:26Z",
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 2999,
+   "st": 3000,
    "fk": 502,
-   "gr": 1,
+   "gr": 2,
    "sp": [
     2998,
     2998,
-    2999
+    2999,
+    3000
    ]
   },
   {
@@ -8309,13 +8425,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 2774,
+   "st": 2775,
    "fk": 279,
-   "gr": 0,
+   "gr": 1,
    "sp": [
     2774,
     2774,
-    2774
+    2774,
+    2775
    ]
   },
   {
@@ -8336,14 +8453,15 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "TypeScript",
-   "st": 2635,
+   "st": 2639,
    "fk": 192,
-   "gr": 8,
+   "gr": 12,
    "sp": [
     2627,
     2629,
     2634,
-    2635
+    2635,
+    2639
    ]
   },
   {
@@ -8370,6 +8488,7 @@
    "sp": [
     2560,
     2561,
+    2561,
     2561
    ]
   },
@@ -8395,6 +8514,7 @@
    "fk": 136,
    "gr": 0,
    "sp": [
+    2543,
     2543,
     2543,
     2543
@@ -8424,6 +8544,7 @@
    "sp": [
     2434,
     2434,
+    2434,
     2434
    ]
   },
@@ -8449,6 +8570,7 @@
    "fk": 103,
    "gr": 0,
    "sp": [
+    2414,
     2414,
     2414,
     2414
@@ -8479,6 +8601,7 @@
     2286,
     2286,
     2286,
+    2287,
     2287
    ]
   },
@@ -8505,6 +8628,7 @@
    "sp": [
     2229,
     2230,
+    2230,
     2230
    ]
   },
@@ -8530,6 +8654,7 @@
    "fk": 649,
    "gr": 0,
    "sp": [
+    2182,
     2182,
     2182,
     2182
@@ -8559,6 +8684,7 @@
     2133,
     2134,
     2134,
+    2134,
     2134
    ]
   },
@@ -8579,13 +8705,14 @@
    "ts": "2026-11-12T14:33:16Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
-   "st": 2124,
+   "st": 2130,
    "fk": 53,
    "sp": [
     2121,
     2122,
     2123,
-    2124
+    2124,
+    2130
    ]
   },
   {
@@ -8610,6 +8737,7 @@
    "fk": 254,
    "gr": 0,
    "sp": [
+    2120,
     2120,
     2120,
     2120
@@ -8640,6 +8768,7 @@
     2067,
     2067,
     2068,
+    2068,
     2068
    ]
   },
@@ -8668,6 +8797,7 @@
     1865,
     1865,
     1865,
+    1866,
     1866
    ]
   },
@@ -8689,13 +8819,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 1864,
+   "st": 1865,
    "fk": 393,
-   "gr": 1,
+   "gr": 2,
    "sp": [
     1863,
     1863,
-    1864
+    1864,
+    1865
    ]
   },
   {
@@ -8716,13 +8847,14 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 1860,
+   "st": 1863,
    "fk": 94,
-   "gr": 4,
+   "gr": 7,
    "sp": [
     1856,
     1857,
-    1860
+    1860,
+    1863
    ]
   },
   {
@@ -8741,7 +8873,7 @@
    "company": "Alibaba",
    "ts": "2026-08-05T08:22:59.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 20244,
+   "st": 20245,
    "dl": 6763402
   },
   {
@@ -8760,7 +8892,7 @@
    "company": "",
    "ts": "2026-07-23T07:55:24.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 12199,
+   "st": 12203,
    "dl": 2789021
   },
   {
@@ -8779,7 +8911,7 @@
    "company": "DeepSeek",
    "ts": "2026-10-30T10:21:29.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 8379,
+   "st": 8395,
    "dl": 29567
   },
   {
@@ -8836,7 +8968,7 @@
    "company": "DeepSeek",
    "ts": "2026-10-17T02:40:38.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 5785,
+   "st": 5786,
    "dl": 467224
   },
   {
@@ -8931,7 +9063,7 @@
    "company": "",
    "ts": "2026-11-03T06:34:36.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 1296,
+   "st": 1298,
    "dl": 609130
   },
   {
@@ -8950,7 +9082,7 @@
    "company": "",
    "ts": "2026-11-06T19:31:28.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 642,
+   "st": 645,
    "dl": 9187
   },
   {
@@ -9007,7 +9139,7 @@
    "company": "",
    "ts": "2026-10-22T19:06:17.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 445,
+   "st": 446,
    "dl": 218765
   },
   {

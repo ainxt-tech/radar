@@ -395,12 +395,12 @@ if (location.protocol !== 'file:') refresh(true);
 /* ---------- عداد الزيارات (GoatCounter) ----------
    ضع كود موقعك هنا بعد إنشاء حساب مجاني في goatcounter.com (مثال: إذا كان العنوان radar.goatcounter.com فالكود radar).
    اتركه فارغاً لتعطيل العداد والتتبع كلياً. */
-var GC_CODE = '';
+var GC_CODE = 'ainxt-radar';
 (function () {
   if (!GC_CODE || location.protocol === 'file:') return;
   var base = 'https://' + GC_CODE + '.goatcounter.com/';
   var s = document.createElement('script'); s.async = true; s.src = 'https://gc.zgo.at/count.js'; s.setAttribute('data-goatcounter', base + 'count'); document.head.appendChild(s);
   fetch(base + 'counter/TOTAL.json').then(function (r) { return r.ok ? r.json() : Promise.reject(); }).then(function (j) {
-    if (!j || !j.count) return; $('vcn').textContent = j.count; $('vc').hidden = false;
+    if (!j || !j.count) return; document.getElementById('vcn').textContent = j.count; document.getElementById('vc').hidden = false;
   }).catch(function () {});
 })();

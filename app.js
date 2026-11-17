@@ -168,7 +168,7 @@ P.home = function (v) {
   var heroVisual = el('div', 'brand-hero-visual');
   var heroLogo = document.createElement('img'); heroLogo.src = 'assets/ai-nxt-logo.webp'; heroLogo.alt = 'شعار ai.nxt ومسارات الشبكة العصبية'; heroLogo.className = 'hero-emblem'; heroVisual.appendChild(heroLogo);
   var mascot = document.createElement('img'); mascot.src = 'assets/ai-nxt-mascot.webp'; mascot.alt = 'شخصية ai.nxt الروبوتية'; mascot.className = 'hero-mascot'; mascot.loading = 'eager'; heroVisual.appendChild(mascot);
- hero.appendChild(heroCopy); w.appendChild(hero);
+  hero.appendChild(heroCopy); hero.appendChild(heroVisual); w.appendChild(hero);
   var hot = ofKind('news').filter(function (i) { return i.level === 4; }).sort(function (a, b) { return tm(b) - tm(a); }).slice(0, 8);
   if (hot.length) w.appendChild(ticker(hot));
   var disc = items.filter(isNew).sort(function (a, b) { return b.level - a.level || tm(b) - tm(a); });
@@ -355,7 +355,7 @@ function refresh(silent) {
     .catch(function () { S.err = 'fail'; }).then(function () { S.loading = false; render(); });
 }
 function schedule() { clearInterval(timer); if (S.set.interval > 0 && location.protocol !== 'file:') timer = setInterval(function () { refresh(true); }, S.set.interval * 6e4); }
-function applyTheme(t) { if (t === 'dark' || t === 'light') { document.documentElement.setAttribute('data-theme', t); var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = t === 'dark' ? '#0A0A10' : '#F2EFE9'; } }
+function applyTheme(t) { if (t === 'dark' || t === 'light') { document.documentElement.setAttribute('data-theme', t); var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = t === 'dark' ? '#1B232B' : '#FFFFFF'; } }
 
 /* ---------- الأحداث ---------- */
 function doSearch() { S.q = $('q').value; S.lim = 12; if (S.tab === 'home' && S.q.trim()) { location.hash = '#/news'; return; } render(); }
@@ -390,4 +390,17 @@ var ss = store(KEY.set); if (ss && typeof ss === 'object') { S.set.interval = +s
 S.saved = (store(KEY.saved) || []).map(norm).filter(Boolean);
 route(); render(); schedule();
 if (location.protocol !== 'file:') refresh(true);
+})();
+
+/* ---------- عداد الزيارات (GoatCounter) ----------
+   ضع كود موقعك هنا بعد إنشاء حساب مجاني في goatcounter.com (مثال: إذا كان العنوان radar.goatcounter.com فالكود radar).
+   اتركه فارغاً لتعطيل العداد والتتبع كلياً. */
+var GC_CODE = '';
+(function () {
+  if (!GC_CODE || location.protocol === 'file:') return;
+  var base = 'https://' + GC_CODE + '.goatcounter.com/';
+  var s = document.createElement('script'); s.async = true; s.src = 'https://gc.zgo.at/count.js'; s.setAttribute('data-goatcounter', base + 'count'); document.head.appendChild(s);
+  fetch(base + 'counter/TOTAL.json').then(function (r) { return r.ok ? r.json() : Promise.reject(); }).then(function (j) {
+    if (!j || !j.count) return; $('vcn').textContent = j.count; $('vc').hidden = false;
+  }).catch(function () {});
 })();

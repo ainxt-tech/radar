@@ -1,6 +1,6 @@
 {
  "v": 1,
- "updated": "2026-11-18T02:10:05.591Z",
+ "updated": "2026-11-18T02:55:03.776Z",
  "seed": false,
  "sources": [
   {
@@ -152,7 +152,7 @@
    "id": "omandatapark",
    "name": "Oman Data Park",
    "ok": false,
-   "err": "fetch failed"
+   "err": "لا عناصر"
   },
   {
    "id": "spa",
@@ -1321,15 +1321,16 @@
  ],
  "report": {
   "title": "ملخص اليوم 2026-11-18",
-  "text": "رصد الرادار 300 خبراً خلال آخر 24 ساعة، منها 1 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: The Game Awards 2026 Nominees Have Officially Been Revealed! (TechJuice).",
+  "text": "رصد الرادار 300 خبراً خلال آخر 24 ساعة، منها 2 بمستوى «مهم جداً» أو أعلى.\nأعلى الأخبار درجة: Sources: a faction of Nvidia board members is pushing for Jensen Huang's return despite Chair Harvey Jones stating the board has no plans to reinstate Huang (Semafor) (Techmeme).",
   "top": [
+   "82abc5d1c7",
    "c0063bad09",
-   "50ace0fdbc",
+   "37648af219",
    "53c712588c",
-   "3ae790516d",
-   "26d0991d15"
+   "3ae790516d"
   ],
   "watch": [
+   "متابعة: Sources: a faction of Nvidia board members is pushing for Jensen Huang's return despite Chair Harvey Jones stating the board has no plans to reinstate Huang (Semafor)",
    "متابعة: The Game Awards 2026 Nominees Have Officially Been Revealed!"
   ]
  },
@@ -1348,8 +1349,698 @@
    "also": [],
    "kind": "news",
    "company": "",
-   "ts": "2026-11-18T02:10:34.980Z",
+   "ts": "2026-11-18T02:55:27.704Z",
    "fs": "2026-11-18T02:10:05.591Z"
+  },
+  {
+   "id": "967912fc35",
+   "title": "ضوابط تحديد وإدارة أسماء النطاقات المميزة وآلية تسجيلها",
+   "summary": "Guidelines | Telecommunications | 2024-01-24 | 2024/127/1231-1",
+   "url": "http://www.tra.gov.om/files/uploads/dwabt_thdyd_widart_asmae_alntaqat_almmyzt_walyt_tsjylha_cb3b64a6c5.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "off": true
+  },
+  {
+   "id": "8142fcc98b",
+   "title": "ضوابط تسجيل أسماء النطاقات من خارج سلطنة عمان",
+   "summary": "Guidelines | Telecommunications | Active | 2025-12-30",
+   "url": "http://www.tra.gov.om/files/uploads/dwabt_tsjyl_asmae_alntaqat_mn_kharj_sltnt_eman1_nskht_metmdt_002_ed9e7b08d9.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "off": true
+  },
+  {
+   "id": "9e38c263bb",
+   "title": "ضوابط تطوير واختبار وتشغيل الأنظمة والمنصات الرقمية والتطبيقات في قطاع الاتصالات",
+   "summary": "Guidelines | Telecommunications | Active | 2025-12-30",
+   "url": "http://www.tra.gov.om/files/uploads/dwabt_ttwyr_wakhtbar_wtshghyl_alanzmt_walmnsat_alrqmyt_walttbyqat_fy_qtae_alatsalat_merged_9609f40267.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "off": true
+  },
+  {
+   "id": "165deeb526",
+   "title": "ضوابط تعرفة التجزئة لخدمات الاتصالات",
+   "summary": "Guidelines | Telecommunications | 2025-08-05 | 1152/2/29/2025-14",
+   "url": "http://www.tra.gov.om/files/uploads/dwabt_terft_altjzyt_lkhdmat_alatsalat_8f7c05466c.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "off": true
+  },
+  {
+   "id": "16475e2389",
+   "title": "في شأن التأخير في إصدار الفواتير المتعلقة بخدمات الاتصالات المرخصة",
+   "summary": "Decisions_and_Regulations | Telecommunications | Active | 2007-07-14 | 2007/69",
+   "url": "http://www.tra.gov.om/files/uploads/2007_0069_f5db3b900c.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-16T20:32:28.667Z",
+   "off": true
+  },
+  {
+   "id": "ac83d83b20",
+   "title": "في شان تنظيم تقديم خدمة الانترنت في المحلات التجارية والأماكن العامة",
+   "summary": "Decisions_and_Regulations | Telecommunications | Active | 2007-12-12 | 2007/166",
+   "url": "http://www.tra.gov.om/files/uploads/2007_0166_862621c697.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-16T20:32:28.667Z",
+   "off": true
+  },
+  {
+   "id": "6e47ea401c",
+   "title": "في شان خدمات مراقبة الطيف الترددي للخدمات الفضائية",
+   "summary": "Decisions_and_Regulations | Spectrum | Active | 2022-01-30 | 2022/42",
+   "url": "http://www.tra.gov.om/files/uploads/42_2022_05bead668a.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-16T20:32:28.667Z",
+   "off": true
+  },
+  {
+   "id": "d0003d4c00",
+   "title": "في شان رسوم تسجيل واستخدام الترددات الراديوية ورسوم بعض التراخيص الراديوية",
+   "summary": "Decisions_and_Regulations | Spectrum | Active | 2003-09-22 | 2003/46",
+   "url": "http://www.tra.gov.om/files/uploads/2003_0046_b4b33924e4.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-16T20:32:28.667Z",
+   "off": true
+  },
+  {
+   "id": "2fe9e63cda",
+   "title": "قرار رقم 1152/2022/3/2/4 بإصدار لائحة تنظيم تخصيص أرقام الاتصالات",
+   "summary": "Decisions_and_Regulations | Telecommunications | Active | 2022-11-23 | 4--2022/3/2/1152",
+   "url": "http://www.tra.gov.om/files/uploads/2022_9906_ac44d043a4.pdf",
+   "source": "هيئة تنظيم الاتصالات (عُمان)",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:55:07.254Z",
+   "fs": "2026-11-16T20:32:28.667Z",
+   "off": true
+  },
+  {
+   "id": "0689972483",
+   "title": "GITEX GLOBAL 2026: The race to bring AI out of the cloud and into the physical world",
+   "summary": "GITEX GLOBAL returns to Dubai next month with a new venue, a new calendar slot and a sharper focus on the machines and infrastructure behind artificial intelligence. The 46th edition opens with The GITEX Summit at Dubai World Trade Centre on 7 December, followed by a four-day expo at Dubai Exhibition Centre in Expo City […] The post GITEX GLOBAL 2026: The race to bring AI out of the cloud and into the physical world ",
+   "url": "https://e27.co/gitex-global-2026-the-race-to-bring-ai-out-of-the-cloud-and-into-the-physical-world-20261118/",
+   "source": "e27",
+   "country": "SG",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:54:17.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "20580271aa",
+   "title": "Nintendo Switch 2版「ゼルダの伝説 時のオカリナ」が発売からわずか3日で2026年に最も売れたパッケージ版ゲームに",
+   "summary": "2026年11月5日に過去作のリメイクとしてNintendo Switch 2向けに発売された「ゼルダの伝説 時のオカリナ」が、既にアメリカで「2026年に最も売れたパッケージ版ゲーム」になっていることが分かりました。 続きを読む...",
+   "url": "https://gigazine.net/news/20261118-zelda-ocarina-of-time-best-selling/",
+   "source": "GIGAZINE",
+   "country": "JP",
+   "region": "asia",
+   "cat": "الألعاب",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:54:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "75d605e6d9",
+   "title": "Hong Kong begins HarmonyOS adaptation of iAM Smart",
+   "summary": "[The content of this article has been produced by our advertising partner.] Hong Kong's iAM Smart digital identity platform has begun adaptation for Huawei's HarmonyOS operating system, in a move aimed at giving residents another way to access online government services, particularly when travelling between Hong Kong and Mainland China. The Digital Policy Office (DPO) and Huawei Consumer Business Group marked the sta",
+   "url": "https://www.scmp.com/presented/tech/topics/harmonyos-expansion-hong-kong/article/3374711/hong-kong-begins-harmonyos-adaptation-iam-smart",
+   "source": "SCMP Tech",
+   "country": "HK",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:53:17.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "d0732b5fc8",
+   "title": "イーロン・マスクの母親がゲーム「インフィニティニキ」のアップデート予告に登場してプレイヤーは困惑",
+   "summary": "電気自動車メーカー・テスラや宇宙開発企業・SpaceXのCEOとして知られる実業家のイーロン・マスク氏の母親で、モデルとして活躍するメイ・マスク氏が、オープンワールド着せ替えアドベンチャーゲーム「インフィニティニキ」のアップデート予告に登場し、ゲーマーを困惑させています。 続きを読む...",
+   "url": "https://gigazine.net/news/20261118-infinity-nikki-elon-musk-mom-appears-trailers/",
+   "source": "GIGAZINE",
+   "country": "JP",
+   "region": "asia",
+   "cat": "الفضاء والعلوم",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:53:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "82abc5d1c7",
+   "title": "Sources: a faction of Nvidia board members is pushing for Jensen Huang's return despite Chair Harvey Jones stating the board has no plans to reinstate Huang (Semafor)",
+   "summary": "Semafor : Sources: a faction of Nvidia board members is pushing for Jensen Huang's return despite Chair Harvey Jones stating the board has no plans to reinstate Huang &mdash; Despite Nvidia's proclamation Tuesday that it didn't plan to bring ousted CEO Jensen Huang back to the chipmaker &hellip;",
+   "url": "https://www.techmeme.com/261117/p69#a261117p69",
+   "source": "Techmeme",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 3,
+   "n": 4,
+   "also": [
+    {
+     "source": "SCMP Tech",
+     "url": "https://www.scmp.com/tech/article/3374812/nvidia-board-says-it-has-no-plans-reinstate-jensen-huang-ceo"
+    },
+    {
+     "source": "Wired",
+     "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/"
+    },
+    {
+     "source": "iTnews Australia",
+     "url": "https://www.itnews.com.au/news/huang-open-to-nvidia-return-630418?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+"
+    }
+   ],
+   "kind": "news",
+   "company": "NVIDIA",
+   "ts": "2026-11-18T02:50:08.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "51863d95a1",
+   "title": "メモリ不足でAppleがSamsungと異例の4年間にわたるDRAM長期供給契約を締結へ、メモリメーカー優位の市場に",
+   "summary": "AIデータセンターの建設ラッシュに伴って世界的なメモリ不足が深刻化する中、AppleがSamsungと4年間にわたるDRAMの長期供給契約を締結する見通しだと、韓国の経済紙・毎日経済が報じました。部品メーカーに対して強い価格交渉力を持つことで知られるAppleにとって、異例の契約となります。 続きを読む...",
+   "url": "https://gigazine.net/news/20261118-apple-samsung-dram/",
+   "source": "GIGAZINE",
+   "country": "JP",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-18T02:49:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "2b2adfb166",
+   "title": "After two months of testimony, the US criminal trial against Huawei, accused of bank fraud and trade secret theft, is set to begin jury deliberations Wednesday (Karen Freifeld/Reuters)",
+   "summary": "Karen Freifeld / Reuters : After two months of testimony, the US criminal trial against Huawei, accused of bank fraud and trade secret theft, is set to begin jury deliberations Wednesday &mdash; A defense lawyer for Huawei argued on Tuesday that US prosecutors had put a &ldquo;sinister spin&rdquo; on the Chinese technology company's &hellip;",
+   "url": "https://www.techmeme.com/261117/p68#a261117p68",
+   "source": "Techmeme",
+   "country": "US",
+   "region": "america",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:45:01.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "053907d11e",
+   "title": "NVIDIA posts 103% revenue growth in Q3, reports $115.8 billion earnings",
+   "summary": "Washington DC: NVIDIA on Tuesday reported a 103 per cent year-on-year increase in revenue to $115.8 billion for the third quarter ended October 25, 2026,...",
+   "url": "https://timesofoman.com//article/179296-nvidia-posts-103-revenue-growth-in-q3-reports-1158-billion-earnings",
+   "source": "Times of Oman",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "NVIDIA",
+   "ts": "2026-11-18T02:42:06.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "7023830643",
+   "title": "(2nd LD) Additional disaster alert planned during CSAT to catch AI-assisted cheaters",
+   "summary": "SEOUL, Nov. 18 (Yonhap) -- The government will send another disaster alert at an...",
+   "url": "https://en.yna.co.kr/view/AEN20261118003252315",
+   "source": "Yonhap News",
+   "country": "KR",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:38:24.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "fee0e3ebf5",
+   "title": "US Congressmen, Nvidia board close doors for Jensen Huang's return",
+   "summary": "Santa Clara: The doors to Nvidia appear to have closed for embattled former CEO Jensen Huang with the company board ruling out his reinstatement, a position...",
+   "url": "https://timesofoman.com//article/179295-us-congressmen-nvidia-board-close-doors-for-jensen-huangs-return",
+   "source": "Times of Oman",
+   "country": "OM",
+   "region": "gulf",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "NVIDIA",
+   "ts": "2026-11-18T02:37:27.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "1fa5de7ea8",
+   "title": "Bezos and Bond: Amazon founder played a big role in casting new 007",
+   "summary": "Jeff Bezos says actor Robert Pattinson won everyone over in “real old-fashioned screen tests,” even though Bezos and the filmmakers were initially wary of how famous Pattinson already is. Read More",
+   "url": "https://www.geekwire.com/2026/bezos-and-bond-amazon-founder-played-a-big-role-in-casting-new-007/",
+   "source": "GeekWire",
+   "country": "US",
+   "region": "america",
+   "cat": "الشركات الناشئة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Amazon",
+   "ts": "2026-11-18T02:36:02.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "efcc29376b",
+   "title": "中科宇航力箭一号遥十六运载火箭完成总装测试，近期将海上发射“一箭 2 星”",
+   "summary": "IT之家 11 月 18 日消息，中科宇航今日宣布，力箭一号遥十六运载火箭在位于广州南沙的中科宇航火箭生产基地如期完成总装测试工作，顺利通过出厂评审， 拟于近期在山东附近海域执行“一箭 2 星”发射任务 。 IT之家注：力箭一号是中国科学院力学研究所抓总、中科宇航研制的四级固体运载火箭，2022 年 7 月 27 日首飞。 火箭全长 30 米、芯级直径 2.65 米、起飞重量 135 吨、起飞推力 200 吨，500 公里太阳同步轨道运载能力 1.5 吨，近地轨道运载能力 2 吨。 据央视新闻今年 9 月报道 ，中科宇航力箭一号运载火箭总装周期已从首飞阶段的约 3 个月缩短至约 15 天。随着该火箭进入高密度、常态化发射阶段， 目前已基本实现每月均有发射任务 。",
+   "url": "https://www.ithome.com/1/028/667.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:33:49.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "de9746862c",
+   "title": "Выпуск видеоредактора с открытым исходным кодом Shotcut 26.11",
+   "summary": "В середине ноября 2026 года состоялся релиз мультиплатформенного видеоредактора с открытым исходным кодом Shotcut 26.11, созданного на основе MLT Multimedia Framework. Исходный код проекта написан на C++ и QML (интерфейс на виджетах, а не на qml) и опубликован на GitHub под лицензией GNU General Public License v3.0. Разработка проекта этого видеоредактора началась более пятнадцати лет назад. Предыдущая стабильная вер",
+   "url": "https://habr.com/ru/articles/1108664/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108664",
+   "source": "Habr (أخبار)",
+   "country": "RU",
+   "region": "europe",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:33:11.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "6ad6631ad2",
+   "title": "日本运营商 KDDI 时隔 8 年发布 INFOBAR ZERO 手机：刻意砍掉网页浏览和社交媒体",
+   "summary": "IT之家 11 月 18 日消息，日本电信运营商 KDDI 今日宣布推出 INFOBAR ZERO 手机， 新机售价 3.278 万日元 （IT之家注：现汇率约合 1,373 元人民币） ，12 月 25 日发售。作为参考，KDDI 上一次发布 INFOBAR 系列手机还是 2018 年的 INFOBAR xv。 据介绍，INFOBAR ZERO 手机由 au Design project 负责策划。该机主打减法设计， 产品定位集中在电话 、 短信等基本通信需求 ， 刻意不支持网页浏览和社交媒体应用程序等 。手机配备 200 万像素摄像头，可拍摄复古风格照片。 外观方面，这款手机由深泽直人设计，提供 NISHIKIGOI、ICHIMATSU 和 SUNANEKO 配色。手机的外形延续了 INFOBAR 系列一脉相承的风格，拥有撞色设计的数字键盘。 规格方面， 这款手机搭载联发科 MT8765WA 处理器 ，拥有 1GB 内存和 ",
+   "url": "https://www.ithome.com/1/028/666.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:31:57.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "c89406bc0b",
+   "title": "9.2 分高危 Java 漏洞披露：黑客发串“乱码”可远程接管服务器，甲骨文紧急修复",
+   "summary": "IT之家 11 月 18 日消息，安全研究机构 Calif 昨日（11 月 17 日）披露名为 Java4Shell 的高危漏洞， 存在于 OpenJDK Base64 解码路径中，被攻击者利用可以远程执行恶意代码，甲骨文目前已紧急发布补丁修复。 Java4Shell 漏洞追踪编号为 CVE-2026-114938，在 CVSS 4.0 评分为 9.2 分，属于“关键”级别漏洞，影响 OpenJDK 的 Base64 解码器。 在 x86-64 平台上启用 &nbsp;AVX-512 VBMI 硬件加速 Base64 解码路径中，攻击者发送特定畸形 Base64 数据后，可触发越界堆内存写入，进而造成敏感内存泄露，或在部分应用中实现未经认证的远程代码执行。 研究团队称，漏洞的触发条件包括特定长度的 Base64 填充输入；其后果类似“心脏出血”（Heartbleed）式信息泄露，也可能被升级为服务器控制权夺取。 该缺陷仅影响支持",
+   "url": "https://www.ithome.com/1/028/665.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "الأمن السيبراني",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:30:35.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "f386300141",
+   "title": "딥엘, 韓·日 실시간 통역 수요 급증…회의 이용시간 최대 7배",
+   "summary": "[지디넷코리아]딥엘 실시간 음성 번역 서비스 '딥엘 보이스' 이용량이 한국과 일본에서 급증하며 기업 회의를 넘어 교육·공공 분야로 활용 범위를 넓히고 있다.딥엘은 올해 3분기 딥엘 보이스를 활용한 회의에서 총 참가자 이용 시간이 전년 동기 대비 한국에서 5배 이상, 일본에서 7배 이상 증가했다고 18일 밝혔다. 지난달 26일 기준 딥엘 보이스 도입 기업 수도 전년 같은 시점보다 약 3.5배 늘었다.기업에서는 다국어 회의와 글로벌 거점 간 정보 공유에 언어 AI를 활용하고 있다. 아모레퍼시픽은 마이크로소프트 팀즈와 연동한 딥엘 보이스를 도입해 실시간 번역 자막과 용어집 기능을 사용 중이다. 서비스 활용 회의 건수는 도입 초기 월 20~30건에서 월 100건 이상으로 증가했으며 배포된 라이선스 사용률도 95%를 넘어섰다.일본 스미토모상사는 딥엘 ",
+   "url": "https://zdnet.co.kr/view/?no=20261118112905",
+   "source": "ZDNet Korea",
+   "country": "KR",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:29:05.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "8e7e75e6e5",
+   "title": "AMD 更新虚幻引擎 FSR 插件，扩展 FSR 超分辨率 4 支持范围",
+   "summary": "IT之家 11 月 18 日消息，AMD 当地时间 16 日为 FSR 虚幻引擎插件推送 4.1.2 版本更新， 将 FSR \"Redstone\" SDK 2.4 的最新更新集成到虚幻引擎 5.3~5.8 中 。 此次更新包含新增 Radeon RX 6000 系列独立显卡、多款锐龙 APU 支持的 FSR 超分辨率 4.1.2，虚幻引擎上的开发者 只需一个插件即可实现 FSR 超分辨率 4 的广泛集成 。需要注意的是，该虚幻引擎插件目前仅支持 DirectX 12 API，Vulkan API 的支持尚未提供。 FSR 虚幻引擎插件 4.1.2 还包括全新的 FSR 帧生成交换链 4.0.0。这为 Radeon RX 9000 系列 GPU 添加了驱动程序辅助帧同步功能：其将显示调度移动到更接近显示管线的位置， 可实现更流畅的帧传输和更低的 CPU 占用率 。",
+   "url": "https://www.ithome.com/1/028/664.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:27:43.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "c6a657e6d3",
+   "title": "「Google Chrome 158」安定版リリース、ウェブアプリのインストール機能やAndroid版でのWebHID対応などが追加",
+   "summary": "ウェブブラウザ「Google Chrome」の最新安定版であるバージョン158がリリースされました。ウェブサイトからウェブアプリのインストールを要求できる「Web Install API」や「install要素」が追加されたほか、動画や音声の再生状態に応じてCSSを適用する機能、Android版ChromeでのWebHID API対応などが行われています。 続きを読む...",
+   "url": "https://gigazine.net/news/20261118-google-chrome-158/",
+   "source": "GIGAZINE",
+   "country": "JP",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Google",
+   "ts": "2026-11-18T02:25:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "2bb78a0030",
+   "title": "Ruling party, gov't agree to seek 10-year CSAT ban for AI-assisted cheating",
+   "summary": "SEOUL, Nov. 18 (Yonhap) -- The government and the ruling Democratic Party (DP) a...",
+   "url": "https://en.yna.co.kr/view/AEN20261118004500315",
+   "source": "Yonhap News",
+   "country": "KR",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:21:56.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "17e33ae8a7",
+   "title": "로봇청소기 선두 로보락, 진공 물걸레도 1위…점유율 14.3%",
+   "summary": "로보락이 올해 상반기 국내 가정용 진공 물걸레 청소기 시장에서 소매판매액 기준 점유율 14.3%로 1위를 기록했다. /사진 제공=로보락 로봇청소기로 승기를 잡은 로보락이 진공 물걸레 청소기 분야에도 정상에 올랐다. 국내 두 시장에서 나란히 판매액 1위를 차지하며 청소가전 강자로 입지를 넓혔다. 로보락은 고온 스팀을 앞세운 신제품도 잇달아 선보이며 청소가전 시장 공략에 속도를 내고 있다. 로봇 이어 물걸레까지 '1위 행진' 18일 글로벌 시장조사기관 유로모니터 인터내셔널에 따르면 로보락은 올해 상반기 국내 가정용 진공 물걸레 청소기 시장에서 소매판매액 기준 점유율 14.3%로 1위를 기록했다. 같은 기간 국내 시장 전체 소매판매액은 1488억원으로 집계됐다. 로보락 관계자는 \"이번 성과는 로봇청소기에 이어 진공 물걸레 청소기 시장에서도 로보락의",
+   "url": "https://www.bloter.net/news/articleView.html?idxno=678979",
+   "source": "Bloter",
+   "country": "KR",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:19:49.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "3dc4bb27d5",
+   "title": "戴森 Airsmooth 气流丰盈梳发布：吹干蓬松一步到位、断发减少 39%，1899 元",
+   "summary": "IT之家 11 月 18 日消息，戴森官方今日宣布推出全新的 Airsmooth 气流丰盈梳（HB01），定价为 1899 元。 京东 戴森（DYSON）Airsmooth 气流丰盈梳 1899 元 直达链接 作为戴森推出的首款专属热风造型梳，Airsmooth 气流丰盈梳核心实现吹干、蓬松、顺亮一步到位效果。 根据美国 TRI 实验室的加速断发测试数据，该产品在最高温度和气流档位反复梳理发束 2000 次后，相比带圆头齿梳设计的戴森 Airwrap 顺滑梳，累计断发量减少 39%。 该产品采用可控气流设计，气流从 816 根梳齿底部均匀扩散，在干发的同时完成造型，避免高温直吹造成的秀发热损伤，实现干发与造型同步完成。 梳头部分采用双重防打结梳齿结构搭配水滴形梳头设计，包含弹柔锥形梳齿与防缠绕环形梳齿两类梳齿，弹柔锥形梳齿可随造型灵活弯曲，顺畅梳理发丝，防缠绕环形梳齿的环形结构能够自然塌缩释放发丝，减少勾扯打结；水滴形梳头渐窄边",
+   "url": "https://www.ithome.com/1/028/661.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:19:40.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "9f88f92c7a",
+   "title": "Apple announces App Store price changes in multiple countries, new California tax rules",
+   "summary": "Apple today announced that App Store prices for apps and In-App Purchases will be adjusted in five countries starting December 3, following changes in taxes and foreign exchange rates. Here are the details. more…",
+   "url": "https://9to5mac.com/2026/11/17/apple-announces-app-store-price-changes-in-multiple-countries-new-california-tax-rules/",
+   "source": "9to5Mac",
+   "country": "US",
+   "region": "america",
+   "cat": "الهواتف والأجهزة",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Apple",
+   "ts": "2026-11-18T02:17:48.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "7624c95d7f",
+   "title": "[LG엔솔 상장 5년]②40조 생산자산 활용도 높인다…설비 효율화 속도",
+   "summary": "LG에너지솔루션 북미 에너지저장장치(ESS) 생산공장 현황./사진 제공=LG에너지솔루션 LG에너지솔루션이 상장 이후 구축한 글로벌 생산 시설을 활용해 투자 효율을 높이는 데 속도를 내고 있다. 전기차 시장의 고성장에 대비해 신규 공장을 선제적으로 확보했던 과거와 달리 최근에는 기존 생산라인을 새로운 제품 생산에 활용하고 고객 수요에 맞춰 설비를 재배치하는 데 집중하고 있다. 올해 설비투자를 대폭 줄이면서도 공장 가동률은 회복세를 보이는 가운데 생산 시설 확대에 치중했던 투자 전략이 효율성 중심으로 바뀌고 있다. 설비투자 53% 줄이고 기존 공장 전환&hellip;ESS 생산 확대 18일 LG에너지솔루션 3분기 실적발표 자료에 따르면 올해 1~9월 설비투자액은 약 3조8000억원으로 지난해 같은 기간 약 8조원 대비 53% 감소했다. 지난해 연",
+   "url": "https://www.bloter.net/news/articleView.html?idxno=678981",
+   "source": "Bloter",
+   "country": "KR",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:17:15.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "564682beb4",
+   "title": "아이와 놀고 검사 절차 설명…KT·서울대병원, AI 로봇 실증",
+   "summary": "[지디넷코리아]KT가 서울대병원에서 어린이 환자와 대화하고 병원 내 목적지까지 동행하는 AI 로봇을 실증한다. 낯선 병원 환경에서 아이들의 긴장을 덜어줄 수 있는지 살피고, 의료진의 반복 업무를 지원할 수 있는지도 검증한다.KT는 서울대병원과 어린이 환자 대상 의료 피지컬 AI 실증에 나선다고 18일 밝혔다.로봇은 진료를 기다리거나 치료를 전후한 아이들과 이야기를 나누고 놀이를 함께한다. 검사나 치료 절차를 아이가 이해하기 쉬운 말로 설명하고, 병원 안에서 목적지를 안내하거나 동행한다.실증에는 보호자가 사전에 동의하고 자발적으로 신청한 어린이 환자만 참여한다. 로봇은 환자의 의무기록에 접근하지 않는다. 참여자의 개인정보는 저장하지 않으며, 실증 중 수집한 데이터는 AI 모델 학습에 쓰지 않는다.KT는 자체 한국어 대화 기술과 AI 에이전트를 ",
+   "url": "https://zdnet.co.kr/view/?no=20261118111704",
+   "source": "ZDNet Korea",
+   "country": "KR",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:17:04.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "50ace0fdbc",
+   "title": "Some Nvidia directors continue push to bring Huang back",
+   "summary": "ARM’s Rene Haas and Marvell’s Matt Murphy are among executives being considered for the top job.",
+   "url": "https://www.semafor.com/article/11/17/2026/some-nvidia-directors-push-to-bring-huang-back-despite-board-opposition",
+   "source": "Semafor",
+   "country": "US",
+   "region": "america",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "NVIDIA",
+   "ts": "2026-11-18T02:17:01.000Z",
+   "fs": "2026-11-18T02:10:05.591Z"
+  },
+  {
+   "id": "c1b8986737",
+   "title": "‘You said spicy, right?’ Panel takes on Washington’s economic blind spots — and what needs to change",
+   "summary": "Washington’s economy is strong, but a candid Technology Alliance panel questioned whether the state is coasting on past success. Panelists called for developing talent already here, looking beyond big employers and giving communities well outside Seattle more say in what comes next. Read More",
+   "url": "https://www.geekwire.com/2026/you-said-spicy-right-panel-takes-on-washingtons-economic-blind-spots-and-what-needs-to-change/",
+   "source": "GeekWire",
+   "country": "US",
+   "region": "america",
+   "cat": "الشركات الناشئة",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:15:12.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "37648af219",
+   "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+   "summary": "The problem disrupted the operations of NSANet, a classified internal network used by employees of the agency. The post Classified Communications Network at the National Security Agency Goes Down, Defense Official Says appeared first on SecurityWeek .",
+   "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+   "source": "SecurityWeek",
+   "country": "US",
+   "region": "america",
+   "cat": "الأمن السيبراني",
+   "level": 2,
+   "n": 2,
+   "also": [
+    {
+     "source": "Hacker News",
+     "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down"
+    }
+   ],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:15:07.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "0d1bc59b71",
+   "title": "消息称英伟达安抚机器人生态伙伴，“物理 AI”投资不会急刹车",
+   "summary": "IT之家 11 月 18 日消息，科技媒体 Business Insider 今天（11 月 18 日）发布博文，报道称在黄仁勋突发离职后，英伟达及其风险投资部门 NVentures 已联系至少 3 家其投资的机器人初创公司， 明确表示业务将“照常进行”，以稳定市场对其机器人投资战略的担忧。 这一动作发生在临时 CEO 科莱特 · 克雷斯（Colette Kress）接掌公司之际。市场担忧，在黄仁勋离任后，英伟达对 AI、机器人和“物理 AI”初创企业的投资节奏可能放缓，相关公司对融资、算力资源及合作前景产生疑虑。 黄仁勋长期将机器人与“物理 AI”（physical AI）视为英伟达的重要增长方向。IT之家注：“物理 AI”是指能够感知、决策并在真实世界中行动的人工智能。 黄仁勋此前曾称，机器人是科技行业“首次有机会切入一个迄今基本缺乏技术的 50 万亿美元 （现汇率约合 333.99 万亿元人民币） 产业”。在其任内，英伟达",
+   "url": "https://www.ithome.com/1/028/660.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:14:48.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "2889029889",
+   "title": "[최경진 未來法道] 수능 시험장에 선 AI, 또 하나의 시험",
+   "summary": "[지디넷코리아]내일 2027학년도 대학수학능력시험이 치러진다. 올해 수능은 여느 해와 다른 긴장 속에 있다. 국가자격시험과 대입 논술고사에서 AI 안경을 쓴 수험생이 올해 들어 잇따라 적발되었고, 시험을 이틀 앞둔 17일에는 국무총리가 직접 대국민 담화에 나서 감독 체계의 전면 강화를 약속했다. 가장 공정해야 할 시험장이 AI 시대의 첫 번째 시험대가 된 셈이다.AI와 스마트기기가 일상에 스며드는 만큼 그것을 부정한 목적에 쓰려는 시도가 늘어나는 것은 피하기 어려운 흐름이다. 이번 일은 단순한 부정행위 사건이 아니다. AI 시대에 우리가 어떤 규칙을 세우고 어떻게 행동해야 하는가를 묻는 질문이자 숙제이다.출발점은 분명하다. 기술과 기기는 중립적이며, 문제는 그것을 오남용하는 사람이다. 오로지 범죄만을 위해 만들어진 기기나 기술이라면 엄격히 제",
+   "url": "https://zdnet.co.kr/view/?no=20261118111341",
+   "source": "ZDNet Korea",
+   "country": "KR",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:13:41.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "c5a74c6560",
+   "title": "DSRV, 블록체인으로 농산물 생산·유통 이력 관리…아프리카 진출",
+   "summary": "[지디넷코리아]블록체인 인프라 기업 DSRV가 해외 농촌지역에 블록체인 기술을 도입해, 영농 데이터를 기록·관리할 수 있는 사업을 추진한다. DSRV는 코트디부아르 농축수산업·유통 그룹 알툼 계열사 '포로'와 업무협약(MOU)을 체결했다고 18일 밝혔다. 코트디부아르 농업 현장에 디지털 기술을 도입하고 소규모 농가 금융 접근성을 높이는 데 협력하기로 했다. DSRV 블록체인 인프라와 FORO 현지 농산물 생산·유통망을 결합한다. 코트디부아르 농업부와 옥수수·쌀 등 주요 작물 생산자 협회 의견을 듣고 현지 환경에 최적화된 디지털 농업 사업을 구체화할 방침이다.주요 협력 분야는 ▲농민 디지털 신원(DID) 발급·농가별 생산 기록 관리 ▲농자재 지원 내역 관리를 위한 디지털 바우처 도입 ▲블록체인 기반 농산물 생산 및 유통 이력 추적 ▲인공지능(A",
+   "url": "https://zdnet.co.kr/view/?no=20261118111246",
+   "source": "ZDNet Korea",
+   "country": "KR",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:12:46.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
    "id": "7ac7a7b4b9",
@@ -1514,26 +2205,191 @@
    "off": true
   },
   {
-   "id": "50ace0fdbc",
-   "title": "Some Nvidia directors push to bring Huang back despite board opposition",
-   "summary": "ARM’s Haas and Marvell’s Murphy are among executives being considered for the top job.",
-   "url": "https://www.semafor.com/article/11/17/2026/some-nvidia-directors-push-to-bring-huang-back-despite-board-opposition",
-   "source": "Semafor",
-   "country": "US",
-   "region": "america",
+   "id": "16a7a23069",
+   "title": "지텍, 신규 MX60 및 MX60W 출시… 전술 현장 작전 요원을 위한 임무 필수 컴퓨팅 성능 제공",
+   "summary": "[지디넷코리아] 소형 6인치 최종 사용자 기기…풀 러기드 신뢰성과 강력한 엣지 인텔리전스, 안정적인 연결성을 결합해 까다로운 국방 환경에서도 상황 인식 능력 향상 주요 뉴스 요약 새롭게 출시된 지텍 6인치 MX60과 MX60W는 현장 작전 요원의 구체적인 요구사항에 맞춰 특별히 설계된 제품이다. 두 기기 모두 ATAK(MX60) 및 WinTAK(MX60W) 기반 병사 시스템에 원활하게 통합되도록 설계됐다. 선택 사양인 전술 조끼 및 손목 장착용 마운트 등 지텍의 안전한 핸즈프리 휴대 옵션을 활용하면 가혹한 환경에서도 기동성과 활용성을 높일 수 있다. 타이베이, 2026년 11월 18일 /PRNewswire/ -- 러기드 컴퓨팅 및 모바일 비디오 솔루션 분야의 선도 기업이자 첨단 자체 제조 역량을 보유한 지텍 테크놀로지 코퍼레이션(Getac T",
+   "url": "https://zdnet.co.kr/view/?no=20261118111012",
+   "source": "ZDNet Korea",
+   "country": "KR",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:10:12.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "66b43ce12b",
+   "title": "피지컬 AI 선도기업 애자일 로봇, 85억 달러 기업가치로 5억 달러 규모 시리즈 F 투자 유치…글로벌 성장 가속 나서",
+   "summary": "[지디넷코리아]뮌헨 2026년 11월 17일 /PRNewswire/ -- 뮌헨 소재 피지컬 AI 기업 애자일 로봇(Agile Robots)이 기업 가치 85억 달러를 인정받으며 5억 달러 규모의 시리즈 F 투자를 유치했다. 이번 라운드에는 소프트뱅크 그룹(SoftBank Group)이 주도하고 엔비디아(NVIDIA), 히타치 그룹(Hitachi Group, 히타치와 히타치 벤처스(Ventures)로 구성), T.캐피탈(T.Capital) 등이 참여했으며 이로써 회사의 누적 투자 유치액은 20억 달러에 달하게 됐다. 뉴욕증권거래소(NYSE) 전광판에 애자일 로봇의 5억 달러 규모 시리즈 F 투자 유치 소식 발표 애자일 로봇은 피지컬 AI(휴머노이드와 모바일 로봇, 로봇 팔과 손, 그 이면의 소프트웨어와 AI 모델까지)를 구축하고 배치해 산업 업",
+   "url": "https://zdnet.co.kr/view/?no=20261118111002",
+   "source": "ZDNet Korea",
+   "country": "KR",
+   "region": "asia",
    "cat": "الذكاء الاصطناعي",
-   "level": 2,
-   "n": 2,
-   "also": [
-    {
-     "source": "Wired",
-     "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/"
-    }
-   ],
+   "level": 1,
+   "n": 1,
+   "also": [],
    "kind": "news",
    "company": "NVIDIA",
-   "ts": "2026-11-18T02:08:38.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
+   "ts": "2026-11-18T02:10:02.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "d5d58fab8b",
+   "title": "수능 AI 부정행위 막는다…정부, 전국에 '위급재난문자' 발송",
+   "summary": "[지디넷코리아]정부가 대학수학능력시험에서 인공지능(AI)과 초소형 스마트기기를 이용한 부정행위를 막기 위해 전국에 위급재난문자를 발송한다. 시험 시작 전부터 경보음을 울려 수험생이 몰래 소지한 스마트기기를 찾아내겠다는 취지다.교육부와 행정안전부는 2027학년도 수능이 치러지는 19일 오전 8시 30분 첫 위급재난문자를 발송하고, 이후에도 예고 없이 추가 발송할 계획이라고 18일 밝혔다.이번 조치는 최근 세무사시험 등에서 초소형 카메라와 스마트기기를 활용한 AI 부정행위가 문제가 된 데 따른 것이다. 휴대전화 등 전자기기를 숨겨 시험장에 반입한 수험생을 적발하고 유사한 부정행위를 사전에 차단하기 위한 목적이다.위급재난문자는 수신을 거부할 수 없으며, 전원이 켜진 휴대전화에서 최소 40데시벨(dB) 이상의 경보음이 최대 음량으로 10.5초간 울린",
+   "url": "https://zdnet.co.kr/view/?no=20261118110856",
+   "source": "ZDNet Korea",
+   "country": "KR",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:09:03.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "5cd9fc505c",
+   "title": "Вышло обновление RapidRAW 1.7.0 — открытого редактора изображений RAW",
+   "summary": "Состоялся выпуск обновления открытого мультиплатформенного редактора изображений RapidRAW 1.7.0. Проект предлагает простой способ обработки изображений RAW с помощью GPU. Решение использует лёгкую (~30 МБ) и эффективную кодовую базу, созданную на основе Rust, React и Tauri. Читать далее",
+   "url": "https://habr.com/ru/articles/1108660/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108660",
+   "source": "Habr (أخبار)",
+   "country": "RU",
+   "region": "europe",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:07:05.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "8c8fc04d2c",
+   "title": "299 元小米对讲机 2S 新增橙色版：4W 发射功率、120 小时超长待机",
+   "summary": "IT之家 11 月 18 日消息，小米官方今日宣布，小米对讲机 2S 全新橙色版本正式开售，到手价 299 元。 据小米官方介绍，这款对讲机主要有以下四大卖点： 轻薄高颜值，兼顾手感与质感； 4W 发射功率，小巧机身澎湃性能； 120 小时超长待机，充沛动力时刻就绪； 1.77 英寸彩色大屏，清晰直观又好看。 小米对讲机 2S 采用了 1.77 英寸的彩色大屏以及 36mm 大尺寸扬声器单元，机身厚度仅为 15mm，整机重量也只有 130 克，而且还提供了 Type-C 和 3.5mm 接口。 IT之家提醒，小米为其提供了多种自定义功能，你可以根据自己的需求设置蓝牙（连接蓝牙耳机）、方位以及 FM 收音机模式。闲暇时间听一听收音机，享受 FM87-108MHz 的快乐。 除了最常见的 20 个远距离频道外，小米对讲机 2S 还支持了多达 80 个自定义频道，并且每个自定义频道的频率，还可以自主设定。此外，小米对讲机 2S 采用了",
+   "url": "https://www.ithome.com/1/028/642.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:06:52.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "e6fb52f6b9",
+   "title": "AMD 完成对 Taalas 收购，计划将后者芯片整合进加速器路线图",
+   "summary": "IT之家 11 月 18 日消息，AMD 当地时间昨日宣布 完成对专用 AI 推理芯片开发商 Taalas 的收购 。这家初创企业带来了差异化的技术和世界一流的工程专业知识。 AMD 表示此举将进一步加强其全栈 AI 产品组合和长期推理路线图。 AMD 计划将 Taalas 的技术整合到其加速器路线图中 ，结合 Instinct GPU 共同开发系统级解决方案。 IT之家了解到， Taalas 采用了将 AI 模型“固化”到 ASIC 上的技术路线 ，加速器芯片针对特定模型的工作负载进行优化。这一设计虽然大幅削弱了芯片的通用性，但也能显著提升推理效率。 相关阅读： 《 AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图 》",
+   "url": "https://www.ithome.com/1/028/640.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:06:29.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "3d4e3fb1a3",
+   "title": "Claude 关联计费测试上线，第三方应用 AI 消费能“按需结算”",
+   "summary": "IT之家 11 月 18 日消息，Anthropic 昨日（11 月 17 日）更新 Claude 平台文档，宣布引入名为“关联计费”（Linked Billing）的 OAuth 测试版功能。 用户未来使用某个第三方 AI 应用时，可以直接使用自己的 Claude 账户支付背后真实的 AI 调用费用。 以往企业或开发者若在编码助手、工作流自动化等第三方工具中调用 Claude，往往需要共享 API 密钥。密钥一旦泄露，可能被他人用于调用并产生费用。 而“关联计费”不再由开发者统一承担模型使用成本，开发者可将自家应用与客户的 Claude Platform 组织关联，让客户直接为其在应用中产生的 Claude API 调用付费。 在控制与安全方面，用户须拥有其 Claude 组织的 Admin 或 Billing 角色才能完成授权。用户可在 Claude Console 的“已关联平台”页面查看应用费用、设置每月支出上限，或随时",
+   "url": "https://www.ithome.com/1/028/637.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Anthropic",
+   "ts": "2026-11-18T02:05:41.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "0d25109d58",
+   "title": "大摩将小米目标价调整至 35 港元，看好非手机业务支撑盈利韧性",
+   "summary": "IT之家 11 月 18 日消息，据《科创板日报》今日报道，摩根士丹利（大摩）将小米目标价上调 6% 至 35 港元 （IT之家注：现汇率约合 29.8 元人民币） ， 并维持“增持”评级 。 摩根士丹利指出，小米集团多元化产品组合将有助于抵御智能手机行业的低迷。该机构分析师认为，在安卓手机制造商中，小米的表现有望优于同行。这得益于其庞大的非智能手机业务敞口，这将有助于其实现具有韧性的盈利表现。",
+   "url": "https://www.ithome.com/1/028/633.htm",
+   "source": "IT之家",
+   "country": "CN",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:03:46.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "4158375a6f",
+   "title": "Не Клодом единым — как после бана я переписал командный плагин на разные хосты моделей",
+   "summary": "supertick 2.0: как я перенёс команду агентов из Claude Code в Kimi, Codex и OpenCode В первой части я рассказывал про supertick, командный плагин для Claude Code. Ведущий там тонкий и почти всё время спит, его будит внешний «тик», скрипт без LLM. Исполнители - субагенты Claude и внешние CLI вроде cursor и codex. Всё это работало, пока жило в одной подписке и одной среде. Но волна банов от Anthropic докатилась и до ме",
+   "url": "https://habr.com/ru/articles/1109094/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1109094",
+   "source": "Habr (أخبار)",
+   "country": "RU",
+   "region": "europe",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "Anthropic",
+   "ts": "2026-11-18T02:02:44.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "a4dbd9ebfd",
+   "title": "[ITmedia ビジネスオンライン] 図鑑4000冊が「10分で完売」！ 登録者62万人の「有隣堂」YouTubeはなにがすごいのか",
+   "summary": "登録者数62万人を誇る有隣堂のYouTubeチャンネル「有隣堂しか知らない世界」。生配信では4000冊の図鑑がわずか約10分で完売した。YouTubeを起点にファンとの接点を広げる独自の戦略に迫る。",
+   "url": "https://www.itmedia.co.jp/business/articles/2611/18/news045.html",
+   "source": "ITmedia",
+   "country": "JP",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:02:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "392bfa0499",
+   "title": "[ITmedia PC USER] エレコム、Bluetooth接続に対応したワイヤレス指紋認証リーダー",
+   "summary": "エレコムは、ワイヤレス接続に対応したWindows用指紋認証リーダー「CR-FI50BBK」を発表した。",
+   "url": "https://www.itmedia.co.jp/pcuser/articles/2611/18/news027.html",
+   "source": "ITmedia",
+   "country": "JP",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:01:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
    "id": "f6c54a8956",
@@ -1621,6 +2477,23 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
+   "id": "c178ec9051",
+   "title": "[ITmedia PC USER] Dynabookが個人向けスタンダードノートPCの新モデルを発表 ミニマルデザインが光る14型「dynabook M6」など3機種",
+   "summary": "Dynabookが個人向けスタンダードノートPCの新モデルを発表した。14型「dynabook M6」の新モデルは12月上旬、16型「dynabook C8／C9」の新モデルは11月20日から順次販売を開始する予定だ。",
+   "url": "https://www.itmedia.co.jp/pcuser/articles/2611/18/news025.html",
+   "source": "ITmedia",
+   "country": "JP",
+   "region": "asia",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "news",
+   "company": "",
+   "ts": "2026-11-18T02:00:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
    "id": "ad6fb3e218",
    "title": "Karnataka aims to become a global hub for frontier tech; Fadnavis’ vision for a new Maharashtra",
    "summary": "Karnataka aims to become a global hub for frontier technologies such as AI, deeptech, and biotech, said CM DK Shivakumar at Bengaluru Tech Summit. Meanwhile, Maharashtra CM Fadnavis has shared his roadmap for a trillion-dollar, drought-free, deeptech Maharashtra by 2035.",
@@ -1674,7 +2547,7 @@
   {
    "id": "85af9b5484",
    "title": "Brain implant technology startup Science Corp. raises $400M to bring its medical devices to market",
-   "summary": "Brain-computer interface company Science Corp. today revealed it has raised $400 million in a Series D round of funding that brings its valuation soaring to $3.5 billion. The round, announced in a blog post earlier today, was led by high-profile venture capital firm Khosla Ventures. It was joined by the Ackman Oxman Institute, Tenet Healthcare, […] The post Brain implant technology startup Science Corp. raises $400M ",
+   "summary": "Brain-computer interface company Science Corp. today revealed it has raised $400 million in a late-stage round of funding that brings its valuation to $3.5 billion. The Series D round, announced in a blog post today, was led by high-profile venture capital firm Khosla Ventures. It was joined by the Ackman Oxman Institute, Tenet Healthcare, 885 […] The post Brain implant technology startup Science Corp. raises $400M t",
    "url": "https://siliconangle.com/2026/11/17/brain-implant-technology-startup-science-corp-raises-400m-to-bring-its-medical-devices-to-market/",
    "source": "SiliconANGLE",
    "country": "US",
@@ -1707,8 +2580,8 @@
   },
   {
    "id": "86dbf4002e",
-   "title": "F5, 2027년 사이버보안 3대 전망 발표…AI 시대 국내 기업 보안 전략 제시",
-   "summary": "[지디넷코리아]미국 시애틀 소재 글로벌 애플리케이션 보안 기업 F5의 한국지사(지사장 이형욱)이 18일 서울 역삼동 AC 호텔 바이 메리어트 서울 강남에서 ‘F5 2027 사이버보안 전망 기자간담회’를 개최했다. 2027년 주요 사이버보안 전망과 국내 기업의 대응 전략을 발표했다.회사는 이날 소버린 AI 확산에 따른 보안 주권 확보, 운영 안정성을 위한 멀티모델 AI 도입, AI 기반 사이버 공격 가속화를 3대 핵심 변화로 제시, 기업과 기관들이 새로운 보안 환경에 대비하기 위한 주요 전략을 공유했다.이형욱 F5 코리아 지사장은 “기업들이 AI를 시험 단계에서 실제 비즈니스 운영으로 확대하면서 비용과 데이터 주권, 보안에 대한 고민도 깊어지고 있다”며 “F5는 애플리케이션 전송과 보안을 아우르는 통합 플랫폼을 기반으로 국내 기업들이 AI 도입",
+   "title": "F5, 2027년 사이버보안 3대 전망 발표…\"제로데이 위협 가속화\"",
+   "summary": "[지디넷코리아]미국 시애틀 소재 글로벌 애플리케이션 보안 기업 F5의 한국지사(지사장 이형욱)이 18일 서울 역삼동 AC 호텔 바이 메리어트 서울 강남에서 ‘F5 2027 사이버보안 전망 기자간담회’를 개최했다. 2027년 주요 사이버보안 전망과 국내 기업의 대응 전략을 발표했다.회사는 이날 ▲소버린 AI 확산에 따른 보안 주권 확보 필요 ▲운영 안정성을 위한 멀티모델 AI 도입 확대 ▲최첨단 AI모델 등장에 따른 제로데이 위협 가속화 등의 3대 핵심 변화를 제시, 기업과 기관들이 새로운 보안 환경에 대비하기 위한 주요 전략을 공유했다.이형욱 F5 코리아 지사장은 “기업들이 AI를 시험 단계에서 실제 비즈니스 운영으로 확대하면서 비용과 데이터 주권, 보안에 대한 고민도 깊어지고 있다”며 “F5는 애플리케이션 전송과 보안을 아우르는 통합 플랫폼",
    "url": "https://zdnet.co.kr/view/?no=20261118105635",
    "source": "ZDNet Korea",
    "country": "KR",
@@ -1893,23 +2766,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "817d8a1c14",
-   "title": "아주IB투자, 3분기 누적 영업익 276억…연내 3350억 펀드 결성",
-   "summary": "/ 사진 제공 = 아주IB투자 아주IB투자가 3분기까지 누적 영업이익 276억원을 기록했다. 3분기에는 보유 자산의 평가이익이 축소돼 분기 영업손실을 냈지만 상반기에 확보한 이익으로 누적 흑자를 유지했다. 17일 금융감독원 전자공시에 따르면 아주IB투자의 3분기 누적 연결 영업이익은 276억원으로 전년 동기(62억원) 대비 345.5% 증가했다. 상반기 462억원의 영업이익을 올렸으나 3분기 단독으로는 186억원의 영업손실이 발생했다. 아주IB투자는 아주그룹 계열 VC로 미국 법인 솔라스타벤처스를 통해 스페이스X에 투자한 것으로 알려졌다. 3분기 손실은 스페이스X 주가 조정, 달러 약세, 하우스가 보유한 상장 포트폴리오 상당수가 속한 코스닥 시장의 조정이 겹친 것이 주요인이다. 하우스 측은 미실현 평가손익의 일시적 변동으로 본원적 수익 기반에",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678811",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:49:51.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "8b66aa7fef",
    "title": "Tai-Tech TLVR inductors ride AI server growth as ASIC orders visibility reaches 3Q27",
    "summary": "Rising thermal design power (TDP) in next-generation GPUs and custom application-specific integrated circuits (ASICs) is driving up overall power consumption in AI servers, fueling sustained growth in passive component demand. Inductor manufacturer Tai-Tech Advanced Electronics expects monthly demand for its trans-inductor voltage regulator (TLVR) inductors to reach 2 million to 3 million units as two major US cloud ",
@@ -1995,40 +2851,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "f781a9ac40",
-   "title": "총리부터 장관·여야 의원까지…지스타에 쏠린 시선",
-   "summary": "[지디넷코리아]국내 최대 게임 전시회 ‘지스타 2026’ 개막을 앞두고 정부와 국회 주요 인사들의 참석이 잇따라 예고되면서 게임산업을 향한 정관계의 관심이 주목받고 있다.18일 관련 업계에 따르면 최휘영 문화체육관광부 장관은 이날 부산에서 열리는 2026 대한민국 게임대상 시상식에 참석한 뒤 19일 지스타 개막식에도 자리할 예정이다. 한성숙 국무총리 역시 개막식 참석을 주간 일정에 포함한 상태다. 국회 문화체육관광위원회 소속 여야 의원들도 행사장을 찾을 것으로 알려졌다.올해 지스타는 19일부터 22일까지 나흘간 부산 벡스코에서 열린다. 한국게임산업협회가 주최하고 지스타조직위원회와 부산정보산업진흥원이 주관하는 국내 대표 게임산업 행사다.올해 정관계 주요 인사 가운데 가장 먼저 공식 일정을 시작하는 인물은 최 장관이다. 최 장관은 18일 게임대상",
-   "url": "https://zdnet.co.kr/view/?no=20261118104147",
-   "source": "ZDNet Korea",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:46:59.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "00402e716c",
-   "title": "SELLAS 癌症疫苗 Ⅲ 期试验成功：AML 死亡风险降低 41%，股价飙升 156.36%",
-   "summary": "IT之家 11 月 18 日消息，美国生物制药公司 SELLAS Life Sciences Group 昨日宣布其研发的一款实验性癌症疫苗在针对急性髓系白血病（AML）的关键性 3 期临床试验中取得积极结果。 试验数据显示，该疫苗可使患者死亡风险降低 41%，中位总生存期达到 24 个月，显著高于现有最佳治疗方案。 据 SELLAS 发布的公告，这款名为 galinpepimut-S（GPS）的实验性癌症疫苗在 3 期 REGAL 临床试验中达到了主要研究终点 —— 总生存期（OS）。接受疫苗治疗的患者中位总生存期为 24 个月，而对照组患者为 14.7 个月，死亡风险降低 41%，风险比（HR）为 0.59，双侧 P 值为 0.035。 据路透社报道，临床试验结果公布后，SELLAS 股价大幅上涨，盘中涨幅一度超过 243%。截至美股收盘，其股价涨幅回落至 156.36%，报收于 19.15 美元。 此次试验共纳入 126 ",
-   "url": "https://www.ithome.com/1/028/628.htm",
-   "source": "IT之家",
-   "country": "CN",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:46:24.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "aea5a78f00",
    "title": "US export controls, processor shortages slow China's enterprise SSD shipments",
    "summary": "China's enterprise solid-state drive (eSSD) shipments are slowing as US export controls and severe GPU and CPU shortages prevent servers from being assembled into complete systems, dampening cloud infrastructure demand. Supply-chain sources expect momentum to recover after the Lunar New Year, with a broader rebound projected between late in the first quarter and the second quarter of 2027.",
@@ -2060,23 +2882,6 @@
    "kind": "news",
    "company": "NVIDIA",
    "ts": "2026-11-18T01:44:21.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "3c05a93e2b",
-   "title": "업비트, 3분기 고객보호준비금 65.6% 상향",
-   "summary": "[지디넷코리아]국내 가상자산 거래소 업비트와 빗썸 고객예치금이 올해 들어 나란히 30% 가량 감소한 것으로 나타났다. 반면 해킹 등 사고에 대비해 마련하는 이용자보호준비금은 두 거래소가 엇갈린 흐름을 보였다.18일 금융감독원 전자공시시스템에 따르면, 업비트 운영사 두나무의 올해 3분기 말 고객예치금은 약 3조 9733억원으로 지난해 말 대비 31.9% 감소했다.빗썸 역시 같은 기간 회원예치금이 약 2조 352억원에서 1조3875억원으로 31.8% 줄었다. 두 거래소 모두 고객예치금이 30% 넘게 감소한 셈이다.고객예치금은 이용자가 거래소에 맡긴 원화 자금이다. 예치금 감소에는 이용자 출금뿐 아니라 가상자산 매수 등 다양한 요인이 영향을 미칠 수 있다. 다만 두 거래소 모두 3분기 영업손실을 기록한 점을 고려하면 가상자산 거래 위축으로 인한 이",
-   "url": "https://zdnet.co.kr/view/?no=20261118103348",
-   "source": "ZDNet Korea",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:44:08.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -2131,23 +2936,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "4c7b328a5d",
-   "title": "이지스·하나증권·딜로이트 안진, 패밀리오피스·고액자산 시장 진출",
-   "summary": "17일 서울 영등포구 하나증권 본사에서 열린 '패밀리오피스 경쟁력 강화를 위한 전략적 업무협약식'에서 조갑주 이지스자산운용 대표이사, 강성묵 하나증권 대표이사, 길기완 딜로이트 안진회계법인 대표이사(왼쪽부터)가 기념촬영을 하고 있다. / 사진 제공=이지스자산운용 이지스자산운용이 하나증권, 딜로이트 안진회계법인과 함께 패밀리오피스&middot;고액자산가 시장에 진출한다. 기관투자자에게 제공했던 대체투자 기회를 신규 시장으로 확장한다. 상품 구조화부터 매입&middot;매각, 세무&middot;재무 자문까지 3사가 함께 지원한다는 전략이다. 이지스자산운용은 17일 서울 영등포구 하나증권 본사에서 하나증권, 딜로이트 안진회계법인과 패밀리오피스&middot;고액자산가 고객을 위한 부동산 투자&middot;자산관리 업무협약(MOU)을 체결했다고 18일",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678978",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:42:27.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "4af9a4e420",
    "title": "엔키화이트햇, 정보보안·클라우드 보안 국제 인증 취득",
    "summary": "[지디넷코리아]엔키화이트햇이 정보보안 경영시스템 국제 표준 'ISO 27001' 전환 심사를 완료하고, 클라우드 서비스 보안 국제 표준 'ISO 27017' 인증을 획득했다고 18일 밝혔다.심사는 정보보안 관리체계와 클라우드 서비스 운영 전반을 대상으로 진행됐다.엔키화이트햇은 이번 심사를 통해 전 사업 영역에 걸쳐 국제 규격에 부합하는 보안 프로세스를 갖췄음을 입증했다. 대상은 정보보안 컨설팅, 제품 및 서비스(OFFen Series), 교육훈련자료 제작, 기술 개발 및 연구 등이다.주력 솔루션의 클라우드 환경 내 보안성과 서비스 안정성을 국제적으로 검증했다. 대상은 올인원 오펜시브 보안 플랫폼 '오펜(OFFen)'과 AI 기반 웹 애플리케이션 침투테스트 자동화 솔루션 '오펜 AI DAST'다. 고객의 민감한 자산을 다루고 취약점을 점검하는 ",
@@ -2199,142 +2987,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "0c07073460",
-   "title": "英伟达临时 CEO 克雷斯：黄仁勋离职后，客户和员工都不会流失",
-   "summary": "IT之家 11 月 18 日消息，据 CNBC 今日报道，英伟达临时 CEO 科莱特・克雷斯（Colette Kress）表示，尽管黄仁勋已经辞职， 但公司主要客户依然高度支持英伟达 。 克雷斯强调，主要客户持续对英伟达的产品表达了兴趣。“有很多这些客户联系我，说‘看到一切都完好无损，真好。很高兴看到供应更多了。我需要更多产能’”。 然而，客户需求并不是英伟达面临的唯一问题。黄仁勋的离职也引发了外界质疑，即英伟达是否能留住那些帮助其在 AI 领域建立主导地位的工程师和其他员工。 克雷斯否认了对潜在员工流失的担忧 ，并向 CNBC 强调：“公司是在员工视英伟达为毕生事业的理念下建立的，许多人在这里工作了数十年，从技术角度或业务运营角度与我们合作。”“我们高度相信员工们肯定仍在努力工作，仍在与我们共事，并且享受在英伟达的工作。” 综合IT之家此前报道， 英伟达董事会于北京时间 11 月 12 日晚宣布 ，黄仁勋辞去总裁、首席执行官及",
-   "url": "https://www.ithome.com/1/028/626.htm",
-   "source": "IT之家",
-   "country": "CN",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:39:53.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "cd60e4ca07",
-   "title": "[ITmedia News] 口座情報漏えいの楽天証券、「ワンタイムキー発行に時間がかかっている」 出金やログインパス変更に必要",
-   "summary": "ワンタイムキーは、出金やログインパスワードの変更、一部環境でのパスキー設定などに必要だが、こうした作業に支障が出ている可能性がある。",
-   "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003284/",
-   "source": "ITmedia",
-   "country": "JP",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:39:12.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "464f3f99ec",
-   "title": "谷歌签署超 5 亿美元清洁能源购电协议：2030 年起向 Quaise 采购 50MW 深层地热能",
-   "summary": "IT之家 11 月 18 日消息，深层超高温地热发电企业 Quaise Energy 当地时间 17 日宣布，该企业已同 Google（谷歌）签署一项购电协议， 计划从 2030 年开始向谷歌位于美国俄勒冈州的数据中心站点交付 50MW 的清洁电力 。 根据《华尔街日报》的报道，这笔交易 总价值超 5 亿美元 （IT之家注：现汇率约合 33.4 亿元人民币） 。 IT之家了解到，Quaise Energy 拥有一套基于毫米波技术的深层钻孔系统，深度达到 3~20km，温度达到 300~500℃， 每口深层钻井可提供 10 倍于传统地热系统的能量产出 。 该企业的旗舰站点 Project Obsidian 位于俄勒冈州中部， 总设计发电能力达 250MW ；其中首期预计 2030 年进入商业运营阶段，常时供电能力 50MW。 参考 https://www.wsj.com/business/energy-oil/google-emb",
-   "url": "https://www.ithome.com/1/028/624.htm",
-   "source": "IT之家",
-   "country": "CN",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Google",
-   "ts": "2026-11-18T01:38:31.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "cc3412fecd",
-   "title": "삼성전기 증설에 또 지갑 여는 엔비디아…MLCC도 '눈독'",
-   "summary": "삼성전기 수원사업장. /사진 제공=삼성전기 삼성전기가 엔비디아와 AI(인공지능) 반도체 부품 동맹을 공고히 하고 있다. 엔비디아가 공장 증설에 추가 자금을 지원하는 방안까지 검토하면서 양사 협력에도 힘이 실린다. 첨단 기판에서 시작한 협력이 MLCC(적층세라믹커패시터)까지 뻗어가는 모습이다. 엔비디아, 세종&middot;부산 증설에 추가 지원 검토 삼성전기(왼쪽), 엔비디아 CI. /사진 제공=삼성전기 삼성전기는 18일 엔비디아와 AI 반도체 패키지기판 공급 협력을 강화한다고 밝혔다. 양사는 10월 전략적 파트너십을 맺고 차세대 GPU(그래픽처리장치)용 첨단 기판의 안정적인 공급에 뜻을 모았다. 이번에는 생산시설 확충을 위한 추가 자금 지원까지 논의하며 협력의 폭을 넓히고 있다. 엔비디아는 앞서 삼성전기 세종&middot;부산 사업장의 AI ",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678976",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:37:49.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "c0fc88d0a6",
-   "title": "Nvidia crea comité para supervisar exportaciones de sus chips",
-   "summary": "El organismo supervisará las políticas de seguridad nacional y el cumplimiento comercial de Nvidia, en medio de cuestionamientos por sus operaciones con China.",
-   "url": "https://dplnews.com/nvidia-comite-supervisar-exportaciones-chips/",
-   "source": "DPL News",
-   "country": "",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-18T01:37:05.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "803b199988",
-   "title": "«Процесс» Франц Кафка",
-   "summary": "Этот шедевр попал в мой список из уже упомянутого «Русского культурного кода». Кто-то решил, что без Кафки русским (в культурном плане) не бывать 😊. Тут я бы поспорил, конечно. Не насчёт актуальности для нас Кафки и, в частности, «Процесса». А насчёт наших культурных паттернов, в которых чувству вины отведено совсем иное место и роль, чем у европейцев. У нас не вина, а долг. Вечный долг всем, кроме себя. Ну, вот и п",
-   "url": "https://habr.com/ru/articles/1109150/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1109150",
-   "source": "Habr (أخبار)",
-   "country": "RU",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:36:16.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "ac4b5d601e",
-   "title": "Europe’s AI sector not ‘doom and gloom,’ but still lags",
-   "summary": "The director-general of Germany’s digital ministry said at Silicon Valley & The World that Europe still needs more “innovation-friendly regulation” if it wants to compete.",
-   "url": "https://www.semafor.com/article/11/17/2026/europes-ai-sector-not-doom-and-gloom-but-still-lags",
-   "source": "Semafor",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:33:24.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "292706810a",
-   "title": "iCloudやApp Storeなど複数のAppleサービスで障害が発生",
-   "summary": "2026年11月18日、一部地域でiCloudをはじめとするAppleのサービスに障害が発生しました。 続きを読む...",
-   "url": "https://gigazine.net/news/20261118-apple-down/",
-   "source": "GIGAZINE",
-   "country": "JP",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Apple",
-   "ts": "2026-11-18T01:33:00.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "f98a636a4e",
    "title": "CATL turns battery swapping into an asset business as core margins come under pressure",
    "summary": "As CATL continues to expand its battery-swapping business amid intensifying competition across the global battery supply chain, the Chinese battery giant is also pushing to preserve its long-held dominance by extending further into a standardized infrastructure-and-asset business.",
@@ -2349,23 +3001,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-18T01:32:41.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "562213d6e9",
-   "title": "General-purpose robot maker Genesis AI reels in $500M at $3.5B valuation",
-   "summary": "Genesis AI SAS today announced that it has raised $500 million in funding from a group of prominent investors. Premji Invest, Khosla Ventures and Eclipse led the Series A round. They were joined by the venture capital arms of Nvidia Corp., Advanced Micro Devices Inc., Zoom Communications Inc., Samsung Electronics Co. and Ericsson. Former Google […] The post General-purpose robot maker Genesis AI reels in $500M at $3.",
-   "url": "https://siliconangle.com/2026/11/17/general-purpose-robot-maker-genesis-ai-reels-in-500m-at-3-5b-valuation/",
-   "source": "SiliconANGLE",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Google",
-   "ts": "2026-11-18T01:29:33.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -2386,57 +3021,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "8a611e15b3",
-   "title": "谷歌公布美国 2026 年度最佳榜单：《明日方舟：终末地》摘得年度最佳游戏",
-   "summary": "IT之家 11 月 18 日消息，谷歌昨日（11 月 17 日）发布博文，公布 2026 年度最佳榜单（Best of Play 2026），覆盖应用、游戏和图书等。其中美国区年度最佳应用为 AI 笔记工具 Notability， 年度最佳游戏为《明日方舟：终末地》（Arknights: Endfield）。 在应用类别中，AI 笔记与 PDF 工具 Notability: AI &amp; PDF Notes 获评年度最佳应用。该应用原生适配安卓，可将设备变为 AI 工作台，支持与资料对话、整理学习内容、生成个性化测验及优化工作流程。 游戏方面，热门 IP 衍生作《明日方舟：终末地》摘得年度最佳游戏。IT之家援引博文介绍，谷歌评价其结合流畅的实时战斗、丰富角色塑造，以及工厂建造与经营管理机制，带来兼具动作与策略深度的体验。 跨设备应用和游戏分别由 Strava 与 Moonlight Peaks 获选，评选还列出娱乐、创意、生",
-   "url": "https://www.ithome.com/1/028/621.htm",
-   "source": "IT之家",
-   "country": "CN",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:29:07.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "77bd751501",
-   "title": "한국투자금융지주, KDB생명 인수 불발…산은과 협상 결렬",
-   "summary": "한국투자금융지주의 KDB생명보험 인수가 무산됐다. 8월 우선협상대상자로 선정된 지 3개월여 만이다. 한국산업은행 등 매각 측과 거래 조건을 놓고 이견을 좁히지 못하면서 주식매매계약 체결에 실패했다. 한투금융지주는 18일 KDB생명 매각 관련 우선협상대상자 지위를 상실했다고 공시했다. 한투금융지주 측은 \"산은 등으로부터 KDB생명 매각과 관련해 거래의 우선협상대상자로 선정됐으나 각 기관의 입장 차이 등으로 우선협상대상자 지위가 상실됐다\"고 밝혔다. 산은 등은 이날 한투금융지주에 주식매매계약 체결 협상 종료를 통보했다. 한투금융지주는 8월13일 KDB생명 인수 우선협상대상자로 선정된 이후 산은 등과 세부 거래 조건을 협의해 왔다. 그러나 양측이 최종 합의에 이르지 못하면서 약 3개월간 이어진 협상은 본계약 체결 없이 마무리됐다. 협상 과정에서 K",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678968",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:28:49.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "ad67f9e73c",
-   "title": "消息称三星电子计划在 CES 2027 公布支持自动起身暂停的电视",
-   "summary": "IT之家 11 月 18 日消息，韩国《中央日报》当地时间 17 日报道称，三星电子计划在 CES 2027 上公布一款名称暂定为 \"TV-1\" 的创新智能电视设备，可通过人工智能技术捕获观众的动作和兴趣，并据此调整观看环境。 \"TV-1\" 将支持一项实用功能： 当用户起身休息 / 喝水时 ， 其能自动停止视频内容的播 放 ；而当用户重新落座时，播放也会自动恢复。 该产品的设计理念是让电视化身客厅中的 AI 伴侣。其 还允许用户直接在电视端查找电视剧中演员所穿的衣服或屏幕上出现的餐厅的信息 。 三星电子正努力提升电视售出后的附加增值收入，以抵御电视更换周期延长、对手竞争力提升对其 VD（视觉显示）业务整体营收的影响。 参考 https://www.joongang.co.kr/article/25479217",
-   "url": "https://www.ithome.com/1/028/620.htm",
-   "source": "IT之家",
-   "country": "CN",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:28:23.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "9303c6838f",
    "title": "E-quipment highlight: 110 hp Greenworks OPTIMUS electric UTV [video]",
    "summary": "Electric power tool brand Greenworks is expanding its battery-forward lineup in a huge way with the launch of OPTIMUS, an all-new, go-anywhere electric side-by-side utility vehicle that packs over 100 equivalent hp and a 40 mph top speed. more…",
@@ -2451,125 +3035,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-18T01:28:03.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "eda0444e29",
-   "title": "Semiconductor expansion in Taiwan drives surge in tech job openings amid labor shortage",
-   "summary": "Rising demand for artificial intelligence (AI), high-performance computing (HPC), and advanced semiconductor packaging is driving the expansion of the technology industry and increasing demand for talent. Recruitment needs now extend beyond high-level research and development positions to process, equipment, technical, and frontline production roles, putting companies' recruitment and talent development capabilities ",
-   "url": "https://www.digitimes.com/news/a20261117PD248/taiwan-talent-hpc-demand-expansion.html",
-   "source": "DigiTimes",
-   "country": "TW",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:27:32.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "de2d6092ee",
-   "title": "[빛을 담는 기업들] 그린광학, 방산·ZnS로 상장 첫해 목표 달성할까",
-   "summary": "/사진 제공=그린광학 초정밀 광학시스템 제조기업 그린광학이 방산용 광학부품과 황화아연(ZnS) 소재를 중심으로 실적 성장세를 이어가고 있다. 지난해 코스닥 상장 이후 국내외 방산 수주를 확대하면서 올해 3분기까지 지난해 연간 영업이익을 넘어서는 성과를 거뒀다. 다만 상장 당시 제시한 연간 실적 추정치와는 여전히 차이가 있어 남은 기간 방산 수주 물량의 매출 전환과 수익성 개선이 중요해졌다. 방산 광학시스템 성장&hellip;ZnS 소재 공급 확대 18일 금융감독원 전자공시시스템에 따르면 그린광학의 올해 3분기 연결기준 매출액은 148억원, 영업이익은 14억원으로 전년 동기 대비 각각 27.5%, 58.4% 증가했다. 같은 기간 당기순이익은 8억5000만원에서 3억1000만원으로 감소했지만 3분기 누적 기준으로는 매출액 410억원, 영업이익 2",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678919",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:26:47.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "71b5b9055c",
-   "title": "[ITmedia エンタープライズ] データセンター利用料が5年で17％上昇 契約更新前に確認すべき「9項目」",
-   "summary": "約15年続いた値下がりから一転、5年で17％上昇――。AI需要と、それを支える電力の獲得競争を背景に、データセンターのコロケーション料金が上がっている。では、契約更新を控えた利用企業は事業者に何を確認すべきか。",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news020.html",
-   "source": "ITmedia",
-   "country": "JP",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:20:00.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "8d3dd92881",
-   "title": "[ITmedia エンタープライズ] 禁止するだけでは防げない パナソニックの無断アップロード事案で浮かんだ、シャドーAI対応の分かれ道",
-   "summary": "パナソニックグループで従業員や元従業員、その家族約33万人分の個人情報が、社内で利用を禁じていた外部の生成AIサービスにアップロードされた。ルールで禁じても従業員のAI利用は止められない今、企業が取り得る現実的な対応策とは。",
-   "url": "https://www.itmedia.co.jp/enterprise/articles/2611/17/news069.html",
-   "source": "ITmedia",
-   "country": "JP",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:20:00.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "8270d8b657",
-   "title": "케이블TV 4년 연속 적자…\"방발기금 할인·면제 필요\"",
-   "summary": "김용희 선문대 경영학과 교수가 17일 서울 서대문구 한국케이블TV방송협회(KCTA) 대회의실에서 'SO가 무너지면 지역은 무엇을 잃는가'를 주제로 발표하고 있다/사진=김가영 기자 정부가 케이블TV 사업자(SO)에 매년 부과하는 방송통신발전기금(방발기금)을 사업자의 실적과 재무 여건에 따라 할인하거나 면제해야 한다는 주장이 나왔다. 수년째 적자가 이어지는 SO들이 기금 부담으로 지역 콘텐츠 제작과 신사업 투자 여력까지 잃고 있다는 이유에서다. 한국케이블TV방송협회는 이달 17일 서울 서대문구 협회 대회의실에서 'SO산업의 존립 기반 상실에 따른 사회적 영향 분석'을 주제로 간담회를 열었다. 김용희 선문대 교수는 'SO가 무너지면 지역은 무엇을 잃는가'를 주제로 발표하며 SO가 사라질 경우 지역채널과 공익 서비스를 다른 사업자가 대체할 수 있는지",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678947",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:19:04.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "6bcc79dd5b",
-   "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
-   "summary": "The AI chip giant reported strong quarterly earnings on Tuesday after the dramatic exit of Jensen Huang.",
-   "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Technology",
-   "country": "GB",
-   "region": "europe",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-18T01:18:18.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "845fd71fa7",
-   "title": "China's shift away from Nvidia GPUs tests the limits of its AI chip supply chain",
-   "summary": "The US has extended export controls to overseas data center services, tightening customer checks and licensing requirements for Chinese AI companies that rent Nvidia GPUs in Southeast Asia and elsewhere. Those companies must now find new sources of overseas compute and adopt domestic chips faster, even though gaps remain in model training, inference, and high-bandwidth memory (HBM) supply.",
-   "url": "https://www.digitimes.com/news/a20261118PD218/nvidia-ai-chip-data-center-chips-software.html",
-   "source": "DigiTimes",
-   "country": "TW",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-18T01:15:25.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -2607,23 +3072,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "75fc0b6931",
-   "title": "K.S. Terminals revenue up 43.51% in first three quarters on green-power connector demand",
-   "summary": "Taiwan-based connector maker K.S. Terminals Inc. (KST) posted revenue of NT$4.63 billion (US$140.65 million) for the first three quarters of 2026, up 43.51% year on year, as demand for green-power connectors used in AI server power supplies and energy-storage power distribution remained strong. Pretax profit for the period reached NT$580 million.",
-   "url": "https://www.digitimes.com/news/a20261117PD201/demand-revenue-ai-server-growth-copper.html",
-   "source": "DigiTimes",
-   "country": "TW",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:11:24.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "3de3e719d0",
    "title": "CoRL 2026 analysis: When will autonomous robots be ready for work like robotaxis?",
    "summary": "I attended the Conference on Robot Learning (CoRL 2026) in Austin, Texas, in early November. On the streets downtown, robotaxis operated by three companies were transporting passengers through heavy traffic, competing for space much like conventional taxi drivers. The sight suggested that driverless taxis had already become part of everyday urban life.",
@@ -2655,91 +3103,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-18T01:10:58.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "e3680017be",
-   "title": "OpenAI、最上位モデル「GPT-6.2 Astra」と「Sol」公開 コストを抑えて高い成果",
-   "summary": "OpenAIは17日(米国時間)、最新の最上位AIモデル「GPT‑6.2 Astra」と、日常業務向けの「GPT‑6.2 Sol」を発表した。いずれも要求の厳しいタスクにおいて、より少ない出力トークン数で優れた結果を提供可能で、大規模な利用においても合理的なコストで最先端のパフォーマンスを実現できるとしている。",
-   "url": "https://www.watch.impress.co.jp/docs/news/2157303.html",
-   "source": "Impress Watch",
-   "country": "JP",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "OpenAI",
-   "ts": "2026-11-18T01:08:42.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "58c4358383",
-   "title": "CJ올리브네트웍스, 제약공장 AI 전환…불량검사·설비고장 예측",
-   "summary": "/챗GPT의 도움을 받아 제작한 이미지입니다. CJ올리브네트웍스가 제약 제조 현장에 인공지능(AI)을 적용하는 사업을 확대한다. 수액제 제조 공장에 AI 기반 품질검사와 설비 이상 징후 감지 기술을 도입하고 생산&middot;품질 데이터 관리체계도 구축한다. 제품 불량을 줄이는 동시에 설비 고장에 따른 생산 중단을 예방하는 것이 핵심이다. AI로 수액제 불량 검사&hellip;설비 이상 징후도 감지 CJ올리브네트웍스는 18일 유한양행 자회사 와이즈메디의 충북 진천 제2공장에 AI 팩토리를 구축한다고 밝혔다. 와이즈메디는 국내 최초로 3챔버백(3-Chamber Bag) 영양수액제를 개발하고 국산화한 수액제 전문기업이다. 이번 사업은 중소벤처기업부가 추진하는 '상생형 인공지능전환(AX) 선도모델 구축지원 사업'의 일환이다. CJ올리브네트웍스는 이",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678964",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:07:39.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "5188995680",
-   "title": "카카오뱅크, 몽골 디지털은행 2대 주주로…중앙아시아 공략 확대",
-   "summary": "카카오뱅크는 MCS그룹의 자회사인 디지털 은행 M bank에 전략적 지분 투자를 진행해 M bank의 지분 15%를 확보했다고 18일 밝혔다. 지난 17일 그래비티 조선 서울 판교(경기도 성남시)에서 진행된 카카오뱅크 - M bank 투자 계약 체결식에서 (왼쪽부터) 테물렌 바트뭉흐(Temuulen Batmunkh) M bank 대표, 윤호영 카카오뱅크 대표이사, 마그마르자브 간비암바(Myagmarjav Ganbyamba) M Financial Holding 대표가 기념 촬영을 하고 있다./카카오뱅크 제공 카카오뱅크가 몽골 디지털은행의 2대 주주로 올라서며 해외사업의 무게중심을 중앙아시아까지 넓힌다. 인도네시아와 태국에 이은 세 번째 해외 진출이다. 현지 금융회사에 대한 지분 투자와 디지털 금융 기술 협력을 병행해 새로운 성장 기반을 확보하겠",
-   "url": "https://www.bloter.net/news/articleView.html?idxno=678969",
-   "source": "Bloter",
-   "country": "KR",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:07:13.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "3f45404696",
-   "title": "[ITmedia Mobile] KDDIが約8年ぶりに新「INFOBAR ZERO」発表 通話とSMSに特化 3万2780円で12月25日に発売",
-   "summary": "KDDIと沖縄セルラーは11月18日、au公式のSIMロックフリーブランドau Flex Style初のオリジナルモデルとなる携帯電話「INFOBAR ZERO（インフォバーゼロ）」を発表した。発売日は12月25日で、機能を通話とSMSに絞り込み、あえてWebブラウジングやSNSを非対応とした。デザインは深澤直人氏が手がけ、新色SUNANEKOを含む3色を展開する。",
-   "url": "https://www.itmedia.co.jp/mobile/articles/2611/18/news058.html",
-   "source": "ITmedia",
-   "country": "JP",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:06:00.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "2c0457fbee",
-   "title": "Jeff Bezos has some advice for Nvidia’s board on its CEO search",
-   "summary": "Amazon founder Jeff Bezos said Tuesday that Nvidia should promote from within if it doesn't bring back Jensen Huang as CEO. Nvidia's board chair said the same day that the board does not intend to reinstate Huang. Read More",
-   "url": "https://www.geekwire.com/2026/jeff-bezos-has-some-advice-for-nvidias-board-on-its-ceo-search/",
-   "source": "GeekWire",
-   "country": "US",
-   "region": "america",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "NVIDIA",
-   "ts": "2026-11-18T01:05:09.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -2811,23 +3174,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "11cd1bf4c5",
-   "title": "[ITmedia Mobile] 【ダイソー】1100円の「イヤピタッ 完全ワイヤレスステレオイヤホン」 耳に挟んで圧迫感を軽減",
-   "summary": "ダイソーで「イヤピタッ 完全ワイヤレスステレオイヤホン」が販売されている。耳に挟めば取り付けられ、長時間の利用でも圧迫感や疲労を軽減する。価格は1100円。",
-   "url": "https://www.itmedia.co.jp/mobile/articles/2611/18/news046.html",
-   "source": "ITmedia",
-   "country": "JP",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T01:00:00.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "bd1c536aed",
    "title": "コクヨ、9.5mmの薄型天板マルチテーブル「オプトエッジ」",
    "summary": "コクヨは、9.5mmの薄型天板が特徴のマルチテーブル「Opt Edge(オプトエッジ)」を27年1月に発売する。価格は191,200円～。",
@@ -2862,57 +3208,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "8453e05de6",
-   "title": "[ITmedia News] 「楽天証券」漏えい、あなたは対象？ ログインして「重要なお知らせ」確認を",
-   "summary": "記者のアカウントでは「重要なお知らせ」に、「お客様の情報漏えいの可能性に関するお詫びと重要なご連絡」というメッセージが届いており、本文には漏えい項目が書かれていた。",
-   "url": "https://www.itmedia.co.jp/news/article/2611/18/2000003281/",
-   "source": "ITmedia",
-   "country": "JP",
-   "region": "asia",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T00:57:48.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "7b91fed0da",
-   "title": "Tech outages disrupting everything from air travel to banking transactions over the past week have fueled public distrust and paranoia about tech infrastructure (Bloomberg)",
-   "summary": "Bloomberg : Tech outages disrupting everything from air travel to banking transactions over the past week have fueled public distrust and paranoia about tech infrastructure &mdash; Technology failures disrupting everything from Americans' air travel and banking transactions to secretive work &hellip;",
-   "url": "https://www.techmeme.com/261117/p65#a261117p65",
-   "source": "Techmeme",
-   "country": "US",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T00:55:03.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "5516ed3240",
-   "title": "FAA pauses installations of Juniper routers like the one officials believe contributed to Friday's nationwide ground stop; HPE says its device wasn't defective (Neil Vigdor/New York Times)",
-   "summary": "Neil Vigdor / New York Times : FAA pauses installations of Juniper routers like the one officials believe contributed to Friday's nationwide ground stop; HPE says its device wasn't defective &mdash; Federal officials said they believed that a router made by Juniper Networks caused a data overload that disrupted communications.",
-   "url": "https://www.techmeme.com/261117/p64#a261117p64",
-   "source": "Techmeme",
-   "country": "US",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T00:45:01.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "41360cd23a",
    "title": "Kings of Leon to play at Apple Music Hall in December, tickets go on sale November 18",
    "summary": "Apple Music Hall has added Kings of Leon to its lineup of upcoming gigs at the newly opened London venue. Here are the details. more…",
@@ -2927,23 +3222,6 @@
    "kind": "news",
    "company": "Apple",
    "ts": "2026-11-18T00:35:25.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "5e8238c0fb",
-   "title": "Câmara dos Deputados adia votação de PL sobre mercados digitais",
-   "summary": "Relator pediu adiamento da apreciação para ampliar conversas com partidos e setores envolvidos. Substitutivo já recebeu alterações e pode passar por novos ajustes.",
-   "url": "https://dplnews.com/deputados-adia-votacao-pl-mercados-digitais/",
-   "source": "DPL News",
-   "country": "",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T00:33:59.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -2978,57 +3256,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-18T00:30:00.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "58f8887c53",
-   "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-   "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
-   "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-   "source": "Ars Technica",
-   "country": "US",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Microsoft",
-   "ts": "2026-11-18T00:27:29.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "b6d8ee6953",
-   "title": "Brasil aplaza votación de ley de mercados digitales",
-   "summary": "El ponente pidió aplazar el debate para ampliar las conversaciones con los partidos y sectores involucrados. El proyecto sobre mercados digitales ya recibió modificaciones.",
-   "url": "https://dplnews.com/brasil-aplaza-votacion-ley-mercados-digitales/",
-   "source": "DPL News",
-   "country": "",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T00:13:58.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "2b72649a70",
-   "title": "Java: RCE mit AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
-   "summary": "Die Sicherheitslücke Java4Shell erlaubt Remote Code Execution, trifft aber nur bestimmte Prozessoren. Womöglich sind auch Java-Clients auf anderen CPU anfällig.",
-   "url": "https://www.heise.de/news/Java-RCE-mit-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA-11528561.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
-   "source": "heise online",
-   "country": "DE",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T00:05:00.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -3134,23 +3361,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "beefc98081",
-   "title": "Europe plans to catch the next computer chip wave",
-   "summary": "Europe hopes to be a leader in a new generation of computer chips which use light to process data.",
-   "url": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC Technology",
-   "country": "GB",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-18T00:00:24.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "69c5b8d15c",
    "title": "Budget-friendly gifts for gamers — keyboards, mice, headsets, and more under $80",
    "summary": "The best budget-friendly gifts for gamers — keyboards, mice, headsets, and more, all for under $80.",
@@ -3202,23 +3412,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "bdd386ed4e",
-   "title": "Daily disruptive outages that ground planes and halt work – welcome to the new normal",
-   "summary": "NSA, Apple add to a week of high-profile network outages, largely attributed to 'routine maintenance'",
-   "url": "https://www.theregister.com/security/2026/11/17/daily-disruptive-outages-that-ground-planes-and-halt-work-welcome-to-the-new-normal/5310634",
-   "source": "The Register",
-   "country": "GB",
-   "region": "europe",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Apple",
-   "ts": "2026-11-17T23:41:31.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "7f68f0ee82",
    "title": "iFixit tears down Apple HomeView, finds lots of glue and endless frustration",
    "summary": "iFixit’s teardown of the new Apple HomeView is now up, revealing a device that seems nearly impossible to take apart and repair. Watch it below. more…",
@@ -3233,23 +3426,6 @@
    "kind": "news",
    "company": "Apple",
    "ts": "2026-11-17T23:36:09.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "8f3d0fc7af",
-   "title": "Review: Nubia Redmagic 12 Pro | Camera",
-   "summary": "Review: Nubia Redmagic 12 Pro | Camera",
-   "url": "https://www.wired.com/gallery/review-nubia-redmagic-12-pro-or-camera/",
-   "source": "Wired",
-   "country": "US",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T23:34:44.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -3287,23 +3463,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "f24eb5ec36",
-   "title": "Apagón masivo: Así fue la prueba de emergencia que realizó Estados Unidos",
-   "summary": "Conoce los detalles de la prueba de emergencia que realizó Estados Unidos este 17 de noviembre y que desató falsos rumores de un apagón mundial.",
-   "url": "https://www.fayerwayer.com/internet/2026/11/17/apagon-masivo-asi-fue-la-prueba-de-emergencia-que-realizo-estados-unidos/",
-   "source": "FayerWayer",
-   "country": "CL",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T23:23:45.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "b198a7140d",
    "title": "Today’s NYT Connections: Sports Edition Hints and Answers for Nov. 18 #786",
    "summary": "Need a Connections: Sports Edition hint today? Get a hint for each color group in NYT Connections: Sports Edition No. 786 on Wednesday, Nov. 18, then all four answers.",
@@ -3318,23 +3477,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-17T23:20:27.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
-   "id": "4a015a0f76",
-   "title": "Apple HomeView teardown: a step backward in repairability compared to recent iPads and HomePods, with heavily glued display, speakers, and logic board (Carsten Frauenheim/iFixit News)",
-   "summary": "Carsten Frauenheim / iFixit News : Apple HomeView teardown: a step backward in repairability compared to recent iPads and HomePods, with heavily glued display, speakers, and logic board &mdash; Apple's first iPad-stuck-to-a-HomePod smarthome hub landed on our teardown table this week, and we figured we knew what we were getting into.",
-   "url": "https://www.techmeme.com/261117/p61#a261117p61",
-   "source": "Techmeme",
-   "country": "US",
-   "region": "america",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "Apple",
-   "ts": "2026-11-17T23:15:01.000Z",
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
@@ -3731,7 +3873,7 @@
   {
    "id": "bd15b74bcd",
    "title": "Quad9's withdrawal from France: A canary in the coal mine",
-   "summary": "نقاش على Hacker News: 303 نقطة و90 تعليق",
+   "summary": "نقاش على Hacker News: 335 نقطة و94 تعليق",
    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
    "source": "Hacker News",
    "country": "US",
@@ -4001,23 +4143,6 @@
    "fs": "2026-11-18T02:10:05.591Z"
   },
   {
-   "id": "0d44805dd7",
-   "title": "Nike’s new air sole technology can mix soft and firm cushioning",
-   "summary": "In 2024, Nike announced its Air Max 1000 that were manufactured using a 3D-printing process resulting in a shoe that had a uniform silhouette but varying areas of support and flexibility throughout. The company is now doing something similar with its iconic air-filled soles using its new Tuned Air technology. While previously the level of […]",
-   "url": "https://www.theverge.com/tech/1035911/nike-shoes-tuned-air-sole-printing-variable-cushioning",
-   "source": "The Verge",
-   "country": "US",
-   "region": "america",
-   "cat": "الهواتف والأجهزة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T21:38:08.000Z",
-   "fs": "2026-11-18T02:10:05.591Z"
-  },
-  {
    "id": "afdc58c645",
    "title": "Airtel Payments Bank’s Profit Zooms 139% YoY To ₹28 Cr In Q2",
    "summary": "Airtel Payments Bank’s net profit zoomed 139% to ₹28.2 Cr in the second quarter (Q2) of the fiscal year 2026-27…",
@@ -4122,7 +4247,7 @@
   {
    "id": "28346a6e35",
    "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-   "summary": "نقاش على Hacker News: 537 نقطة و146 تعليق",
+   "summary": "نقاش على Hacker News: 576 نقطة و153 تعليق",
    "url": "https://calif.io/java4shell/",
    "source": "Hacker News",
    "country": "US",
@@ -4858,7 +4983,7 @@
   {
    "id": "bccbdf356a",
    "title": "Phrack 73 Released",
-   "summary": "نقاش على Hacker News: 282 نقطة و43 تعليق",
+   "summary": "نقاش على Hacker News: 292 نقطة و46 تعليق",
    "url": "https://phrack.org/issues/73/introduction_md",
    "source": "Hacker News",
    "country": "US",
@@ -4909,7 +5034,7 @@
   {
    "id": "5b16d12d9a",
    "title": "MAI Code 2 and Code 2 Flash",
-   "summary": "نقاش على Hacker News: 289 نقطة و135 تعليق",
+   "summary": "نقاش على Hacker News: 301 نقطة و136 تعليق",
    "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
    "source": "Hacker News",
    "country": "US",
@@ -5157,7 +5282,7 @@
   {
    "id": "ce2201c0c0",
    "title": "Apple Services Down",
-   "summary": "نقاش على Hacker News: 631 نقطة و352 تعليق",
+   "summary": "نقاش على Hacker News: 641 نقطة و354 تعليق",
    "url": "https://developer.apple.com/system-status/",
    "source": "Hacker News",
    "country": "US",
@@ -5174,7 +5299,7 @@
   {
    "id": "9235aaac89",
    "title": "GPT‑6.2 Astra and Sol",
-   "summary": "نقاش على Hacker News: 1086 نقطة و700 تعليق",
+   "summary": "نقاش على Hacker News: 1116 نقطة و709 تعليق",
    "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
    "source": "Hacker News",
    "country": "US",
@@ -5315,7 +5440,7 @@
   {
    "id": "19c12c6cc8",
    "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-   "summary": "نقاش على Hacker News: 400 نقطة و194 تعليق",
+   "summary": "نقاش على Hacker News: 413 نقطة و197 تعليق",
    "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
    "source": "Hacker News",
    "country": "US",
@@ -5398,23 +5523,6 @@
    "fs": "2026-11-17T20:57:42.781Z"
   },
   {
-   "id": "63d9c40c40",
-   "title": "How Québec Tech companies are turning breakthrough technologies into global growth",
-   "summary": "Three Stage V companies share lessons from growing abroad and how Québec Tech can help them take the next steps. The post How Québec Tech companies are turning breakthrough technologies into global growth first appeared on BetaKit .",
-   "url": "https://betakit.com/how-quebec-tech-companies-are-turning-breakthrough-technologies-into-global-growth/",
-   "source": "BetaKit",
-   "country": "CA",
-   "region": "america",
-   "cat": "الشركات الناشئة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T17:00:00.000Z",
-   "fs": "2026-11-17T20:57:42.781Z"
-  },
-  {
    "id": "96b7d40494",
    "title": "Big malware attack hits Zoom, BBC, CNN and many more: report",
    "summary": "A massive malware attack has reportedly hit over 170 sites around the world. According to Report URI, a company that sells malicious script detectors, sites like Zoom, BBC, CNN, Ikea, Salesforce and many more were found to be carrying infected JavaScript. Two Canadian-specific sites, Starbucks Canada and Equifax Canada, are also said to be affected. […]",
@@ -5463,23 +5571,6 @@
    "kind": "news",
    "company": "",
    "ts": "2026-11-17T16:48:00.000Z",
-   "fs": "2026-11-17T20:57:42.781Z"
-  },
-  {
-   "id": "3e1d015279",
-   "title": "Peshawar Gets New Direct Flights to Jeddah and Riyadh",
-   "summary": "AirSial has expanded its international flight network by launching direct flights from Peshawar to Jeddah, giving passengers in Khyber Pakhtunkhwa another travel option to Saudi Arabia. The airline started its Peshawar-Jeddah service on November 17, 2026, with three flights per week. It will also launch a separate Peshawar-Riyadh route on November 18, which will operate […] The post Peshawar Gets New Direct Flights t",
-   "url": "https://www.techjuice.pk/peshawar-gets-new-direct-flights-to-jeddah-and-riyadh/",
-   "source": "TechJuice",
-   "country": "PK",
-   "region": "asia",
-   "cat": "الشركات الناشئة",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T16:45:07.000Z",
    "fs": "2026-11-17T20:57:42.781Z"
   },
   {
@@ -5617,23 +5708,6 @@
    "company": "",
    "ts": "2026-11-17T15:51:49.000Z",
    "fs": "2026-11-17T16:43:30.653Z"
-  },
-  {
-   "id": "2dbe1f3af4",
-   "title": "Highly classified US national security communications network goes down",
-   "summary": "نقاش على Hacker News: 476 نقطة و551 تعليق",
-   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-   "source": "Hacker News",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T15:38:28Z",
-   "fs": "2026-11-17T20:57:42.781Z"
   },
   {
    "id": "20aa629830",
@@ -5842,7 +5916,7 @@
   {
    "id": "a264df964f",
    "title": "What is the best harness for each model?",
-   "summary": "نقاش على Hacker News: 337 نقطة و118 تعليق",
+   "summary": "نقاش على Hacker News: 340 نقطة و118 تعليق",
    "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
    "source": "Hacker News",
    "country": "US",
@@ -5990,23 +6064,6 @@
    "kind": "news",
    "company": "Tesla",
    "ts": "2026-11-17T14:19:41.000Z",
-   "fs": "2026-11-17T16:43:30.653Z"
-  },
-  {
-   "id": "ae1cafd59e",
-   "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
-   "summary": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed. The post Fandango Warns Ticket Buyers of Payment Card Data Exposure appeared first on SecurityWeek .",
-   "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
-   "source": "SecurityWeek",
-   "country": "US",
-   "region": "america",
-   "cat": "الأمن السيبراني",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T14:14:24.000Z",
    "fs": "2026-11-17T16:43:30.653Z"
   },
   {
@@ -6195,23 +6252,6 @@
    "company": "",
    "ts": "2026-11-17T11:49:01.000Z",
    "fs": "2026-11-17T02:57:31.540Z"
-  },
-  {
-   "id": "44e61547ae",
-   "title": "Valve собирает данные о FPS в играх Steam, чтобы показывать примерную частоту кадров на разных конфигурациях ПК",
-   "summary": "Valve приступила к сбору обезличенных данных о FPS в играх Steam, чтобы отображать примерную частоту кадров на разных конфигурациях ПК, рассказал пользователь Pirat_Nation в социальной сети X. Читать далее",
-   "url": "https://habr.com/ru/articles/1108862/?utm_source=habrahabr&utm_medium=rss&utm_campaign=1108862",
-   "source": "Habr (أخبار)",
-   "country": "RU",
-   "region": "europe",
-   "cat": "الألعاب",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-17T11:48:56.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
   },
   {
    "id": "5965e14e16",
@@ -6792,27 +6832,10 @@
    "fs": "2026-11-16T19:38:10.482Z"
   },
   {
-   "id": "bb55885199",
-   "title": "The Leonid meteor shower peaks tonight! Here's what you need to know",
-   "summary": "The Leonid meteor shower peaks overnight tonight (Nov. 17-18), sending shooting stars racing across the night sky from the direction of the constellation Leo.",
-   "url": "https://www.space.com/stargazing/meteor-showers/the-leonid-meteor-shower-peaks-nov-17-18-heres-what-you-need-to-know",
-   "source": "Space.com",
-   "country": "US",
-   "region": "america",
-   "cat": "الفضاء والعلوم",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "news",
-   "company": "",
-   "ts": "2026-11-16T17:00:00.000Z",
-   "fs": "2026-11-16T19:38:10.482Z"
-  },
-  {
-   "id": "e3b460013b",
-   "title": "Latent Lattice Language Models",
-   "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside",
-   "url": "https://arxiv.org/abs/2611.21608v1",
+   "id": "d4f473fbdb",
+   "title": "Fine-Grained Japanese Clinical Named Entity Recognition: A Controlled Comparison of BERT and Open-Weight Large Language Models",
+   "summary": "Background: Generative large language models (LLMs) offer an alternative to encoder-based clinical named entity recognition (NER), but their performance on fine-grained Japanese extraction tasks and sensitivity to generation settings remain uncertain. Methods: We compared two fine-tuned BERT-CRF baselines with nine open-weight LLMs on iCorpus, which defines 113 entity categories. The evaluation used 433 sentences fro",
+   "url": "https://arxiv.org/abs/2611.22219v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6822,14 +6845,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:59:38.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T05:01:24.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "f79fa51bfe",
-   "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-   "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets. A cont",
-   "url": "https://arxiv.org/abs/2611.21605v1",
+   "id": "c3d7127d26",
+   "title": "Learning Optimal Transport Plans Via Autoregressive Token Regression",
+   "summary": "Optimal Transport (OT) provides a principled framework for finding the minimum cost coupling between probability distributions. Classical solvers remain the gold standard for this task. At the same time, OT is an ideal testbed for studying whether learning-based amortized models can internalize the structure of OT type problems. Here, ground-truth solutions are available and marginal constraints are explicitly define",
+   "url": "https://arxiv.org/abs/2611.22218v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6839,14 +6862,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:59:04.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:57:26.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "1c0ec41da0",
-   "title": "Quantifying the added value of human forecaster discussions for tropical cyclone intensity prediction",
-   "summary": "The National Hurricane Center routinely releases Tropical Cyclone Discussions that offer insights into its tropical cyclone forecasts. This study examines the added value of these discussions for intensity forecasting beyond a set of numerical predictors. For 637 Atlantic and eastern North Pacific tropical cyclones from the 2002-2023 hurricane seasons, we analyze the discussion text and its combination with 13 hurric",
-   "url": "https://arxiv.org/abs/2611.21602v1",
+   "id": "ae1851e397",
+   "title": "Communicate the Change: Efficient Expert Parallelism via Activation Compression",
+   "summary": "Scaling has driven the success of large language models (LLM), with sparse mixture-of-experts (MoE) architectures enabling greater parameter capacity without a proportional increase in computation. At large scales, MoE models rely on expert parallelism to distribute experts across devices. Each MoE layer requires two synchronous collective communication steps during inference: dispatching hidden states to the activat",
+   "url": "https://arxiv.org/abs/2611.22215v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6856,14 +6879,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:58:55.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:52:41.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "8933f7197e",
-   "title": "How VLMs Plan What's Next",
-   "summary": "When a vision-language model describes an image, it names one object at a time and it rarely repeats itself, yet how the model plans this order is far from obvious. We characterize the mechanism a VLM uses to decide where to look before it looks. The mechanism has four main parts. First, binding heads match the relevant text tokens against the image and resolve them into pointers to the matched image region. Second, ",
-   "url": "https://arxiv.org/abs/2611.21600v1",
+   "id": "d874be4a4d",
+   "title": "Sample-efficient Personalization of Large Language Model Alignment with Multidimensional User Preference Data",
+   "summary": "Preference alignment has become a central tool to align large language models (LLMs) with human values and desired behavior, and its online variant can further advance their capabilities beyond what static data alone offer by repeatedly generating and labeling new responses with human feedback. But costly, time-consuming annotations limit its scalability, making sample efficiency essential, and existing methods typic",
+   "url": "https://arxiv.org/abs/2611.22210v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6873,14 +6896,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:58:30.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:47:45.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "6c8db4409e",
-   "title": "Hyperlyve: Parallelized Enumeration and Exact Lyapunov Stability Certification for Deep ReLU Networks",
-   "summary": "We introduce Hyperlyve (Hyperplane Partitioned Lyapunov Verification and Enumeration), a framework for proving the asymptotic stability of nonlinear dynamical systems, including those with neural network controllers. Hyperlyve learns and formally certifies continuous piecewise-affine (CPA) neural Lyapunov functions within a counterexample-guided inductive synthesis (CEGIS) loop. Hyperlyve's key innovation is a parall",
-   "url": "https://arxiv.org/abs/2611.21599v1",
+   "id": "e74e575bf8",
+   "title": "Flocking Time and Graph Volume in Nonlinear Cucker-Smale Models with Dynamic Networks",
+   "summary": "This study proposes a Cucker-Smale model incorporating dynamic networks and the discrete $p$-Laplacian ($p \\in (1,2)$) and analyzes the relationship between flocking time constraints and graph connectivity from both theoretical and experimental perspectives. We establish that this model achieves flocking within finite time and derive a quantitative relationship between the lower bound of flocking time and graph volum",
+   "url": "https://arxiv.org/abs/2611.22204v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6890,14 +6913,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:58:29.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:41:45.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "edac7fe1f6",
-   "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
-   "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradients, archives selec",
-   "url": "https://arxiv.org/abs/2611.21598v1",
+   "id": "37120f1085",
+   "title": "EGS: A Complementary Safety Framework for Educational LLMs",
+   "summary": "Large Language Models (LLMs) offer strong potential for personalized education, but adolescent-facing deployment raises risks of toxic, biased, misleading, or developmentally inappropriate content. We argue that educational safety should move beyond binary refusal: student queries are often ambiguous or curiosity-driven, requiring contextual guidance rather than simple blocking. We introduce the Educational Guardrail",
+   "url": "https://arxiv.org/abs/2611.22203v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6907,14 +6930,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:58:20.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:40:42.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "997644c7be",
-   "title": "Optimal Autoregressive Chain-of-Thought Learning via Bagging",
-   "summary": "We study how to learn an autoregressive next-token generator $f\\colonΣ^\\star\\toΣ$ from a class $\\mathcal{F}$, given chain-of-thought (CoT) demonstrations of length $T$ generated by $f$. We present a simple algorithm based on bagging, which outputs a majority vote of generators that are trained to be CoT-consistent on bootstrap samples of the training data. For binary token sets, it achieves the optimal sample complex",
-   "url": "https://arxiv.org/abs/2611.21597v1",
+   "id": "4d52afd50a",
+   "title": "An Optimization Framework for Denoising Generation",
+   "summary": "Noise-unconditioned denoising learns a single score, so generation can be viewed as gradient ascent on a fixed log-density landscape. This optimization interpretation leaves two questions: do trajectories approach meaningful data, and do different initializations retain diverse outcomes? We establish both phenomena for empirical and population multi-scale Gaussian-mixture objectives. Under explicit posterior and land",
+   "url": "https://arxiv.org/abs/2611.22202v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6924,14 +6947,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:58:07.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:40:32.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "672f1d8cf4",
-   "title": "SADL: On the Demand-Supply Geometry of Representation Collapse",
-   "summary": "In Joint-Embedding Predictive Architectures (JEPAs), a well-constrained projector output does not by itself prevent representation collapse. We find that, from initialization, the encoder representation is dominated by a component shared by different inputs. A batch-normalized projector removes this component, so regularization after the projector cannot correct it, and the differences between representations shrink ",
-   "url": "https://arxiv.org/abs/2611.21596v1",
+   "id": "3cd7a826b3",
+   "title": "RISA: Recoverable Sparse Attention for Block-Diffusion Language Models",
+   "summary": "Block-wise diffusion language models (DLMs) refine multiple tokens in parallel, offering an alternative to token-by-token autoregressive decoding. Their long-context inference, however, remains bottlenecked by memory-bound attention: every denoising step repeatedly reads a growing historical key--value (KV) cache. Directly applying sparse attention does not fully solve this problem, because different queries can sele",
+   "url": "https://arxiv.org/abs/2611.22191v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6941,14 +6964,31 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:58:03.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:27:48.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "0170e81c42",
-   "title": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
-   "summary": "Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of SkyWater 130 nm (SKY130) transistors at 77 K using a neural surrogate of NGSpice. The surrogate maps compact-model parameters and device geometry to the complete set of output and transfer characteristics. Extraction is a",
-   "url": "https://arxiv.org/abs/2611.21594v1",
+   "id": "27e973e3fe",
+   "title": "From Imperfective Paradox to Moorean Absurdity: Single-Chain Reasoning Lock-In and Multi-Candidate Verbalization Across Aspectual and Pragmatic Ambiguity",
+   "summary": "Natural language entailment and coherence judgments often depend on whether an event merely occurred, reached a telic culmination, satisfied a plan, or was evaluated under multiple pragmatic standards. We test observable consequences of the single-chain premature lock-in hypothesis across four preregistered, sealed formal experiments on Qwen3-8B-Q8_0 (16,640 formal units, temperature=0.0): 15 of 16 hypothesis slots r",
+   "url": "https://arxiv.org/abs/2611.22188v1",
+   "source": "arXiv (AI/CL/LG)",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "paper",
+   "company": "Alibaba",
+   "ts": "2026-11-17T04:20:45.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "a1d7efcbcc",
+   "title": "Is 4-Bit Quantization More Than Noise to a Chat Model's Safety Behaviour? Attributing Behavioural Shifts with Matched Perturbations",
+   "summary": "Chat models on phones and laptops are usually 4-bit copies of the model that was evaluated, and audits of such copies disagree about what quantization does to refusal. A 4-bit build is one of many weight perturbations of the same size, so a change in its behaviour could come from its specific rounding error or from any perturbation that large. In a pre-registered study of three 3-4B chat models, with paired tests, bl",
+   "url": "https://arxiv.org/abs/2611.22186v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6958,14 +6998,31 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:57:06.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:20:17.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "acfce25dd5",
-   "title": "Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering",
-   "summary": "Job titles and job descriptions alone provide limited insight into how technical roles differ in a changing job market. To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from LinkedIn in the United States between December 2025 and October 2026. We first apply",
-   "url": "https://arxiv.org/abs/2611.21586v1",
+   "id": "af845a0454",
+   "title": "CueClash: Frontier Vision-Language Models Judge 3-D Relations Close to the Picture Plane",
+   "summary": "A vision-language model (VLM) can judge 3-D relations from the picture or from the ground layout. In photographs the two usually agree. We separate them with CueClash, rendered scenes in which the 2-D cue for each of five relations is right on exactly half the statements. The shortcut gap is accuracy when the cue is right minus accuracy when it is wrong. For Claude Opus 5.5, GPT-5.5 and Gemini 3.6 Flash at low reason",
+   "url": "https://arxiv.org/abs/2611.22180v1",
+   "source": "arXiv (AI/CL/LG)",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "paper",
+   "company": "OpenAI",
+   "ts": "2026-11-17T04:17:35.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
+  },
+  {
+   "id": "90cd40cf60",
+   "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
+   "summary": "Agentic memory research has accumulated extraction, supersession, reflection, and graph synthesis on top of retrieval-augmented generation. However, we found that almost none of those primitives earn their cost in our tested memory benchmarks: we show this with BRIDGE, a deliberately minimal RAG memory with chained observation notes, hybrid BM25 with cosine retrieval, and chronological rendering, which reaches parity",
+   "url": "https://arxiv.org/abs/2611.22179v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6975,14 +7032,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:54:40.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:16:34.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "b76621a045",
-   "title": "CertiSum: Bitwise-Identical MXFP4 Training Across Platforms and Parallelism Layouts",
-   "summary": "Training with MXFP4, a 4-bit microscaling format, is non-deterministic: identical inputs can produce different results across parallelism layouts and GPU vendors. These differences complicate debugging and training audits and can cause training and inference engines to disagree. We present CertiSum to make MXFP4 training bitwise invariant across runs, parallelism layouts, and GPU vendors. Its key insight is that nati",
-   "url": "https://arxiv.org/abs/2611.21584v1",
+   "id": "c10fa93c74",
+   "title": "CorrectCast: Selective Multimodal Context for Scale-Aware Residual Correction in Precipitation Nowcasting",
+   "summary": "Precipitation nowcasting models suffer from errors in intensity, location, and spatial structure. Addressing these errors by retraining nowcaster backbones can be computationally expensive and requires architecture-specific modifications. To overcome these limitations, we propose CorrectCast, a decoupled residual correction framework that refines completed nowcasts while keeping the base nowcaster frozen. By operatin",
+   "url": "https://arxiv.org/abs/2611.22178v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -6992,14 +7049,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:54:07.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:14:48.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "deaeb5a57d",
-   "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
-   "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-grounded topologies,",
-   "url": "https://arxiv.org/abs/2611.21579v1",
+   "id": "bf1b02f84a",
+   "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
+   "summary": "Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before news whose date is known, such as earnings announcements, and after bad news, if the market's fall went too far. However, studies of LLMs and earnings read documents pu",
+   "url": "https://arxiv.org/abs/2611.22177v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -7009,14 +7066,14 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:49:56.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:13:18.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "7a146af0fe",
-   "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
-   "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessarily bound to a verified provider identity. This paper studies this gap as tool-provider misbinding:",
-   "url": "https://arxiv.org/abs/2611.21577v1",
+   "id": "f4664df114",
+   "title": "Reconfiguring Procedural Knowledge for Compositional Robot Skill Adaptation",
+   "summary": "General-purpose behavior models increasingly internalize broad procedural knowledge during training, making their adaptation to new goals and skill interfaces less a problem of learning entirely new behaviors than of reconfiguring existing competence. We study this capability as reconfigurability, the ability to realize new behaviors by cost-efficiently restructuring existing components and relations under sparse gov",
+   "url": "https://arxiv.org/abs/2611.22174v1",
    "source": "arXiv (AI/CL/LG)",
    "country": "",
    "region": "dev",
@@ -7026,15 +7083,15 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:49:37.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-17T04:09:02.000Z",
+   "fs": "2026-11-18T02:55:03.776Z"
   },
   {
-   "id": "60fa035a22",
-   "title": "DynSurvX: Time-Resolved Explanations for Dynamic Survival Predictions",
-   "summary": "Recent survival models integrating longitudinal data achieve strong predictive performance, but their predictions are often difficult to interpret, limiting their clinical use. We propose DynSurvX, a model-agnostic explainability framework for dynamic survival prediction with mixed static and longitudinal covariates. Based on Shapley values, DynSurvX introduces a hierarchical two-phase strategy that first identifies ",
-   "url": "https://arxiv.org/abs/2611.21571v1",
-   "source": "arXiv (AI/CL/LG)",
+   "id": "eb62e5254d",
+   "title": "Weight-Space Programming Doesn't Need Transformers",
+   "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on multiple-choice questions, w",
+   "url": "https://huggingface.co/papers/2611.22055",
+   "source": "Hugging Face Papers",
    "country": "",
    "region": "dev",
    "cat": "الذكاء الاصطناعي",
@@ -7043,15 +7100,16 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:43:35.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-16T19:00:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "st": 1
   },
   {
-   "id": "9e967715f5",
-   "title": "When Do Histology Foundation Models Need Geometric Test-Time Augmentation?",
-   "summary": "Test-time augmentation (TTA) aggregates model predictions across multiple transformed views of an input during inference. Because histology images lack a canonical orientation, $D_4$ TTA---pooling across the 8 rotations and reflections of a square---is a standard default in computational pathology. However, the rise of self-supervised histology foundation models (FMs) with inherent rotational invariance calls its con",
-   "url": "https://arxiv.org/abs/2611.21565v1",
-   "source": "arXiv (AI/CL/LG)",
+   "id": "3fdb8f0a8d",
+   "title": "MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding",
+   "summary": "Medical image understanding with vision-language models (VLMs) typically relies on autoregressively generating reasoning and answer tokens. These unnecessary tokens make the inference cost scale with the response length and force the answer to be parsed from free-form text, incurring avoidable latency and decision errors. To this end, we introduce MedJev, a system one vision-language decision model that maps medical ",
+   "url": "https://huggingface.co/papers/2611.20992",
+   "source": "Hugging Face Papers",
    "country": "",
    "region": "dev",
    "cat": "الذكاء الاصطناعي",
@@ -7060,8 +7118,27 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-16T18:41:01.000Z",
-   "fs": "2026-11-17T11:55:26.046Z"
+   "ts": "2026-11-15T19:00:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "st": 4
+  },
+  {
+   "id": "49f3a19a6e",
+   "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+   "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force streams, so force must be ",
+   "url": "https://huggingface.co/papers/2611.21099",
+   "source": "Hugging Face Papers",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "paper",
+   "company": "",
+   "ts": "2026-11-15T19:00:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "st": 2
   },
   {
    "id": "2be86d8cce",
@@ -7079,7 +7156,7 @@
    "company": "",
    "ts": "2026-11-15T19:00:00.000Z",
    "fs": "2026-11-18T02:10:05.591Z",
-   "st": 0
+   "st": 1
   },
   {
    "id": "64d768387c",
@@ -7136,10 +7213,10 @@
    "st": 2
   },
   {
-   "id": "959619d344",
-   "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-   "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand, a hand-controlled vi",
-   "url": "https://huggingface.co/papers/2611.21479",
+   "id": "fd70a45f9e",
+   "title": "Multi-Branch Transformer",
+   "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel, and fuses their outpu",
+   "url": "https://huggingface.co/papers/2611.19800",
    "source": "Hugging Face Papers",
    "country": "",
    "region": "dev",
@@ -7149,45 +7226,9 @@
    "also": [],
    "kind": "paper",
    "company": "",
-   "ts": "2026-11-15T19:00:00.000Z",
-   "fs": "2026-11-17T16:43:30.653Z",
-   "st": 3
-  },
-  {
-   "id": "ab61b882d3",
-   "title": "A Reinforcement Learning Method to Navigate SMEFT Operator Space",
-   "summary": "In particle physics, discrepancies between experimental measurements and Standard Model (SM) predictions are commonly interpreted within new theoretical models. In this context, the Standard Model Effective Field Theory (SMEFT) provides a general framework encompassing a broad class of models. However, exploring the enormous space of possible SMEFT operators rapidly becomes a challenging combinatorial problem: many o",
-   "url": "https://huggingface.co/papers/2611.21439",
-   "source": "Hugging Face Papers",
-   "country": "",
-   "region": "dev",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "paper",
-   "company": "",
-   "ts": "2026-11-15T19:00:00.000Z",
-   "fs": "2026-11-17T11:55:26.046Z",
-   "st": 0
-  },
-  {
-   "id": "735ed4e27c",
-   "title": "Sage S2.1 Flash Technical Report",
-   "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input space of a shared backbon",
-   "url": "https://huggingface.co/papers/2611.21072",
-   "source": "Hugging Face Papers",
-   "country": "",
-   "region": "dev",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "paper",
-   "company": "",
-   "ts": "2026-11-15T19:00:00.000Z",
-   "fs": "2026-11-17T11:55:26.046Z",
-   "st": 86
+   "ts": "2026-11-14T19:00:00.000Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "st": 5
   },
   {
    "id": "7a5ad2b13f",
@@ -7205,25 +7246,7 @@
    "company": "Google",
    "ts": "2026-11-14T19:00:00.000Z",
    "fs": "2026-11-17T16:43:30.653Z",
-   "st": 4
-  },
-  {
-   "id": "c7bc75f4d9",
-   "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
-   "summary": "Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference compute. We synthesize nine primary empirical evaluations comprising 516 unique multi-agent configurations organized along a resource vector R with six dimensions and a baseline ladder with four categories. Against baselines with",
-   "url": "https://huggingface.co/papers/2611.17610",
-   "source": "Hugging Face Papers",
-   "country": "",
-   "region": "dev",
-   "cat": "الذكاء الاصطناعي",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "paper",
-   "company": "",
-   "ts": "2026-11-12T19:00:00.000Z",
-   "fs": "2026-11-18T02:10:05.591Z",
-   "st": 3
+   "st": 5
   },
   {
    "id": "e949a3d77d",
@@ -7239,12 +7262,12 @@
    "also": [],
    "kind": "repo",
    "company": "DeepSeek",
-   "ts": "2026-11-18T02:08:43Z",
+   "ts": "2026-11-18T02:51:00Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Dart",
-   "st": 26100,
-   "fk": 1250,
-   "gr": 1385,
+   "st": 26160,
+   "fk": 1253,
+   "gr": 1445,
    "sp": [
     24715,
     24721,
@@ -7257,7 +7280,8 @@
     25538,
     25849,
     25952,
-    26100
+    26100,
+    26160
    ]
   },
   {
@@ -7277,9 +7301,9 @@
    "ts": "2026-11-17T19:04:08Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 8977,
-   "fk": 2031,
-   "gr": 133,
+   "st": 8981,
+   "fk": 2033,
+   "gr": 137,
    "sp": [
     8844,
     8845,
@@ -7292,7 +7316,8 @@
     8928,
     8950,
     8963,
-    8977
+    8977,
+    8981
    ]
   },
   {
@@ -7312,9 +7337,9 @@
    "ts": "2026-11-13T14:33:08Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 4554,
-   "fk": 993,
-   "gr": 552,
+   "st": 4568,
+   "fk": 998,
+   "gr": 566,
    "sp": [
     4002,
     4005,
@@ -7327,7 +7352,8 @@
     4385,
     4481,
     4506,
-    4554
+    4554,
+    4568
    ]
   },
   {
@@ -7362,6 +7388,7 @@
     4372,
     4394,
     4426,
+    4456,
     4456
    ]
   },
@@ -7382,14 +7409,15 @@
    "ts": "2026-11-18T02:04:03Z",
    "fs": "2026-11-17T11:55:26.046Z",
    "lg": "C++",
-   "st": 2780,
-   "fk": 243,
-   "gr": 1739,
+   "st": 2842,
+   "fk": 248,
+   "gr": 1801,
    "sp": [
     1041,
     1929,
     2422,
-    2780
+    2780,
+    2842
    ]
   },
   {
@@ -7409,9 +7437,9 @@
    "ts": "2026-11-11T12:18:45Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 2332,
-   "fk": 1144,
-   "gr": 199,
+   "st": 2334,
+   "fk": 1145,
+   "gr": 201,
    "sp": [
     2133,
     2134,
@@ -7424,7 +7452,8 @@
     2215,
     2281,
     2311,
-    2332
+    2332,
+    2334
    ]
   },
   {
@@ -7444,9 +7473,9 @@
    "ts": "2026-11-14T17:41:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "JavaScript",
-   "st": 2178,
+   "st": 2184,
    "fk": 326,
-   "gr": 574,
+   "gr": 580,
    "sp": [
     1604,
     1612,
@@ -7459,7 +7488,8 @@
     1957,
     2065,
     2115,
-    2178
+    2178,
+    2184
    ]
   },
   {
@@ -7479,9 +7509,9 @@
    "ts": "2026-11-17T12:35:27Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "HTML",
-   "st": 2117,
+   "st": 2119,
    "fk": 232,
-   "gr": 42,
+   "gr": 44,
    "sp": [
     2075,
     2076,
@@ -7494,7 +7524,8 @@
     2103,
     2109,
     2112,
-    2117
+    2117,
+    2119
    ]
   },
   {
@@ -7514,51 +7545,17 @@
    "ts": "2026-11-18T01:47:53Z",
    "fs": "2026-11-17T06:00:46.003Z",
    "lg": "Python",
-   "st": 1814,
-   "fk": 234,
-   "gr": 1037,
+   "st": 1825,
+   "fk": 236,
+   "gr": 1048,
    "sp": [
     777,
     802,
     1116,
     1372,
     1588,
-    1814
-   ]
-  },
-  {
-   "id": "eefa59ab77",
-   "title": "mdiri-ai/SoduWork",
-   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
-   "url": "https://github.com/mdiri-ai/SoduWork",
-   "source": "GitHub: مستودعات ناشئة",
-   "country": "",
-   "region": "dev",
-   "cat": "الذكاء الاصطناعي",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "repo",
-   "company": "",
-   "ts": "2026-11-17T23:42:48Z",
-   "fs": "2026-11-16T19:38:10.482Z",
-   "lg": "JavaScript",
-   "st": 1734,
-   "fk": 213,
-   "gr": 686,
-   "sp": [
-    1048,
-    1048,
-    1049,
-    1050,
-    1051,
-    1098,
-    1217,
-    1225,
-    1444,
-    1623,
-    1676,
-    1734
+    1814,
+    1825
    ]
   },
   {
@@ -7578,13 +7575,50 @@
    "ts": "2026-11-17T21:28:55Z",
    "fs": "2026-11-17T16:43:30.653Z",
    "lg": "Python",
-   "st": 1689,
-   "fk": 719,
-   "gr": 792,
+   "st": 1775,
+   "fk": 740,
+   "gr": 878,
    "sp": [
     897,
     1353,
-    1689
+    1689,
+    1775
+   ]
+  },
+  {
+   "id": "eefa59ab77",
+   "title": "mdiri-ai/SoduWork",
+   "summary": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+   "url": "https://github.com/mdiri-ai/SoduWork",
+   "source": "GitHub: مستودعات ناشئة",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "repo",
+   "company": "",
+   "ts": "2026-11-18T02:53:51Z",
+   "fs": "2026-11-16T19:38:10.482Z",
+   "lg": "JavaScript",
+   "st": 1765,
+   "fk": 215,
+   "gr": 717,
+   "sp": [
+    1048,
+    1048,
+    1049,
+    1050,
+    1051,
+    1098,
+    1217,
+    1225,
+    1444,
+    1623,
+    1676,
+    1734,
+    1765
    ]
   },
   {
@@ -7601,12 +7635,12 @@
    "also": [],
    "kind": "repo",
    "company": "OpenAI",
-   "ts": "2026-11-18T01:33:10Z",
+   "ts": "2026-11-18T02:55:37Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "TypeScript",
-   "st": 1685,
+   "st": 1686,
    "fk": 306,
-   "gr": 72,
+   "gr": 73,
    "sp": [
     1613,
     1614,
@@ -7619,7 +7653,8 @@
     1660,
     1669,
     1677,
-    1685
+    1685,
+    1686
    ]
   },
   {
@@ -7639,9 +7674,9 @@
    "ts": "2026-11-11T10:04:47Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 1618,
+   "st": 1619,
    "fk": 20,
-   "gr": 32,
+   "gr": 33,
    "sp": [
     1586,
     1586,
@@ -7654,7 +7689,8 @@
     1588,
     1589,
     1604,
-    1618
+    1618,
+    1619
    ]
   },
   {
@@ -7674,9 +7710,9 @@
    "ts": "2026-11-15T02:55:33Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Python",
-   "st": 1593,
-   "fk": 628,
-   "gr": 176,
+   "st": 1598,
+   "fk": 629,
+   "gr": 181,
    "sp": [
     1417,
     1418,
@@ -7689,42 +7725,8 @@
     1548,
     1567,
     1575,
-    1593
-   ]
-  },
-  {
-   "id": "6274611ca4",
-   "title": "ZiChuanLan/freebie-radar",
-   "summary": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
-   "url": "https://github.com/ZiChuanLan/freebie-radar",
-   "source": "GitHub: مستودعات ناشئة",
-   "country": "",
-   "region": "dev",
-   "cat": "الذكاء الاصطناعي",
-   "level": 2,
-   "n": 1,
-   "also": [],
-   "kind": "repo",
-   "company": "",
-   "ts": "2026-11-17T17:25:24Z",
-   "fs": "2026-11-16T19:38:10.482Z",
-   "lg": "TypeScript",
-   "st": 1439,
-   "fk": 244,
-   "gr": 329,
-   "sp": [
-    1110,
-    1110,
-    1110,
-    1110,
-    1112,
-    1180,
-    1219,
-    1228,
-    1336,
-    1396,
-    1416,
-    1439
+    1593,
+    1598
    ]
   },
   {
@@ -7744,12 +7746,49 @@
    "ts": "2026-11-18T01:20:09Z",
    "fs": "2026-11-17T20:57:42.781Z",
    "lg": "Rust",
-   "st": 1429,
-   "fk": 97,
-   "gr": 437,
+   "st": 1495,
+   "fk": 102,
+   "gr": 503,
    "sp": [
     992,
-    1429
+    1429,
+    1495
+   ]
+  },
+  {
+   "id": "6274611ca4",
+   "title": "ZiChuanLan/freebie-radar",
+   "summary": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+   "url": "https://github.com/ZiChuanLan/freebie-radar",
+   "source": "GitHub: مستودعات ناشئة",
+   "country": "",
+   "region": "dev",
+   "cat": "الذكاء الاصطناعي",
+   "level": 2,
+   "n": 1,
+   "also": [],
+   "kind": "repo",
+   "company": "",
+   "ts": "2026-11-18T02:31:45Z",
+   "fs": "2026-11-16T19:38:10.482Z",
+   "lg": "TypeScript",
+   "st": 1450,
+   "fk": 245,
+   "gr": 340,
+   "sp": [
+    1110,
+    1110,
+    1110,
+    1110,
+    1112,
+    1180,
+    1219,
+    1228,
+    1336,
+    1396,
+    1416,
+    1439,
+    1450
    ]
   },
   {
@@ -7766,7 +7805,7 @@
    "also": [],
    "kind": "repo",
    "company": "",
-   "ts": "2026-11-17T19:39:45Z",
+   "ts": "2026-11-18T02:52:07Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C++",
    "st": 1221,
@@ -7784,6 +7823,7 @@
     1216,
     1218,
     1220,
+    1221,
     1221
    ]
   },
@@ -7801,16 +7841,17 @@
    "also": [],
    "kind": "repo",
    "company": "",
-   "ts": "2026-11-17T18:55:57Z",
+   "ts": "2026-11-18T02:49:13Z",
    "fs": "2026-11-17T16:43:30.653Z",
    "lg": "JavaScript",
-   "st": 1050,
-   "fk": 342,
-   "gr": 132,
+   "st": 1074,
+   "fk": 350,
+   "gr": 156,
    "sp": [
     918,
     978,
-    1050
+    1050,
+    1074
    ]
   },
   {
@@ -7830,9 +7871,9 @@
    "ts": "2026-11-06T01:20:48Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "Kotlin",
-   "st": 997,
+   "st": 998,
    "fk": 112,
-   "gr": 11,
+   "gr": 12,
    "sp": [
     986,
     986,
@@ -7845,7 +7886,8 @@
     995,
     996,
     996,
-    997
+    997,
+    998
    ]
   },
   {
@@ -7865,9 +7907,9 @@
    "ts": "2026-11-13T15:57:45Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "lg": "C",
-   "st": 969,
+   "st": 970,
    "fk": 46,
-   "gr": 125,
+   "gr": 126,
    "sp": [
     844,
     849,
@@ -7880,7 +7922,8 @@
     917,
     943,
     958,
-    969
+    969,
+    970
    ]
   },
   {
@@ -7900,12 +7943,13 @@
    "ts": "2026-11-16T18:40:08Z",
    "fs": "2026-11-17T20:57:42.781Z",
    "lg": "Python",
-   "st": 934,
+   "st": 939,
    "fk": 82,
-   "gr": 75,
+   "gr": 80,
    "sp": [
     859,
-    934
+    934,
+    939
    ]
   },
   {
@@ -7925,8 +7969,13 @@
    "ts": "2026-11-18T00:02:15Z",
    "fs": "2026-11-18T02:10:05.591Z",
    "lg": "Python",
-   "st": 892,
-   "fk": 23
+   "st": 902,
+   "fk": 23,
+   "gr": 10,
+   "sp": [
+    892,
+    902
+   ]
   },
   {
    "id": "2718368d18",
@@ -7945,15 +7994,16 @@
    "ts": "2026-11-17T13:20:20Z",
    "fs": "2026-11-17T06:00:46.003Z",
    "lg": "Python",
-   "st": 876,
-   "fk": 291,
-   "gr": 177,
+   "st": 884,
+   "fk": 293,
+   "gr": 185,
    "sp": [
     699,
     699,
     802,
     847,
-    876
+    876,
+    884
    ]
   },
   {
@@ -7973,16 +8023,17 @@
    "ts": "2026-11-13T15:14:36Z",
    "fs": "2026-11-17T02:57:31.540Z",
    "lg": "TypeScript",
-   "st": 796,
+   "st": 798,
    "fk": 65,
-   "gr": 17,
+   "gr": 19,
    "sp": [
     779,
     786,
     787,
     788,
     791,
-    796
+    796,
+    798
    ]
   },
   {
@@ -8002,8 +8053,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8014,7 +8065,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8034,8 +8086,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8046,7 +8098,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8066,8 +8119,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8078,7 +8131,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8098,8 +8152,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8110,7 +8164,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8130,8 +8185,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8142,7 +8197,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8162,8 +8218,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8174,7 +8230,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8194,8 +8251,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8206,7 +8263,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8226,8 +8284,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8238,7 +8296,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8258,8 +8317,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8270,7 +8329,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8290,8 +8350,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8302,7 +8362,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8322,8 +8383,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8334,7 +8395,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8354,8 +8416,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8366,7 +8428,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8386,8 +8449,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8398,7 +8461,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8418,8 +8482,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8430,7 +8494,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8450,8 +8515,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8462,7 +8527,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8482,8 +8548,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8494,7 +8560,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8514,8 +8581,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8526,7 +8593,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8546,8 +8614,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8558,7 +8626,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8578,8 +8647,8 @@
    "ts": "2026-11-16T14:22:50Z",
    "fs": "2026-11-16T20:32:28.667Z",
    "sub": "skill",
-   "st": 196768,
-   "gr": 818,
+   "st": 196788,
+   "gr": 838,
    "sp": [
     195950,
     195962,
@@ -8590,7 +8659,8 @@
     196396,
     196544,
     196654,
-    196768
+    196768,
+    196788
    ]
   },
   {
@@ -8611,9 +8681,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 20810,
-   "fk": 1534,
-   "gr": 513,
+   "st": 20823,
+   "fk": 1537,
+   "gr": 526,
    "sp": [
     20297,
     20300,
@@ -8625,7 +8695,8 @@
     20596,
     20678,
     20752,
-    20810
+    20810,
+    20823
    ]
   },
   {
@@ -8646,9 +8717,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 17868,
-   "fk": 2247,
-   "gr": 655,
+   "st": 17884,
+   "fk": 2249,
+   "gr": 671,
    "sp": [
     17213,
     17222,
@@ -8660,7 +8731,8 @@
     17528,
     17683,
     17788,
-    17868
+    17868,
+    17884
    ]
   },
   {
@@ -8695,6 +8767,7 @@
     10341,
     10385,
     10413,
+    10438,
     10438
    ]
   },
@@ -8712,13 +8785,13 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-18T02:06:00Z",
+   "ts": "2026-11-18T02:53:56Z",
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 10309,
-   "fk": 1522,
-   "gr": 681,
+   "st": 10324,
+   "fk": 1527,
+   "gr": 696,
    "sp": [
     9628,
     9636,
@@ -8730,7 +8803,8 @@
     10013,
     10162,
     10224,
-    10309
+    10309,
+    10324
    ]
   },
   {
@@ -8751,9 +8825,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 9743,
+   "st": 9744,
    "fk": 1775,
-   "gr": 187,
+   "gr": 188,
    "sp": [
     9556,
     9560,
@@ -8765,7 +8839,8 @@
     9654,
     9687,
     9717,
-    9743
+    9743,
+    9744
    ]
   },
   {
@@ -8786,9 +8861,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 8426,
+   "st": 8433,
    "fk": 2010,
-   "gr": 279,
+   "gr": 286,
    "sp": [
     8147,
     8154,
@@ -8800,7 +8875,8 @@
     8290,
     8341,
     8389,
-    8426
+    8426,
+    8433
    ]
   },
   {
@@ -8821,9 +8897,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 8001,
-   "fk": 1044,
-   "gr": 259,
+   "st": 8009,
+   "fk": 1047,
+   "gr": 267,
    "sp": [
     7742,
     7743,
@@ -8835,7 +8911,8 @@
     7904,
     7947,
     7969,
-    8001
+    8001,
+    8009
    ]
   },
   {
@@ -8856,9 +8933,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 7769,
-   "fk": 719,
-   "gr": 1239,
+   "st": 7778,
+   "fk": 721,
+   "gr": 1248,
    "sp": [
     6530,
     6540,
@@ -8870,7 +8947,8 @@
     7484,
     7640,
     7693,
-    7769
+    7769,
+    7778
    ]
   },
   {
@@ -8891,9 +8969,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 7214,
+   "st": 7215,
    "fk": 900,
-   "gr": 87,
+   "gr": 88,
    "sp": [
     7127,
     7129,
@@ -8905,7 +8983,8 @@
     7189,
     7197,
     7204,
-    7214
+    7214,
+    7215
    ]
   },
   {
@@ -8926,9 +9005,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "HTML",
-   "st": 7193,
+   "st": 7195,
    "fk": 575,
-   "gr": 125,
+   "gr": 127,
    "sp": [
     7068,
     7069,
@@ -8940,7 +9019,8 @@
     7134,
     7159,
     7169,
-    7193
+    7193,
+    7195
    ]
   },
   {
@@ -8961,9 +9041,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 7146,
+   "st": 7151,
    "fk": 704,
-   "gr": 104,
+   "gr": 109,
    "sp": [
     7042,
     7042,
@@ -8975,7 +9055,8 @@
     7093,
     7117,
     7131,
-    7146
+    7146,
+    7151
    ]
   },
   {
@@ -8996,9 +9077,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 6501,
-   "fk": 439,
-   "gr": 136,
+   "st": 6504,
+   "fk": 440,
+   "gr": 139,
    "sp": [
     6365,
     6365,
@@ -9010,7 +9091,8 @@
     6447,
     6480,
     6488,
-    6501
+    6501,
+    6504
    ]
   },
   {
@@ -9031,9 +9113,9 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 6070,
+   "st": 6072,
    "fk": 755,
-   "gr": 166,
+   "gr": 168,
    "sp": [
     5904,
     5907,
@@ -9046,7 +9128,8 @@
     6010,
     6041,
     6050,
-    6070
+    6070,
+    6072
    ]
   },
   {
@@ -9067,9 +9150,9 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "TypeScript",
-   "st": 5809,
-   "fk": 1070,
-   "gr": 124,
+   "st": 5816,
+   "fk": 1071,
+   "gr": 131,
    "sp": [
     5685,
     5685,
@@ -9082,7 +9165,8 @@
     5764,
     5790,
     5794,
-    5809
+    5809,
+    5816
    ]
   },
   {
@@ -9099,13 +9183,13 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-18T00:02:10Z",
+   "ts": "2026-11-18T02:20:52Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 5567,
+   "st": 5573,
    "fk": 183,
-   "gr": 317,
+   "gr": 323,
    "sp": [
     5250,
     5252,
@@ -9118,7 +9202,8 @@
     5436,
     5485,
     5526,
-    5567
+    5567,
+    5573
    ]
   },
   {
@@ -9153,6 +9238,7 @@
     5170,
     5179,
     5190,
+    5199,
     5199
    ]
   },
@@ -9170,13 +9256,13 @@
    "also": [],
    "kind": "tool",
    "company": "Apple",
-   "ts": "2026-11-18T01:43:11Z",
+   "ts": "2026-11-18T02:45:22Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Rust",
-   "st": 4610,
+   "st": 4615,
    "fk": 123,
-   "gr": 157,
+   "gr": 162,
    "sp": [
     4453,
     4458,
@@ -9189,7 +9275,8 @@
     4544,
     4578,
     4597,
-    4610
+    4610,
+    4615
    ]
   },
   {
@@ -9210,9 +9297,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 4047,
+   "st": 4050,
    "fk": 512,
-   "gr": 171,
+   "gr": 174,
    "sp": [
     3876,
     3880,
@@ -9224,7 +9311,8 @@
     3954,
     3995,
     4020,
-    4047
+    4047,
+    4050
    ]
   },
   {
@@ -9245,9 +9333,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 3868,
+   "st": 3871,
    "fk": 240,
-   "gr": 28,
+   "gr": 31,
    "sp": [
     3840,
     3840,
@@ -9259,7 +9347,8 @@
     3852,
     3861,
     3864,
-    3868
+    3868,
+    3871
    ]
   },
   {
@@ -9294,6 +9383,7 @@
     3660,
     3669,
     3673,
+    3681,
     3681
    ]
   },
@@ -9315,9 +9405,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Swift",
-   "st": 3560,
-   "fk": 424,
-   "gr": 33,
+   "st": 3563,
+   "fk": 425,
+   "gr": 36,
    "sp": [
     3527,
     3527,
@@ -9329,7 +9419,8 @@
     3546,
     3552,
     3555,
-    3560
+    3560,
+    3563
    ]
   },
   {
@@ -9364,6 +9455,7 @@
     3477,
     3484,
     3486,
+    3492,
     3492
    ]
   },
@@ -9399,6 +9491,7 @@
     3374,
     3378,
     3382,
+    3385,
     3385
    ]
   },
@@ -9416,13 +9509,13 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-18T02:07:53Z",
+   "ts": "2026-11-18T02:15:15Z",
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 3351,
+   "st": 3353,
    "fk": 90,
-   "gr": 40,
+   "gr": 42,
    "sp": [
     3311,
     3311,
@@ -9434,7 +9527,8 @@
     3337,
     3343,
     3344,
-    3351
+    3351,
+    3353
    ]
   },
   {
@@ -9451,13 +9545,13 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-18T00:57:41Z",
+   "ts": "2026-11-18T02:29:02Z",
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 3075,
+   "st": 3079,
    "fk": 516,
-   "gr": 77,
+   "gr": 81,
    "sp": [
     2998,
     2998,
@@ -9469,7 +9563,8 @@
     3038,
     3045,
     3059,
-    3075
+    3075,
+    3079
    ]
   },
   {
@@ -9490,9 +9585,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "JavaScript",
-   "st": 2852,
+   "st": 2853,
    "fk": 281,
-   "gr": 78,
+   "gr": 79,
    "sp": [
     2774,
     2774,
@@ -9504,7 +9599,8 @@
     2822,
     2840,
     2847,
-    2852
+    2852,
+    2853
    ]
   },
   {
@@ -9525,9 +9621,9 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "skill",
    "lg": "TypeScript",
-   "st": 2742,
+   "st": 2745,
    "fk": 199,
-   "gr": 115,
+   "gr": 118,
    "sp": [
     2627,
     2629,
@@ -9540,7 +9636,8 @@
     2695,
     2717,
     2727,
-    2742
+    2742,
+    2745
    ]
   },
   {
@@ -9575,6 +9672,7 @@
     2592,
     2600,
     2604,
+    2606,
     2606
    ]
   },
@@ -9610,6 +9708,7 @@
     2561,
     2570,
     2579,
+    2588,
     2588
    ]
   },
@@ -9631,9 +9730,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "HTML",
-   "st": 2508,
+   "st": 2510,
    "fk": 303,
-   "gr": 74,
+   "gr": 76,
    "sp": [
     2434,
     2434,
@@ -9645,7 +9744,8 @@
     2483,
     2496,
     2501,
-    2508
+    2508,
+    2510
    ]
   },
   {
@@ -9662,13 +9762,13 @@
    "also": [],
    "kind": "tool",
    "company": "Apple",
-   "ts": "2026-11-18T01:26:25Z",
+   "ts": "2026-11-18T02:12:55Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "Go",
-   "st": 2380,
+   "st": 2386,
    "fk": 250,
-   "gr": 94,
+   "gr": 100,
    "sp": [
     2286,
     2286,
@@ -9681,7 +9781,8 @@
     2345,
     2357,
     2371,
-    2380
+    2380,
+    2386
    ]
   },
   {
@@ -9702,8 +9803,8 @@
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "agent",
    "lg": "Python",
-   "st": 2332,
-   "fk": 1144,
+   "st": 2334,
+   "fk": 1145,
    "sp": [
     2133,
     2134,
@@ -9716,7 +9817,8 @@
     2215,
     2281,
     2311,
-    2332
+    2332,
+    2334
    ]
   },
   {
@@ -9736,9 +9838,9 @@
    "ts": "2026-11-17T17:19:14Z",
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
-   "st": 2283,
+   "st": 2287,
    "fk": 217,
-   "gr": 54,
+   "gr": 58,
    "sp": [
     2229,
     2230,
@@ -9750,7 +9852,8 @@
     2251,
     2260,
     2275,
-    2283
+    2283,
+    2287
    ]
   },
   {
@@ -9785,6 +9888,7 @@
     2184,
     2185,
     2185,
+    2185,
     2185
    ]
   },
@@ -9806,9 +9910,9 @@
    "fs": "2026-11-16T20:06:25.340Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 2138,
+   "st": 2139,
    "fk": 256,
-   "gr": 18,
+   "gr": 19,
    "sp": [
     2120,
     2120,
@@ -9820,7 +9924,8 @@
     2132,
     2137,
     2137,
-    2138
+    2138,
+    2139
    ]
   },
   {
@@ -9837,7 +9942,7 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-18T02:02:54Z",
+   "ts": "2026-11-18T02:47:52Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "HTML",
@@ -9856,6 +9961,7 @@
     2079,
     2088,
     2092,
+    2096,
     2096
    ]
   },
@@ -9891,6 +9997,7 @@
     2028,
     2038,
     2040,
+    2043,
     2043
    ]
   },
@@ -9908,13 +10015,13 @@
    "also": [],
    "kind": "tool",
    "company": "",
-   "ts": "2026-11-18T01:36:37Z",
+   "ts": "2026-11-18T02:23:24Z",
    "fs": "2026-11-16T19:38:10.482Z",
    "sub": "library",
    "lg": "TypeScript",
-   "st": 2029,
+   "st": 2036,
    "fk": 127,
-   "gr": 202,
+   "gr": 209,
    "sp": [
     1827,
     1829,
@@ -9927,7 +10034,8 @@
     1946,
     1969,
     1991,
-    2029
+    2029,
+    2036
    ]
   },
   {
@@ -9948,12 +10056,13 @@
    "fs": "2026-11-17T20:57:42.781Z",
    "sub": "skill",
    "lg": "Python",
-   "st": 1977,
-   "fk": 167,
-   "gr": 49,
+   "st": 1984,
+   "fk": 168,
+   "gr": 56,
    "sp": [
     1928,
-    1977
+    1977,
+    1984
    ]
   },
   {
@@ -9987,6 +10096,7 @@
     1890,
     1898,
     1906,
+    1911,
     1911
    ]
   },
@@ -10019,6 +10129,7 @@
     1866,
     1874,
     1887,
+    1896,
     1896
    ]
   },
@@ -10038,7 +10149,7 @@
    "company": "Alibaba",
    "ts": "2026-08-05T08:22:59.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 20436,
+   "st": 20442,
    "dl": 6942530
   },
   {
@@ -10057,7 +10168,7 @@
    "company": "",
    "ts": "2026-07-23T07:55:24.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 12406,
+   "st": 12409,
    "dl": 2828071
   },
   {
@@ -10076,7 +10187,7 @@
    "company": "",
    "ts": "2025-11-07T05:17:48.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 6887,
+   "st": 6890,
    "dl": 1971023
   },
   {
@@ -10095,7 +10206,7 @@
    "company": "Alibaba",
    "ts": "2026-08-13T08:28:40.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 6142,
+   "st": 6143,
    "dl": 6827598
   },
   {
@@ -10114,7 +10225,7 @@
    "company": "",
    "ts": "2026-10-14T12:00:13.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 3407,
+   "st": 3410,
    "dl": 1062051
   },
   {
@@ -10133,7 +10244,7 @@
    "company": "Alibaba",
    "ts": "2026-09-01T07:01:09.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 3296,
+   "st": 3298,
    "dl": 1759757
   },
   {
@@ -10152,7 +10263,7 @@
    "company": "",
    "ts": "2026-10-28T15:55:17.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 2452,
+   "st": 2453,
    "dl": 36388
   },
   {
@@ -10171,7 +10282,7 @@
    "company": "Alibaba",
    "ts": "2026-08-16T13:18:55.000Z",
    "fs": "2026-11-17T11:55:26.046Z",
-   "st": 2283,
+   "st": 2284,
    "dl": 4292911
   },
   {
@@ -10190,7 +10301,7 @@
    "company": "",
    "ts": "2026-11-03T06:34:36.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 1467,
+   "st": 1473,
    "dl": 727110
   },
   {
@@ -10213,10 +10324,10 @@
    "dl": 2660341
   },
   {
-   "id": "92d43e3fbe",
-   "title": "Zyphra/ZONOS3-Mini",
-   "summary": "نوع المهمة: text-to-speech",
-   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+   "id": "1fb09527c5",
+   "title": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "summary": "نوع المهمة: text-to-image",
+   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
    "source": "Hugging Face Models",
    "country": "",
    "region": "dev",
@@ -10225,11 +10336,11 @@
    "n": 1,
    "also": [],
    "kind": "model",
-   "company": "",
-   "ts": "2026-11-09T05:03:57.000Z",
-   "fs": "2026-11-16T19:38:10.482Z",
-   "st": 510,
-   "dl": 93909
+   "company": "Alibaba",
+   "ts": "2026-11-03T16:13:25.000Z",
+   "fs": "2026-11-17T16:43:30.653Z",
+   "st": 512,
+   "dl": 160748
   },
   {
    "id": "17ddc33e19",
@@ -10247,14 +10358,14 @@
    "company": "",
    "ts": "2026-11-12T11:05:59.000Z",
    "fs": "2026-11-16T19:38:10.482Z",
-   "st": 508,
+   "st": 511,
    "dl": 4445
   },
   {
-   "id": "1fb09527c5",
-   "title": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-   "summary": "نوع المهمة: text-to-image",
-   "url": "https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
+   "id": "92d43e3fbe",
+   "title": "Zyphra/ZONOS3-Mini",
+   "summary": "نوع المهمة: text-to-speech",
+   "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
    "source": "Hugging Face Models",
    "country": "",
    "region": "dev",
@@ -10263,11 +10374,11 @@
    "n": 1,
    "also": [],
    "kind": "model",
-   "company": "Alibaba",
-   "ts": "2026-11-03T16:13:25.000Z",
-   "fs": "2026-11-17T16:43:30.653Z",
-   "st": 507,
-   "dl": 160748
+   "company": "",
+   "ts": "2026-11-09T05:03:57.000Z",
+   "fs": "2026-11-16T19:38:10.482Z",
+   "st": 510,
+   "dl": 93909
   },
   {
    "id": "63a8ea1d4e",
@@ -10323,14 +10434,14 @@
    "company": "",
    "ts": "2026-11-14T15:46:27.000Z",
    "fs": "2026-11-18T02:10:05.591Z",
-   "st": 232,
+   "st": 233,
    "dl": 3042
   },
   {
-   "id": "9c33ca4537",
+   "id": "8de830762b",
    "title": "pytorch",
-   "summary": "[ROCm][Inductor] Skip AMD buffer ops when as_strided rebases to a neg…",
-   "url": "https://github.com/pytorch/pytorch/releases/tag/trunk%2F09782937a371f1c8d7cf32746888f80ff04984ec",
+   "summary": "Follows: #192134 (review) Pull Request resolved: #194076 Approved by: https://github.com/lakshayg , https://github.com/atalman",
+   "url": "https://github.com/pytorch/pytorch/releases/tag/trunk%2F3194495280d0ccb5a991ca79a82401e239a1b455",
    "source": "إصدارات pytorch/pytorch",
    "country": "",
    "region": "dev",
@@ -10340,10 +10451,10 @@
    "also": [],
    "kind": "release",
    "company": "",
-   "ts": "2026-11-18T01:05:19.000Z",
-   "fs": "2026-11-18T02:10:05.591Z",
-   "prev": "trunk/79c743f76865e5720b55c8c704b4f2514a0e4124: [MPS] Implement `torch.mps.Stream.query` (#204528)",
-   "ver": "trunk/09782937a371f1c8d7cf32746888f80ff04984ec"
+   "ts": "2026-11-18T02:41:15.000Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "prev": "trunk/09782937a371f1c8d7cf32746888f80ff04984ec",
+   "ver": "trunk/3194495280d0ccb5a991ca79a82401e239a1b455: [cleanup] remove `__ubsan_ignore_float_divide_by_zero__` (#194076)"
   },
   {
    "id": "33ae67c389",
@@ -10384,6 +10495,25 @@
    "ver": "v2.1.327"
   },
   {
+   "id": "8d7dba7f70",
+   "title": "llama.cpp",
+   "summary": "ggml-cuda: hip: Tune stream_k algo and mmq configs to use stream_k on…",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12496",
+   "source": "إصدارات ggml-org/llama.cpp",
+   "country": "",
+   "region": "dev",
+   "cat": "البرمجيات والتطبيقات",
+   "level": 1,
+   "n": 1,
+   "also": [],
+   "kind": "release",
+   "company": "",
+   "ts": "2026-11-17T22:37:14.000Z",
+   "fs": "2026-11-18T02:55:03.776Z",
+   "prev": "b12494",
+   "ver": "b12496"
+  },
+  {
    "id": "8f73262c55",
    "title": "langchain",
    "summary": "Changes since langchain-openai==1.8.0 release(openai): 1.8.1 ( #41924 ) fix(openai): recover function call args from done events ( #41923 )",
@@ -10401,25 +10531,6 @@
    "fs": "2026-11-17T20:57:42.781Z",
    "prev": "langchain-core==1.8.2",
    "ver": "langchain-openai==1.8.1"
-  },
-  {
-   "id": "4bb758b5ba",
-   "title": "llama.cpp",
-   "summary": "The fast CONV_2D path (implicit GEMM with MMA, or cuBLAS for pointwise convolutions) required an F16 kernel. F32 kernels fell back to the naive direct convolution, which is much slower than im2col + m",
-   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12493",
-   "source": "إصدارات ggml-org/llama.cpp",
-   "country": "",
-   "region": "dev",
-   "cat": "البرمجيات والتطبيقات",
-   "level": 1,
-   "n": 1,
-   "also": [],
-   "kind": "release",
-   "company": "",
-   "ts": "2026-11-17T19:43:11.000Z",
-   "fs": "2026-11-18T02:10:05.591Z",
-   "prev": "b12492",
-   "ver": "b12493: cuda: use the implicit GEMM conv2d path for F32 kernels (#32482)"
   },
   {
    "id": "0a893fe7f1",

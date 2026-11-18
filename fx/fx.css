@@ -1,0 +1,122 @@
+/* fx.css — طبقة الحركة. تعتمد على رموز style.css ولا تغيّر ألوان الهوية.
+   القاعدة: transform/opacity فقط. الشدة: الهيرو عالية، البطاقات متوسطة، التنقل خفيف، القراءة بلا حركة. */
+
+:root{
+  --fx-lift:0 16px 32px -14px rgba(52,73,94,.28);
+  --fx-spot:rgba(85,124,155,.18);
+  --fx-glint:rgba(255,255,255,.5);
+  --fx-ease:cubic-bezier(.2,.75,.25,1);
+}
+[data-theme="dark"]{
+  --fx-lift:0 16px 32px -14px rgba(0,0,0,.65);
+  --fx-spot:rgba(157,187,210,.14);
+  --fx-glint:rgba(255,255,255,.07);
+}
+
+/* ===== 3) الدخول المتتابع (يُفعَّل فقط عندما تعمل وحدة reveal ولا يوجد reduced-motion) ===== */
+.fx-on .fx-r{opacity:0;transform:translate3d(0,16px,0)}
+.fx-on .fx-r.fx-in{opacity:1;transform:none;
+  transition:opacity .55s ease var(--fx-d,0ms),transform .7s var(--fx-ease) var(--fx-d,0ms)}
+
+/* ===== 1) البطاقات: ظل ناعم عبر opacity (دون تحريك box-shadow) ===== */
+.card{isolation:isolate}
+.card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;
+  box-shadow:var(--fx-lift);opacity:0;transition:opacity .35s ease}
+.card.fx-tilt{will-change:transform}
+@media (hover:hover) and (pointer:fine){ .card:hover::after{opacity:1} }
+/* لمس: تغذية راجعة بسيطة عند النقر بدل التحويم */
+@media (hover:none),(pointer:coarse){
+  .card{transition:border-color .2s,transform .16s ease}
+  .card:active{transform:scale(.985)}
+}
+
+/* ===== 2) تقريب بطيء داخل حاوية ثابتة (الحجم لا يتغير؛ .thumb يقصّ المحتوى) ===== */
+.thumb::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(circle at 72% 28%,var(--fx-glint),transparent 62%);
+  transform-origin:70% 30%;transition:transform 1.6s cubic-bezier(.2,.6,.2,1)}
+.thumb svg{transition:transform 1.4s cubic-bezier(.2,.6,.2,1)}
+.media{overflow:hidden;border-radius:12px}
+.card img,.card video{display:block;width:100%;transition:transform 1.4s cubic-bezier(.2,.6,.2,1)}
+@media (hover:hover) and (pointer:fine){
+  .card:hover .thumb::before{transform:scale(1.35)}
+  .card:hover .thumb svg{transform:scale(1.14)}
+  .card:hover img,.card:hover video{transform:scale(1.07)}
+}
+
+/* ===== 4) التنقل: مؤشر نشط متحرك + خط سفلي عند التحويم/التركيز ===== */
+.nav{position:relative}
+.nav a{position:relative}
+.nav a::after{content:"";position:absolute;inset-inline:16px;bottom:5px;height:2px;border-radius:2px;background:var(--brand);
+  transform:scaleX(0);transition:transform .3s var(--fx-ease)}
+.nav a:hover::after,.nav a:focus-visible::after{transform:scaleX(1)}
+.nav a:focus-visible{outline-offset:-4px;color:var(--head)}
+.fx-nav-on a[aria-current="page"]{border-bottom-color:transparent}
+.fx-nav-on a[aria-current="page"]::after{display:none}
+.fx-ind{position:absolute;left:0;bottom:0;width:100px;height:3px;border-radius:3px 3px 0 0;background:var(--brand);
+  transform-origin:left center;transform:translateX(0) scaleX(0);opacity:0;pointer-events:none}
+.fx-nav-ready .fx-ind{transition:transform .5s cubic-bezier(.3,.9,.3,1),opacity .2s}
+
+/* ===== 5) الأزرار والأيقونات: تكبير/تدوير خفيف + ضغط ===== */
+.btn,.chip,.tile,.bar a,.bar button{-webkit-tap-highlight-color:transparent}
+.btn{transition:background .2s,border-color .2s,transform .18s cubic-bezier(.3,.8,.3,1)}
+.chip{transition:background .2s,border-color .2s,transform .18s cubic-bezier(.3,.8,.3,1)}
+.tile{transition:border-color .2s,transform .2s cubic-bezier(.3,.8,.3,1)}
+.btn:not([disabled]):active,.chip:active{transform:scale(.95)}
+.tile:active{transform:scale(.97)}
+.si svg,.bar svg{transition:transform .35s var(--fx-ease)}
+.bar a:active svg,.bar button:active svg{transform:scale(.86)}
+.bar a[aria-current="page"] svg{transform:translateY(-1px) scale(1.08)}
+@media (hover:hover) and (pointer:fine){
+  .btn:not([disabled]):hover{transform:scale(1.035)}
+  .chip:hover{transform:scale(1.04)}
+  .tile:hover{transform:translateY(-2px)}
+  .stat:hover .si svg{transform:rotate(-8deg) scale(1.1)}
+}
+
+/* ===== 7-9) الهيرو ===== */
+.brand-hero.fx-hero::before,.brand-hero.fx-hero::after{display:none}   /* حلّت محلها طبقات حقيقية قابلة للبرالاكس */
+.fx-deco{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;border-radius:inherit}
+
+.fx-ring{position:absolute;border:1px solid var(--deco);border-radius:50%;transform:rotate(-22deg);opacity:.7;will-change:transform}
+.fx-ring.a{width:470px;height:190px;inset-inline-end:-80px;top:24px}
+.fx-ring.b{width:380px;height:140px;inset-inline-end:-36px;top:48px;opacity:.45}
+.fx-dots{position:absolute;inset:-30px;opacity:.5;will-change:transform;
+  background-image:radial-gradient(circle,var(--deco) 1.4px,transparent 1.9px);background-size:44px 44px;
+  -webkit-mask-image:radial-gradient(ellipse 55% 70% at 16% 55%,#000 0,transparent 100%);
+  mask-image:radial-gradient(ellipse 55% 70% at 16% 55%,#000 0,transparent 100%)}
+
+/* إضاءة الماوس */
+.fx-spot{position:absolute;left:0;top:0;width:520px;height:520px;margin:-260px 0 0 -260px;border-radius:50%;
+  background:radial-gradient(circle,var(--fx-spot) 0%,transparent 62%);opacity:0;transition:opacity .45s ease;will-change:transform}
+.fx-hov .fx-spot{opacity:1}
+
+/* الجسم ثلاثي الأبعاد: جيروسكوب من ثلاث حلقات + نواة */
+.fx-obj{position:absolute;top:14px;inset-inline-end:20px;width:124px;height:124px;perspective:640px;
+  animation:fx-float 7s ease-in-out infinite alternate}
+.fx-obj-rot{position:absolute;inset:0;transform-style:preserve-3d;will-change:transform}
+.fx-ring3{position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--brand);transform-style:preserve-3d}
+.fx-ring3.r1{animation:fx-s1 15s linear infinite}
+.fx-ring3.r2{inset:12%;border-color:var(--ac);opacity:.75;transform:rotateX(60deg);animation:fx-s2 21s linear infinite}
+.fx-ring3.r3{inset:26%;border-color:var(--brand);opacity:.6;transform:rotateX(-60deg) rotateY(30deg);animation:fx-s3 27s linear infinite}
+.fx-core{position:absolute;inset:40%;border-radius:50%;opacity:.9;
+  background:radial-gradient(circle at 35% 30%,#fff,var(--brand) 55%,var(--head) 100%)}
+@keyframes fx-float{from{transform:translate3d(0,0,0)}to{transform:translate3d(0,-9px,0)}}
+@keyframes fx-s1{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}
+@keyframes fx-s2{from{transform:rotateX(60deg) rotateY(0)}to{transform:rotateX(60deg) rotateY(360deg)}}
+@keyframes fx-s3{from{transform:rotateX(-60deg) rotateY(30deg)}to{transform:rotateX(-60deg) rotateY(390deg)}}
+.fx-paused .fx-obj,.fx-paused .fx-ring3{animation-play-state:paused}
+@media (max-width:820px){ .fx-obj{width:68px;height:68px;top:12px;inset-inline-end:12px} }
+
+/* ===== 10) مؤشر المتابعة: لا يخفي مؤشر النظام ولا يستقبل أحداثاً ===== */
+.fx-cursor{position:fixed;left:0;top:0;z-index:60;pointer-events:none;will-change:transform}
+.fx-cursor i{position:absolute;left:-13px;top:-13px;width:26px;height:26px;border-radius:50%;
+  border:1.5px solid var(--brand);opacity:0;transform:scale(.6);transition:opacity .2s,transform .3s var(--fx-ease)}
+.fx-cursor.on i{opacity:.6;transform:scale(1)}
+.fx-cursor.on.big i{opacity:.4;transform:scale(1.6)}
+
+/* ===== تقليل الحركة: نبسّط كل شيء ===== */
+@media (prefers-reduced-motion:reduce){
+  .fx-on .fx-r{opacity:1;transform:none}
+  .fx-obj,.fx-ring3{animation:none!important}
+  .fx-spot,.fx-cursor{display:none}
+}

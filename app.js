@@ -1,4 +1,4 @@
-/* رادار التقنية من ai.nxt — app.js (الجزء 1: الأساس، الرئيسية، الأخبار، التقرير، الإعدادات)
+/* آفاق التقنية من ai.nxt — app.js (الجزء 1: الأساس، الرئيسية، الأخبار، التقرير، الإعدادات)
    بلا مكتبات. كل نص بيانات يدخل الصفحة عبر textContent فقط. لا مفاتيح API هنا. */
 (function () {
 'use strict';
@@ -154,12 +154,12 @@ P.home = function (v) {
   var items = S.items.filter(allowed), day = ref() - 864e5, w = el('div', 'home');
   var hero = el('section', 'brand-hero');
   var heroCopy = el('div', 'brand-hero-copy');
-  heroCopy.appendChild(el('span', 'brand-kicker', 'TECH RADAR  ·  من ai.nxt'));
+  heroCopy.appendChild(el('span', 'brand-kicker', 'TECH HORIZONS  ·  من ai.nxt'));
   var heroTitle = el('h1', 'brand-title'); heroTitle.appendChild(document.createTextNode('ai')); heroTitle.appendChild(el('span', 'brand-dot', '.')); heroTitle.appendChild(document.createTextNode('nxt')); heroCopy.appendChild(heroTitle);
   heroCopy.appendChild(el('h2', 'brand-tagline', 'مساعدك الذكي للمستقبل'));
   heroCopy.appendChild(el('p', 'brand-intro', 'نرصد لك نبض التقنية والذكاء الاصطناعي حول العالم؛ أخبار موثوقة، نماذج صاعدة، مشاريع مفتوحة، وإصدارات تستحق المتابعة.'));
   var heroActions = el('div', 'brand-actions');
-  var explore = el('a', 'btn primary', 'استكشف الرادار'); explore.href = '#/news'; heroActions.appendChild(explore);
+  var explore = el('a', 'btn primary', 'استكشف الآفاق'); explore.href = '#/news'; heroActions.appendChild(explore);
   var aiLink = el('a', 'btn brand-outline', 'اكتشف الذكاء الاصطناعي'); aiLink.href = '#/ai'; heroActions.appendChild(aiLink);
   heroCopy.appendChild(heroActions);
   var heroMarks = el('div', 'brand-marks');
@@ -176,7 +176,7 @@ P.home = function (v) {
   var cc = {}; items.forEach(function (i) { if (i.company) cc[i.company] = (cc[i.company] || 0) + 1; });
   var top = Object.keys(cc).sort(function (a, b) { return cc[b] - cc[a]; }).slice(0, 8);
   if (top.length) { var s = el('section', 'sec'); s.appendChild(el('h2', null, 'الشركات الأكثر حضوراً')); var r = el('div', 'cos'); top.forEach(function (c) { var x = el('span', 'co', c); x.appendChild(el('b', null, num(cc[c]))); r.appendChild(x); }); s.appendChild(r); main.appendChild(s); }
-  main.appendChild(section('اكتشافات اليوم', 'عناصر ظهرت لأول مرة في قاعدة الرادار خلال 36 ساعة', disc.slice(0, 6), null));
+  main.appendChild(section('اكتشافات اليوم', 'عناصر ظهرت لأول مرة في قاعدة آفاق التقنية خلال 36 ساعة', disc.slice(0, 6), null));
   main.appendChild(section('أهم الأخبار', 'مرتبة بدرجة الأهمية ثم الأحدث', ofKind('news').sort(function (a, b) { return b.level - a.level || tm(b) - tm(a); }).slice(0, 6), 'news'));
   gr.appendChild(main); gr.appendChild(side()); w.appendChild(gr); v.appendChild(w);
 };
@@ -333,10 +333,10 @@ function render() {
   $('stamp').textContent = S.updated ? 'آخر تحديث: ' + fmtTime(S.updated) : '';
   var rb = $('refresh'); rb.disabled = S.loading; rb.firstChild.textContent = S.loading ? 'جارٍ التحديث…' : 'تحديث';
   var v = $('view'); v.textContent = '';
-  if (location.protocol === 'file:') { $('banner').textContent = ''; v.appendChild(stateBox('لا يمكن فتح الرادار من ملف محلي', 'المتصفح يمنع قراءة news.json عند الفتح من file://. شغّل الأمر python -m http.server داخل مجلد المشروع ثم افتح http://localhost:8000')); return; }
+  if (location.protocol === 'file:') { $('banner').textContent = ''; v.appendChild(stateBox('لا يمكن فتح آفاق التقنية من ملف محلي', 'المتصفح يمنع قراءة news.json عند الفتح من file://. شغّل الأمر python -m http.server داخل مجلد المشروع ثم افتح http://localhost:8000')); return; }
   banner();
   if (S.loading && !S.items.length) { var g = el('div', 'grid'); for (var i = 0; i < 6; i++) g.appendChild(el('div', 'skel')); v.appendChild(g); return; }
-  if (!S.items.length) { v.appendChild(stateBox('بانتظار أول مزامنة', 'لم تُحمّل أخبار بعد. شغّل «تحديث الرادار التقني» من تبويب Actions في مستودع GitHub، ثم أعد تحميل الصفحة.', btn('إعادة المحاولة', 'primary', function () { refresh(); }))); return; }
+  if (!S.items.length) { v.appendChild(stateBox('بانتظار أول مزامنة', 'لم تُحمّل أخبار بعد. شغّل «تحديث آفاق التقنية» من تبويب Actions في مستودع GitHub، ثم أعد تحميل الصفحة.', btn('إعادة المحاولة', 'primary', function () { refresh(); }))); return; }
   P[t](v);
 }
 function loadFeed() {

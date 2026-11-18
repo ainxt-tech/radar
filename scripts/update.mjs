@@ -1,4 +1,4 @@
-// رادار التقنية من ai.nxt — جامع الأخبار (المرحلة 3). Node 20+، بلا أي مكتبة.
+// آفاق التقنية من ai.nxt — جامع الأخبار (المرحلة 3). Node 20+، بلا أي مكتبة.
 // يقرأ sources.json ويكتب news.json (بالبنية التي يقرؤها app.js) وseen.json (أول ظهور).
 // أي مصدر يفشل يُسجَّل في sources[].ok=false ولا يوقف السكربت. تلخيص Claude اختياري عند وجود ANTHROPIC_API_KEY.
 import { readFile, writeFile, rename } from 'node:fs/promises';
@@ -370,7 +370,7 @@ function buildReport(items, now) {
   const news = items.filter(i => i.kind === 'news'), day = news.filter(i => now - Date.parse(i.ts) < 864e5);
   const top = [...(day.length >= 3 ? day : news)].sort((a, b) => b.level - a.level || b.n - a.n || Date.parse(b.ts) - Date.parse(a.ts)).slice(0, 5);
   const hi = day.filter(i => i.level >= 3).length;
-  const text = [`رصد الرادار ${day.length} خبراً خلال آخر 24 ساعة، منها ${hi} بمستوى «مهم جداً» أو أعلى.`, top[0] ? `أعلى الأخبار درجة: ${top[0].title} (${top[0].source}).` : 'لا أخبار كافية لبناء ملخص بعد.'].join('\n');
+  const text = [`رصدت آفاق التقنية ${day.length} خبراً خلال آخر 24 ساعة، منها ${hi} بمستوى «مهم جداً» أو أعلى.`, top[0] ? `أعلى الأخبار درجة: ${top[0].title} (${top[0].source}).` : 'لا أخبار كافية لبناء ملخص بعد.'].join('\n');
   return { title: 'ملخص اليوم ' + new Date(now).toISOString().slice(0, 10), text, top: top.map(i => i.id), watch: top.filter(i => i.level >= 3).slice(0, 3).map(i => 'متابعة: ' + i.title) };
 }
 

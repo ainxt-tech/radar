@@ -12,6 +12,9 @@ const URGENT_MAX_AGE_H = 6;      // «عاجل»: منشور خلال آخر 6 �
 const CAT = { ai:'الذكاء الاصطناعي', ph:'الهواتف والأجهزة', sec:'الأمن السيبراني', sw:'البرمجيات والتطبيقات', su:'الشركات الناشئة', gm:'الألعاب', sp:'الفضاء والعلوم', ev:'السيارات الكهربائية' };
 const REGIONS = new Set(['gulf', 'asia', 'europe', 'america', 'africa', 'official', 'dev']);
 const NAME_KINDS = new Set(['repo', 'tool', 'model', 'release']);   // عناوينها أسماء لا تُترجم
+const MAX_FIELD = 20000, MAX_BLOCK = 100000, MAX_BLOCKS = 500;   // حدود المحلّل (انظر تحليل XML)
+const BUDGET_MIN = 12;           // ميزانية جلب المصادر بالدقائق: بعدها تُتخطّى البقية ويُحفظ ما جُمع (المهلة الكلية 20 دقيقة)
+const UGC = new Set(['reddit', 'hn', 'bluesky', 'mastodon']);   // محتوى يكتبه الجمهور: لا يُحتسب تأكيداً ولا يصير «عاجلاً»
 const CAPS = { newsPerCat: 40, news: 400, repo: 24, tool: 60, model: 16, release: 30, paper: 24 };
 
 /* ---------- قواعد التصنيف والشركات (محلية، بلا ذكاء اصطناعي) ---------- */
@@ -34,22 +37,80 @@ const ORG_COUNTRY = { Qwen:'CN', 'deepseek-ai':'CN', moonshotai:'CN', 'zai-org':
 
 /* «عاجل» (المستوى 4) له تعريف صريح: خبر منشور خلال آخر URGENT_MAX_AGE_H ساعات، وعنوانه يطابق حدثاً حرجاً
    (ثغرة صفرية/استغلال نشط/اختراق بيانات/انقطاع كبير/استدعاء...)، ويؤكده مصدران على الأقل أو مصدر رسمي. غير ذلك لا يُوسَم عاجلاً. */
-const CRIT = /(actively exploited|zero-day|0-day|critical (vulnerability|flaw)|data breach|major outage|emergency (patch|update)|recall|ransomware attack|استغلال نشط|ثغرة صفرية|ثغرة حرجة|تسريب بيانات|انقطاع)/i;
+const CRIT = /(actively exploited|zero-day|0-day|critical (vulnerability|flaw)|data breach|major outage|emergency (patch|update)|(?:product|safety|vehicle|battery|device|software) recalls?|ransomware attack|استغلال نشط|ثغرة صفرية|ثغرة حرجة|تسريب بيانات|انقطاع (?:الخدمة|الإنترنت|الانترنت|الاتصال|الاتصالات|الشبكة))/i;
 
-/* ---------- تحليل XML ---------- */
-const decode = s => s.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
+/* ---------- تحليل XML ----------
+   المدخل غير موثوق (245 مصدراً)، لذا لا تُستخدم هنا تعابير نمطية تتباطأ تربيعياً: البحث بـ indexOf الخطّي،
+   وحدود صارمة للحقول والكتل. toLowerCase العادي قد يغيّر طول النص (مثل İ) فيفسد الفهارس؛ لذلك asciiLower لحروف ASCII فقط. */
+const asciiLower = s => s.replace(/[A-Z]+/g, m => m.toLowerCase());
+const cp = n => (n >= 0 && n <= 0x10FFFF ? String.fromCodePoint(n) : ' ');   // رمز خارج النطاق لا يرمي RangeError
+const decode = s => s.replace(/&#(\d{1,8});/g, (_, n) => cp(+n)).replace(/&#x([0-9a-f]{1,8});/gi, (_, n) => cp(parseInt(n, 16)))
   .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
-const strip = s => decode(String(s || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-const tag = (b, n) => { const m = b.match(new RegExp(`<${n}(?:\\s[^>]*)?>([\\s\\S]*?)</${n}>`, 'i')); return m ? m[1] : ''; };
+// CDATA غير المغلق يمتد حتى نهاية الحقل المقصوص (لا مسح متكرر)؛ والنمط /<[^<>]*>/ خطّي لأنه يتوقف عند أول < أو >
+const strip = s => decode(String(s || '').slice(0, MAX_FIELD).replace(/<!\[CDATA\[([\s\S]*?)(?:\]\]>|$)/g, '$1')).replace(/<[^<>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+
+/* يعيد وسوم الفتح <name ...> بمسح خطّي؛ أقرب > يُخزَّن ويُعاد استخدامه كي لا يُمسح النص من كل بداية */
+function* tagsOf(s, name, maxLen = 2000) {
+  const ls = asciiLower(s), pat = '<' + name.toLowerCase();
+  let i = 0, gt = -1;
+  while ((i = ls.indexOf(pat, i)) >= 0) {
+    const c = ls[i + pat.length];
+    if (c === '>' || c === '/' || (c !== undefined && /\s/.test(c))) {   // حد الاسم: لا <linkfoo
+      if (gt < i) { gt = s.indexOf('>', i); if (gt < 0) return; }        // لا > بعد هذه النقطة: لا وسوم أخرى
+      if (gt - i <= maxLen) yield s.slice(i, gt + 1);
+    }
+    i += pat.length;
+  }
+}
+/* محتوى أول <name>...</name>؛ يطابق سلوك النمط القديم: بعد الاسم > أو مسافة فقط */
+function tag(b, n, lb = asciiLower(b)) {
+  const name = n.toLowerCase(), pat = '<' + name, close = '</' + name + '>';
+  let i = 0;
+  while ((i = lb.indexOf(pat, i)) >= 0) {
+    const c = lb[i + pat.length];
+    if (c === '>' || (c !== undefined && /\s/.test(c))) {
+      const gt = c === '>' ? i + pat.length : b.indexOf('>', i + pat.length);
+      if (gt < 0) return '';
+      const end = lb.indexOf(close, gt + 1);
+      return end < 0 ? '' : b.slice(gt + 1, end);
+    }
+    i += pat.length;
+  }
+  return '';
+}
+/* كتل <item>/<entry>: مسح خطّي. إن غاب إغلاق اسمٍ ما فلن يوجد بعد أي بداية لاحقة له، فتُتجاوز بدايات هذا الاسم */
+function blocksOf(xml) {
+  const out = [], low = asciiLower(xml), re = /<(item|entry)[\s>]/gi, dead = { item: false, entry: false };
+  let m;
+  while (out.length < MAX_BLOCKS && (m = re.exec(xml))) {
+    const name = m[1].toLowerCase();
+    if (dead[name]) { if (dead.item && dead.entry) break; continue; }
+    const close = '</' + name + '>', end = low.indexOf(close, re.lastIndex);
+    if (end < 0) { dead[name] = true; if (dead.item && dead.entry) break; continue; }
+    const stop = end + close.length;
+    if (stop - m.index <= MAX_BLOCK) out.push(xml.slice(m.index, stop));
+    re.lastIndex = stop;
+  }
+  return out;
+}
+export const _t = { strip, tag, tagsOf, blocksOf, decode, get mergeInto() { return mergeInto; }, get levelOf() { return levelOf; } };   // للاختبار فقط
 export function parseFeed(xml) {
-  const blocks = xml.match(/<(item|entry)[\s>][\s\S]*?<\/\1>/gi) || [];
-  return blocks.map(b => {
-    let link = strip(tag(b, 'link'));
-    if (!link) { const m = b.match(/<link[^>]*rel=["']alternate["'][^>]*href=["']([^"']+)["']/i) || b.match(/<link[^>]*href=["']([^"']+)["']/i); link = m ? decode(m[1]) : ''; }
-    const dt = new Date(strip(tag(b, 'pubDate') || tag(b, 'published') || tag(b, 'updated') || tag(b, 'dc:date')));
-    const desc = strip(tag(b, 'description') || tag(b, 'summary') || tag(b, 'content:encoded') || tag(b, 'content') || tag(b, 'media:description'));
+  return blocksOf(xml).map(b => {
+    const lb = asciiLower(b);
+    let link = strip(tag(b, 'link', lb));
+    if (!link) {   // Atom: <link href=".." rel="alternate"/>؛ نفضّل alternate وإلا أول href
+      let first = '';
+      for (const t of tagsOf(b, 'link')) {
+        const h = t.match(/href=["']([^"']+)["']/i); if (!h) continue;
+        if (/rel=["']alternate["']/i.test(t)) { first = h[1]; break; }
+        if (!first) first = h[1];
+      }
+      link = first ? decode(first) : '';
+    }
+    const dt = new Date(strip(tag(b, 'pubDate', lb) || tag(b, 'published', lb) || tag(b, 'updated', lb) || tag(b, 'dc:date', lb)));
+    const desc = strip(tag(b, 'description', lb) || tag(b, 'summary', lb) || tag(b, 'content:encoded', lb) || tag(b, 'content', lb) || tag(b, 'media:description', lb));
     const ts = isNaN(dt) ? '' : new Date(Math.min(+dt, Date.now())).toISOString();
-    return { t: strip(tag(b, 'title')), u: link, ts, s: desc.slice(0, 420) };
+    return { t: strip(tag(b, 'title', lb)), u: link, ts, s: desc.slice(0, 420) };
   }).filter(x => x.t && x.ts && /^https?:\/\//.test(x.u));
 }
 
@@ -65,11 +126,13 @@ export function ukey(u) {
     return (p.hostname.replace(/^www\./, '') + p.pathname.replace(/\/$/, '') + p.search).toLowerCase();
   } catch { return String(u).toLowerCase(); }
 }
-async function getText(url, headers = {}) {
-  const res = await fetch(url, { headers: { 'user-agent': UA, accept: '*/*', ...headers }, signal: AbortSignal.timeout(20000), redirect: 'follow' });
+async function getText(url, headers = {}, ms = 20000) {
+  const res = await fetch(url, { headers: { 'user-agent': UA, accept: '*/*', ...headers }, signal: AbortSignal.timeout(ms), redirect: 'follow' });
   if (!res.ok) throw new Error('HTTP ' + res.status);
-  const buf = Buffer.from(await res.arrayBuffer());
-  if (buf.length > 8e6) throw new Error('ملف كبير جداً');
+  if ((+res.headers.get('content-length') || 0) > 8e6) throw new Error('ملف كبير جداً');   // قبل التحميل
+  const chunks = []; let total = 0;
+  if (res.body) for await (const ch of res.body) { total += ch.length; if (total > 8e6) throw new Error('ملف كبير جداً'); chunks.push(ch); }   // وأثناءه: لا نحمّل أكثر من الحد
+  const buf = Buffer.concat(chunks);
   const ct = res.headers.get('content-type') || '', head = buf.subarray(0, 300).toString('latin1');
   const enc = (ct.match(/charset=([\w-]+)/i) || head.match(/encoding=["']([\w-]+)["']/i) || [])[1] || 'utf-8';   // يدعم Shift_JIS وwindows-1251 وغيرها
   try { return new TextDecoder(enc).decode(buf); } catch { return buf.toString('utf8'); }
@@ -81,10 +144,10 @@ async function pool(list, n, fn) { const out = []; let i = 0; await Promise.all(
 const ghHeaders = () => { const h = { accept: 'application/vnd.github+json' }; if (process.env.GITHUB_TOKEN) h.authorization = 'Bearer ' + process.env.GITHUB_TOKEN; return h; };
 let FEEDS = {};   // id المصدر ← رابط الخلاصة المكتشف (يُحفظ في seen.json تحت _feeds)
 async function discoverFeeds(home) {
-  const html = await getText(home);   // يرمي عند 403/404: لا فائدة من تجربة مسارات أخرى
+  const html = await getText(home, {}, 8000);   // يرمي عند 403/404: لا فائدة من تجربة مسارات أخرى
   const found = [];
-  for (const m of html.matchAll(/<link\b[^>]*>/gi)) {
-    const t = m[0]; if (!/rel=["']?alternate/i.test(t) || !/application\/(?:rss|atom)\+xml/i.test(t)) continue;
+  for (const t of tagsOf(html.slice(0, 500000), 'link')) {   // مسح خطّي: HTML الموقع غير موثوق
+    if (!/rel=["']?alternate/i.test(t) || !/application\/(?:rss|atom)\+xml/i.test(t)) continue;
     const h = t.match(/href=["']([^"']+)["']/i); if (!h) continue;
     try { const u = new URL(decode(h[1]), home).href; if (/^https?:/.test(u) && !/comment/i.test(u)) found.push(u); } catch {}
   }
@@ -136,10 +199,10 @@ export const HANDLERS = {
   },
   arxiv: async s => parseFeed(await getText(`https://export.arxiv.org/api/query?search_query=${encodeURIComponent(s.query)}&sortBy=submittedDate&sortOrder=descending&max_results=${s.max || 15}`)).map(x => ({ ...x, kind: 'paper' })),
   site: async s => {   // يكتشف خلاصة RSS/Atom من رابط الموقع الرئيسي ويحفظ الرابط المكتشف في seen.json
-    const tryFeed = async u => { const items = parseFeed(await getText(u)); if (!items.length) throw new Error('لا عناصر'); return items; };
-    if (FEEDS[s.id]) { try { return await tryFeed(FEEDS[s.id]); } catch { delete FEEDS[s.id]; } }
+    const tryFeed = async (u, ms) => { const items = parseFeed(await getText(u, {}, ms)); if (!items.length) throw new Error('لا عناصر'); return items; };
+    if (FEEDS[s.id]) { try { return await tryFeed(FEEDS[s.id], 20000); } catch { delete FEEDS[s.id]; } }
     let last = 'لا خلاصة';
-    for (const u of await discoverFeeds(s.url)) { try { const items = await tryFeed(u); FEEDS[s.id] = u; return items; } catch (e) { last = e.message; } }
+    for (const u of await discoverFeeds(s.url)) { try { const items = await tryFeed(u, 8000); FEEDS[s.id] = u; return items; } catch (e) { last = e.message; } }
     throw new Error(last);
   },
   'github-skills': async s => {
@@ -199,7 +262,7 @@ function score(x, now) {   // 0-100 تقريباً: حداثة + مصدر رسم
 }
 function levelOf(x, now) {
   const ageH = (now - Date.parse(x.ts)) / 36e5;
-  if (x.kind === 'news' && ageH <= URGENT_MAX_AGE_H && CRIT.test(x.title) && (x.n >= 2 || x.off)) return 4;
+  if (x.kind === 'news' && !x.ugc && ageH <= URGENT_MAX_AGE_H && CRIT.test(x.title) && (x.n >= 2 || x.off)) return 4;   // المحتوى العام لا يُوسَم عاجلاً
   const m = score(x, now); return m >= 60 ? 3 : m >= 40 ? 2 : 1;
 }
 
@@ -207,16 +270,24 @@ function levelOf(x, now) {
 function make(s, r) {
   const kind = r.kind || 'news', dev = ['repo', 'tool', 'model', 'release', 'paper'].includes(kind);
   const x = { id: '', title: r.t, summary: r.s || '', url: r.u, source: s.name, country: r.country || s.country || '', region: s.region, cat: '', level: 1, n: 1, also: [], kind, company: '', ts: r.ts || '', fs: '',
-    off: !!s.off, sub: r.sub || '', lg: r.lg || '', st: r.st ?? null, fk: r.fk ?? null, gr: null, dl: r.dl ?? null, prev: r.prev || '', ver: r.ver || '', sp: [], _pts: r.pts || 0 };
+    off: !!s.off, sub: r.sub || '', lg: r.lg || '', st: r.st ?? null, fk: r.fk ?? null, gr: null, dl: r.dl ?? null, prev: r.prev || '', ver: r.ver || '', sp: [], _pts: r.pts || 0, ugc: UGC.has(s.type) };
   x.cat = (kind === 'model' || kind === 'paper') ? CAT.ai : classify(x, CAT[s.cat] || CAT.sw);
   if (dev) x.off = !!s.off;
   return x;
 }
+const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
 function mergeInto(twin, x) {
-  const add = (source, url) => { if (source && source !== twin.source && !twin.also.some(a => a.source === source)) twin.also.push({ source, url }); };
-  if (x.off && !twin.off) {   // نفضّل المصدر الرسمي أساساً للخبر
-    add(twin.source, twin.url);
-    Object.assign(twin, { title: x.title, summary: x.summary || twin.summary, url: x.url, source: x.source, country: x.country, region: x.region, off: true, ts: x.ts > twin.ts ? x.ts : twin.ts });
+  if (x.ugc) return;   // مصدر عام (Reddit/HN...): لا يُحتسب تأكيداً
+  // لا يُحتسب «مصدراً آخر» إن كان من النطاق نفسه (مثل blog.google وgithub.blog)
+  const add = (source, url) => {
+    if (!source || source === twin.source || twin.also.some(a => a.source === source)) return;
+    const h = host(url); if (h && [twin.url, ...twin.also.map(a => a.url)].some(u => host(u) === h)) return;
+    twin.also.push({ source, url });
+  };
+  if (twin.ugc || (x.off && !twin.off)) {   // نفضّل المصدر الرسمي (أو الصحفي بدل العام) أساساً للخبر
+    const old = { source: twin.source, url: twin.url, ugc: twin.ugc };
+    Object.assign(twin, { title: x.title, summary: x.summary || twin.summary, url: x.url, source: x.source, country: x.country, region: x.region, off: !!x.off, ts: x.ts > twin.ts ? x.ts : twin.ts, ugc: false });
+    if (!old.ugc) add(old.source, old.url);
   } else add(x.source, x.url);
   (x.also || []).forEach(a => add(a.source, a.url));
   twin.also = twin.also.slice(0, 4); twin.n = 1 + twin.also.length;
@@ -307,6 +378,7 @@ function buildReport(items, now) {
 function out(x) {
   const o = { id: x.id, title: x.title, summary: x.summary, url: x.url, source: x.source, country: x.country || '', region: x.region, cat: x.cat, level: x.level, n: x.n, also: x.also || [], kind: x.kind, company: x.company || '', ts: x.ts || '', fs: x.fs || '' };
   if (x.off) o.off = true;
+  if (x.ugc) o.ugc = true;
   for (const k of ['sub', 'lg', 'prev', 'ver', 'orig']) if (x[k]) o[k] = x[k];
   for (const k of ['st', 'fk', 'gr', 'dl']) if (x[k] != null) o[k] = x[k];
   if (x.sp && x.sp.length > 1) o.sp = x.sp;
@@ -324,12 +396,14 @@ async function main() {
   const sources = loadSources(await readJson('sources.json') || {});
   if (!sources.length) { console.error('sources.json فارغ أو غير صالح'); process.exitCode = 1; return; }
   const prev = await readJson('news.json'), old = prev && !prev.seed ? (prev.items || []) : [];
-  const seen = await readJson('seen.json') || await readJson('data/seen.json') || {};
-  FEEDS = seen._feeds && typeof seen._feeds === 'object' ? seen._feeds : {};
+  const seen = Object.assign(Object.create(null), await readJson('seen.json') || await readJson('data/seen.json') || {});   // بلا prototype: مفتاح مثل __proto__ لا يلوّث الكائنات
+  FEEDS = Object.assign(Object.create(null), seen._feeds && typeof seen._feeds === 'object' ? seen._feeds : {});
 
+  const DEADLINE = now + BUDGET_MIN * 60e3;
   const results = await pool(sources, 8, async s => {
     const st = { id: s.id, name: s.name, ok: false };
     if (s.enabled === false) { st.ok = null; return { st, raw: [] }; }
+    if (Date.now() > DEADLINE) { st.err = 'تجاوز ميزانية الوقت'; return { st, raw: [] }; }
     try {
       if (!REGIONS.has(s.region)) throw new Error('region غير صالح');
       const h = HANDLERS[s.type]; if (!h) throw new Error('نوع غير معروف: ' + s.type);
@@ -343,7 +417,7 @@ async function main() {
   results.forEach((r, i) => {
     const s = sources[i]; let raw = r.raw;
     if (['rss', 'site', 'youtube', 'reddit', 'arxiv', 'hn', 'hf-papers'].includes(s.type)) raw = raw.filter(x => Date.parse(x.ts) >= cutoff).sort((a, b) => Date.parse(b.ts) - Date.parse(a.ts)).slice(0, s.max || 10);
-    for (const x of raw) { const it = make(s, x); if (s.tech && it.kind === 'news' && !isTech(it.title + ' ' + it.summary)) continue; fresh.push(it); }
+    for (const x of raw) { if (!/^https?:\/\//i.test(String(x.u || ''))) continue; const it = make(s, x); if (s.tech && it.kind === 'news' && !isTech(it.title + ' ' + it.summary)) continue; fresh.push(it); }
   });
 
   // أخبار: دمج مع المحفوظ (حتى 10 أيام)، إزالة التكرار بالرابط وبتشابه العنوان، وعدّ المصادر

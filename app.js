@@ -367,18 +367,6 @@ more.addEventListener('click', function (e) { if (e.target.closest('a')) closeMo
 document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMore(); });
 window.addEventListener('hashchange', function () { closeMore(); route(); S.lim = 12; render(); window.scrollTo(0, 0); $('view').focus({ preventScroll: true }); });
 
-/* إضاءة تتبع المؤشر: للماوس فقط وتتوقف مع تقليل الحركة */
-var fine = matchMedia('(hover:hover) and (pointer:fine)'), calm = matchMedia('(prefers-reduced-motion:reduce)'), spot = null, raf = 0;
-function tick() { if (!spot) { raf = 0; return; } spot.x += (spot.tx - spot.x) * .2; spot.y += (spot.ty - spot.y) * .2; spot.el.style.setProperty('--mx', spot.x.toFixed(1) + 'px'); spot.el.style.setProperty('--my', spot.y.toFixed(1) + 'px'); raf = (Math.abs(spot.tx - spot.x) > .4 || Math.abs(spot.ty - spot.y) > .4) ? requestAnimationFrame(tick) : 0; }
-$('view').addEventListener('pointermove', function (e) {
-  if (e.pointerType !== 'mouse' || !fine.matches || calm.matches) return;
-  var c = e.target.closest && e.target.closest('.card'); if (!c) return; var r = c.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top;
-  if (!spot || spot.el !== c) spot = { el: c, x: x, y: y, tx: x, ty: y }; else { spot.tx = x; spot.ty = y; } if (!raf) raf = requestAnimationFrame(tick);
-});
-document.addEventListener('pointermove', function (e) {
-  if (e.pointerType !== 'mouse' || !fine.matches || calm.matches) return; var b = document.querySelector('.brand'); if (!b) return;
-  b.style.setProperty('--hx', ((e.clientX / innerWidth - .5) * 28).toFixed(1) + 'px'); b.style.setProperty('--hy', ((e.clientY / innerHeight - .5) * 18).toFixed(1) + 'px');
-});
 
 /* ---------- البدء ---------- */
 applyTheme(store(KEY.theme));
